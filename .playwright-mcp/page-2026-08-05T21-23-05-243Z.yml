@@ -1,0 +1,281 @@
+- generic [ref=f43e2]:
+  - generic [ref=f43e7]:
+    - generic [ref=f43e8]:
+      - link "الإعلانات" [ref=f43e9] [cursor=pointer]:
+        - /url: /عقارات
+      - link "المشاريع" [ref=f43e13] [cursor=pointer]:
+        - /url: /المشاريع-العقارية
+      - link "الحجوزات" [ref=f43e16] [cursor=pointer]:
+        - /url: /الحجوزات
+    - link "الخريطة" [ref=f43e20] [cursor=pointer]:
+      - /url: /الخريطة
+    - link "إضافة" [ref=f43e25] [cursor=pointer]:
+      - /url: /إضافة-إعلان
+    - link "دخول / تسجيل" [ref=f43e29] [cursor=pointer]:
+      - /url: /login
+  - main [ref=f43e32]:
+    - main [ref=f43e33]:
+      - generic [ref=f43e34]:
+        - heading "إدارة المكتب" [level=1] [ref=f43e35]
+        - generic [ref=f43e36]:
+          - navigation [ref=f43e37]:
+            - link "لوحة تحكم المدير" [ref=f43e38] [cursor=pointer]:
+              - /url: /offices-management
+            - link "الإعلانات" [ref=f43e42] [cursor=pointer]:
+              - /url: /offices-management/listings
+            - link "المحفظة (0 §)" [ref=f43e46] [cursor=pointer]:
+              - /url: /offices-management/wallet
+              - generic [ref=f43e47]:
+                - text: المحفظة
+                - generic [ref=f43e49]:
+                  - text: (
+                  - generic [ref=f43e50]: 0 §
+                  - text: )
+            - link "حملات التمييز" [ref=f43e52] [cursor=pointer]:
+              - /url: /offices-management/campaigns
+            - link "الإحصائيات" [ref=f43e56] [cursor=pointer]:
+              - /url: /offices-management/statistics
+            - link "المستخدمين" [ref=f43e59] [cursor=pointer]:
+              - /url: /offices-management/users
+            - link "المدفوعات و الفواتير" [ref=f43e63] [cursor=pointer]:
+              - /url: /offices-management/invoices
+            - link "إعدادات الحساب" [ref=f43e67] [cursor=pointer]:
+              - /url: /offices-management/settings
+          - main [ref=f43e71]:
+            - generic [ref=f43e72]:
+              - generic [ref=f43e73]:
+                - heading "الإحصائيات" [level=2] [ref=f43e74]
+                - generic [ref=f43e75]:
+                  - button "الأسبوع" [ref=f43e76] [cursor=pointer]
+                  - button "الشهر" [ref=f43e77] [cursor=pointer]
+                  - button "السنة" [ref=f43e78] [cursor=pointer]
+              - generic [ref=f43e80]:
+                - generic [ref=f43e81]:
+                  - paragraph [ref=f43e82]: ظهور الإعلانات
+                  - paragraph [ref=f43e83]
+                - generic [ref=f43e84]:
+                  - paragraph [ref=f43e85]: مشاهدات الإعلانات
+                  - paragraph [ref=f43e86]
+                - generic [ref=f43e87]:
+                  - paragraph [ref=f43e88]: التفاعل مع الإعلانات
+                  - paragraph [ref=f43e89]
+              - generic [ref=f43e92]:
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row "رقم الإعلان العنوان الفئة السعر § ظهور الإعلانات مشاهدات الإعلانات التفاعل مع الإعلانات اسم المسوق الجودة الجودة الخيارات":
+                        - columnheader "رقم الإعلان"
+                        - columnheader "العنوان"
+                        - columnheader "الفئة"
+                        - columnheader "السعر §"
+                        - columnheader "ظهور الإعلانات"
+                        - columnheader "مشاهدات الإعلانات"
+                        - columnheader "التفاعل مع الإعلانات"
+                        - columnheader "اسم المسوق"
+                        - columnheader "الجودة الجودة":
+                          - generic:
+                            - text: الجودة
+                            - button "الجودة"
+                        - columnheader "الخيارات"
+                    - rowgroup:
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                      - row:
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+                        - cell
+    - generic [ref=f43e94]:
+      - generic [ref=f43e95]:
+        - link "Aqar" [ref=f43e96] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f43e98]:
+          - link [ref=f43e99] [cursor=pointer]:
+            - /url: https://apps.apple.com/sa/app/id879992882
+            - button [ref=f43e100]:
+              - img "App Store" [ref=f43e102]
+          - link [ref=f43e103] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=fm.aqar
+            - button [ref=f43e104]:
+              - img "Google Play" [ref=f43e106]
+          - link [ref=f43e107] [cursor=pointer]:
+            - /url: https://appgallery.huawei.com/app/C100162543
+            - button [ref=f43e108]:
+              - img "App Gallery" [ref=f43e110]
+      - generic [ref=f43e111]:
+        - generic [ref=f43e112]:
+          - heading "خيارات البحث" [level=3] [ref=f43e113]
+          - generic [ref=f43e114]:
+            - link "شقق للإيجار" [ref=f43e115] [cursor=pointer]:
+              - /url: /شقق-للإيجار
+            - link "شقق للبيع" [ref=f43e116] [cursor=pointer]:
+              - /url: /شقق-للبيع
+            - link "فلل للإيجار" [ref=f43e117] [cursor=pointer]:
+              - /url: /فلل-للإيجار
+            - link "أراضي للبيع" [ref=f43e118] [cursor=pointer]:
+              - /url: /أراضي-للبيع
+            - link "دور للإيجار" [ref=f43e119] [cursor=pointer]:
+              - /url: /دور-للإيجار
+            - link "شقق للإيجار بالرياض" [ref=f43e120] [cursor=pointer]:
+              - /url: /شقق-للإيجار/الرياض
+            - link "فلل للبيع" [ref=f43e121] [cursor=pointer]:
+              - /url: /فلل-للبيع
+            - link "شقق للإيجار بجدة" [ref=f43e122] [cursor=pointer]:
+              - /url: /شقق-للإيجار/جدة
+        - generic [ref=f43e123]:
+          - heading "روابط سريعة" [level=3] [ref=f43e124]
+          - generic [ref=f43e125]:
+            - link [ref=f43e126] [cursor=pointer]:
+              - /url: /إضافة-إعلان
+            - link [ref=f43e130] [cursor=pointer]:
+              - /url: /user/campaigns
+            - link [ref=f43e137] [cursor=pointer]:
+              - /url: /الخدمات
+            - link [ref=f43e143] [cursor=pointer]:
+              - /url: /partners
+            - link [ref=f43e148] [cursor=pointer]:
+              - /url: /financing/munaaseb
+            - link [ref=f43e155] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/blog
+            - link [ref=f43e160] [cursor=pointer]:
+              - /url: /الإحصائيات-العقارية
+            - link [ref=f43e167] [cursor=pointer]:
+              - /url: /الصفقات-العقارية
+            - link [ref=f43e171] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+            - link [ref=f43e175] [cursor=pointer]:
+              - /url: /user/ejar-contracts
+            - button "اتصل بنا" [ref=f43e181] [cursor=pointer]
+      - generic [ref=f43e185]:
+        - generic [ref=f43e186]:
+          - link "YouTube" [ref=f43e187] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+          - link "Snapchat" [ref=f43e191] [cursor=pointer]:
+            - /url: https://www.snapchat.com/add/aqarapp
+          - link "LinkedIn" [ref=f43e195] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/aqarfm/about/
+          - link "Facebook" [ref=f43e201] [cursor=pointer]:
+            - /url: https://www.facebook.com/aqarapp
+          - link "Instagram" [ref=f43e206] [cursor=pointer]:
+            - /url: https://www.instagram.com/aqarapp
+          - link "Twitter" [ref=f43e211] [cursor=pointer]:
+            - /url: https://twitter.com/aqarapp
+          - link "TikTok" [ref=f43e215] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@aqarapp
+        - generic [ref=f43e220]:
+          - button "Toggle theme" [ref=f43e221] [cursor=pointer]: الوضع الليلي
+          - link [ref=f43e225] [cursor=pointer]:
+            - /url: /en
+        - generic [ref=f43e232]:
+          - link "Ehsan خدمة التبرع السريع" [ref=f43e233] [cursor=pointer]:
+            - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+            - img "Ehsan" [ref=f43e235]
+            - generic [ref=f43e236]: خدمة التبرع السريع
+          - img "vat" [ref=f43e237]
+          - img "rega" [ref=f43e238]
+      - generic [ref=f43e239]:
+        - paragraph [ref=f43e240]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+        - paragraph [ref=f43e241]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505

@@ -1,0 +1,42 @@
+%% Tuba Current-State Navigation / Information Architecture — Observed (source-code read, 2026-08-06)
+%% See 03_INFORMATION_ARCHITECTURE.md for full detail and evidence.
+%% Note: live-rendered nav to be confirmed once the authenticated browser session is available.
+
+flowchart LR
+    Visitor(["Any visitor"]) --> Home["/ (Home)"]
+    Home --> BuyRent["Buy/Rent\n(all-properties-listing)"]
+    Home --> Services["/services"]
+    Home --> Newsrooms["/newsrooms"]
+    Home --> LoginReg["Login / Register"]
+
+    BuyRent --> PropDetail["/property/{slug}"]
+    PropDetail -.->|"direct link only,\nno on-site discovery path"| ProjDetail["/view/project/{slug}"]
+
+    LoginReg --> Auth{"Authenticate\n(single shared login)"}
+    Auth -->|"role: User"| CustomerProfile["/dashboard\n→ customerProfile view"]
+    Auth -->|"role: Agent / Agent User"| Dashboard["/dashboard\n→ admin.agent_dashboard view"]
+    Auth -->|"role: SuperAdmin / other"| AdminPanel["/dashboard\n→ admin.dashboard view"]
+
+    subgraph SharedURL ["Same URL (/dashboard), same controller method — HomeController::index() role-branches the VIEW only"]
+        Dashboard
+        AdminPanel
+    end
+
+    subgraph Sidebar ["Flat, ungrouped sidebar — ~27 modules, visibility gated by @can() only, NOT by route"]
+        direction TB
+        SB1["Properties / Projects"]
+        SB2["Property Requests / Agent Inbox / Favorites"]
+        SB3["Packages / License Packages / Single Packages\n(2 links permanently hidden —\npermission-name mismatch)"]
+        SB4["Agents / Agent Users / Users / Roles"]
+        SB5["Newsrooms / Services / FAQs / Page SEO"]
+        SB6["Countries / Regions / Cities / Districts /\nCategories / Property Types / Ban Numbers\n(5 controllers: NO permission check at all)"]
+        SB7["Nafath Verification / FAL License"]
+        SB8["My Profile / Account Settings / Notifications"]
+    end
+
+    Dashboard --> Sidebar
+    AdminPanel --> Sidebar
+
+    style SharedURL fill:#7c3d05,color:#fff,stroke:#4a2503
+    style Sidebar fill:#374151,color:#fff,stroke:#1f2937
+</content>

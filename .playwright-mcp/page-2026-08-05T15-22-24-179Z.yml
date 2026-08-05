@@ -1,0 +1,162 @@
+- generic [ref=f8e12]:
+  - banner [ref=f8e13]:
+    - generic [ref=f8e14]:
+      - generic [ref=f8e15]: Agent Performance
+      - generic [ref=f8e19]:
+        - button "Download App" [ref=f8e20] [cursor=pointer]
+        - link "Go to Bayut.sa" [ref=f8e24] [cursor=pointer]:
+          - /url: https://www.bayut.sa/en
+        - button "Post Listing" [ref=f8e27] [cursor=pointer]
+        - generic [ref=f8e32]:
+          - button [ref=f8e33] [cursor=pointer]
+          - superscript [ref=f8e36]:
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]: "2"
+              - generic [ref=f8e39]: "4"
+        - button [ref=f8e41] [cursor=pointer]:
+          - progressbar [ref=f8e42]
+  - complementary [ref=f8e53]:
+    - generic [ref=f8e54]:
+      - button "Collapse side menu" [ref=f8e3875] [cursor=pointer]
+      - img [ref=f8e59]:
+        - generic [ref=f8e66]: KSA
+      - generic [ref=f8e67]:
+        - menu [ref=f8e68]:
+          - menuitem "Overview" [ref=f8e69] [cursor=pointer]
+          - menuitem "Post Listing" [ref=f8e76] [cursor=pointer]
+          - menuitem "My Listings" [ref=f8e84] [cursor=pointer]
+          - menuitem "Credits Usage" [ref=f8e90] [cursor=pointer]
+          - menuitem "TruLeads" [ref=f8e97] [cursor=pointer]
+          - menuitem "Agent Performance" [active] [ref=f8e106] [cursor=pointer]
+          - menuitem "Reports" [ref=f8e3899] [cursor=pointer]
+          - menuitem "Agency Staff" [ref=f8e121] [cursor=pointer]
+          - menuitem "Settings" [ref=f8e128] [cursor=pointer]
+          - menuitem "Credits & Packages" [ref=f8e134] [cursor=pointer]
+        - generic [ref=f8e141]:
+          - button [ref=f8e3913] [cursor=pointer]
+          - button "Help & Support" [ref=f8e3914] [cursor=pointer]
+  - generic [ref=f8e149]:
+    - main [ref=f8e150]:
+      - generic [ref=f8e3916]:
+        - generic [ref=f8e3917]:
+          - generic [ref=f8e3926]:
+            - heading "Fahad Hameed" [level=3] [ref=f8e3927]
+            - link "View my Public Profile" [ref=f8e3928] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f8e3931]:
+            - generic [ref=f8e3932]:
+              - button "Not Ranked" [ref=f8e3933] [cursor=pointer]
+              - generic [ref=f8e3940] [cursor=pointer]: Leaderboard
+            - generic [ref=f8e3943]:
+              - button "TruPoints™ 0" [ref=f8e3944] [cursor=pointer]:
+                - generic [ref=f8e3954]:
+                  - generic [ref=f8e3955]: TruPoints™
+                  - generic [ref=f8e3956]: "0"
+              - generic [ref=f8e3957] [cursor=pointer]: Activity
+        - generic [ref=f8e3962]:
+          - heading "Unlock TruBroker™" [level=2] [ref=f8e3963]:
+            - generic [ref=f8e3964]:
+              - text: Unlock
+              - generic [ref=f8e3965]: TruBroker™
+          - paragraph [ref=f8e3972]: Get recognized as one of the Kingdom's most trusted real estate agents.
+          - generic [ref=f8e3973]:
+            - generic [ref=f8e3974] [cursor=pointer]: Complete Profile
+            - link "2+ Active Listings" [ref=f8e3987] [cursor=pointer]:
+              - /url: /en/post-listing
+            - generic [ref=f8e4001]: Active Bayut Package
+        - generic [ref=f8e4048]:
+          - generic [ref=f8e4049]:
+            - generic [ref=f8e4050]:
+              - generic [ref=f8e4051]:
+                - button "animation" [ref=f8e4052]
+                - generic [ref=f8e4073]: Quality Lister
+              - generic "Locked" [ref=f8e4074]
+            - paragraph [ref=f8e4080]:
+              - text: Exclusive badge awarded to agents who maintain high quality listings.
+              - link "Learn More" [ref=f8e4082] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f8e4083]:
+              - generic [ref=f8e4085]:
+                - generic [ref=f8e4086]: Images Score
+                - generic [ref=f8e4088]: 4.58%
+              - generic [ref=f8e4092]:
+                - generic [ref=f8e4093]: Features Score
+                - generic [ref=f8e4095]: 55%
+          - generic [ref=f8e4098]:
+            - generic [ref=f8e4099]:
+              - generic [ref=f8e4100]:
+                - button "animation" [ref=f8e4101]
+                - generic [ref=f8e4122]: Responsive Broker
+              - generic "Locked" [ref=f8e4123]
+            - paragraph [ref=f8e4129]:
+              - text: Exclusive badge awarded to agents who are highly reachable and responsive.
+              - link "Learn More" [ref=f8e4131] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f8e4132]:
+              - generic [ref=f8e4134]:
+                - generic [ref=f8e4135]: Calls Answered
+                - generic [ref=f8e4141]: "-"
+              - generic [ref=f8e4144]:
+                - generic [ref=f8e4145]: WA Response
+                - generic [ref=f8e4151]: "-"
+          - generic [ref=f8e4153]:
+            - generic [ref=f8e4154]:
+              - generic [ref=f8e4155]:
+                - button "animation" [ref=f8e4156]
+                - generic [ref=f8e4169]: Super Lister
+              - generic "Locked" [ref=f8e4170]
+            - paragraph [ref=f8e4176]:
+              - text: Exclusive badge awarded to agents who consistently maintain a strong presence through listing activity.
+              - link "Learn More" [ref=f8e4178] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f8e4181]:
+              - generic [ref=f8e4182]: Active Listing
+              - generic [ref=f8e4184]: 0/20
+        - generic [ref=f8e4186]:
+          - generic [ref=f8e4187]:
+            - heading "Your Team's Performance" [level=3] [ref=f8e4188]
+            - generic [ref=f8e4193] [cursor=pointer]:
+              - combobox [ref=f8e4197]
+              - generic: Filter by Badges
+          - table [ref=f8e4213]:
+            - rowgroup [ref=f8e4221]:
+              - row [ref=f8e4222]:
+                - columnheader "Staff" [ref=f8e4223]
+                - columnheader "Badges" [ref=f8e4224]
+                - columnheader "Rank & TruPoints™" [ref=f8e4225]
+                - columnheader "Quality Score" [ref=f8e4226]
+                - columnheader "Responsiveness" [ref=f8e4227]
+                - columnheader "Active Listings" [ref=f8e4228]
+            - rowgroup [ref=f8e4229]:
+              - row [ref=f8e4230]:
+                - cell "F Fahad Hameed qusai@asbarunified.com +966557011839" [ref=f8e4231]:
+                  - generic [ref=f8e4232]:
+                    - generic [ref=f8e4233]: F
+                    - generic [ref=f8e4235]:
+                      - generic [ref=f8e4236]: Fahad Hameed
+                      - generic [ref=f8e4237]: qusai@asbarunified.com
+                      - generic [ref=f8e4244]: "+966557011839"
+                - cell "-" [ref=f8e4252]
+                - cell "- 0" [ref=f8e4255]:
+                  - generic [ref=f8e4256]:
+                    - generic [ref=f8e4257]: "-"
+                    - generic [ref=f8e4258]: "0"
+                - cell "Image Score 4.58% Features Score 55.00%" [ref=f8e4263]:
+                  - generic [ref=f8e4264]:
+                    - generic [ref=f8e4265]:
+                      - generic [ref=f8e4266]: Image Score
+                      - generic [ref=f8e4267]: 4.58%
+                    - generic [ref=f8e4268]:
+                      - generic [ref=f8e4269]: Features Score
+                      - generic [ref=f8e4270]: 55.00%
+                - cell "Call 0% WhatsApp 0%" [ref=f8e4271]:
+                  - generic [ref=f8e4272]:
+                    - generic [ref=f8e4273]:
+                      - generic [ref=f8e4274]: Call
+                      - generic [ref=f8e4275]: 0%
+                    - generic [ref=f8e4276]:
+                      - generic [ref=f8e4277]: WhatsApp
+                      - generic [ref=f8e4278]: 0%
+                - cell "0" [ref=f8e4279]
+    - contentinfo [ref=f8e1549]:
+      - generic [ref=f8e1550]: © 2026 – All Rights Reserved

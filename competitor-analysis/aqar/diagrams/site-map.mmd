@@ -1,0 +1,64 @@
+graph TD
+  Global[Global top nav: Listings/Projects/Bookings/Map/Add/Account]
+
+  Global --> Drawer[Account Drawer overlay: /my-account]
+  Global --> AddListing[/add-listing/]
+  Global --> Marketplace[Public Marketplace]
+
+  Marketplace --> MP1[/عقارات - listing search/]
+  Marketplace --> MP2[/المشاريع-العقارية - off-plan projects/]
+  Marketplace --> MP3[/الحجوزات - short-term rental search/]
+  Marketplace --> MP4[/الخريطة - map search/]
+
+  Drawer --> MyAds[/my-listings/]
+  Drawer --> Licenses[/mlr - Licenses/]
+  Drawer --> DistrictBids[/user/my-district-broker-bids/]
+  Drawer --> BrokerEjar[/user/broker-ejar-contracts/]
+  Drawer --> Searches[/user/searches - Saved Searches/]
+  Drawer --> Bookings[/user/bookings/]
+  Drawer --> RentalContracts[/my-rental-contracts/]
+  Drawer --> PaymentRequests[/user/my-payment-requests/]
+  Drawer --> SubInfo[/user/subscription-info/]
+  Drawer --> OfficeMgmt[/offices-management - Control Panel/]
+  Drawer --> Wallet[/user/wallet/]
+  Drawer --> Payments[/my-account/payments/]
+  Drawer --> FinInfo[/user-actions/financial-info/]
+  Drawer --> Cards[/user-actions/cards-settings/]
+  Drawer --> Profile[/user-actions/profile-update/]
+  Drawer --> Phone[/user-actions/update-phone/]
+  Drawer --> Favorites[/favorites/]
+  Drawer --> AqarPlus[/aqar-plus/]
+  Drawer --> Promotion[/user/promotion/]
+  Drawer --> Establishment[/user/establishment-account/]
+
+  OfficeMgmt --> OM1[/offices-management/listings/]
+  OfficeMgmt --> OM2[/offices-management/wallet/]
+  OfficeMgmt --> OM3[/offices-management/campaigns/]
+  OfficeMgmt --> OM4[/offices-management/statistics/]
+  OfficeMgmt --> OM5[/offices-management/users - Team/]
+  OfficeMgmt --> OM6[/offices-management/invoices/]
+  OfficeMgmt --> OM7[/offices-management/settings/]
+
+  OM2 -.duplicate.-> Wallet
+  OM3 -.duplicate.-> Promotion
+  OM1 -.duplicate.-> MyAds
+
+  AddListing --> RoleSelect{Role: Host / Owner-Agent / Broker-Marketer}
+  RoleSelect --> AddListingReal[Add real listing -> /add-listing/rega]
+  RoleSelect --> FreeLicense[Issue free license -> /add-listing/rega?license=free]
+  RoleSelect --> PromoteDistrict[Promote in District Broker -> /user/campaigns]
+
+  AddListingReal --> RegaGate[REGA license number - mandatory]
+  FreeLicense --> WasataForm[Wasata contract # + deed # + price + ad type + POA toggle]
+
+  DistrictBids --> BidFlow[/district-broker/bid/]
+  BidFlow --> City{Select city}
+  City --> Zone{Select zone - 5 broad zones}
+  Zone --> BidAmount[Bid amount step - requires payment, not reached]
+
+  style OM2 fill:#f9f,stroke:#333,stroke-width:1px
+  style OM3 fill:#f9f,stroke:#333,stroke-width:1px
+  style OM1 fill:#f9f,stroke:#333,stroke-width:1px
+  style Wallet fill:#f9f,stroke:#333,stroke-width:1px
+  style Promotion fill:#f9f,stroke:#333,stroke-width:1px
+  style MyAds fill:#f9f,stroke:#333,stroke-width:1px

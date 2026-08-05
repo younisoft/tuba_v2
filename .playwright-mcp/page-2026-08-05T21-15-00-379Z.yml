@@ -1,0 +1,256 @@
+- generic [ref=f22e1]:
+  - generic [ref=f22e2]:
+    - generic [ref=f22e7]:
+      - generic [ref=f22e8]:
+        - link "الإعلانات" [ref=f22e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f22e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f22e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f22e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f22e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "حسابي" [active] [ref=f22e251] [cursor=pointer]:
+        - /url: /my-account
+    - generic [ref=f22e258]:
+      - generic [ref=f22e259]:
+        - button [ref=f22e260] [cursor=pointer]
+        - paragraph [ref=f22e262]: حسابي
+        - link "شحن المحفظة" [ref=f22e263] [cursor=pointer]:
+          - /url: /user/wallet
+      - generic [ref=f22e265]:
+        - generic [ref=f22e266]:
+          - link "شركة أسبار الموحدة التجارية شركة أسبار الموحدة التجارية حساب المنشأة" [ref=f22e267] [cursor=pointer]:
+            - /url: /user/establishment-account
+            - img "شركة أسبار الموحدة التجارية" [ref=f22e268]
+            - generic [ref=f22e269]:
+              - paragraph [ref=f22e270]: شركة أسبار الموحدة التجارية
+              - paragraph [ref=f22e271]: حساب المنشأة
+          - link "فهد حميد فهد حميد 535020288" [ref=f22e273] [cursor=pointer]:
+            - /url: /my-account
+            - img "فهد حميد" [ref=f22e274]
+            - generic [ref=f22e275]:
+              - paragraph [ref=f22e276]: فهد حميد
+              - paragraph [ref=f22e277]: "535020288"
+        - generic [ref=f22e279]:
+          - link "المفضلة" [ref=f22e280] [cursor=pointer]:
+            - /url: /favorites
+            - paragraph [ref=f22e283]: المفضلة
+          - paragraph [ref=f22e286]: التنبيهات
+        - link "عقار+ مجموعة من الخدمات المميزة" [ref=f22e288] [cursor=pointer]:
+          - /url: /aqar-plus
+          - generic [ref=f22e290]:
+            - paragraph [ref=f22e291]: عقار+
+            - paragraph [ref=f22e292]: مجموعة من الخدمات المميزة
+        - link "خدمات الترويج خدمات تسرع عملية بيع أو تأجير العقار" [ref=f22e295] [cursor=pointer]:
+          - /url: /user/promotion
+          - generic [ref=f22e297]:
+            - paragraph [ref=f22e298]: خدمات الترويج
+            - paragraph [ref=f22e299]: خدمات تسرع عملية بيع أو تأجير العقار
+        - button [ref=f22e301] [cursor=pointer]
+        - paragraph [ref=f22e306]:
+          - generic [ref=f22e308]: الأنشطة
+        - generic [ref=f22e309]:
+          - link "إعلاناتي الإعلانات المنشورة والمنتهية" [ref=f22e310] [cursor=pointer]:
+            - /url: /my-listings
+            - generic [ref=f22e311]:
+              - paragraph [ref=f22e312]: إعلاناتي
+              - paragraph [ref=f22e313]: الإعلانات المنشورة والمنتهية
+          - link "التراخيص متابعة تراخيص الإعلانات" [ref=f22e315] [cursor=pointer]:
+            - /url: /mlr
+            - generic [ref=f22e316]:
+              - paragraph [ref=f22e317]: التراخيص
+              - paragraph [ref=f22e318]: متابعة تراخيص الإعلانات
+          - link "حملات وسيط الحي استعراض نتائج حملات وسيط الحي التي قمت بها جديد" [ref=f22e320] [cursor=pointer]:
+            - /url: /user/my-district-broker-bids
+            - generic [ref=f22e321]:
+              - generic [ref=f22e322]:
+                - paragraph [ref=f22e323]: حملات وسيط الحي
+                - paragraph [ref=f22e324]: استعراض نتائج حملات وسيط الحي التي قمت بها
+              - generic: جديد
+          - link "عقود إيجار الوسيط عرض العقود المسندة إليك وإدارتها عبر منصة إيجار جديد" [ref=f22e326] [cursor=pointer]:
+            - /url: /user/broker-ejar-contracts
+            - generic [ref=f22e327]:
+              - generic [ref=f22e328]:
+                - paragraph [ref=f22e329]: عقود إيجار الوسيط
+                - paragraph [ref=f22e330]: عرض العقود المسندة إليك وإدارتها عبر منصة إيجار
+              - generic: جديد
+          - link "طلباتي الحصول على تنبيهات بالعروض المطابقة لرغباتك" [ref=f22e332] [cursor=pointer]:
+            - /url: /user/searches
+            - generic [ref=f22e333]:
+              - paragraph [ref=f22e334]: طلباتي
+              - paragraph [ref=f22e335]: الحصول على تنبيهات بالعروض المطابقة لرغباتك
+          - link "الحجوزات سجل حجوزات وحدات التأجير اليومي/الشهري" [ref=f22e337] [cursor=pointer]:
+            - /url: /user/bookings
+            - generic [ref=f22e338]:
+              - paragraph [ref=f22e339]: الحجوزات
+              - paragraph [ref=f22e340]: سجل حجوزات وحدات التأجير اليومي/الشهري
+          - link "عقود الإيجار عقود الإيجار الخاصة بك" [ref=f22e342] [cursor=pointer]:
+            - /url: /my-rental-contracts
+            - generic [ref=f22e343]:
+              - paragraph [ref=f22e344]: عقود الإيجار
+              - paragraph [ref=f22e345]: عقود الإيجار الخاصة بك
+          - link "طلبات حجز الوحدات سجل طلبات حجز وحدات المشاريع" [ref=f22e347] [cursor=pointer]:
+            - /url: /user/my-payment-requests
+            - generic [ref=f22e348]:
+              - paragraph [ref=f22e349]: طلبات حجز الوحدات
+              - paragraph [ref=f22e350]: سجل طلبات حجز وحدات المشاريع
+        - paragraph [ref=f22e352]: المكاتب
+        - generic [ref=f22e359]:
+          - link "معلومات الباقة جديد" [ref=f22e360] [cursor=pointer]:
+            - /url: /user/subscription-info
+            - paragraph [ref=f22e362]:
+              - generic [ref=f22e363]:
+                - generic [ref=f22e364]: معلومات الباقة
+                - generic: جديد
+          - link "لوحة التحكم" [ref=f22e366] [cursor=pointer]:
+            - /url: /offices-management
+            - paragraph [ref=f22e368]: لوحة التحكم
+        - paragraph [ref=f22e370]: المعلومات المالية
+        - generic [ref=f22e376]:
+          - link "المحفظة 0 §" [ref=f22e377] [cursor=pointer]:
+            - /url: /user/wallet
+            - paragraph [ref=f22e379]:
+              - text: المحفظة
+              - generic [ref=f22e380]: 0 §
+          - link "المدفوعات" [ref=f22e382] [cursor=pointer]:
+            - /url: /my-account/payments
+            - paragraph [ref=f22e384]: المدفوعات
+          - link "الحساب البنكي ومعلومات الضريبة" [ref=f22e386] [cursor=pointer]:
+            - /url: /user-actions/financial-info
+            - paragraph [ref=f22e388]: الحساب البنكي ومعلومات الضريبة
+          - link "إدارة البطاقات" [ref=f22e390] [cursor=pointer]:
+            - /url: /user-actions/cards-settings
+            - paragraph [ref=f22e392]: إدارة البطاقات
+        - paragraph [ref=f22e394]: إدارة الحساب
+        - generic [ref=f22e399]:
+          - link "تعديل الملف الشخصي" [ref=f22e400] [cursor=pointer]:
+            - /url: /user-actions/profile-update
+            - paragraph [ref=f22e402]: تعديل الملف الشخصي
+          - link "تغيير الجوال" [ref=f22e404] [cursor=pointer]:
+            - /url: /user-actions/update-phone
+            - paragraph [ref=f22e406]: تغيير الجوال
+          - link "English" [ref=f22e408] [cursor=pointer]:
+            - /url: /user/bookings
+            - paragraph [ref=f22e410]: English
+          - link "تسجيل الخروج" [ref=f22e412] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f22e414]: تسجيل الخروج
+        - generic [ref=f22e416]:
+          - button "Toggle theme" [ref=f22e417] [cursor=pointer]: الوضع الليلي
+          - generic [ref=f22e421]: v1.0.2
+    - main [ref=f22e32]:
+      - main [ref=f22e33]:
+        - generic [ref=f22e34]:
+          - heading "طلبات الترخيص" [level=1] [ref=f22e35]
+          - paragraph [ref=f22e36]: تتبع طلبات ترخيص الإعلان وحالة الدفع.
+          - generic [ref=f22e37]:
+            - link "بانتظار المعلومات" [ref=f22e38] [cursor=pointer]:
+              - /url: "?tab=awaiting_information"
+            - link "جاري إصدار العقد" [ref=f22e39] [cursor=pointer]:
+              - /url: "?tab=issuing_contract"
+            - link "بانتظار الموافقة على العقد" [ref=f22e40] [cursor=pointer]:
+              - /url: "?tab=awaiting_contract_approval"
+            - link "جاري الترخيص" [ref=f22e41] [cursor=pointer]:
+              - /url: "?tab=licensing_in_progress"
+            - link "إعلانات مرخصة" [ref=f22e42] [cursor=pointer]:
+              - /url: "?tab=licensed_listings"
+            - link "بانتظار الدفع" [ref=f22e43] [cursor=pointer]:
+              - /url: "?tab=awaiting_payment"
+            - link "رخصة منتهية" [ref=f22e44] [cursor=pointer]:
+              - /url: "?tab=expired_license"
+          - paragraph [ref=f22e254]: لا توجد طلبات بانتظار المعلومات حالياً.
+      - generic [ref=f22e102]:
+        - generic [ref=f22e103]:
+          - link "Aqar" [ref=f22e104] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f22e106]:
+            - link [ref=f22e107] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f22e108]:
+                - img "App Store" [ref=f22e110]
+            - link [ref=f22e111] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f22e112]:
+                - img "Google Play" [ref=f22e114]
+            - link [ref=f22e115] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f22e116]:
+                - img "App Gallery" [ref=f22e118]
+        - generic [ref=f22e119]:
+          - generic [ref=f22e120]:
+            - heading "خيارات البحث" [level=3] [ref=f22e121]
+            - generic [ref=f22e122]:
+              - link "شقق للإيجار" [ref=f22e123] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f22e124] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f22e125] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f22e126] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f22e127] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f22e128] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f22e129] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f22e130] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f22e131]:
+            - heading "روابط سريعة" [level=3] [ref=f22e132]
+            - generic [ref=f22e133]:
+              - link [ref=f22e134] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f22e138] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f22e145] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f22e151] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f22e156] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f22e163] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f22e168] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f22e175] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f22e179] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f22e183] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f22e189] [cursor=pointer]
+        - generic [ref=f22e193]:
+          - generic [ref=f22e194]:
+            - link "YouTube" [ref=f22e195] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f22e199] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f22e203] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f22e209] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f22e214] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f22e219] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f22e223] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f22e228]:
+            - button "Toggle theme" [ref=f22e229] [cursor=pointer]: الوضع الليلي
+            - link [ref=f22e233] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f22e240]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f22e241] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f22e243]
+              - generic [ref=f22e244]: خدمة التبرع السريع
+            - img "vat" [ref=f22e245]
+            - img "rega" [ref=f22e246]
+        - generic [ref=f22e247]:
+          - paragraph [ref=f22e248]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f22e249]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f22e250]

@@ -1,0 +1,806 @@
+- generic [ref=f13e12]:
+  - banner [ref=f13e13]:
+    - generic [ref=f13e14]:
+      - generic [ref=f13e15]: Overview
+      - generic [ref=f13e19]:
+        - button "Download App" [ref=f13e20] [cursor=pointer]
+        - link "Go to Bayut.sa" [ref=f13e24] [cursor=pointer]:
+          - /url: https://www.bayut.sa/en
+        - button "Post Listing" [ref=f13e27] [cursor=pointer]
+        - generic [ref=f13e32]:
+          - button [active] [ref=f13e33] [cursor=pointer]
+          - superscript [ref=f13e36]:
+            - generic [ref=f13e37]:
+              - generic [ref=f13e38]: "2"
+              - generic [ref=f13e39]: "4"
+        - button [ref=f13e41] [cursor=pointer]:
+          - progressbar [ref=f13e42]
+        - tooltip [ref=f13e1906]:
+          - generic [ref=f13e1911]:
+            - generic [ref=f13e1912]:
+              - generic [ref=f13e1913]:
+                - heading "Notifications" [level=5] [ref=f13e1914]
+                - button [ref=f13e1915] [cursor=pointer]
+              - button "Mark all as read" [ref=f13e1918] [cursor=pointer]
+            - generic [ref=f13e1923]:
+              - link "New Lead Alert! A new lead has come via WhatsApp. View the details and take action! 2 days ago" [ref=f13e1925] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/lms/leads?leadDrawerId=1734036
+                - generic [ref=f13e1928]:
+                  - generic [ref=f13e1935]:
+                    - generic [ref=f13e1936]: New Lead Alert!
+                    - generic [ref=f13e1938]: A new lead has come via WhatsApp. View the details and take action!
+                  - generic [ref=f13e1940]: 2 days ago
+              - link "New Lead Alert! You have a new lead from a phone call. Review the details and follow up! 2 days ago" [ref=f13e1942] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/lms/leads?leadDrawerId=1734034
+                - generic [ref=f13e1945]:
+                  - generic [ref=f13e1952]:
+                    - generic [ref=f13e1953]: New Lead Alert!
+                    - generic [ref=f13e1955]: You have a new lead from a phone call. Review the details and follow up!
+                  - generic [ref=f13e1957]: 2 days ago
+              - link "Upgrade your listings! Upgrade your listings to hot or signature to increase visibility and get more leads. 2 days ago" [ref=f13e1959] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=10
+                - generic [ref=f13e1962]:
+                  - generic [ref=f13e1969]:
+                    - generic [ref=f13e1970]: Upgrade your listings!
+                    - generic [ref=f13e1972]: Upgrade your listings to hot or signature to increase visibility and get more leads.
+                  - generic [ref=f13e1974]: 2 days ago
+              - link "Complete Your TruBroker Profile Complete your agent profile and move one step closer to becoming a TruBroker on Bayut. 5 days ago" [ref=f13e1976] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/user-settings/user-profile
+                - generic [ref=f13e1979]:
+                  - generic [ref=f13e1986]:
+                    - generic [ref=f13e1987]: Complete Your TruBroker Profile
+                    - generic [ref=f13e1989]: Complete your agent profile and move one step closer to becoming a TruBroker on Bayut.
+                  - generic [ref=f13e1991]: 5 days ago
+              - link "Start Your TruBroker Journey Build credibility, visibility and customer trust by progressing towards becoming a TruBroker on Bayut. 13 days ago" [ref=f13e1993] [cursor=pointer]:
+                - /url: https://www.bayut.sa/en/trubroker
+                - generic [ref=f13e1996]:
+                  - generic [ref=f13e2003]:
+                    - generic [ref=f13e2004]: Start Your TruBroker Journey
+                    - generic [ref=f13e2006]: Build credibility, visibility and customer trust by progressing towards becoming a TruBroker on Bayut.
+                  - generic [ref=f13e2008]: 13 days ago
+              - link "You are almost there! You're almost there. You have 3 listings still in Draft. Complete your listings to get leads! 4 months ago" [ref=f13e2010] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=11
+                - generic [ref=f13e2013]:
+                  - generic [ref=f13e2020]:
+                    - generic [ref=f13e2021]: You are almost there!
+                    - generic [ref=f13e2023]: You're almost there. You have 3 listings still in Draft. Complete your listings to get leads!
+                  - generic [ref=f13e2025]: 4 months ago
+              - link "You are almost there! You're almost there. You have 3 listings still in Draft. Complete your listings to get leads! 4 months ago" [ref=f13e2027] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=11
+                - generic [ref=f13e2030]:
+                  - generic [ref=f13e2037]:
+                    - generic [ref=f13e2038]: You are almost there!
+                    - generic [ref=f13e2040]: You're almost there. You have 3 listings still in Draft. Complete your listings to get leads!
+                  - generic [ref=f13e2042]: 4 months ago
+              - link "You are almost there! You're almost there. You have 2 listings still in Draft. Complete your listings to get leads! 4 months ago" [ref=f13e2044] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=11
+                - generic [ref=f13e2047]:
+                  - generic [ref=f13e2054]:
+                    - generic [ref=f13e2055]: You are almost there!
+                    - generic [ref=f13e2057]: You're almost there. You have 2 listings still in Draft. Complete your listings to get leads!
+                  - generic [ref=f13e2059]: 4 months ago
+              - link "You are almost there! You're almost there. You have 2 listings still in Draft. Complete your listings to get leads! 4 months ago" [ref=f13e2061] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=11
+                - generic [ref=f13e2064]:
+                  - generic [ref=f13e2071]:
+                    - generic [ref=f13e2072]: You are almost there!
+                    - generic [ref=f13e2074]: You're almost there. You have 2 listings still in Draft. Complete your listings to get leads!
+                  - generic [ref=f13e2076]: 4 months ago
+              - link "Your listing has been removed Your listing with bayut ID 87818765 was removed due to 'New marketing' 6 months ago" [ref=f13e2078] [cursor=pointer]:
+                - /url: https://profolio.bayut.sa/en/listings?q[status_id_eq]=13
+                - generic [ref=f13e2081]:
+                  - generic [ref=f13e2088]:
+                    - generic [ref=f13e2089]: Your listing has been removed
+                    - generic [ref=f13e2091]: Your listing with bayut ID 87818765 was removed due to 'New marketing'
+                  - generic [ref=f13e2093]: 6 months ago
+  - complementary [ref=f13e53]:
+    - generic [ref=f13e54]:
+      - button "Expand side menu" [ref=f13e55] [cursor=pointer]
+      - img [ref=f13e59]:
+        - generic [ref=f13e66]: KSA
+      - generic [ref=f13e67]:
+        - menu [ref=f13e68]:
+          - menuitem "Overview" [ref=f13e69] [cursor=pointer]
+          - menuitem "Post Listing" [ref=f13e76] [cursor=pointer]
+          - menuitem "My Listings" [ref=f13e84] [cursor=pointer]
+          - menuitem "Credits Usage" [ref=f13e90] [cursor=pointer]
+          - menuitem "TruLeads" [ref=f13e97] [cursor=pointer]
+          - menuitem "Agent Performance" [ref=f13e106] [cursor=pointer]
+          - menuitem "Reports" [ref=f13e114] [cursor=pointer]
+          - menuitem "Agency Staff" [ref=f13e121] [cursor=pointer]
+          - menuitem "Settings" [ref=f13e128] [cursor=pointer]
+          - menuitem "Credits & Packages" [ref=f13e134] [cursor=pointer]
+        - generic [ref=f13e141]:
+          - button [ref=f13e143] [cursor=pointer]
+          - button [ref=f13e146] [cursor=pointer]
+  - generic [ref=f13e149]:
+    - main [ref=f13e150]:
+      - generic [ref=f13e152]:
+        - generic [ref=f13e155]:
+          - progressbar [ref=f13e157]:
+            - superscript [ref=f13e165]: 90%
+          - generic [ref=f13e168]:
+            - generic [ref=f13e169]:
+              - generic [ref=f13e170]: Your profile is incomplete
+              - text: Agents with a complete profile are likely to attract more leads.
+              - button "Why is this important?" [ref=f13e171] [cursor=pointer]
+            - button "Complete your Profile" [ref=f13e173] [cursor=pointer]
+        - generic [ref=f13e175]:
+          - generic [ref=f13e176]: Asbar Real Estate
+          - generic [ref=f13e196]:
+            - generic [ref=f13e200]:
+              - generic [ref=f13e202]:
+                - generic [ref=f13e203]: Listings
+                - button "View All Listings" [ref=f13e207] [cursor=pointer]
+              - generic [ref=f13e210]:
+                - generic [ref=f13e222]:
+                  - generic [ref=f13e223]: Active
+                  - generic [ref=f13e224]: "12"
+                - separator [ref=f13e226]
+                - generic [ref=f13e227]:
+                  - generic [ref=f13e228]:
+                    - generic [ref=f13e237]:
+                      - generic [ref=f13e238]: For Sale
+                      - generic [ref=f13e239]: "0"
+                    - generic [ref=f13e249]:
+                      - generic [ref=f13e250]: To Rent
+                      - generic [ref=f13e251]: "12"
+                    - generic [ref=f13e263]:
+                      - generic [ref=f13e264]: Daily Rentals
+                      - generic [ref=f13e265]: "0"
+                  - generic [ref=f13e267]:
+                    - generic [ref=f13e276]:
+                      - generic [ref=f13e277]: Signature
+                      - generic [ref=f13e278]: "0"
+                    - generic [ref=f13e289]:
+                      - generic [ref=f13e290]: Hot
+                      - generic [ref=f13e291]: "0"
+                    - generic [ref=f13e302]:
+                      - generic [ref=f13e303]: Basic
+                      - generic [ref=f13e304]: "12"
+            - generic [ref=f13e308]:
+              - generic [ref=f13e312]:
+                - generic [ref=f13e313] [cursor=pointer]: Credits Balance
+                - button [ref=f13e315] [cursor=pointer]
+              - generic [ref=f13e319]:
+                - generic [ref=f13e321]:
+                  - generic [ref=f13e322]:
+                    - generic [ref=f13e326]:
+                      - generic [ref=f13e327]: Available Credits
+                      - generic [ref=f13e328]: 6,250
+                    - separator [ref=f13e330]
+                    - generic [ref=f13e334]:
+                      - generic [ref=f13e335]: Used
+                      - generic [ref=f13e336]: "0"
+                    - separator [ref=f13e338]
+                    - generic [ref=f13e342]:
+                      - generic [ref=f13e343]: Total
+                      - generic [ref=f13e344]: 6,250
+                    - separator [ref=f13e346]
+                    - generic [ref=f13e348]:
+                      - text: Current Plan
+                      - generic [ref=f13e349]: Bronze
+                  - progressbar [ref=f13e375]
+                - generic [ref=f13e379]:
+                  - button "Top-Up your Credits" [ref=f13e380] [cursor=pointer]
+                  - button "Credits Usage" [ref=f13e384] [cursor=pointer]
+          - generic [ref=f13e394]:
+            - generic [ref=f13e395]:
+              - generic [ref=f13e398]:
+                - generic [ref=f13e399]: Performance
+                - generic [ref=f13e402]:
+                  - listbox "segmented control" [ref=f13e403]:
+                    - generic [ref=f13e404]:
+                      - generic [ref=f13e405] [cursor=pointer]:
+                        - radio "All" [checked]
+                        - option "All" [selected] [ref=f13e406]
+                      - generic [ref=f13e407] [cursor=pointer]:
+                        - radio "For Sale"
+                        - option "For Sale" [ref=f13e408]
+                      - generic [ref=f13e409] [cursor=pointer]:
+                        - radio "For Rent"
+                        - option "For Rent" [ref=f13e410]
+                      - generic [ref=f13e411] [cursor=pointer]:
+                        - radio "Daily Rentals"
+                        - option "Daily Rentals" [ref=f13e412]
+                  - textbox [ref=f13e415] [cursor=pointer]: Last 30 Days
+              - generic [ref=f13e420]:
+                - tablist [ref=f13e421]:
+                  - generic [ref=f13e423]:
+                    - tab "Views 1,683 763%" [selected] [ref=f13e425] [cursor=pointer]:
+                      - generic [ref=f13e434]:
+                        - generic [ref=f13e435]: Views
+                        - generic [ref=f13e436]:
+                          - generic [ref=f13e437]: 1,683
+                          - generic [ref=f13e438]: 763%
+                    - tab "Clicks 34 1600%" [ref=f13e446] [cursor=pointer]:
+                      - generic [ref=f13e455]:
+                        - generic [ref=f13e456]: Clicks
+                        - generic [ref=f13e457]:
+                          - generic [ref=f13e458]: "34"
+                          - generic [ref=f13e459]: 1600%
+                    - tab "Leads 3" [ref=f13e467] [cursor=pointer]:
+                      - generic [ref=f13e477]:
+                        - generic [ref=f13e478]: Leads
+                        - generic [ref=f13e479]: "3"
+                  - generic [ref=f13e485]:
+                    - generic [ref=f13e495] [cursor=pointer]:
+                      - generic [ref=f13e496]: Calls
+                      - generic [ref=f13e497]: "2"
+                    - separator [ref=f13e503]
+                    - generic [ref=f13e512] [cursor=pointer]:
+                      - generic [ref=f13e513]: WhatsApp
+                      - generic [ref=f13e514]: "1"
+                    - separator [ref=f13e520]
+                    - generic [ref=f13e530] [cursor=pointer]:
+                      - generic [ref=f13e531]: SMS
+                      - generic [ref=f13e532]: "0"
+                    - separator [ref=f13e538]
+                    - generic [ref=f13e548] [cursor=pointer]:
+                      - generic [ref=f13e549]: Emails
+                      - generic [ref=f13e550]: "0"
+                - generic:
+                  - generic:
+                    - tabpanel "Views 1,683 763%"
+            - generic [ref=f13e555]:
+              - generic [ref=f13e558]:
+                - generic [ref=f13e559] [cursor=pointer]:
+                  - radio "All" [checked] [ref=f13e561]
+                  - generic [ref=f13e563]: All
+                - generic [ref=f13e566] [cursor=pointer]:
+                  - radio "Basic" [ref=f13e568]
+                  - generic [ref=f13e570]: Basic
+                - generic [ref=f13e576] [cursor=pointer]:
+                  - radio "Hot" [ref=f13e578]
+                  - generic [ref=f13e580]: Hot
+                - generic [ref=f13e586] [cursor=pointer]:
+                  - radio "Signature" [ref=f13e588]
+                  - generic [ref=f13e590]: Signature
+              - generic [ref=f13e597]:
+                - generic:
+                  - table:
+                    - rowgroup
+                    - generic: Jul 23
+                    - rowgroup:
+                      - 'row "Views: 1"':
+                        - 'cell "Views: 1"'
+          - generic [ref=f13e599]:
+            - generic [ref=f13e600]:
+              - generic [ref=f13e601]: Recent Listings
+              - link "View All Listings" [ref=f13e603] [cursor=pointer]:
+                - /url: /en/listings
+            - table [ref=f13e621]:
+              - rowgroup [ref=f13e629]:
+                - row [ref=f13e630]:
+                  - columnheader "Property" [ref=f13e631]
+                  - columnheader "Timeline" [ref=f13e632]
+                  - columnheader "Performance" [ref=f13e633]
+                  - columnheader "Status" [ref=f13e634]
+                  - columnheader "Upgrades" [ref=f13e635]
+                  - columnheader "Actions" [ref=f13e636]
+              - rowgroup [ref=f13e637]:
+                - row [ref=f13e638]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: 7200935016" [ref=f13e639]':
+                    - generic [ref=f13e645]:
+                      - generic [ref=f13e646]:
+                        - generic [ref=f13e648]:
+                          - generic [ref=f13e649]: 
+                          - text: 400,000
+                        - generic [ref=f13e650]: Basic
+                        - generic [ref=f13e656]: 64%
+                      - generic [ref=f13e658]: Commercial Building for Rent
+                      - generic [ref=f13e660]:
+                        - generic [ref=f13e661]: "0"
+                        - generic [ref=f13e668]: 2400 Sq. M.
+                      - generic [ref=f13e675]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e677]:
+                        - text: "Bayut ID: 88087735"
+                        - separator [ref=f13e678]
+                        - generic [ref=f13e679]:
+                          - generic [ref=f13e680]: "REGA ID:"
+                          - generic [ref=f13e681]: "7200935016"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e682]:
+                    - generic [ref=f13e685]:
+                      - generic [ref=f13e686]: Posted on
+                      - generic [ref=f13e687]: Aug 03, 2026
+                  - cell "Views 33 Clicks 0 Leads 0" [ref=f13e693]:
+                    - generic [ref=f13e695]:
+                      - generic [ref=f13e696]:
+                        - generic [ref=f13e697]: Views
+                        - generic [ref=f13e698]: "33"
+                      - generic [ref=f13e699]:
+                        - generic [ref=f13e700]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e701]:
+                        - generic [ref=f13e702]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e708]
+                  - cell [ref=f13e712]:
+                    - generic [ref=f13e713]:
+                      - button [ref=f13e715] [cursor=pointer]
+                      - button [ref=f13e719] [cursor=pointer]
+                      - button [ref=f13e723] [cursor=pointer]
+                      - button [ref=f13e727] [cursor=pointer]
+                      - button [ref=f13e731] [cursor=pointer]
+                      - button [ref=f13e735] [cursor=pointer]
+                  - cell [ref=f13e738]:
+                    - generic [ref=f13e740]:
+                      - button [ref=f13e742] [cursor=pointer]
+                      - button [ref=f13e746] [cursor=pointer]
+                      - button [ref=f13e750] [cursor=pointer]
+                      - button [ref=f13e754] [cursor=pointer]
+                      - button [ref=f13e758] [cursor=pointer]
+                      - button [ref=f13e762] [cursor=pointer]
+                - row [ref=f13e765]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087716 REGA ID: 7200938015" [ref=f13e766]':
+                    - generic [ref=f13e772]:
+                      - generic [ref=f13e773]:
+                        - generic [ref=f13e775]:
+                          - generic [ref=f13e776]: 
+                          - text: 400,000
+                        - generic [ref=f13e777]: Basic
+                        - generic [ref=f13e783]: 64%
+                      - generic [ref=f13e785]: Commercial Building for Rent
+                      - generic [ref=f13e787]:
+                        - generic [ref=f13e788]: "0"
+                        - generic [ref=f13e795]: 2400 Sq. M.
+                      - generic [ref=f13e802]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e804]:
+                        - text: "Bayut ID: 88087716"
+                        - separator [ref=f13e805]
+                        - generic [ref=f13e806]:
+                          - generic [ref=f13e807]: "REGA ID:"
+                          - generic [ref=f13e808]: "7200938015"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e809]:
+                    - generic [ref=f13e812]:
+                      - generic [ref=f13e813]: Posted on
+                      - generic [ref=f13e814]: Aug 03, 2026
+                  - cell "Views 33 Clicks 0 Leads 0" [ref=f13e820]:
+                    - generic [ref=f13e822]:
+                      - generic [ref=f13e823]:
+                        - generic [ref=f13e824]: Views
+                        - generic [ref=f13e825]: "33"
+                      - generic [ref=f13e826]:
+                        - generic [ref=f13e827]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e828]:
+                        - generic [ref=f13e829]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e835]
+                  - cell [ref=f13e839]:
+                    - generic [ref=f13e840]:
+                      - button [ref=f13e842] [cursor=pointer]
+                      - button [ref=f13e846] [cursor=pointer]
+                      - button [ref=f13e850] [cursor=pointer]
+                      - button [ref=f13e854] [cursor=pointer]
+                      - button [ref=f13e858] [cursor=pointer]
+                      - button [ref=f13e862] [cursor=pointer]
+                  - cell [ref=f13e865]:
+                    - generic [ref=f13e867]:
+                      - button [ref=f13e869] [cursor=pointer]
+                      - button [ref=f13e873] [cursor=pointer]
+                      - button [ref=f13e877] [cursor=pointer]
+                      - button [ref=f13e881] [cursor=pointer]
+                      - button [ref=f13e885] [cursor=pointer]
+                      - button [ref=f13e889] [cursor=pointer]
+                - row [ref=f13e892]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087588 REGA ID: 7200944893" [ref=f13e893]':
+                    - generic [ref=f13e899]:
+                      - generic [ref=f13e900]:
+                        - generic [ref=f13e902]:
+                          - generic [ref=f13e903]: 
+                          - text: 400,000
+                        - generic [ref=f13e904]: Basic
+                        - generic [ref=f13e910]: 64%
+                      - generic [ref=f13e912]: Commercial Building for Rent
+                      - generic [ref=f13e914]:
+                        - generic [ref=f13e915]: "0"
+                        - generic [ref=f13e922]: 2400 Sq. M.
+                      - generic [ref=f13e929]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e931]:
+                        - text: "Bayut ID: 88087588"
+                        - separator [ref=f13e932]
+                        - generic [ref=f13e933]:
+                          - generic [ref=f13e934]: "REGA ID:"
+                          - generic [ref=f13e935]: "7200944893"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e936]:
+                    - generic [ref=f13e939]:
+                      - generic [ref=f13e940]: Posted on
+                      - generic [ref=f13e941]: Aug 03, 2026
+                  - cell "Views 33 Clicks 0 Leads 0" [ref=f13e947]:
+                    - generic [ref=f13e949]:
+                      - generic [ref=f13e950]:
+                        - generic [ref=f13e951]: Views
+                        - generic [ref=f13e952]: "33"
+                      - generic [ref=f13e953]:
+                        - generic [ref=f13e954]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e955]:
+                        - generic [ref=f13e956]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e962]
+                  - cell [ref=f13e966]:
+                    - generic [ref=f13e967]:
+                      - button [ref=f13e969] [cursor=pointer]
+                      - button [ref=f13e973] [cursor=pointer]
+                      - button [ref=f13e977] [cursor=pointer]
+                      - button [ref=f13e981] [cursor=pointer]
+                      - button [ref=f13e985] [cursor=pointer]
+                      - button [ref=f13e989] [cursor=pointer]
+                  - cell [ref=f13e992]:
+                    - generic [ref=f13e994]:
+                      - button [ref=f13e996] [cursor=pointer]
+                      - button [ref=f13e1000] [cursor=pointer]
+                      - button [ref=f13e1004] [cursor=pointer]
+                      - button [ref=f13e1008] [cursor=pointer]
+                      - button [ref=f13e1012] [cursor=pointer]
+                      - button [ref=f13e1016] [cursor=pointer]
+                - row [ref=f13e1019]:
+                  - 'cell " 80,000 Basic 64% Complex for Rent 0 7983 Sq. M. Samtah Jazan Region, At Tahliyah Bayut ID: 88087505 REGA ID: 7200822986" [ref=f13e1020]':
+                    - generic [ref=f13e1026]:
+                      - generic [ref=f13e1027]:
+                        - generic [ref=f13e1029]:
+                          - generic [ref=f13e1030]: 
+                          - text: 80,000
+                        - generic [ref=f13e1031]: Basic
+                        - generic [ref=f13e1037]: 64%
+                      - generic [ref=f13e1039]: Complex for Rent
+                      - generic [ref=f13e1041]:
+                        - generic [ref=f13e1042]: "0"
+                        - generic [ref=f13e1049]: 7983 Sq. M.
+                      - generic [ref=f13e1056]: Samtah Jazan Region, At Tahliyah
+                      - generic [ref=f13e1058]:
+                        - text: "Bayut ID: 88087505"
+                        - separator [ref=f13e1059]
+                        - generic [ref=f13e1060]:
+                          - generic [ref=f13e1061]: "REGA ID:"
+                          - generic [ref=f13e1062]: "7200822986"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1063]:
+                    - generic [ref=f13e1066]:
+                      - generic [ref=f13e1067]: Posted on
+                      - generic [ref=f13e1068]: Aug 03, 2026
+                  - cell "Views 4 Clicks 0 Leads 0" [ref=f13e1074]:
+                    - generic [ref=f13e1076]:
+                      - generic [ref=f13e1077]:
+                        - generic [ref=f13e1078]: Views
+                        - generic [ref=f13e1079]: "4"
+                      - generic [ref=f13e1080]:
+                        - generic [ref=f13e1081]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1082]:
+                        - generic [ref=f13e1083]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1089]
+                  - cell [ref=f13e1093]:
+                    - generic [ref=f13e1094]:
+                      - button [ref=f13e1096] [cursor=pointer]
+                      - button [ref=f13e1100] [cursor=pointer]
+                      - button [ref=f13e1104] [cursor=pointer]
+                      - generic [ref=f13e1107]:
+                        - button [disabled]
+                      - generic [ref=f13e1108]:
+                        - button [disabled]
+                      - generic [ref=f13e1109]:
+                        - button [disabled]
+                  - cell [ref=f13e1110]:
+                    - generic [ref=f13e1112]:
+                      - button [ref=f13e1114] [cursor=pointer]
+                      - button [ref=f13e1118] [cursor=pointer]
+                      - button [ref=f13e1122] [cursor=pointer]
+                      - button [ref=f13e1126] [cursor=pointer]
+                      - button [ref=f13e1130] [cursor=pointer]
+                      - button [ref=f13e1134] [cursor=pointer]
+                - row [ref=f13e1137]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087477 REGA ID: 7200929494" [ref=f13e1138]':
+                    - generic [ref=f13e1144]:
+                      - generic [ref=f13e1145]:
+                        - generic [ref=f13e1147]:
+                          - generic [ref=f13e1148]: 
+                          - text: 400,000
+                        - generic [ref=f13e1149]: Basic
+                        - generic [ref=f13e1155]: 64%
+                      - generic [ref=f13e1157]: Commercial Building for Rent
+                      - generic [ref=f13e1159]:
+                        - generic [ref=f13e1160]: "0"
+                        - generic [ref=f13e1167]: 2400 Sq. M.
+                      - generic [ref=f13e1174]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e1176]:
+                        - text: "Bayut ID: 88087477"
+                        - separator [ref=f13e1177]
+                        - generic [ref=f13e1178]:
+                          - generic [ref=f13e1179]: "REGA ID:"
+                          - generic [ref=f13e1180]: "7200929494"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1181]:
+                    - generic [ref=f13e1184]:
+                      - generic [ref=f13e1185]: Posted on
+                      - generic [ref=f13e1186]: Aug 03, 2026
+                  - cell "Views 32 Clicks 0 Leads 0" [ref=f13e1192]:
+                    - generic [ref=f13e1194]:
+                      - generic [ref=f13e1195]:
+                        - generic [ref=f13e1196]: Views
+                        - generic [ref=f13e1197]: "32"
+                      - generic [ref=f13e1198]:
+                        - generic [ref=f13e1199]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1200]:
+                        - generic [ref=f13e1201]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1207]
+                  - cell [ref=f13e1211]:
+                    - generic [ref=f13e1212]:
+                      - button [ref=f13e1214] [cursor=pointer]
+                      - button [ref=f13e1218] [cursor=pointer]
+                      - button [ref=f13e1222] [cursor=pointer]
+                      - button [ref=f13e1226] [cursor=pointer]
+                      - button [ref=f13e1230] [cursor=pointer]
+                      - button [ref=f13e1234] [cursor=pointer]
+                  - cell [ref=f13e1237]:
+                    - generic [ref=f13e1239]:
+                      - button [ref=f13e1241] [cursor=pointer]
+                      - button [ref=f13e1245] [cursor=pointer]
+                      - button [ref=f13e1249] [cursor=pointer]
+                      - button [ref=f13e1253] [cursor=pointer]
+                      - button [ref=f13e1257] [cursor=pointer]
+                      - button [ref=f13e1261] [cursor=pointer]
+                - row [ref=f13e1264]:
+                  - 'cell " 100,000 Basic 64% Complex for Rent 0 1259 Sq. M. Jeddah, North Jeddah, Al Salehiyah Bayut ID: 88087395 REGA ID: 7201049641" [ref=f13e1265]':
+                    - generic [ref=f13e1271]:
+                      - generic [ref=f13e1272]:
+                        - generic [ref=f13e1274]:
+                          - generic [ref=f13e1275]: 
+                          - text: 100,000
+                        - generic [ref=f13e1276]: Basic
+                        - generic [ref=f13e1282]: 64%
+                      - generic [ref=f13e1284]: Complex for Rent
+                      - generic [ref=f13e1286]:
+                        - generic [ref=f13e1287]: "0"
+                        - generic [ref=f13e1294]: 1259 Sq. M.
+                      - generic [ref=f13e1301]: Jeddah, North Jeddah, Al Salehiyah
+                      - generic [ref=f13e1303]:
+                        - text: "Bayut ID: 88087395"
+                        - separator [ref=f13e1304]
+                        - generic [ref=f13e1305]:
+                          - generic [ref=f13e1306]: "REGA ID:"
+                          - generic [ref=f13e1307]: "7201049641"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1308]:
+                    - generic [ref=f13e1311]:
+                      - generic [ref=f13e1312]: Posted on
+                      - generic [ref=f13e1313]: Aug 03, 2026
+                  - cell "Views 14 Clicks 0 Leads 0" [ref=f13e1319]:
+                    - generic [ref=f13e1321]:
+                      - generic [ref=f13e1322]:
+                        - generic [ref=f13e1323]: Views
+                        - generic [ref=f13e1324]: "14"
+                      - generic [ref=f13e1325]:
+                        - generic [ref=f13e1326]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1327]:
+                        - generic [ref=f13e1328]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1334]
+                  - cell [ref=f13e1338]:
+                    - generic [ref=f13e1339]:
+                      - button [ref=f13e1341] [cursor=pointer]
+                      - button [ref=f13e1345] [cursor=pointer]
+                      - button [ref=f13e1349] [cursor=pointer]
+                      - button [ref=f13e1353] [cursor=pointer]
+                      - button [ref=f13e1357] [cursor=pointer]
+                      - button [ref=f13e1361] [cursor=pointer]
+                  - cell [ref=f13e1364]:
+                    - generic [ref=f13e1366]:
+                      - button [ref=f13e1368] [cursor=pointer]
+                      - button [ref=f13e1372] [cursor=pointer]
+                      - button [ref=f13e1376] [cursor=pointer]
+                      - button [ref=f13e1380] [cursor=pointer]
+                      - button [ref=f13e1384] [cursor=pointer]
+                      - button [ref=f13e1388] [cursor=pointer]
+                - row [ref=f13e1391]:
+                  - 'cell " 300,000 Basic 64% Commercial Building for Rent 0 1800 Sq. M. Jeddah, North Jeddah, Al Falah Bayut ID: 88087392 REGA ID: 7200954524" [ref=f13e1392]':
+                    - generic [ref=f13e1398]:
+                      - generic [ref=f13e1399]:
+                        - generic [ref=f13e1401]:
+                          - generic [ref=f13e1402]: 
+                          - text: 300,000
+                        - generic [ref=f13e1403]: Basic
+                        - generic [ref=f13e1409]: 64%
+                      - generic [ref=f13e1411]: Commercial Building for Rent
+                      - generic [ref=f13e1413]:
+                        - generic [ref=f13e1414]: "0"
+                        - generic [ref=f13e1421]: 1800 Sq. M.
+                      - generic [ref=f13e1428]: Jeddah, North Jeddah, Al Falah
+                      - generic [ref=f13e1430]:
+                        - text: "Bayut ID: 88087392"
+                        - separator [ref=f13e1431]
+                        - generic [ref=f13e1432]:
+                          - generic [ref=f13e1433]: "REGA ID:"
+                          - generic [ref=f13e1434]: "7200954524"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1435]:
+                    - generic [ref=f13e1438]:
+                      - generic [ref=f13e1439]: Posted on
+                      - generic [ref=f13e1440]: Aug 03, 2026
+                  - cell "Views 35 Clicks 1 Leads 0" [ref=f13e1446]:
+                    - generic [ref=f13e1448]:
+                      - generic [ref=f13e1449]:
+                        - generic [ref=f13e1450]: Views
+                        - generic [ref=f13e1451]: "35"
+                      - generic [ref=f13e1452]:
+                        - generic [ref=f13e1453]: Clicks
+                        - generic [ref=f13e1454]: "1"
+                      - generic [ref=f13e1455]:
+                        - generic [ref=f13e1456]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1462]
+                  - cell [ref=f13e1466]:
+                    - generic [ref=f13e1467]:
+                      - button [ref=f13e1469] [cursor=pointer]
+                      - button [ref=f13e1473] [cursor=pointer]
+                      - button [ref=f13e1477] [cursor=pointer]
+                      - button [ref=f13e1481] [cursor=pointer]
+                      - button [ref=f13e1485] [cursor=pointer]
+                      - button [ref=f13e1489] [cursor=pointer]
+                  - cell [ref=f13e1492]:
+                    - generic [ref=f13e1494]:
+                      - button [ref=f13e1496] [cursor=pointer]
+                      - button [ref=f13e1500] [cursor=pointer]
+                      - button [ref=f13e1504] [cursor=pointer]
+                      - button [ref=f13e1508] [cursor=pointer]
+                      - button [ref=f13e1512] [cursor=pointer]
+                      - button [ref=f13e1516] [cursor=pointer]
+                - row [ref=f13e1519]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 3997 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 88087364 REGA ID: 7200952933" [ref=f13e1520]':
+                    - generic [ref=f13e1526]:
+                      - generic [ref=f13e1527]:
+                        - generic [ref=f13e1529]:
+                          - generic [ref=f13e1530]: 
+                          - text: 400,000
+                        - generic [ref=f13e1531]: Basic
+                        - generic [ref=f13e1537]: 64%
+                      - generic [ref=f13e1539]: Commercial Building for Rent
+                      - generic [ref=f13e1541]:
+                        - generic [ref=f13e1542]: "0"
+                        - generic [ref=f13e1549]: 3997 Sq. M.
+                      - generic [ref=f13e1556]: Jeddah, North Jeddah, Al Bashaer
+                      - generic [ref=f13e1558]:
+                        - text: "Bayut ID: 88087364"
+                        - separator [ref=f13e1559]
+                        - generic [ref=f13e1560]:
+                          - generic [ref=f13e1561]: "REGA ID:"
+                          - generic [ref=f13e1562]: "7200952933"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1563]:
+                    - generic [ref=f13e1566]:
+                      - generic [ref=f13e1567]: Posted on
+                      - generic [ref=f13e1568]: Aug 03, 2026
+                  - cell "Views 26 Clicks 0 Leads 0" [ref=f13e1574]:
+                    - generic [ref=f13e1576]:
+                      - generic [ref=f13e1577]:
+                        - generic [ref=f13e1578]: Views
+                        - generic [ref=f13e1579]: "26"
+                      - generic [ref=f13e1580]:
+                        - generic [ref=f13e1581]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1582]:
+                        - generic [ref=f13e1583]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1589]
+                  - cell [ref=f13e1593]:
+                    - generic [ref=f13e1594]:
+                      - button [ref=f13e1596] [cursor=pointer]
+                      - button [ref=f13e1600] [cursor=pointer]
+                      - button [ref=f13e1604] [cursor=pointer]
+                      - button [ref=f13e1608] [cursor=pointer]
+                      - button [ref=f13e1612] [cursor=pointer]
+                      - button [ref=f13e1616] [cursor=pointer]
+                  - cell [ref=f13e1619]:
+                    - generic [ref=f13e1621]:
+                      - button [ref=f13e1623] [cursor=pointer]
+                      - button [ref=f13e1627] [cursor=pointer]
+                      - button [ref=f13e1631] [cursor=pointer]
+                      - button [ref=f13e1635] [cursor=pointer]
+                      - button [ref=f13e1639] [cursor=pointer]
+                      - button [ref=f13e1643] [cursor=pointer]
+                - row [ref=f13e1646]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087232 REGA ID: 7200932333" [ref=f13e1647]':
+                    - generic [ref=f13e1653]:
+                      - generic [ref=f13e1654]:
+                        - generic [ref=f13e1656]:
+                          - generic [ref=f13e1657]: 
+                          - text: 400,000
+                        - generic [ref=f13e1658]: Basic
+                        - generic [ref=f13e1664]: 64%
+                      - generic [ref=f13e1666]: Commercial Building for Rent
+                      - generic [ref=f13e1668]:
+                        - generic [ref=f13e1669]: "0"
+                        - generic [ref=f13e1676]: 2400 Sq. M.
+                      - generic [ref=f13e1683]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e1685]:
+                        - text: "Bayut ID: 88087232"
+                        - separator [ref=f13e1686]
+                        - generic [ref=f13e1687]:
+                          - generic [ref=f13e1688]: "REGA ID:"
+                          - generic [ref=f13e1689]: "7200932333"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1690]:
+                    - generic [ref=f13e1693]:
+                      - generic [ref=f13e1694]: Posted on
+                      - generic [ref=f13e1695]: Aug 03, 2026
+                  - cell "Views 34 Clicks 0 Leads 0" [ref=f13e1701]:
+                    - generic [ref=f13e1703]:
+                      - generic [ref=f13e1704]:
+                        - generic [ref=f13e1705]: Views
+                        - generic [ref=f13e1706]: "34"
+                      - generic [ref=f13e1707]:
+                        - generic [ref=f13e1708]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1709]:
+                        - generic [ref=f13e1710]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1716]
+                  - cell [ref=f13e1720]:
+                    - generic [ref=f13e1721]:
+                      - button [ref=f13e1723] [cursor=pointer]
+                      - button [ref=f13e1727] [cursor=pointer]
+                      - button [ref=f13e1731] [cursor=pointer]
+                      - button [ref=f13e1735] [cursor=pointer]
+                      - button [ref=f13e1739] [cursor=pointer]
+                      - button [ref=f13e1743] [cursor=pointer]
+                  - cell [ref=f13e1746]:
+                    - generic [ref=f13e1748]:
+                      - button [ref=f13e1750] [cursor=pointer]
+                      - button [ref=f13e1754] [cursor=pointer]
+                      - button [ref=f13e1758] [cursor=pointer]
+                      - button [ref=f13e1762] [cursor=pointer]
+                      - button [ref=f13e1766] [cursor=pointer]
+                      - button [ref=f13e1770] [cursor=pointer]
+                - row [ref=f13e1773]:
+                  - 'cell " 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087195 REGA ID: 7200944879" [ref=f13e1774]':
+                    - generic [ref=f13e1780]:
+                      - generic [ref=f13e1781]:
+                        - generic [ref=f13e1783]:
+                          - generic [ref=f13e1784]: 
+                          - text: 400,000
+                        - generic [ref=f13e1785]: Basic
+                        - generic [ref=f13e1791]: 64%
+                      - generic [ref=f13e1793]: Commercial Building for Rent
+                      - generic [ref=f13e1795]:
+                        - generic [ref=f13e1796]: "0"
+                        - generic [ref=f13e1803]: 2400 Sq. M.
+                      - generic [ref=f13e1810]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f13e1812]:
+                        - text: "Bayut ID: 88087195"
+                        - separator [ref=f13e1813]
+                        - generic [ref=f13e1814]:
+                          - generic [ref=f13e1815]: "REGA ID:"
+                          - generic [ref=f13e1816]: "7200944879"
+                  - cell "Posted on Aug 03, 2026" [ref=f13e1817]:
+                    - generic [ref=f13e1820]:
+                      - generic [ref=f13e1821]: Posted on
+                      - generic [ref=f13e1822]: Aug 03, 2026
+                  - cell "Views 23 Clicks 0 Leads 0" [ref=f13e1828]:
+                    - generic [ref=f13e1830]:
+                      - generic [ref=f13e1831]:
+                        - generic [ref=f13e1832]: Views
+                        - generic [ref=f13e1833]: "23"
+                      - generic [ref=f13e1834]:
+                        - generic [ref=f13e1835]: Clicks
+                        - text: "0"
+                      - generic [ref=f13e1836]:
+                        - generic [ref=f13e1837]: Leads
+                        - text: "0"
+                  - cell "Live" [ref=f13e1843]
+                  - cell [ref=f13e1847]:
+                    - generic [ref=f13e1848]:
+                      - button [ref=f13e1850] [cursor=pointer]
+                      - button [ref=f13e1854] [cursor=pointer]
+                      - button [ref=f13e1858] [cursor=pointer]
+                      - button [ref=f13e1862] [cursor=pointer]
+                      - button [ref=f13e1866] [cursor=pointer]
+                      - button [ref=f13e1870] [cursor=pointer]
+                  - cell [ref=f13e1873]:
+                    - generic [ref=f13e1875]:
+                      - button [ref=f13e1877] [cursor=pointer]
+                      - button [ref=f13e1881] [cursor=pointer]
+                      - button [ref=f13e1885] [cursor=pointer]
+                      - button [ref=f13e1889] [cursor=pointer]
+                      - button [ref=f13e1893] [cursor=pointer]
+                      - button [ref=f13e1897] [cursor=pointer]
+    - contentinfo [ref=f13e1900]:
+      - generic [ref=f13e1901]: © 2026 – All Rights Reserved

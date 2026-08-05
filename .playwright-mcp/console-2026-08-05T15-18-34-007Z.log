@@ -1,0 +1,549 @@
+[      13ms] [LOG] %c MoEngage %c %c info %c %c BatchManager.sendBeacon  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Window Unload: Created batch of 9 reports 5:8:2026:18:18:34 @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[      15ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.sendBeacon  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; [sendBeacon] batch payload: {"query_params":{"os":"web","os_platform":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36","is_incognito":false,"app_id":"YN6SIPTELMJ62JCQ1WIC9V5L_DEBUG","os_ver":"Google Chrome","sdk_ver":"2.49.0","model":"Google Chrome","app_ver":"1.0","device_ts":1785943114020,"device_tz_offset":"10800000","unique_id":"b1c138f4-4276-488d-86f2-e7b34d1c1673","device_tz":"-180","subscription_type":"vapid","vapid_public":"BFww_kvPYnJgCwlDvshW8JQOUoSj9ajKhXQCaQTMtcMRrg3uB9gTcu518y5BkGksBrDM__QuVruLf0Kzlv7Uxu0","environment":"sdk-01.moengage.com"},"identifiers":{"moe_user_id":"eda8e4b2-5c18-415a-a9d8-b1a6b94bd632"},"meta":{"bid":"8ee7dd2d-1daa-4a24-b565-0522e84ce230","request_time":"2026-08-05T15:18:34.021Z","session":{"session_id":"35aa0a55-ea35-4275-8823-44c8cd33f79a","start_time":"2026-08-05T15:17:52.061Z","background_initiated":0}},"viewsCount":9,"viewsInfo":[{"EVENT_ACTION":"EVENT_ACTION_WEB_SESSION_START","EVENT_ATTRS":{"timestamp":1785943072060,"moe_logged_in_status":false,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943072077","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"MOE_PAGE_VIEWED","EVENT_ATTRS":{"timestamp":1785943072060,"moe_logged_in_status":false,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943072078","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"EVENT_ACTION_USER_ATTRIBUTE","EVENT_ATTRS":{"USER_ATTRIBUTE_USER_EMAIL":"qusai@asbarunified.com"},"EVENT_G_TIME":"1785943072080","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"EVENT_ACTION_USER_ATTRIBUTE","EVENT_ATTRS":{"USER_ATTRIBUTE_USER_NAME":"Fahad Hameed"},"EVENT_G_TIME":"1785943072081","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"EVENT_ACTION_USER_ATTRIBUTE","EVENT_ATTRS":{"USER_ATTRIBUTE_UNIQUE_ID":"eda8e4b2-5c18-415a-a9d8-b1a6b94bd632"},"EVENT_G_TIME":"1785943072082","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"EVENT_ACTION_DEVICE_ATTRIBUTE","EVENT_ATTRS":{"deviceType":"DESKTOP","moe_logged_in_status":true,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943072344","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"EVENT_ACTION_DEVICE_ATTRIBUTE","EVENT_ATTRS":{"moe_push_opted":false,"source":"deviceAdd","moe_logged_in_status":true,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943072346","EVENT_L_TIME":"5:8:2026:18:17:52"},{"EVENT_ACTION":"MOE_WEB_OPTIN_BANNER_LOAD","EVENT_ATTRS":{"moe_logged_in_status":true,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943073097","EVENT_L_TIME":"5:8:2026:18:17:53","N_I_E":1},{"EVENT_ACTION":"MOE_WEB_OPTIN_CLOSED","EVENT_ATTRS":{"moe_logged_in_status":true,"moe_first_visit":true,"URL":"https://profolio.bayut.sa/en/dashboard"},"EVENT_G_TIME":"1785943078071","EVENT_L_TIME":"5:8:2026:18:17:58"}]} @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    1325ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ https://profolio.bayut.sa/profolio-assets/build-assets/react-vendor.oGa-TPX-.js:179
+[    2276ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    2276ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    3855ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s stroke-width strokeWidth 
+    at path
+    at svg
+    at ChevronRightIcon (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:685:1041776)
+    at button
+    at div
+    at aside
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1162:8680
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    3857ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s stroke-linecap strokeLinecap 
+    at path
+    at svg
+    at ChevronRightIcon (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:685:1041776)
+    at button
+    at div
+    at aside
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1162:8680
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    3857ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s stroke-linejoin strokeLinejoin 
+    at path
+    at svg
+    at ChevronRightIcon (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:685:1041776)
+    at button
+    at div
+    at aside
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1162:8680
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4157ms] [LOG] %c MoEngage %c %c info %c %c Pre-Initialization  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Script loaded! @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4157ms] [LOG] %c MoEngage %c %c Pre-Initialization %c %c SDK Version %c  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px;  color: white; background: #a400ff; border-radius: 5px;  2.49.0 @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4157ms] [WARNING] %c MoEngage %c %c warn %c %c Pre-Initialization  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #e8ab51; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; You are currently using MoEngage in debug environment. You'll find all the data captured in this environment in the TEST mode on the dashoard. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4157ms] [WARNING] %c MoEngage %c %c warn %c %c Pre-Initialization  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #e8ab51; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Please initialize with debugLevel as 0 @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4158ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.getAndPersistWebSettings  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Fetching latest web sdk settings for YN6SIPTELMJ62JCQ1WIC9V5L_DEBUG @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4441ms] [ERROR] Warning: [antd: Dropdown] `overlay` is deprecated. Please use `menu` instead. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4459ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.%s true compact compact true compact 
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1617:25673
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at me (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:236:2845)
+    at Flex (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:69)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ListingContainer (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2667:46)
+    at div
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ti (https://profolio.bayut.sa/profolio-assets/build-assets/dashboard.CjQRWRFh.js:1:20880)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at Suspense
+    at Home (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:7641)
+    at main
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3310
+    at Content
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4567ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.getAndPersistWebSettings  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Fetching config settings for YN6SIPTELMJ62JCQ1WIC9V5L_DEBUG @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4799ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s fill-rule fillRule 
+    at path
+    at svg
+    at ActiveListingIcon
+    at component
+    at span
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:22590
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:826:78
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:23915
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Icon$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:235460)
+    at div
+    at Item$4 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:59586)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:60356
+    at Statistic$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1653:216)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1617:25673
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at me (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:236:2845)
+    at Flex (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:69)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1697:6003
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:3747:31
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Card (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:4194:6899)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at LoaderWrapper (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2684:28)
+    at ListingBreakdown (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2667:8307)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1617:25673
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at me (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:236:2845)
+    at Flex (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:69)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ti (https://profolio.bayut.sa/profolio-assets/build-assets/dashboard.CjQRWRFh.js:1:20880)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at Suspense
+    at Home (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:7641)
+    at main
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3310
+    at Content
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4800ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-rule clipRule 
+    at path
+    at svg
+    at ActiveListingIcon
+    at component
+    at span
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:22590
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:826:78
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:23915
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Icon$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:235460)
+    at div
+    at Item$4 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:59586)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:60356
+    at Statistic$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1653:216)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1617:25673
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at me (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:236:2845)
+    at Flex (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:69)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1697:6003
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:3747:31
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Card (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:4194:6899)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at LoaderWrapper (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2684:28)
+    at ListingBreakdown (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2667:8307)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1617:25673
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at me (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:236:2845)
+    at Flex (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1625:69)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ti (https://profolio.bayut.sa/profolio-assets/build-assets/dashboard.CjQRWRFh.js:1:20880)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at Suspense
+    at Home (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:7641)
+    at main
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3310
+    at Content
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4896ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.getAndPersistWebSettings  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Fetched latest web and config settings @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4909ms] [LOG] %c MoEngage %c %c info %c %c Initialization  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Enabled Batching for Event Tracking @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4961ms] [LOG] %c MoEngage %c %c info %c %c UserModel.get  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; User resolved from cookie:  Tt @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4962ms] [LOG] %c MoEngage %c %c Initialization %c %c Device UUID %c  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px;  color: white; background: #a400ff; border-radius: 5px;  b1c138f4-4276-488d-86f2-e7b34d1c1673 @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4962ms] [LOG] %c MoEngage %c %c Initialization %c %c Device Added %c  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px;  color: white; background: #a400ff; border-radius: 5px;  true @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4962ms] [LOG] %c MoEngage %c %c info %c %c HTTPS-NotificationManager.registerServiceWorker  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Using user defined path to serviceworker: /moengage-service-worker.js @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4963ms] [LOG] %c MoEngage %c %c info %c %c HTTPS-NotificationManager.registerServiceWorker  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Scope for serviceworker: / @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4965ms] [LOG] %c MoEngage %c %c info %c %c MoeOnsite.initialize  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Initialising onsite module @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4967ms] [LOG] %c MoEngage %c %c info %c %c Moengage.clearWindowQ  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Method called before SDK downloaded: [add_unique_user_id] [eda8e4b2-5c18-415a-a9d8-b1a6b94bd632] @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4968ms] [LOG] %c MoEngage %c %c info %c %c Moengage.clearWindowQ  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Method called before SDK downloaded: [add_email] [qusai@asbarunified.com] @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4968ms] [LOG] %c MoEngage %c %c info %c %c Moengage.clearWindowQ  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Method called before SDK downloaded: [add_user_name] [Fahad Hameed] @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4969ms] [LOG] %c MoEngage %c %c info %c %c MoEngage.user.addUserAttribute  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; User already logged in with id: eda8e4b2-5c18-415a-a9d8-b1a6b94bd632 @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4976ms] [ERROR] %c MoEngage %c %c error %c %c MoEngage.user.addUserAttribute  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #cc0a0a; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Attribute already present/queued. Not adding again. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4977ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.reportAddInternal  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Event batched successfully: Jt @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4978ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.reportAddInternal  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Event batched successfully: Jt @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    4979ms] [LOG] %c MoEngage %c %c info %c %c MoeApi.reportAddInternal  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Event batched successfully: Jt @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    5161ms] [ERROR] Warning: findDOMNode is deprecated and will be removed in the next major release. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node%s 
+    at SingleObserver (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:11525)
+    at ResizeObserver$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:13204)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:29534
+    at Tooltip$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:38558)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:51087
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2699:47607
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Popover (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9461:77)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:6223:52
+    at DateFilter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:10690:5719)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:622:9367
+    at div
+    at div
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1697:6003
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:3747:31
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Card (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:4194:6899)
+    at div
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Xe (https://profolio.bayut.sa/profolio-assets/build-assets/ReportsLeadsTrafficSection.BaFxPl3w.js:1:878)
+    at div
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at ls (https://profolio.bayut.sa/profolio-assets/build-assets/ReportsLeadsTrafficSection.BaFxPl3w.js:1:13342)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ti (https://profolio.bayut.sa/profolio-assets/build-assets/dashboard.CjQRWRFh.js:1:20880)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at Suspense
+    at Home (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:7641)
+    at main
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3310
+    at Content
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    5213ms] [LOG] %c MoEngage %c %c info %c %c WebPushManager.startPushSubscription  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Not showing opt in as last it was shown 0 minute(s) back on Wed Aug 05 2026 18:17:53 GMT+0300 (التوقيت العربي الرسمي) . Reappear time is set to 1 hours. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    5213ms] [LOG] %c MoEngage %c %c info %c %c WebPushManager.startPushSubscription  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; You can clear localstorage to get opt-in again. @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    5282ms] [ERROR] Warning: Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?%s%s 
+
+Check the render method of `Styled(Component)`. 
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:18081
+    at p (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:11324)
+    at SingleObserver (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:11525)
+    at ResizeObserver$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:13204)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:29534
+    at Tooltip$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:38558)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:51087
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2699:47607
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Popover (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9461:77)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:6223:52
+    at ListingHealth (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:6234:2220)
+    at Health$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:6234:5730)
+    at div
+    at Item$4 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:59586)
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:60356
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at ListingPurpose (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:6075:9986)
+    at td
+    at Cell (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:8898)
+    at tr
+    at BodyRow (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:17631)
+    at We (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:5908)
+    at tbody
+    at Body (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:20164)
+    at We (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:5908)
+    at table
+    at div
+    at div
+    at div
+    at p (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:11324)
+    at SingleObserver (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:11525)
+    at ResizeObserver$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:630:13204)
+    at p (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:4180)
+    at Table$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:39495)
+    at We (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:5433)
+    at div
+    at div
+    at Spin (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1107:19143)
+    at div
+    at InternalTable (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:151233)
+    at Table (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:9677:158175)
+    at div
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:1697:6003
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:3747:31
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Card (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:4194:6899)
+    at div
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at DataTable (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:10663:46)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ListingContainer (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:2667:46)
+    at div
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at Group$3 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:798:31)
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at ti (https://profolio.bayut.sa/profolio-assets/build-assets/dashboard.CjQRWRFh.js:1:20880)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at Suspense
+    at Home (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:7641)
+    at main
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3310
+    at Content
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11644:3721
+    at Layout
+    at div
+    at at (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:3592)
+    at https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:141
+    at RenderIfLoggedIn (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3972)
+    at RenderedRoute (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:3730)
+    at Routes$1 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:10908)
+    at MainRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:8252)
+    at Router (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:67:9828)
+    at BrowserRouter (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:76:4027)
+    at Ro (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:45:5060)
+    at ErrorBoundary (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:11428:3336)
+    at ui (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:251:11272)
+    at Le (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:238:1292)
+    at LocaleProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:122:12064)
+    at MotionWrapper$2 (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:14737)
+    at ProviderChildren (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:16803)
+    at ConfigProvider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:131:21531)
+    at App (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:12682:11402)
+    at Provider (https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:701:27955) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    6189ms] [LOG] %c MoEngage %c %c info %c %c MoeOnsite.shouldSaveRemoteCampaigns  color: white; background: #41AE55; border-radius: 5px;  color: white; background: #18a0bf; border-radius: 5px;  color: white; background: #48beab; border-radius: 5px; Last fetch was less than 15 mins ago at  Wed Aug 05 2026 18:17:52 GMT+0300 (التوقيت العربي الرسمي) @ https://profolio.bayut.sa/profolio-assets/build-assets/index.DYxU0DoN.js:21
+[    8153ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o994084.ingest.sentry.io/api/6733790/envelope/?sentry_key=aa93aaf7799a4ba383d1d1fae86e10a5&sentry_version=7&sentry_client=sentry.javascript.react%2F8.38.0:0

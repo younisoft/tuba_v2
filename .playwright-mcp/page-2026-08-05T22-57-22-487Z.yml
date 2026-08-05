@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - text:   
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: "#"
+          - img "header-logo.png" [ref=e8]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "إضافة عقار جديد" [ref=e11] [cursor=pointer]
+          - listitem
+          - listitem [ref=e12]:
+            - link [ref=e13] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e14]: 
+              - generic [ref=e16]:
+                - img "Nafath Logo" [ref=e17]
+                - text: وكيل موثق
+          - listitem [ref=e18]:
+            - link [ref=e19] [cursor=pointer]:
+              - /url: "#!"
+              - img "Nafath Logo" [ref=e20]
+              - text: Fal License
+          - listitem [ref=e21]:
+            - link [ref=e22] [cursor=pointer]:
+              - /url: https://tuba.com.sa
+              - generic [ref=e23]:
+                - img [ref=e24]: 
+                - text: موقع إليكتروني
+          - listitem [ref=e26]:
+            - link "English" [ref=e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e28]:
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30]: 
+              - generic [ref=e32]: "0"
+          - listitem [ref=e33]:
+            - link "profile فهد" [ref=e35] [cursor=pointer]:
+              - /url: "#"
+              - img "profile" [ref=e36]
+              - generic [ref=e37]: فهد
+    - generic: 
+    - generic:          
+    - list [ref=e38]:
+      - listitem [ref=e39]:
+        - img "header-logo2.png" [ref=e40]
+      - listitem [ref=e41]: رئيسي
+      - listitem [ref=e42]:
+        - link "لوحة التحكم" [ref=e43] [cursor=pointer]:
+          - /url: https://tuba.com.sa/dashboard
+      - listitem [ref=e46]: إدارة القوائم
+      - listitem [ref=e47]:
+        - link "عقاراتي" [ref=e48] [cursor=pointer]:
+          - /url: https://tuba.com.sa/properties
+      - listitem [ref=e51]:
+        - link "البريد الوارد" [ref=e52] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-inbox
+      - listitem [ref=e55]:
+        - link " الطلبات العقارية" [ref=e56] [cursor=pointer]:
+          - /url: https://tuba.com.sa/property-requests
+          - generic [ref=e57]: 
+          - text: الطلبات العقارية
+      - listitem [ref=e58]: اعدادات المشرف
+      - listitem [ref=e59]: إدارة الحساب
+      - listitem [ref=e60]:
+        - link "اشتراكاتي" [ref=e61] [cursor=pointer]:
+          - /url: https://tuba.com.sa/package-detials
+      - listitem [ref=e64]:
+        - link "إدارة الفريق" [ref=e65] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-users
+          - img [ref=e66]: 
+          - text: إدارة الفريق
+      - listitem [ref=e68]:
+        - link "ملفي الشخصي" [ref=e69] [cursor=pointer]:
+          - /url: https://tuba.com.sa/my-profile
+          - img [ref=e70]: 
+          - text: ملفي الشخصي
+      - listitem [ref=e72]:
+        - link "اعدادات الحساب" [ref=e73] [cursor=pointer]:
+          - /url: https://tuba.com.sa/account-setting
+          - img [ref=e74]: 
+          - text: اعدادات الحساب
+      - listitem [ref=e76]:
+        - link " الباقات" [ref=e77] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+          - generic [ref=e78]: 
+          - text: الباقات
+          - img [ref=e79]: 
+        - text:   
+      - listitem [ref=e81]:
+        - link "الباقات" [ref=e82] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+      - listitem [ref=e85]:
+        - link "حزم المطورين" [ref=e86] [cursor=pointer]:
+          - /url: https://tuba.com.sa/developer-packages
+      - listitem [ref=e89]:
+        - link "باقات تراخيص الإعلانات" [ref=e90] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-license-packages
+      - listitem [ref=e93]:
+        - link "تسجيل الخروج" [ref=e94] [cursor=pointer]:
+          - /url: https://tuba.com.sa/logout
+    - generic [ref=e101]:
+      - generic [ref=e104]:
+        - heading "هلا, شركة اسبار" [level=2] [ref=e105]
+        - paragraph [ref=e106]: نحن سعداء لرؤيتك مرة أخرى!
+      - generic [ref=e111] [cursor=pointer]:
+        - strong [ref=e112]: أوشكت على الانتهاء!
+        - paragraph [ref=e113]: أضف المزيد من التفاصيل إلى ملفك الشخصي لزيادة الموثوقية وجذب المزيد من العملاء
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - heading "الإعلانات" [level=2] [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: فعال
+              - heading "2" [level=3] [ref=e126]
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: معلق
+              - heading "0" [level=3] [ref=e134]
+            - generic [ref=e140]:
+              - paragraph [ref=e141]: مباع
+              - heading "1" [level=3] [ref=e142]
+            - generic [ref=e144]:
+              - img [ref=e146]: 
+              - generic [ref=e148]:
+                - paragraph [ref=e149]: للإيجار
+                - heading "47" [level=3] [ref=e150]
+            - generic [ref=e156]:
+              - paragraph [ref=e157]: للبيع
+              - heading "6" [level=3] [ref=e158]
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: التقييمات والمراجعات
+              - heading "0" [level=3] [ref=e166]
+        - generic [ref=e167]:
+          - heading "الترقيات" [level=2] [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - img [ref=e174]: 
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: إعلان أساسي
+                - heading "22" [level=3] [ref=e178]
+            - generic [ref=e180]:
+              - img [ref=e182]: 
+              - generic [ref=e184]:
+                - paragraph [ref=e185]: إعلان متميز
+                - heading "4" [level=3] [ref=e186]
+            - generic [ref=e192]:
+              - paragraph [ref=e193]: إعلان متميز برو
+              - heading "2" [level=3] [ref=e194]
+      - heading "الإعلانات الأخيرة" [level=4] [ref=e195]
+      - generic [ref=e197]:
+        - table [ref=e202]:
+          - rowgroup [ref=e203]:
+            - row [ref=e204]:
+              - columnheader "العقار" [ref=e205]
+              - columnheader "الحالة" [ref=e206]
+              - columnheader "رصيد النشر" [ref=e207]
+              - columnheader "الأداء" [ref=e208]
+              - columnheader "ترقيات" [ref=e209]
+              - columnheader "الخدمات" [ref=e210]
+              - columnheader "اجراءات" [ref=e211]
+          - rowgroup [ref=e212]:
+            - row [ref=e213]:
+              - 'rowheader "fp2.jpg اساسي مجمع للإيجار في صامطه  صامطه 86387 الرقم المرجعي: 23562212 رقم الترخيص: 7200822986 تاريخ النشر: 08-01-2026 ينتهي بتاريخ: 19-08-2026  80k" [ref=e214]':
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - img "fp2.jpg" [ref=e217]
+                    - list [ref=e219]:
+                      - listitem [ref=e220]:
+                        - link "اساسي" [ref=e221] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e225]:
+                    - heading "مجمع للإيجار في صامطه" [level=4] [ref=e226]
+                    - paragraph [ref=e227]:
+                      - generic [ref=e228]: 
+                      - text: صامطه 86387
+                    - paragraph [ref=e229]: "الرقم المرجعي: 23562212"
+                    - paragraph [ref=e231]: "رقم الترخيص: 7200822986"
+                    - paragraph [ref=e233]:
+                      - img [ref=e234]: 
+                      - text: "تاريخ النشر: 08-01-2026"
+                    - paragraph [ref=e236]:
+                      - img [ref=e237]: 
+                      - text: "ينتهي بتاريخ: 19-08-2026"
+                    - link " 80k" [ref=e239] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e240]: 
+                      - text: 80k
+              - cell "فعال" [ref=e241]
+              - cell "الباقة" [ref=e242]
+              - cell [ref=e243]:
+                - paragraph [ref=e244]: "وصول الاعلان: 12751"
+                - paragraph [ref=e247]:
+                  - img [ref=e248]: 
+                  - text: "الزيارات: 435"
+                - paragraph [ref=e250]: "عملاء محتملين: 0"
+              - cell [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: برو
+                  - generic [ref=e260] [cursor=pointer]:
+                    - img [ref=e261]: 
+                    - text: مميز
+                  - generic [ref=e263]: تحديث
+              - cell [ref=e267]:
+                - img [ref=e270] [cursor=pointer]: 
+              - cell [ref=e278]:
+                - list [ref=e279]:
+                  - listitem "Edit" [ref=e280]:
+                    - link "" [ref=e281] [cursor=pointer]:
+                      - /url: https://tuba.com.sa/properties/38/edit
+                  - listitem "View" [ref=e283]:
+                    - link [ref=e284] [cursor=pointer]:
+                      - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-1
+                      - img [ref=e285]: 
+                  - listitem "Delete" [ref=e287]:
+                    - link "" [ref=e288] [cursor=pointer]:
+                      - /url: "#"
+            - row [ref=e290]:
+              - 'rowheader "fp2.jpg اساسي مجمع تجاري للإيجار في صامطه  صامطه 86387 الرقم المرجعي: 75808207 رقم الترخيص: 7200822986 تاريخ النشر: 19-02-2026 ينتهي بتاريخ: 👤 أنشئ بواسطة: عبدالحاكم  80k" [ref=e291]':
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - img "fp2.jpg" [ref=e294]
+                    - list [ref=e296]:
+                      - listitem [ref=e297]:
+                        - link "اساسي" [ref=e298] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e302]:
+                    - heading "مجمع تجاري للإيجار في صامطه" [level=4] [ref=e303]
+                    - paragraph [ref=e304]:
+                      - generic [ref=e305]: 
+                      - text: صامطه 86387
+                    - paragraph [ref=e306]: "الرقم المرجعي: 75808207"
+                    - paragraph [ref=e308]: "رقم الترخيص: 7200822986"
+                    - paragraph [ref=e310]:
+                      - img [ref=e311]: 
+                      - text: "تاريخ النشر: 19-02-2026"
+                    - paragraph [ref=e313]:
+                      - img [ref=e314]: 
+                      - text: "ينتهي بتاريخ:"
+                    - paragraph [ref=e316]:
+                      - text: "👤 أنشئ بواسطة:"
+                      - generic [ref=e317]: عبدالحاكم
+                    - link " 80k" [ref=e318] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e319]: 
+                      - text: 80k
+              - cell "فعال" [ref=e320]
+              - cell "الباقة" [ref=e321]
+              - cell [ref=e322]:
+                - paragraph [ref=e323]: "وصول الاعلان: 770"
+                - paragraph [ref=e326]:
+                  - img [ref=e327]: 
+                  - text: "الزيارات: 168"
+                - paragraph [ref=e329]: "عملاء محتملين: 0"
+              - cell [ref=e332]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: برو
+                  - generic [ref=e339] [cursor=pointer]:
+                    - img [ref=e340]: 
+                    - text: مميز
+                  - generic [ref=e342]: تحديث
+              - cell [ref=e346]:
+                - img [ref=e349] [cursor=pointer]: 
+              - cell [ref=e357]:
+                - list [ref=e358]:
+                  - listitem "Edit" [ref=e359]:
+                    - link "" [ref=e360] [cursor=pointer]:
+                      - /url: https://tuba.com.sa/properties/1119/edit
+                  - listitem "View" [ref=e362]:
+                    - link [ref=e363] [cursor=pointer]:
+                      - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-8
+                      - img [ref=e364]: 
+                  - listitem "Delete" [ref=e366]:
+                    - link "" [ref=e367] [cursor=pointer]:
+                      - /url: "#"
+        - generic [ref=e369]: Showing 1 to 2 of 2 entries (Page 1 of 1)
+        - generic [ref=e371]:
+          - generic [ref=e374]: Per page
+          - combobox [ref=e376] [cursor=pointer]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+    - text:         
+    - link [ref=e377] [cursor=pointer]:
+      - /url: https://wa.me/+966535020288?text=مرحباً، أنا  فهد حميد عبدالكريم الظاهري   وأحتاج مساعدة في منصة طوبة.
+      - img "WhatsApp" [ref=e378]
+    - text: 
+    - button "Scroll to bottom" [ref=e380] [cursor=pointer]

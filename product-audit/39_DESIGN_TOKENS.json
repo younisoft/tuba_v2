@@ -1,0 +1,70 @@
+{
+  "$schema": "informal — reverse-engineered from a live, read-only DOM/CSS inspection of profolio.bayut.sa on 2026-08-05",
+  "meta": {
+    "source": "getComputedStyle + CSSOM inspection of the authenticated session; no visual redesign assets available",
+    "confidence": "verified values are DOM-sampled; anything under 'inferredScale' is extrapolated, not sampled"
+  },
+  "color": {
+    "brand": {
+      "primary": { "value": "#006169", "verified": true, "usage": "primary CTA background, primary button/link text" },
+      "primaryTint": { "value": "#F7FCFC", "verified": true, "usage": "card background" }
+    },
+    "surface": {
+      "sidebar": { "value": "#F6F7FB", "verified": true },
+      "card": { "value": "#F7FCFC", "verified": true },
+      "page": { "value": "#FFFFFF", "verified": false, "note": "inferred from screenshots, not sampled directly" }
+    },
+    "status": {
+      "successFg": { "value": "#28B16D", "verified": true, "usage": "Live status pill text" },
+      "successBg": { "value": "#E5F7EB", "verified": true, "usage": "Live status pill background" },
+      "warningFg": { "value": "#F5A623", "verified": false, "note": "inferred from Hot/upgrade icon color in screenshots, not DOM-sampled" },
+      "dangerFg": { "value": "#E5484D", "verified": false, "note": "inferred from delete/trash icon color in screenshots, not DOM-sampled" }
+    },
+    "text": {
+      "primaryOnLight": { "value": "rgba(0,0,0,0.88)", "verified": true },
+      "neutral": { "value": "#707070", "verified": true, "usage": "secondary tags, muted links" },
+      "onPrimary": { "value": "#FFFFFF", "verified": true, "usage": "text on solid teal buttons" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": { "value": "Figtree, \"Droid Arabic Kufi\", sans-serif", "verified": true }
+    },
+    "fontSize": {
+      "body": { "value": "16px", "verified": true },
+      "component": { "value": "14px", "verified": true, "usage": "buttons, cards, tags" }
+    },
+    "fontWeight": {
+      "regular": { "value": 400, "verified": true },
+      "semibold": { "value": 600, "verified": true, "usage": "buttons, labels" }
+    },
+    "lineHeight": {
+      "bodyPx": { "value": "18.4px", "verified": true },
+      "buttonPx": { "value": "28px", "verified": true },
+      "cardPx": { "value": "21.994px", "verified": true }
+    }
+  },
+  "radius": {
+    "sm": { "value": "6px", "verified": true, "usage": "buttons" },
+    "md": { "value": "10px", "verified": true, "usage": "cards" },
+    "pill": { "value": "24px", "verified": true, "usage": "status tags" }
+  },
+  "elevation": {
+    "card": { "value": "0px 5px 20px rgba(146,153,184,0.01)", "verified": true }
+  },
+  "spacing": {
+    "buttonPaddingY": { "value": "6px", "verified": true },
+    "buttonPaddingX": { "value": "14px", "verified": true },
+    "inferredScale": { "value": [4, 8, 12, 16, 24, 32], "verified": false, "note": "no full scale could be conclusively sampled; provided as a conventional starting point for Tuba, not a Bayut fact" }
+  },
+  "border": {
+    "buttonHairline": { "value": "0.8px solid transparent", "verified": true }
+  },
+  "viewport": {
+    "capturedAt": { "width": 1536, "height": 691, "verified": true, "note": "desktop-only pass; no responsive/mobile breakpoints observed" }
+  },
+  "iconography": {
+    "style": "outline, consistent stroke weight, circular hit targets",
+    "accessibilityDefect": "row-action icon buttons carry no aria-label or title (DOM-verified) — do not replicate this gap in Tuba's own icon-button component"
+  }
+}

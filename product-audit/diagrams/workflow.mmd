@@ -1,0 +1,20 @@
+flowchart LR
+  A[Create Listing] --> B[Choose Listing Type]
+  B --> C[Enter Property Details]
+  C --> D[REGA / License Validation]
+  D --> E{Publish Now?}
+  E -->|Insufficient Credits| DR[Draft: Insufficient Credits]
+  E -->|Saved, not submitted| DR2[Draft: Not Posted]
+  E -->|Yes| F[Listing Live]
+  DR --> F
+  DR2 --> F
+  F --> G[Views and Clicks]
+  G --> H[Leads]
+  H --> I[Tasks and Follow-up]
+  F --> J[Credits / Upgrades]
+  J --> G
+  F --> K{License Expires or Deleted}
+  K -->|Ad License Expired| L[Removed: Ad License Expired]
+  K -->|Manually Deleted| M[Removed: Deleted]
+  L --> N[Publish Now to Relist]
+  M --> N

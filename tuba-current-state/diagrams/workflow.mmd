@@ -1,0 +1,31 @@
+%% Tuba Current-State Workflow — Lead Handling (the platform's core revenue hand-off)
+%% Observed (source-code read, 2026-08-06). See 06_WORKFLOW_ANALYSIS.md for live-verified detail once available.
+
+flowchart TD
+    Buyer(["Buyer / prospective customer"]) --> Path{"Contact method"}
+
+    Path -->|"Broadcast enquiry"| PR["PropertyRequest created\n(routes/web.php: property-request-forms)"]
+    Path -->|"Direct message"| AIR["AgentInboxRequest created\n(agent-inbox-property-request)"]
+
+    PR --> Notify1["Notify matched agent(s)"]
+    Notify1 -.->|"CONFIRMED BUG:\nnotifies the SUBMITTING CUSTOMER,\nnot the agent"| WrongParty["Wrong recipient"]
+
+    AIR --> Notify2{"model_type === 'property'?"}
+    Notify2 -->|yes| AgentNotified["Agent notified"]
+    Notify2 -->|no| NoNotify["No notification sent at all"]
+
+    AgentNotified --> AgentView["Agent views request in Agent Inbox"]
+    WrongParty -.-> AgentMayNeverSee["Agent may never see the lead"]
+
+    AgentView --> Offer["Agent submits commission offer\n(PropertyRequestOffer created)"]
+    Offer --> Stuck["STUCK: accept/reject fields exist\n(min_price, status, accepted_date)\nbut no code path ever populates them"]
+
+    AgentView --> ReplyAttempt["Agent wants to reply to buyer"]
+    ReplyAttempt --> NoChat["No two-way messaging exists\nin-platform — agent must use\nWhatsApp (static wa.me link)\nor phone, leaving the platform"]
+
+    style WrongParty fill:#8b1e1e,color:#fff,stroke:#5c1414
+    style NoNotify fill:#8b1e1e,color:#fff,stroke:#5c1414
+    style Stuck fill:#b45309,color:#fff,stroke:#7c3d05
+    style NoChat fill:#b45309,color:#fff,stroke:#7c3d05
+    style AgentMayNeverSee fill:#8b1e1e,color:#fff,stroke:#5c1414
+</content>

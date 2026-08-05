@@ -1,0 +1,132 @@
+- generic [ref=f8e12]:
+  - banner [ref=f8e13]:
+    - generic [ref=f8e14]:
+      - generic [ref=f8e15]: Summary
+      - generic [ref=f8e19]:
+        - button "Download App" [ref=f8e20] [cursor=pointer]
+        - link "Go to Bayut.sa" [ref=f8e24] [cursor=pointer]:
+          - /url: https://www.bayut.sa/en
+        - button "Post Listing" [ref=f8e27] [cursor=pointer]
+        - generic [ref=f8e32]:
+          - button [ref=f8e33] [cursor=pointer]
+          - superscript [ref=f8e36]:
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]: "2"
+              - generic [ref=f8e39]: "4"
+        - button [ref=f8e41] [cursor=pointer]:
+          - progressbar [ref=f8e42]
+  - complementary [ref=f8e53]:
+    - generic [ref=f8e54]:
+      - button "Collapse side menu" [ref=f8e4352] [cursor=pointer]
+      - img [ref=f8e59]:
+        - generic [ref=f8e66]: KSA
+      - generic [ref=f8e67]:
+        - menu [ref=f8e68]:
+          - menuitem "Overview" [ref=f8e69] [cursor=pointer]
+          - menuitem "Post Listing" [ref=f8e76] [cursor=pointer]
+          - menuitem "My Listings" [ref=f8e84] [cursor=pointer]
+          - menuitem "Credits Usage" [ref=f8e90] [cursor=pointer]
+          - menuitem "TruLeads" [ref=f8e97] [cursor=pointer]
+          - menuitem "Agent Performance" [ref=f8e106] [cursor=pointer]
+          - menuitem "Reports" [ref=f8e4376] [cursor=pointer]
+          - menuitem "Agency Staff" [ref=f8e121] [cursor=pointer]
+          - menuitem "Settings" [ref=f8e128] [cursor=pointer]
+          - menuitem "Credits & Packages" [ref=f8e134] [cursor=pointer]
+        - generic [ref=f8e141]:
+          - button [ref=f8e4390] [cursor=pointer]
+          - button "Help & Support" [ref=f8e4391] [cursor=pointer]
+  - generic [ref=f8e149]:
+    - main [ref=f8e150]:
+      - generic [ref=f8e4393]:
+        - generic [ref=f8e4394]:
+          - generic [ref=f8e4398]:
+            - generic [ref=f8e4399]: Listings
+            - generic [ref=f8e4405]:
+              - generic [ref=f8e4406]:
+                - button "animation" [ref=f8e4408]
+                - generic [ref=f8e4420]:
+                  - generic [ref=f8e4421]: Active
+                  - generic [ref=f8e4422]: "12"
+              - generic [ref=f8e4432]:
+                - generic [ref=f8e4433]: For Sale
+                - generic [ref=f8e4434]: "0"
+              - generic [ref=f8e4444]:
+                - generic [ref=f8e4445]: To Rent
+                - generic [ref=f8e4446]: "12"
+              - generic [ref=f8e4458]:
+                - generic [ref=f8e4459]: Daily Rentals
+                - generic [ref=f8e4460]: "0"
+              - generic [ref=f8e4470]:
+                - generic [ref=f8e4471]: Signature
+                - generic [ref=f8e4472]: "0"
+              - generic [ref=f8e4483]:
+                - generic [ref=f8e4484]: Hot
+                - generic [ref=f8e4485]: "0"
+              - generic [ref=f8e4496]:
+                - generic [ref=f8e4497]: Basic
+                - generic [ref=f8e4498]: "12"
+          - generic [ref=f8e4501]:
+            - generic [ref=f8e4502]: Breakdown By Location
+            - generic [ref=f8e4512]:
+              - generic [ref=f8e4513]:
+                - paragraph [ref=f8e4516]:
+                  - generic [ref=f8e4517]: "0"
+                  - text: For Sale
+                - generic [ref=f8e4519]: Not enough data
+              - generic [ref=f8e4523]:
+                - paragraph [ref=f8e4526]:
+                  - generic [ref=f8e4527]: "12"
+                  - text: To Rent
+                - generic [ref=f8e4530]:
+                  - generic [ref=f8e4531]:
+                    - generic [ref=f8e4532]: Taiba District
+                    - generic [ref=f8e4534]:
+                      - text: "7"
+                      - generic [ref=f8e4535]: 58.3%
+                  - generic [ref=f8e4536]:
+                    - generic [ref=f8e4537]: Al Salehiyah
+                    - generic [ref=f8e4539]:
+                      - text: "1"
+                      - generic [ref=f8e4540]: 8.3%
+                  - generic [ref=f8e4541]:
+                    - generic [ref=f8e4542]: Al Bashaer
+                    - generic [ref=f8e4544]:
+                      - text: "1"
+                      - generic [ref=f8e4545]: 8.3%
+                  - generic [ref=f8e4546]:
+                    - generic [ref=f8e4547]: Al Falah
+                    - generic [ref=f8e4549]:
+                      - text: "1"
+                      - generic [ref=f8e4550]: 8.3%
+                  - generic [ref=f8e4551]:
+                    - generic [ref=f8e4552]: At Tahliyah
+                    - generic [ref=f8e4554]:
+                      - text: "1"
+                      - generic [ref=f8e4555]: 8.3%
+                  - generic [ref=f8e4556]:
+                    - generic [ref=f8e4557]: Others
+                    - generic [ref=f8e4559]:
+                      - text: "1"
+                      - generic [ref=f8e4560]: 8.3%
+        - generic [ref=f8e4566]:
+          - generic [ref=f8e4567]:
+            - generic:
+              - tablist:
+                - generic:
+                  - generic:
+                    - generic:
+                      - tab [selected]
+                    - generic:
+                      - tab
+                    - generic:
+                      - tab
+              - generic:
+                - generic:
+                  - tabpanel
+          - list [ref=f8e4571]:
+            - listitem [ref=f8e4572]
+            - listitem [ref=f8e4573]
+            - listitem [ref=f8e4574]
+            - listitem [ref=f8e4575]
+    - contentinfo [ref=f8e1549]:
+      - generic [ref=f8e1550]: © 2026 – All Rights Reserved

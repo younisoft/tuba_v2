@@ -1,0 +1,162 @@
+- generic [active] [ref=f6e1]:
+  - text:   
+  - generic [ref=f6e3]:
+    - banner [ref=f6e4]:
+      - navigation [ref=f6e6]:
+        - link [ref=f6e7] [cursor=pointer]:
+          - /url: "#"
+          - img "header-logo.png" [ref=f6e8]
+        - list [ref=f6e9]:
+          - listitem [ref=f6e10]:
+            - button "إضافة عقار جديد" [ref=f6e11] [cursor=pointer]
+          - listitem
+          - listitem [ref=f6e12]:
+            - link [ref=f6e13] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f6e14]: 
+              - generic [ref=f6e16]:
+                - img "Nafath Logo" [ref=f6e17]
+                - text: وكيل موثق
+          - listitem [ref=f6e18]:
+            - link [ref=f6e19] [cursor=pointer]:
+              - /url: "#!"
+              - img "Nafath Logo" [ref=f6e20]
+              - text: Fal License
+          - listitem [ref=f6e21]:
+            - link [ref=f6e22] [cursor=pointer]:
+              - /url: https://tuba.com.sa
+              - generic [ref=f6e23]:
+                - img [ref=f6e24]: 
+                - text: موقع إليكتروني
+          - listitem [ref=f6e26]:
+            - link "English" [ref=f6e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e28]:
+            - generic [ref=f6e29] [cursor=pointer]:
+              - img [ref=f6e30]: 
+              - generic [ref=f6e32]: "0"
+          - listitem [ref=f6e33]:
+            - link "profile فهد" [ref=f6e35] [cursor=pointer]:
+              - /url: "#"
+              - img "profile" [ref=f6e36]
+              - generic [ref=f6e37]: فهد
+    - generic: 
+    - generic:          
+    - list [ref=f6e38]:
+      - listitem [ref=f6e39]:
+        - img "header-logo2.png" [ref=f6e40]
+      - listitem [ref=f6e41]: رئيسي
+      - listitem [ref=f6e42]:
+        - link "لوحة التحكم" [ref=f6e43] [cursor=pointer]:
+          - /url: https://tuba.com.sa/dashboard
+      - listitem [ref=f6e46]: إدارة القوائم
+      - listitem [ref=f6e47]:
+        - link "عقاراتي" [ref=f6e48] [cursor=pointer]:
+          - /url: https://tuba.com.sa/properties
+      - listitem [ref=f6e51]:
+        - link "البريد الوارد" [ref=f6e52] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-inbox
+      - listitem [ref=f6e55]:
+        - link " الطلبات العقارية" [ref=f6e56] [cursor=pointer]:
+          - /url: https://tuba.com.sa/property-requests
+          - generic [ref=f6e57]: 
+          - text: الطلبات العقارية
+      - listitem [ref=f6e58]: اعدادات المشرف
+      - listitem [ref=f6e59]: إدارة الحساب
+      - listitem [ref=f6e60]:
+        - link "اشتراكاتي" [ref=f6e61] [cursor=pointer]:
+          - /url: https://tuba.com.sa/package-detials
+      - listitem [ref=f6e64]:
+        - link "إدارة الفريق" [ref=f6e65] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-users
+          - img [ref=f6e66]: 
+          - text: إدارة الفريق
+      - listitem [ref=f6e68]:
+        - link "ملفي الشخصي" [ref=f6e69] [cursor=pointer]:
+          - /url: https://tuba.com.sa/my-profile
+          - img [ref=f6e70]: 
+          - text: ملفي الشخصي
+      - listitem [ref=f6e72]:
+        - link "اعدادات الحساب" [ref=f6e73] [cursor=pointer]:
+          - /url: https://tuba.com.sa/account-setting
+          - img [ref=f6e74]: 
+          - text: اعدادات الحساب
+      - listitem [ref=f6e76]:
+        - link " الباقات" [ref=f6e77] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+          - generic [ref=f6e78]: 
+          - text: الباقات
+          - img [ref=f6e79]: 
+        - text:   
+      - listitem [ref=f6e81]:
+        - link "الباقات" [ref=f6e82] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+      - listitem [ref=f6e85]:
+        - link "حزم المطورين" [ref=f6e86] [cursor=pointer]:
+          - /url: https://tuba.com.sa/developer-packages
+      - listitem [ref=f6e89]:
+        - link "باقات تراخيص الإعلانات" [ref=f6e90] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-license-packages
+      - listitem [ref=f6e93]:
+        - link "تسجيل الخروج" [ref=f6e94] [cursor=pointer]:
+          - /url: https://tuba.com.sa/logout
+    - generic [ref=f6e102]:
+      - generic [ref=f6e104]:
+        - heading "مستخدمو الوكلاء" [level=2] [ref=f6e105]
+        - paragraph [ref=f6e106]: نحن سعداء لرؤيتك مرة أخرى!
+      - list [ref=f6e109]:
+        - listitem [ref=f6e110]:
+          - link "أضف جديدا" [ref=f6e111] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-users/create
+            - img [ref=f6e112]: 
+            - text: أضف جديدا
+      - table [ref=f6e117]:
+        - rowgroup [ref=f6e118]:
+          - row [ref=f6e119]:
+            - columnheader "#" [ref=f6e120]
+            - columnheader "الإسم" [ref=f6e121]
+            - columnheader "رقم الجوال" [ref=f6e122]
+            - columnheader "إجراء" [ref=f6e123]
+        - rowgroup [ref=f6e124]:
+          - row [ref=f6e125]:
+            - cell "1" [ref=f6e126]
+            - cell "قسا" [ref=f6e127]
+            - cell "966500558677" [ref=f6e128]
+            - cell [ref=f6e129]:
+              - list [ref=f6e130]:
+                - listitem "Edit" [ref=f6e131]:
+                  - link "" [ref=f6e132] [cursor=pointer]:
+                    - /url: https://tuba.com.sa/agent-users/132/edit
+                - listitem "Delete" [ref=f6e134]:
+                  - link "" [ref=f6e135] [cursor=pointer]:
+                    - /url: "#"
+          - row [ref=f6e137]:
+            - cell "2" [ref=f6e138]
+            - cell "عبدالحاكم" [ref=f6e139]
+            - cell "966557011839" [ref=f6e140]
+            - cell [ref=f6e141]:
+              - list [ref=f6e142]:
+                - listitem "Edit" [ref=f6e143]:
+                  - link "" [ref=f6e144] [cursor=pointer]:
+                    - /url: https://tuba.com.sa/agent-users/133/edit
+                - listitem "Delete" [ref=f6e146]:
+                  - link "" [ref=f6e147] [cursor=pointer]:
+                    - /url: "#"
+          - row [ref=f6e149]:
+            - cell "3" [ref=f6e150]
+            - cell "أحمد" [ref=f6e151]
+            - cell "966536809070" [ref=f6e152]
+            - cell [ref=f6e153]:
+              - list [ref=f6e154]:
+                - listitem "Edit" [ref=f6e155]:
+                  - link "" [ref=f6e156] [cursor=pointer]:
+                    - /url: https://tuba.com.sa/agent-users/134/edit
+                - listitem "Delete" [ref=f6e158]:
+                  - link "" [ref=f6e159] [cursor=pointer]:
+                    - /url: "#"
+    - link [ref=f6e161] [cursor=pointer]:
+      - /url: https://wa.me/+966535020288?text=مرحباً، أنا  فهد حميد عبدالكريم الظاهري   وأحتاج مساعدة في منصة طوبة.
+      - img "WhatsApp" [ref=f6e162]
+    - text: 
+    - generic:
+      - button "Scroll to bottom"

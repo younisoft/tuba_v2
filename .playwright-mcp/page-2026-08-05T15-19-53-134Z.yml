@@ -1,0 +1,371 @@
+- generic [ref=f8e12]:
+  - banner [ref=f8e13]:
+    - generic [ref=f8e14]:
+      - generic [ref=f8e15]: My Listings
+      - generic [ref=f8e19]:
+        - button "Download App" [ref=f8e20] [cursor=pointer]
+        - link "Go to Bayut.sa" [ref=f8e24] [cursor=pointer]:
+          - /url: https://www.bayut.sa/en
+        - button "Post Listing" [ref=f8e27] [cursor=pointer]
+        - generic [ref=f8e32]:
+          - button [ref=f8e33] [cursor=pointer]
+          - superscript [ref=f8e36]:
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]: "2"
+              - generic [ref=f8e39]: "4"
+        - button [ref=f8e41] [cursor=pointer]:
+          - progressbar [ref=f8e42]
+  - complementary [ref=f8e53]:
+    - generic [ref=f8e54]:
+      - button "Expand side menu" [ref=f8e55] [cursor=pointer]
+      - img [ref=f8e59]:
+        - generic [ref=f8e66]: KSA
+      - generic [ref=f8e67]:
+        - menu [ref=f8e68]:
+          - menuitem "Overview" [ref=f8e69] [cursor=pointer]
+          - menuitem "Post Listing" [ref=f8e76] [cursor=pointer]
+          - menuitem "My Listings" [ref=f8e84] [cursor=pointer]
+          - menuitem "Credits Usage" [ref=f8e90] [cursor=pointer]
+          - menuitem "TruLeads" [ref=f8e97] [cursor=pointer]
+          - menuitem "Agent Performance" [ref=f8e106] [cursor=pointer]
+          - menuitem "Reports" [ref=f8e114] [cursor=pointer]
+          - menuitem "Agency Staff" [ref=f8e121] [cursor=pointer]
+          - menuitem "Settings" [ref=f8e128] [cursor=pointer]
+          - menuitem "Credits & Packages" [ref=f8e134] [cursor=pointer]
+        - generic [ref=f8e141]:
+          - button [ref=f8e143] [cursor=pointer]
+          - button [ref=f8e146] [cursor=pointer]
+  - generic [ref=f8e149]:
+    - main [ref=f8e150]:
+      - generic [ref=f8e152]:
+        - generic [ref=f8e155]:
+          - generic [ref=f8e157]:
+            - generic [ref=f8e164]:
+              - generic [ref=f8e165]: Listing ID
+              - spinbutton "Enter Listing ID" [ref=f8e168]
+            - generic [ref=f8e176]:
+              - generic [ref=f8e177]: REGA Ad License Number
+              - spinbutton "Enter REGA Ad License Number" [ref=f8e180]
+            - generic [ref=f8e188]:
+              - generic [ref=f8e189]: Purpose
+              - generic [ref=f8e192] [cursor=pointer]:
+                - combobox [ref=f8e194]
+                - generic: Select Purpose
+            - generic [ref=f8e205]:
+              - generic [ref=f8e206]: Property Type
+              - generic [ref=f8e209] [cursor=pointer]:
+                - combobox [ref=f8e213]
+                - generic: Select Property Types
+          - generic [ref=f8e218]:
+            - button "Show More" [ref=f8e220] [cursor=pointer]
+            - button "Clear filters" [disabled]
+            - button "Search" [ref=f8e224] [cursor=pointer]
+        - generic [ref=f8e231]:
+          - generic [ref=f8e233]:
+            - tablist [ref=f8e234]:
+              - generic [ref=f8e236]:
+                - tab "Active (12)" [ref=f8e238] [cursor=pointer]
+                - tab "Draft (3)" [ref=f8e240] [cursor=pointer]
+                - tab "Pending (0)" [ref=f8e242] [cursor=pointer]
+                - tab "Removed (29)" [active] [selected] [ref=f8e244] [cursor=pointer]
+                - tab "Ad License Requests (0)" [ref=f8e246] [cursor=pointer]
+            - generic:
+              - generic:
+                - tabpanel "Removed (29)"
+          - table [ref=f8e254]:
+            - rowgroup [ref=f8e262]:
+              - row [ref=f8e1864]:
+                - columnheader "Property" [ref=f8e264]
+                - columnheader "Timeline" [ref=f8e265]
+                - columnheader "Performance" [ref=f8e1865]
+                - columnheader "Status" [ref=f8e267]
+                - columnheader "Publish" [ref=f8e1597]
+                - columnheader "Actions" [ref=f8e269]
+            - rowgroup [ref=f8e270]:
+              - row [ref=f8e1866]:
+                - 'cell "1 0  200,000 87% Exhibition Building for Rent 2000 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 87818765 REGA ID: 7200763802" [ref=f8e1867]':
+                  - generic [ref=f8e1868]:
+                    - superscript [ref=f8e1873]:
+                      - generic [ref=f8e1874]:
+                        - generic [ref=f8e1875]: "1"
+                        - generic [ref=f8e1876]: "0"
+                    - generic [ref=f8e1877]:
+                      - generic [ref=f8e1878]:
+                        - generic [ref=f8e1880]:
+                          - generic [ref=f8e1881]: 
+                          - text: 200,000
+                        - generic [ref=f8e1882]: 87%
+                      - generic [ref=f8e1884]: Exhibition Building for Rent
+                      - generic [ref=f8e1886]: 2000 Sq. M.
+                      - generic [ref=f8e1894]: Jeddah, North Jeddah, Al Bashaer
+                      - generic [ref=f8e1896]:
+                        - text: "Bayut ID: 87818765"
+                        - separator [ref=f8e1897]
+                        - generic [ref=f8e1898]:
+                          - generic [ref=f8e1899]: "REGA ID:"
+                          - generic [ref=f8e1900]: "7200763802"
+                - cell "Posted on Nov 17, 2025" [ref=f8e1901]:
+                  - generic [ref=f8e1904]:
+                    - generic [ref=f8e1905]: Posted on
+                    - generic [ref=f8e1906]: Nov 17, 2025
+                - cell "Views 12,049 Clicks 231 Leads 22" [ref=f8e1912]:
+                  - generic [ref=f8e1914]:
+                    - generic [ref=f8e1915]:
+                      - generic [ref=f8e1916]: Views
+                      - generic [ref=f8e1917]: 12,049
+                    - generic [ref=f8e1918]:
+                      - generic [ref=f8e1919]: Clicks
+                      - generic [ref=f8e1920]: "231"
+                    - generic [ref=f8e1921]:
+                      - generic [ref=f8e1922]: Leads
+                      - generic [ref=f8e1923]: "22"
+                - cell "Ad License Expired" [ref=f8e1929]
+                - cell [ref=f8e1933]
+                - cell [ref=f8e1936]:
+                  - button [ref=f8e1940] [cursor=pointer]
+              - row [ref=f8e1943]:
+                - 'cell "1 4  300,000 73% Commercial Building for Rent 3997 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 87602292 REGA ID: 7200374840" [ref=f8e1944]':
+                  - generic [ref=f8e1945]:
+                    - superscript [ref=f8e1950]:
+                      - generic [ref=f8e1951]:
+                        - generic [ref=f8e1952]: "1"
+                        - generic [ref=f8e1953]: "4"
+                    - generic [ref=f8e1954]:
+                      - generic [ref=f8e1955]:
+                        - generic [ref=f8e1957]:
+                          - generic [ref=f8e1958]: 
+                          - text: 300,000
+                        - generic [ref=f8e1959]: 73%
+                      - generic [ref=f8e1961]: Commercial Building for Rent
+                      - generic [ref=f8e1963]: 3997 Sq. M.
+                      - generic [ref=f8e1971]: Jeddah, North Jeddah, Al Bashaer
+                      - generic [ref=f8e1973]:
+                        - text: "Bayut ID: 87602292"
+                        - separator [ref=f8e1974]
+                        - generic [ref=f8e1975]:
+                          - generic [ref=f8e1976]: "REGA ID:"
+                          - generic [ref=f8e1977]: "7200374840"
+                - cell "Posted on May 13, 2025" [ref=f8e1978]:
+                  - generic [ref=f8e1981]:
+                    - generic [ref=f8e1982]: Posted on
+                    - generic [ref=f8e1983]: May 13, 2025
+                - cell "Views 0 Clicks 0 Leads 0" [ref=f8e1989]:
+                  - generic [ref=f8e1991]:
+                    - generic [ref=f8e1992]:
+                      - generic [ref=f8e1993]: Views
+                      - text: "0"
+                    - generic [ref=f8e1994]:
+                      - generic [ref=f8e1995]: Clicks
+                      - text: "0"
+                    - generic [ref=f8e1996]:
+                      - generic [ref=f8e1997]: Leads
+                      - text: "0"
+                - cell "Ad License Expired" [ref=f8e2003]
+                - cell [ref=f8e2007]
+                - cell [ref=f8e2010]:
+                  - button [ref=f8e2014] [cursor=pointer]
+              - row [ref=f8e2017]:
+                - 'cell "1  1,080,000,000 100% Commercial Land for Rent 720 Sq. M. Jeddah, North Jeddah, Al Manar Bayut ID: 87601341 REGA ID: 7200238923" [ref=f8e2018]':
+                  - generic [ref=f8e2019]:
+                    - superscript [ref=f8e2024]:
+                      - generic [ref=f8e2025]: "1"
+                    - generic [ref=f8e2027]:
+                      - generic [ref=f8e2028]:
+                        - generic [ref=f8e2030]:
+                          - generic [ref=f8e2031]: 
+                          - text: 1,080,000,000
+                        - generic [ref=f8e2032]: 100%
+                      - generic [ref=f8e2034]: Commercial Land for Rent
+                      - generic [ref=f8e2036]: 720 Sq. M.
+                      - generic [ref=f8e2044]: Jeddah, North Jeddah, Al Manar
+                      - generic [ref=f8e2046]:
+                        - text: "Bayut ID: 87601341"
+                        - separator [ref=f8e2047]
+                        - generic [ref=f8e2048]:
+                          - generic [ref=f8e2049]: "REGA ID:"
+                          - generic [ref=f8e2050]: "7200238923"
+                - cell "Posted on Jul 15, 2025" [ref=f8e2051]:
+                  - generic [ref=f8e2054]:
+                    - generic [ref=f8e2055]: Posted on
+                    - generic [ref=f8e2056]: Jul 15, 2025
+                - cell "Views 0 Clicks 0 Leads 0" [ref=f8e2062]:
+                  - generic [ref=f8e2064]:
+                    - generic [ref=f8e2065]:
+                      - generic [ref=f8e2066]: Views
+                      - text: "0"
+                    - generic [ref=f8e2067]:
+                      - generic [ref=f8e2068]: Clicks
+                      - text: "0"
+                    - generic [ref=f8e2069]:
+                      - generic [ref=f8e2070]: Leads
+                      - text: "0"
+                - cell "Ad License Expired" [ref=f8e2076]
+                - cell [ref=f8e2080]
+                - cell [ref=f8e2083]:
+                  - button [ref=f8e2087] [cursor=pointer]
+              - row [ref=f8e2090]:
+                - 'cell "1 0  300,000 73% Commercial Building for Rent 42 Sq. M. Taif, Al Sadad Bayut ID: 87601338 REGA ID: 7200239718" [ref=f8e2091]':
+                  - generic [ref=f8e2092]:
+                    - superscript [ref=f8e2097]:
+                      - generic [ref=f8e2098]:
+                        - generic [ref=f8e2099]: "1"
+                        - generic [ref=f8e2100]: "0"
+                    - generic [ref=f8e2101]:
+                      - generic [ref=f8e2102]:
+                        - generic [ref=f8e2104]:
+                          - generic [ref=f8e2105]: 
+                          - text: 300,000
+                        - generic [ref=f8e2106]: 73%
+                      - generic [ref=f8e2108]: Commercial Building for Rent
+                      - generic [ref=f8e2110]: 42 Sq. M.
+                      - generic [ref=f8e2118]: Taif, Al Sadad
+                      - generic [ref=f8e2120]:
+                        - text: "Bayut ID: 87601338"
+                        - separator [ref=f8e2121]
+                        - generic [ref=f8e2122]:
+                          - generic [ref=f8e2123]: "REGA ID:"
+                          - generic [ref=f8e2124]: "7200239718"
+                - cell "Posted on Jun 30, 2025" [ref=f8e2125]:
+                  - generic [ref=f8e2128]:
+                    - generic [ref=f8e2129]: Posted on
+                    - generic [ref=f8e2130]: Jun 30, 2025
+                - cell "Views 0 Clicks 1 Leads 0" [ref=f8e2136]:
+                  - generic [ref=f8e2138]:
+                    - generic [ref=f8e2139]:
+                      - generic [ref=f8e2140]: Views
+                      - text: "0"
+                    - generic [ref=f8e2141]:
+                      - generic [ref=f8e2142]: Clicks
+                      - generic [ref=f8e2143]: "1"
+                    - generic [ref=f8e2144]:
+                      - generic [ref=f8e2145]: Leads
+                      - text: "0"
+                - cell "Ad License Expired" [ref=f8e2151]
+                - cell [ref=f8e2155]
+                - cell [ref=f8e2158]:
+                  - button [ref=f8e2162] [cursor=pointer]
+              - row [ref=f8e2165]:
+                - 'cell "5  400,000 73% Commercial Building for Rent 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 87600438 REGA ID: 7200281307" [ref=f8e2166]':
+                  - generic [ref=f8e2167]:
+                    - superscript [ref=f8e2172]:
+                      - generic [ref=f8e2173]: "5"
+                    - generic [ref=f8e2175]:
+                      - generic [ref=f8e2176]:
+                        - generic [ref=f8e2178]:
+                          - generic [ref=f8e2179]: 
+                          - text: 400,000
+                        - generic [ref=f8e2180]: 73%
+                      - generic [ref=f8e2182]: Commercial Building for Rent
+                      - generic [ref=f8e2184]: 2400 Sq. M.
+                      - generic [ref=f8e2192]: Jeddah, North Jeddah, Taiba District
+                      - generic [ref=f8e2194]:
+                        - text: "Bayut ID: 87600438"
+                        - separator [ref=f8e2195]
+                        - generic [ref=f8e2196]:
+                          - generic [ref=f8e2197]: "REGA ID:"
+                          - generic [ref=f8e2198]: "7200281307"
+                - cell "Posted on Jun 30, 2025" [ref=f8e2199]:
+                  - generic [ref=f8e2202]:
+                    - generic [ref=f8e2203]: Posted on
+                    - generic [ref=f8e2204]: Jun 30, 2025
+                - cell "Views 0 Clicks 0 Leads 0" [ref=f8e2210]:
+                  - generic [ref=f8e2212]:
+                    - generic [ref=f8e2213]:
+                      - generic [ref=f8e2214]: Views
+                      - text: "0"
+                    - generic [ref=f8e2215]:
+                      - generic [ref=f8e2216]: Clicks
+                      - text: "0"
+                    - generic [ref=f8e2217]:
+                      - generic [ref=f8e2218]: Leads
+                      - text: "0"
+                - cell "Ad License Expired" [ref=f8e2224]
+                - cell [ref=f8e2228]
+                - cell [ref=f8e2231]:
+                  - button [ref=f8e2235] [cursor=pointer]
+              - row [ref=f8e2238]:
+                - 'cell " 250,000 64% Exhibition Building for Rent 0 650 Sq. M. Jeddah, North Jeddah, Al Samer Bayut ID: 87600435 REGA ID: 7200276177" [ref=f8e2239]':
+                  - generic [ref=f8e2245]:
+                    - generic [ref=f8e2246]:
+                      - generic [ref=f8e2248]:
+                        - generic [ref=f8e2249]: 
+                        - text: 250,000
+                      - generic [ref=f8e2250]: 64%
+                    - generic [ref=f8e2252]: Exhibition Building for Rent
+                    - generic [ref=f8e2254]:
+                      - generic [ref=f8e2255]: "0"
+                      - generic [ref=f8e2262]: 650 Sq. M.
+                    - generic [ref=f8e2269]: Jeddah, North Jeddah, Al Samer
+                    - generic [ref=f8e2271]:
+                      - text: "Bayut ID: 87600435"
+                      - separator [ref=f8e2272]
+                      - generic [ref=f8e2273]:
+                        - generic [ref=f8e2274]: "REGA ID:"
+                        - generic [ref=f8e2275]: "7200276177"
+                - cell "Posted on -" [ref=f8e2276]:
+                  - generic [ref=f8e2279]:
+                    - generic [ref=f8e2280]: Posted on
+                    - generic [ref=f8e2281]: "-"
+                - cell "Views 0 Clicks 0 Leads 0" [ref=f8e2287]:
+                  - generic [ref=f8e2289]:
+                    - generic [ref=f8e2290]:
+                      - generic [ref=f8e2291]: Views
+                      - text: "0"
+                    - generic [ref=f8e2292]:
+                      - generic [ref=f8e2293]: Clicks
+                      - text: "0"
+                    - generic [ref=f8e2294]:
+                      - generic [ref=f8e2295]: Leads
+                      - text: "0"
+                - cell "Deleted" [ref=f8e2301]
+                - cell [ref=f8e2305]:
+                  - button "Publish Now" [ref=f8e2308] [cursor=pointer]
+                - cell [ref=f8e2310]:
+                  - generic [ref=f8e2312]:
+                    - button [ref=f8e2314] [cursor=pointer]
+                    - button [ref=f8e2318] [cursor=pointer]
+                    - button [ref=f8e2322] [cursor=pointer]
+              - row [ref=f8e2325]:
+                - 'cell " 1,500 100% Residential Land for Sale 0 2991 Sq. M. Jeddah, North Jeddah, Al Safa Bayut ID: 87600181 REGA ID: 7200235998" [ref=f8e2326]':
+                  - generic [ref=f8e2332]:
+                    - generic [ref=f8e2333]:
+                      - generic [ref=f8e2335]:
+                        - generic [ref=f8e2336]: 
+                        - text: 1,500
+                      - generic [ref=f8e2337]: 100%
+                    - generic [ref=f8e2339]: Residential Land for Sale
+                    - generic [ref=f8e2341]:
+                      - generic [ref=f8e2342]: "0"
+                      - generic [ref=f8e2349]: 2991 Sq. M.
+                    - generic [ref=f8e2356]: Jeddah, North Jeddah, Al Safa
+                    - generic [ref=f8e2358]:
+                      - text: "Bayut ID: 87600181"
+                      - separator [ref=f8e2359]
+                      - generic [ref=f8e2360]:
+                        - generic [ref=f8e2361]: "REGA ID:"
+                        - generic [ref=f8e2362]: "7200235998"
+                - cell "Posted on -" [ref=f8e2363]:
+                  - generic [ref=f8e2366]:
+                    - generic [ref=f8e2367]: Posted on
+                    - generic [ref=f8e2368]: "-"
+                - cell "Views 0 Clicks 0 Leads 0" [ref=f8e2374]:
+                  - generic [ref=f8e2376]:
+                    - generic [ref=f8e2377]:
+                      - generic [ref=f8e2378]: Views
+                      - text: "0"
+                    - generic [ref=f8e2379]:
+                      - generic [ref=f8e2380]: Clicks
+                      - text: "0"
+                    - generic [ref=f8e2381]:
+                      - generic [ref=f8e2382]: Leads
+                      - text: "0"
+                - cell "Deleted" [ref=f8e2388]
+                - cell [ref=f8e2392]:
+                  - button "Publish Now" [ref=f8e2395] [cursor=pointer]
+                - cell [ref=f8e2397]:
+                  - generic [ref=f8e2399]:
+                    - button [ref=f8e2401] [cursor=pointer]
+                    - button [ref=f8e2405] [cursor=pointer]
+                    - button [ref=f8e2409] [cursor=pointer]
+    - contentinfo [ref=f8e1549]:
+      - generic [ref=f8e1550]: © 2026 – All Rights Reserved

@@ -1,0 +1,67 @@
+%% Tuba Current-State Feature Map — Observed (source-code read, 2026-08-06)
+%% See 05_FEATURE_CATALOG.md for maturity ratings behind each node's color.
+%% Color key: green=Production Ready, yellow=Needs Improvement/MVP, orange=Needs Redesign, red=Prototype/Obsolete/Missing
+
+flowchart TB
+    classDef prod fill:#1e7e34,color:#fff,stroke:#155724
+    classDef mvp fill:#8a6d00,color:#fff,stroke:#5c4800
+    classDef redesign fill:#b45309,color:#fff,stroke:#7c3d05
+    classDef proto fill:#8b1e1e,color:#fff,stroke:#5c1414
+    classDef missing fill:#4b5563,color:#fff,stroke:#2d3339,stroke-dasharray: 4 3
+
+    Tuba["Tuba Platform"]
+
+    Tuba --> Discovery["Discovery & Search"]
+    Discovery --> D1["Map Search UX"]:::prod
+    Discovery --> D2["Search Query Engine\n(Eloquent scope chain)"]:::redesign
+    Discovery --> D3["Property Detail + SEO"]:::prod
+    Discovery --> D4["Project Detail"]:::mvp
+    Discovery --> D5["Project Listing/Search"]:::missing
+    Discovery --> D6["Saved Search (no alerts)"]:::proto
+
+    Tuba --> Leads["Lead Generation & CRM"]
+    Leads --> L1["PropertyRequest\n(notif. misrouted)"]:::redesign
+    Leads --> L2["AgentInboxRequest\n(one-way)"]:::proto
+    Leads --> L3["Offer/Negotiate\n(fields unused)"]:::proto
+    Leads --> L4["Pipeline/Stages/SLA"]:::missing
+    Leads --> L5["Two-way Messaging"]:::missing
+
+    Tuba --> Listings["Listings Management"]
+    Listings --> M1["Property CRUD"]:::redesign
+    Listings --> M2["Project CRUD"]:::redesign
+    Listings --> M3["AI SEO/Description\n(Property only)"]:::mvp
+    Listings --> M4["Media/Photo Pipeline"]:::proto
+
+    Tuba --> Commerce["Packages, Billing & Compliance"]
+    Commerce --> C1["Package/Quota Ledger"]:::prod
+    Commerce --> C2["Developer Package"]:::missing
+    Commerce --> C3["HyperPay Checkout\n(TLS disabled - Critical)"]:::redesign
+    Commerce --> C4["Tabby Checkout\n(unauth fulfilment - Critical)"]:::redesign
+    Commerce --> C5["Nafath Identity\n(sig unverified - Critical)"]:::redesign
+    Commerce --> C6["FAL License (manual review)"]:::proto
+    Commerce --> C7["REGA Ad-License ETL"]:::prod
+    Commerce --> C8["Receipt Generation"]:::proto
+
+    Tuba --> Notif["Notifications & Comms"]
+    Notif --> N1["In-app/DB Notifications"]:::mvp
+    Notif --> N2["Email Delivery"]:::missing
+    Notif --> N3["SMS (Taqnyat)"]:::mvp
+    Notif --> N4["Push (public channel - risk)"]:::redesign
+    Notif --> N5["WhatsApp (static link)"]:::proto
+
+    Tuba --> Admin["Admin / Internal Ops"]
+    Admin --> A1["Role Management\n(no Policies)"]:::redesign
+    Admin --> A2["Reference Data\n(5 unguarded)"]:::redesign
+    Admin --> A3["Page SEO (stub CRUD)"]:::proto
+    Admin --> A4["Analytics\n(mostly decorative)"]:::proto
+    Admin --> A5["Rent Now Click Report"]:::prod
+
+    Tuba --> Platform["Platform / Cross-cutting"]
+    Platform --> P1["Authentication\n(hardcoded password - Critical)"]:::redesign
+    Platform --> P2["Authorization/RBAC"]:::proto
+    Platform --> P3["Mobile API (Sanctum)"]:::mvp
+    Platform --> P4["Bilingual AR/EN Content"]:::mvp
+    Platform --> P5["Design System"]:::proto
+    Platform --> P6["Testing/CI/CD"]:::missing
+    Platform --> P7["Observability/Audit Log"]:::missing
+</content>

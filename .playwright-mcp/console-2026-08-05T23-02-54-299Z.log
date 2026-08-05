@@ -1,0 +1,26 @@
+[    1446ms] [LOG] JQMIGRATE: Migrate is installed, version 3.0.1 @ https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:1
+[    1757ms] [LOG] Customer Properties Page js2 @ https://tuba.com.sa/properties:23605
+[    1802ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/properties:23885:22)
+[    1931ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'nodeName') TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at y.handle (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at e.fn.init.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at c (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677) undefined @ https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:1
+[    2212ms] TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at y.handle (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at e.fn.init.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at c (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677)
+[    3096ms] [LOG] #active_property_div @ https://tuba.com.sa/js/properties/index.js:39
+[   54482ms] [LOG] #draft_property_div @ https://tuba.com.sa/js/properties/index.js:39

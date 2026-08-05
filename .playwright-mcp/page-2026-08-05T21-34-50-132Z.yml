@@ -1,0 +1,180 @@
+- generic [active] [ref=f68e1]:
+  - generic [ref=f68e2]:
+    - generic [ref=f68e7]:
+      - generic [ref=f68e8]:
+        - link "الإعلانات" [ref=f68e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f68e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f68e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f68e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f68e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "دخول / تسجيل" [ref=f68e29] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f68e32]:
+      - main [ref=f68e33]:
+        - generic [ref=f68e35]:
+          - generic [ref=f68e38]:
+            - generic [ref=f68e39]: حجوزاتي
+            - generic [ref=f68e40]: حجوزات العملاء
+          - generic [ref=f68e41]:
+            - link "# ليلة -- - -- -- No Image" [ref=f68e42] [cursor=pointer]:
+              - /url: /user/bookings/undefined
+              - generic [ref=f68e43]:
+                - generic [ref=f68e44]:
+                  - paragraph [ref=f68e45]: "#"
+                  - paragraph [ref=f68e46]: ليلة
+                - paragraph [ref=f68e49]
+                - generic [ref=f68e51]:
+                  - generic [ref=f68e52]: "--"
+                  - generic [ref=f68e53]: "-"
+                  - generic [ref=f68e54]: "--"
+                  - generic [ref=f68e55]: "--"
+              - generic [ref=f68e56]: No Image
+            - link "# ليلة -- - -- -- No Image" [ref=f68e57] [cursor=pointer]:
+              - /url: /user/bookings/undefined
+              - generic [ref=f68e58]:
+                - generic [ref=f68e59]:
+                  - paragraph [ref=f68e60]: "#"
+                  - paragraph [ref=f68e61]: ليلة
+                - paragraph [ref=f68e64]
+                - generic [ref=f68e66]:
+                  - generic [ref=f68e67]: "--"
+                  - generic [ref=f68e68]: "-"
+                  - generic [ref=f68e69]: "--"
+                  - generic [ref=f68e70]: "--"
+              - generic [ref=f68e71]: No Image
+            - link "# ليلة -- - -- -- No Image" [ref=f68e72] [cursor=pointer]:
+              - /url: /user/bookings/undefined
+              - generic [ref=f68e73]:
+                - generic [ref=f68e74]:
+                  - paragraph [ref=f68e75]: "#"
+                  - paragraph [ref=f68e76]: ليلة
+                - paragraph [ref=f68e79]
+                - generic [ref=f68e81]:
+                  - generic [ref=f68e82]: "--"
+                  - generic [ref=f68e83]: "-"
+                  - generic [ref=f68e84]: "--"
+                  - generic [ref=f68e85]: "--"
+              - generic [ref=f68e86]: No Image
+            - link "# ليلة -- - -- -- No Image" [ref=f68e87] [cursor=pointer]:
+              - /url: /user/bookings/undefined
+              - generic [ref=f68e88]:
+                - generic [ref=f68e89]:
+                  - paragraph [ref=f68e90]: "#"
+                  - paragraph [ref=f68e91]: ليلة
+                - paragraph [ref=f68e94]
+                - generic [ref=f68e96]:
+                  - generic [ref=f68e97]: "--"
+                  - generic [ref=f68e98]: "-"
+                  - generic [ref=f68e99]: "--"
+                  - generic [ref=f68e100]: "--"
+              - generic [ref=f68e101]: No Image
+            - link "# ليلة -- - -- -- No Image" [ref=f68e102] [cursor=pointer]:
+              - /url: /user/bookings/undefined
+              - generic [ref=f68e103]:
+                - generic [ref=f68e104]:
+                  - paragraph [ref=f68e105]: "#"
+                  - paragraph [ref=f68e106]: ليلة
+                - paragraph [ref=f68e109]
+                - generic [ref=f68e111]:
+                  - generic [ref=f68e112]: "--"
+                  - generic [ref=f68e113]: "-"
+                  - generic [ref=f68e114]: "--"
+                  - generic [ref=f68e115]: "--"
+              - generic [ref=f68e116]: No Image
+      - generic [ref=f68e118]:
+        - generic [ref=f68e119]:
+          - link "Aqar" [ref=f68e120] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f68e122]:
+            - link [ref=f68e123] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f68e124]:
+                - img "App Store" [ref=f68e126]
+            - link [ref=f68e127] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f68e128]:
+                - img "Google Play" [ref=f68e130]
+            - link [ref=f68e131] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f68e132]:
+                - img "App Gallery" [ref=f68e134]
+        - generic [ref=f68e135]:
+          - generic [ref=f68e136]:
+            - heading "خيارات البحث" [level=3] [ref=f68e137]
+            - generic [ref=f68e138]:
+              - link "شقق للإيجار" [ref=f68e139] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f68e140] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f68e141] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f68e142] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f68e143] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f68e144] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f68e145] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f68e146] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f68e147]:
+            - heading "روابط سريعة" [level=3] [ref=f68e148]
+            - generic [ref=f68e149]:
+              - link [ref=f68e150] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f68e154] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f68e161] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f68e167] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f68e172] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f68e179] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f68e184] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f68e191] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f68e195] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f68e199] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f68e205] [cursor=pointer]
+        - generic [ref=f68e209]:
+          - generic [ref=f68e210]:
+            - link "YouTube" [ref=f68e211] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f68e215] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f68e219] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f68e225] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f68e230] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f68e235] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f68e239] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f68e244]:
+            - button "Toggle theme" [ref=f68e245] [cursor=pointer]: الوضع الليلي
+            - link [ref=f68e249] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f68e256]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f68e257] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f68e259]
+              - generic [ref=f68e260]: خدمة التبرع السريع
+            - img "vat" [ref=f68e261]
+            - img "rega" [ref=f68e262]
+        - generic [ref=f68e263]:
+          - paragraph [ref=f68e264]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f68e265]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f68e266]

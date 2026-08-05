@@ -1,0 +1,164 @@
+[
+  {
+    "feature": "Dashboard overview",
+    "description": "Agency landing screen with profile status, listing totals, credits, performance KPIs, recent listings",
+    "purpose": "Orient agency operators quickly",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add configurable widgets and trend explanations"
+  },
+  {
+    "feature": "Profile completion",
+    "description": "90% completion prompt with TruBroker/profile improvement CTA",
+    "purpose": "Improve trust and lead conversion",
+    "businessValue": "High",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Turn into checklist with exact missing fields and impact forecast"
+  },
+  {
+    "feature": "Listings table",
+    "description": "Active, Draft, Pending, Removed, Ad License Requests tabs; property, timeline, performance, status, upgrades, actions columns",
+    "purpose": "Manage listing lifecycle",
+    "businessValue": "Very high",
+    "complexity": "High",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add bulk actions, saved filters, and quality issue grouping"
+  },
+  {
+    "feature": "Post listing",
+    "description": "Choice between Sell/Rent Property and Daily Rentals",
+    "purpose": "Create inventory",
+    "businessValue": "Very high",
+    "complexity": "High",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Wizard with completion autosave, REGA validation, media scoring"
+  },
+  {
+    "feature": "Credits usage",
+    "description": "Available/used/total credits, current plan, usage history by listing and upgrade",
+    "purpose": "Monetization transparency",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Forecast burn rate and recommend credit allocation"
+  },
+  {
+    "feature": "TruLeads",
+    "description": "Lead dashboard with status filters, trend buttons, add lead/task actions, lead table",
+    "purpose": "Convert inquiries into deals",
+    "businessValue": "Very high",
+    "complexity": "High",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Pipeline board, lead scoring, SLA timers, duplicate merge"
+  },
+  {
+    "feature": "Agency staff",
+    "description": "Manage staff table for agency users",
+    "purpose": "Operational administration",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Expose roles, invite flow, audit log, per-feature permissions"
+  },
+  {
+    "feature": "User settings",
+    "description": "Profile/contact fields, language/support controls, modals",
+    "purpose": "Maintain account identity and preferences",
+    "businessValue": "Medium",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Separate personal, company, notification, security tabs"
+  },
+  {
+    "feature": "Packages",
+    "description": "Package selection page with business-needs positioning",
+    "purpose": "Revenue and plan upgrades",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Comparison matrix, ROI calculator, recommended package based on usage"
+  },
+  {
+    "feature": "Language and support",
+    "description": "Arabic toggle and Help & Support controls visible in shell",
+    "purpose": "Localization and assistance",
+    "businessValue": "Medium",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Persistent contextual help and bilingual parity checks"
+  },
+  {
+    "feature": "Listing lifecycle sub-states",
+    "description": "Draft (Not Posted / Insufficient Credits) and Removed (Ad License Expired / Deleted) tabs, each with historical performance retained",
+    "purpose": "Explain and recover non-active inventory",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Unify into one status glossary; add one-click top-up-to-publish from Draft rows"
+  },
+  {
+    "feature": "Listing preview panel",
+    "description": "Read-only side-sheet (eye icon) showing price, location, area, photos, poster",
+    "purpose": "Fast inspection without navigation",
+    "businessValue": "Medium",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add missing-media nudge when photo count is 0"
+  },
+  {
+    "feature": "TruBroker gamification",
+    "description": "Leaderboard, TruPoints, three locked badges (Quality Lister, Responsive Broker, Super Lister) with sub-metrics, team performance table",
+    "purpose": "Drive quality/responsiveness behavior via status and trust badge",
+    "businessValue": "Very high",
+    "complexity": "High",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add explicit N-more-to-unlock countdown per badge; trend history for TruPoints"
+  },
+  {
+    "feature": "Reports Summary",
+    "description": "Listings composition, location breakdown, performance time series filterable by tier/purpose/date",
+    "purpose": "Portfolio-level BI",
+    "businessValue": "High",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add export, period-over-period and market-benchmark comparison"
+  },
+  {
+    "feature": "Agency Settings",
+    "description": "Company name, website, phone, city, address, description, logo",
+    "purpose": "Maintain public-facing agency profile",
+    "businessValue": "Medium",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Separate public vs internal fields; add SEO guidance on description"
+  },
+  {
+    "feature": "License management",
+    "description": "FAL license, CR number, owner, validity, agency-wide staff-sharing toggle",
+    "purpose": "Compliance backbone for every listing's REGA ID",
+    "businessValue": "Very high",
+    "complexity": "Medium",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Scope sharing per-role/per-listing instead of all-or-nothing; link expiry to affected listings"
+  },
+  {
+    "feature": "Preferences",
+    "description": "Smart Credit Utilization (auto-spend), Push Notifications, marketing image/data usage consent",
+    "purpose": "Account-wide automation and consent",
+    "businessValue": "Medium",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Add spend log for Smart Credit Utilization; default marketing consent off"
+  },
+  {
+    "feature": "Notifications panel",
+    "description": "Header bell dropdown mixing transactional (new lead) and lifecycle/marketing nudges",
+    "purpose": "Surface time-sensitive events",
+    "businessValue": "High",
+    "complexity": "Low",
+    "canBeReplicated": "Yes",
+    "improvementSuggestions": "Split transactional vs marketing notification streams; add filters"
+  }
+]

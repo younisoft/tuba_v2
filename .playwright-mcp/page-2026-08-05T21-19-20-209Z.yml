@@ -1,0 +1,195 @@
+- generic [ref=f33e2]:
+  - generic [ref=f33e7]:
+    - generic [ref=f33e8]:
+      - link "الإعلانات" [ref=f33e9] [cursor=pointer]:
+        - /url: /عقارات
+      - link "المشاريع" [ref=f33e13] [cursor=pointer]:
+        - /url: /المشاريع-العقارية
+      - link "الحجوزات" [ref=f33e16] [cursor=pointer]:
+        - /url: /الحجوزات
+    - link "الخريطة" [ref=f33e20] [cursor=pointer]:
+      - /url: /الخريطة
+    - link "إضافة" [ref=f33e25] [cursor=pointer]:
+      - /url: /إضافة-إعلان
+    - link "دخول / تسجيل" [ref=f33e29] [cursor=pointer]:
+      - /url: /login
+  - main [ref=f33e32]:
+    - main [ref=f33e33]:
+      - generic [ref=f33e34]:
+        - heading "إدارة المكتب" [level=1] [ref=f33e35]
+        - generic [ref=f33e36]:
+          - navigation [ref=f33e37]:
+            - link "لوحة تحكم المدير" [ref=f33e38] [cursor=pointer]:
+              - /url: /offices-management
+            - link "الإعلانات" [ref=f33e41] [cursor=pointer]:
+              - /url: /offices-management/listings
+            - link "المحفظة (0 §)" [ref=f33e45] [cursor=pointer]:
+              - /url: /offices-management/wallet
+              - generic [ref=f33e46]:
+                - text: المحفظة
+                - generic [ref=f33e48]:
+                  - text: (
+                  - generic [ref=f33e49]: 0 §
+                  - text: )
+            - link "حملات التمييز" [ref=f33e51] [cursor=pointer]:
+              - /url: /offices-management/campaigns
+            - link "الإحصائيات" [ref=f33e55] [cursor=pointer]:
+              - /url: /offices-management/statistics
+            - link "المستخدمين" [ref=f33e59] [cursor=pointer]:
+              - /url: /offices-management/users
+            - link "المدفوعات و الفواتير" [ref=f33e63] [cursor=pointer]:
+              - /url: /offices-management/invoices
+            - link "إعدادات الحساب" [ref=f33e67] [cursor=pointer]:
+              - /url: /offices-management/settings
+          - main [ref=f33e71]:
+            - generic [ref=f33e72]:
+              - generic [ref=f33e73]:
+                - heading "الإحصائيات العامة" [level=2] [ref=f33e74]
+                - tablist "الإحصائيات العامة" [ref=f33e75]:
+                  - tab "اليوم" [selected] [ref=f33e76] [cursor=pointer]
+                  - tab "الأسبوع" [ref=f33e77] [cursor=pointer]
+                  - tab "الشهر" [ref=f33e78] [cursor=pointer]
+                  - tab "السنة" [ref=f33e79] [cursor=pointer]
+              - generic [ref=f33e80]:
+                - generic [ref=f33e82]:
+                  - paragraph [ref=f33e83]: ظهور الإعلانات
+                  - paragraph [ref=f33e84]
+                - generic [ref=f33e89]:
+                  - paragraph [ref=f33e90]: مشاهدات الإعلانات
+                  - paragraph [ref=f33e91]
+                - generic [ref=f33e97]:
+                  - paragraph [ref=f33e98]: التفاعل مع الإعلانات
+                  - paragraph [ref=f33e99]
+              - generic [ref=f33e103]:
+                - heading "تفاصيل الاشتراك" [level=2] [ref=f33e105]
+                - generic [ref=f33e107]:
+                  - generic [ref=f33e108]:
+                    - generic [ref=f33e109]: نوع الاشتراك
+                    - generic [ref=f33e113]:
+                      - generic [ref=f33e114]:
+                        - generic [ref=f33e115]: تاريخ الاشتراك
+                        - generic [ref=f33e116]: —
+                      - separator [ref=f33e117]
+                      - generic [ref=f33e118]:
+                        - generic [ref=f33e119]: تاريخ الانتهاء
+                        - generic [ref=f33e120]: —
+                      - separator [ref=f33e121]
+                      - generic [ref=f33e122]:
+                        - generic [ref=f33e123]:
+                          - generic [ref=f33e124]: المتبقي
+                          - generic [ref=f33e125]: "0"
+                        - slider [disabled] [ref=f33e127]: "0"
+                  - generic [ref=f33e129]:
+                    - generic [ref=f33e130]:
+                      - paragraph [ref=f33e131]
+                      - paragraph [ref=f33e132]
+                    - checkbox [disabled] [ref=f33e134]
+                  - generic [ref=f33e136]:
+                    - generic [ref=f33e137]:
+                      - generic [ref=f33e138]: المساحات والمستخدمون
+                      - button "+ زيادة عدد المستخدمين" [ref=f33e139] [cursor=pointer]:
+                        - generic [ref=f33e140]: +
+                        - generic [ref=f33e141]: زيادة عدد المستخدمين
+                    - generic [ref=f33e142]:
+                      - generic [ref=f33e143]:
+                        - generic [ref=f33e144]:
+                          - generic [ref=f33e145]: "0"
+                          - generic [ref=f33e146]: "0"
+                        - slider [disabled] [ref=f33e148]: "0"
+                      - generic [ref=f33e149]:
+                        - generic [ref=f33e150]:
+                          - generic [ref=f33e151]: "0"
+                          - generic [ref=f33e152]: "0"
+                        - slider [disabled] [ref=f33e154]: "0"
+              - heading "المميزات" [level=2] [ref=f33e156]
+    - generic [ref=f33e178]:
+      - generic [ref=f33e179]:
+        - link "Aqar" [ref=f33e180] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f33e182]:
+          - link [ref=f33e183] [cursor=pointer]:
+            - /url: https://apps.apple.com/sa/app/id879992882
+            - button [ref=f33e184]:
+              - img "App Store" [ref=f33e186]
+          - link [ref=f33e187] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=fm.aqar
+            - button [ref=f33e188]:
+              - img "Google Play" [ref=f33e190]
+          - link [ref=f33e191] [cursor=pointer]:
+            - /url: https://appgallery.huawei.com/app/C100162543
+            - button [ref=f33e192]:
+              - img "App Gallery" [ref=f33e194]
+      - generic [ref=f33e195]:
+        - generic [ref=f33e196]:
+          - heading "خيارات البحث" [level=3] [ref=f33e197]
+          - generic [ref=f33e198]:
+            - link "شقق للإيجار" [ref=f33e199] [cursor=pointer]:
+              - /url: /شقق-للإيجار
+            - link "شقق للبيع" [ref=f33e200] [cursor=pointer]:
+              - /url: /شقق-للبيع
+            - link "فلل للإيجار" [ref=f33e201] [cursor=pointer]:
+              - /url: /فلل-للإيجار
+            - link "أراضي للبيع" [ref=f33e202] [cursor=pointer]:
+              - /url: /أراضي-للبيع
+            - link "دور للإيجار" [ref=f33e203] [cursor=pointer]:
+              - /url: /دور-للإيجار
+            - link "شقق للإيجار بالرياض" [ref=f33e204] [cursor=pointer]:
+              - /url: /شقق-للإيجار/الرياض
+            - link "فلل للبيع" [ref=f33e205] [cursor=pointer]:
+              - /url: /فلل-للبيع
+            - link "شقق للإيجار بجدة" [ref=f33e206] [cursor=pointer]:
+              - /url: /شقق-للإيجار/جدة
+        - generic [ref=f33e207]:
+          - heading "روابط سريعة" [level=3] [ref=f33e208]
+          - generic [ref=f33e209]:
+            - link [ref=f33e210] [cursor=pointer]:
+              - /url: /إضافة-إعلان
+            - link [ref=f33e214] [cursor=pointer]:
+              - /url: /user/campaigns
+            - link [ref=f33e221] [cursor=pointer]:
+              - /url: /الخدمات
+            - link [ref=f33e227] [cursor=pointer]:
+              - /url: /partners
+            - link [ref=f33e232] [cursor=pointer]:
+              - /url: /financing/munaaseb
+            - link [ref=f33e239] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/blog
+            - link [ref=f33e244] [cursor=pointer]:
+              - /url: /الإحصائيات-العقارية
+            - link [ref=f33e251] [cursor=pointer]:
+              - /url: /الصفقات-العقارية
+            - link [ref=f33e255] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+            - link [ref=f33e259] [cursor=pointer]:
+              - /url: /user/ejar-contracts
+            - button "اتصل بنا" [ref=f33e265] [cursor=pointer]
+      - generic [ref=f33e269]:
+        - generic [ref=f33e270]:
+          - link "YouTube" [ref=f33e271] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+          - link "Snapchat" [ref=f33e275] [cursor=pointer]:
+            - /url: https://www.snapchat.com/add/aqarapp
+          - link "LinkedIn" [ref=f33e279] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/aqarfm/about/
+          - link "Facebook" [ref=f33e285] [cursor=pointer]:
+            - /url: https://www.facebook.com/aqarapp
+          - link "Instagram" [ref=f33e290] [cursor=pointer]:
+            - /url: https://www.instagram.com/aqarapp
+          - link "Twitter" [ref=f33e295] [cursor=pointer]:
+            - /url: https://twitter.com/aqarapp
+          - link "TikTok" [ref=f33e299] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@aqarapp
+        - generic [ref=f33e304]:
+          - button "Toggle theme" [ref=f33e305] [cursor=pointer]: الوضع الليلي
+          - link [ref=f33e309] [cursor=pointer]:
+            - /url: /en
+        - generic [ref=f33e316]:
+          - link "Ehsan خدمة التبرع السريع" [ref=f33e317] [cursor=pointer]:
+            - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+            - img "Ehsan" [ref=f33e319]
+            - generic [ref=f33e320]: خدمة التبرع السريع
+          - img "vat" [ref=f33e321]
+          - img "rega" [ref=f33e322]
+      - generic [ref=f33e323]:
+        - paragraph [ref=f33e324]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+        - paragraph [ref=f33e325]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505

@@ -1,0 +1,18 @@
+# Final Scorecard
+
+| Area | Score | Rationale |
+| --- | --- | --- |
+| UX | 7.2 | Clear core flows and strong role focus, with weak hierarchy in dense tables and an unexplained four-state listing lifecycle. |
+| UI | 7 | Professional Bayut design language, but repeated card/table density and low heading semantics. |
+| Performance | 6.6 | SPA generally loads, but direct route refreshes intermittently produced Failed to fetch screens. |
+| Navigation | 7.1 | Simple side rail; discoverability suffers because many navigation elements are buttons, not links, and "Agent Performance" / "Reports" render as two adjacent same-styled items easily mistaken for one. |
+| Search | 6.5 | Useful ID and REGA filters, but limited saved searches, global search, or semantic search. |
+| Reporting | 7 | Dashboard metrics plus a dedicated Reports Summary (composition, location breakdown, tiered performance) now confirmed reachable; still no export, benchmark, or period comparison. |
+| Analytics | 7.1 | Good core KPI coverage (views, clicks, leads, calls, WhatsApp, SMS, email) plus a second axis via Agent Performance (image/feature quality scores, responsiveness); no funnel or benchmark. |
+| Agent Experience | 7.6 | Actionable profile completion, TruBroker gamification (leaderboard, TruPoints, badges), and lead management are practical, though badges are Locked with no visible path to unlock. |
+| Admin Experience | 7 | Agency staff, per-staff credit limits, and license-sharing toggle give owners real (if coarse) controls; role granularity beyond Owner was not observable in a single-seat account. |
+| Business Value | 8 | Directly tied to listing quality, lead conversion, package monetization, and agency operations. |
+| Innovation | 6.3 | TruBroker gamification (badges tied to measurable quality/responsiveness) is a genuine differentiator beyond marketplace CRM basics; still limited visible AI or predictive intelligence. |
+| Scalability | 6.9 | Pagination and module separation are present; bulk and governance tooling look shallow. |
+| Accessibility | 5.8 | Buttons without accessible names/labels (confirmed via DOM inspection of table action icons) and heading extraction gaps suggest semantic accessibility weaknesses. |
+| Overall Product Score | 7.1 | A commercially useful real-estate SaaS console with a genuine gamification differentiator, still lacking workflow intelligence, export/benchmarking, and granular permissions. |

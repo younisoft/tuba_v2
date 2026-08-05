@@ -1,0 +1,113 @@
+- generic [active] [ref=f70e1]:
+  - generic [ref=f70e2]:
+    - generic [ref=f70e7]:
+      - generic [ref=f70e8]:
+        - link "الإعلانات" [ref=f70e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f70e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f70e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f70e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f70e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "دخول / تسجيل" [ref=f70e29] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f70e32]:
+      - main [ref=f70e33]:
+        - generic [ref=f70e35]:
+          - heading "طلبات الدفع" [level=1] [ref=f70e36]
+          - list [ref=f70e37]
+      - generic [ref=f70e74]:
+        - generic [ref=f70e75]:
+          - link "Aqar" [ref=f70e76] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f70e78]:
+            - link [ref=f70e79] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f70e80]:
+                - img "App Store" [ref=f70e82]
+            - link [ref=f70e83] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f70e84]:
+                - img "Google Play" [ref=f70e86]
+            - link [ref=f70e87] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f70e88]:
+                - img "App Gallery" [ref=f70e90]
+        - generic [ref=f70e91]:
+          - generic [ref=f70e92]:
+            - heading "خيارات البحث" [level=3] [ref=f70e93]
+            - generic [ref=f70e94]:
+              - link "شقق للإيجار" [ref=f70e95] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f70e96] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f70e97] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f70e98] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f70e99] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f70e100] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f70e101] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f70e102] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f70e103]:
+            - heading "روابط سريعة" [level=3] [ref=f70e104]
+            - generic [ref=f70e105]:
+              - link [ref=f70e106] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f70e110] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f70e117] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f70e123] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f70e128] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f70e135] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f70e140] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f70e147] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f70e151] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f70e155] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f70e161] [cursor=pointer]
+        - generic [ref=f70e165]:
+          - generic [ref=f70e166]:
+            - link "YouTube" [ref=f70e167] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f70e171] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f70e175] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f70e181] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f70e186] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f70e191] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f70e195] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f70e200]:
+            - button "Toggle theme" [ref=f70e201] [cursor=pointer]: الوضع الليلي
+            - link [ref=f70e205] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f70e212]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f70e213] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f70e215]
+              - generic [ref=f70e216]: خدمة التبرع السريع
+            - img "vat" [ref=f70e217]
+            - img "rega" [ref=f70e218]
+        - generic [ref=f70e219]:
+          - paragraph [ref=f70e220]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f70e221]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f70e222]

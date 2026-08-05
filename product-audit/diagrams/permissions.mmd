@@ -1,0 +1,18 @@
+flowchart TD
+  Owner[Agency Owner / License Holder] --> Admin[Admin]
+  Admin --> Listings[Listing Manager]
+  Admin --> Agents[Sales Agents]
+  Admin --> Finance[Credits / Packages Manager]
+  Admin --> Analyst[Read-only Analyst]
+  Listings --> Publish[Create/Edit Listings]
+  Agents --> Leads[Manage Leads/Tasks]
+  Finance --> Spend[Top-up and Package Spend]
+  Analyst --> Reports[View Reports]
+  Owner --> License[FAL License]
+  License -->|"Share with agency staff" toggle| Staff[Agency Staff]
+  Staff -->|per-staff Credits Limit| Spend
+
+  %% Observed, not fully confirmed:
+  %% - Only one staff role level was visible in this account (Owner). Sub-roles above are inferred from
+  %%   the shape of the UI (staff table with per-user credit limits), not confirmed via a second role login.
+  %% - License sharing is a binary toggle, not a scoped permission (all-or-nothing to whole agency).

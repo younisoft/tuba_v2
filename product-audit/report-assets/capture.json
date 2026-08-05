@@ -1,0 +1,1952 @@
+{
+  "capturedAt": "2026-08-05T15:09:22.934Z",
+  "records": [
+    {
+      "url": "https://profolio.bayut.sa/en/dashboard",
+      "title": "Dashboard - Profolio",
+      "headings": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "View All Listings",
+          "href": "https://profolio.bayut.sa/en/listings",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "لا",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "نعم",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Expand side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Why is this important?",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Complete your Profile",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "View All Listings",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Top-Up your Credits",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Credits Usage",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Become TruBroker →",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [],
+      "tables": [
+        {
+          "headers": [
+            "Property",
+            "Timeline",
+            "Performance",
+            "Status",
+            "Upgrades",
+            "Actions"
+          ],
+          "rows": 11
+        }
+      ],
+      "cards": [
+        "90% Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile",
+        "90% Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile",
+        "90% Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile",
+        "90%",
+        "90%",
+        "Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile",
+        "Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile",
+        "Asbar Real Estate",
+        "Asbar Real Estate",
+        "Asbar Real Estate",
+        "Listings View All Listings Active 12 For Sale 0 To Rent 12 Daily Rentals 0 Signature 0 Hot 0 Basic 12",
+        "Listings View All Listings",
+        "Listings View All Listings",
+        "Listings",
+        "View All Listings",
+        "Active 12 For Sale 0 To Rent 12 Daily Rentals 0 Signature 0 Hot 0 Basic 12",
+        "Active 12",
+        "Active",
+        "12",
+        "12",
+        "12",
+        "For Sale 0",
+        "For Sale",
+        "0",
+        "0",
+        "0",
+        "To Rent 12",
+        "To Rent",
+        "12",
+        "12",
+        "12",
+        "Daily Rentals 0",
+        "Daily Rentals",
+        "0",
+        "0",
+        "0",
+        "Signature 0",
+        "Signature",
+        "0",
+        "0",
+        "0",
+        "Hot 0",
+        "Hot",
+        "0",
+        "0",
+        "0",
+        "Basic 12",
+        "Basic",
+        "12",
+        "12",
+        "12",
+        "Credits Balance Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze Top-Up your Credits Credits Usage",
+        "Credits Balance",
+        "Credits Balance",
+        "Credits Balance",
+        "Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze Top-Up your Credits Credits Usage",
+        "Available Credits 6,250",
+        "Available Credits",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Used 0",
+        "Used",
+        "0",
+        "0",
+        "0",
+        "Total 6,250",
+        "Total",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Performance All For Sale For Rent Daily Rentals Views 1,675 759% Clicks 34 1600% Leads 3 Calls 2 WhatsApp 1 SMS 0 Emails 0 All Basic Hot Signature",
+        "Performance All For Sale For Rent Daily Rentals Views 1,675 759% Clicks 34 1600% Leads 3 Calls 2 WhatsApp 1 SMS 0 Emails 0",
+        "Performance All For Sale For Rent Daily Rentals",
+        "Performance All For Sale For Rent Daily Rentals",
+        "Views 1,675 759% Clicks 34 1600% Leads 3 Calls 2 WhatsApp 1 SMS 0 Emails 0",
+        "Views 1,675 759%",
+        "Views",
+        "1,675 759%",
+        "1,675",
+        "1,675",
+        "759%",
+        "Clicks 34 1600%",
+        "Clicks",
+        "34 1600%",
+        "34",
+        "34",
+        "1600%",
+        "Leads 3",
+        "Leads",
+        "3",
+        "3",
+        "3",
+        "Calls 2",
+        "Calls",
+        "2"
+      ],
+      "charts": 301,
+      "text": "يرغب هذا الموقع في إرسال إشعارات إليك اعرض الآن لا نعم Overview Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages 90% Your profile is incomplete Agents with a complete profile are likely to attract more leads. Why is this important? Complete your Profile Asbar Real Estate Listings View All Listings Active 12 For Sale 0 To Rent 12 Daily Rentals 0 Signature 0 Hot 0 Basic 12 Credits Balance Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze Top-Up your Credits Credits Usage Performance All For Sale For Rent Daily Rentals Views 1,675 759% Clicks 34 1600% Leads 3 Calls 2 WhatsApp 1 SMS 0 Emails 0 All Basic Hot Signature Recent Listings View All Listings Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087716 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087588 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 80,000 Basic 64% Complex for Rent 0 7983 Sq. M. Samtah Jazan Region, At Tahliyah Bayut ID: 88087505 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 4 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087477 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 32 Clicks 0 Leads 0 Live 100,000 Basic 64% Complex for Rent 0 1259 Sq. M. Jeddah, North Jeddah, Al Salehiyah Bayut ID: 88087395 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 14 Clicks 0 Leads 0 Live 300,000 Basic 64% Commercial Building for Rent 0 1800 Sq. M. Jeddah, North Jeddah, Al Falah Bayut ID: 88087392 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 35 Clicks 1 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 3997 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 88087364 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 26 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087232 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 34 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087195 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 23 Clicks 0 Leads 0 Live © 2026 – All Rights Reserved Complete your agent profile and move one step closer to becoming a TruBroker on Bayut. Become TruBroker →",
+      "navLabel": "Overview",
+      "screenshot": "01-en-dashboard.png",
+      "dialogs": [
+        {
+          "trigger": "View All Listings",
+          "screenshot": "01-en-dashboard-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Credits Usage",
+          "screenshot": "01-en-dashboard-dialog-02.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support"
+        }
+      ]
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/post-listing",
+      "title": "Profolio",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Post a Listing",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Expand side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Back",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Continue",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [],
+      "tables": [],
+      "cards": [
+        "Post a Listing Choose the type of listing you want to publish Sell or Rent Property Find buyers and tenants for your property Daily Rentals Host guests at your place for short stays NEW Continue",
+        "Post a Listing Choose the type of listing you want to publish Sell or Rent Property Find buyers and tenants for your property Daily Rentals Host guests at your place for short stays NEW Continue",
+        "Sell or Rent Property Find buyers and tenants for your property",
+        "Sell or Rent Property Find buyers and tenants for your property",
+        "Daily Rentals Host guests at your place for short stays",
+        "Daily Rentals Host guests at your place for short stays"
+      ],
+      "charts": 28,
+      "text": "Post Listing Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages Back Post a Listing Choose the type of listing you want to publish Sell or Rent Property Find buyers and tenants for your property Daily Rentals Host guests at your place for short stays NEW Continue © 2026 – All Rights Reserved",
+      "navLabel": "Post Listing",
+      "screenshot": "02-en-post-listing.png",
+      "dialogs": []
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/listings",
+      "title": "Your Property Listings Dashboard | Bayut Ksa",
+      "headings": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Show More",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Clear filters",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Search",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "number",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter Listing ID",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "number",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter REGA Ad License Number",
+          "name": ""
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Property",
+            "Timeline",
+            "Performance",
+            "Status",
+            "Upgrades",
+            "Actions"
+          ],
+          "rows": 11
+        }
+      ],
+      "cards": [
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0) Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone re",
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0)",
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0)",
+        "Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 400,000 B"
+      ],
+      "charts": 267,
+      "text": "My Listings Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support Listing ID REGA Ad License Number Purpose Select Purpose Property Type Select Property Types Show More Clear filters Search Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0) Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087716 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087588 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 33 Clicks 0 Leads 0 Live 80,000 Basic 64% Complex for Rent 0 7983 Sq. M. Samtah Jazan Region, At Tahliyah Bayut ID: 88087505 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 4 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087477 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 32 Clicks 0 Leads 0 Live 100,000 Basic 64% Complex for Rent 0 1259 Sq. M. Jeddah, North Jeddah, Al Salehiyah Bayut ID: 88087395 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 14 Clicks 0 Leads 0 Live 300,000 Basic 64% Commercial Building for Rent 0 1800 Sq. M. Jeddah, North Jeddah, Al Falah Bayut ID: 88087392 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 35 Clicks 1 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 3997 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 88087364 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 26 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087232 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 34 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087195 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 23 Clicks 0 Leads 0 Live 1 2 3 4 © 2026 – All Rights Reserved",
+      "navLabel": "My Listings",
+      "screenshot": "03-en-listings.png",
+      "dialogs": [
+        {
+          "trigger": "Show More",
+          "screenshot": "03-en-listings-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Search",
+          "screenshot": "03-en-listings-dialog-02.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        }
+      ]
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/credits-usage",
+      "title": "Credits Usage - Profolio",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Credits Usage",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "h1",
+          "text": "Credits Usage History",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Top-Up your Credits",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [],
+      "tables": [],
+      "cards": [
+        "Credits Usage Top-Up your Credits Status of your current package Available 6,250 Used 0 Total 6,250 Usage Breakdown Basic Listing 0 Hot Listing 0 Signature Listing 0 Refresh 0 Photography Service 0 Videography Service 0 Drone Footage Service 0",
+        "Credits Usage Top-Up your Credits",
+        "Credits Usage Top-Up your Credits",
+        "Credits Usage Top-Up your Credits",
+        "Status of your current package Available 6,250 Used 0 Total 6,250 Usage Breakdown Basic Listing 0 Hot Listing 0 Signature Listing 0 Refresh 0 Photography Service 0 Videography Service 0 Drone Footage Service 0",
+        "Available 6,250 Used 0 Total 6,250",
+        "Available 6,250 Used 0 Total 6,250",
+        "Available 6,250",
+        "Available",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Used 0",
+        "Used",
+        "0",
+        "0",
+        "0",
+        "Total 6,250",
+        "Total",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Credits Usage History Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 25, 2025, 4:18 pm 5 Used Refresh applied to listing 87818765 by Asbar Real Estate 200,000 Al ",
+        "Credits Usage History",
+        "Credits Usage History",
+        "Credits Usage History",
+        "Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 25, 2025, 4:18 pm 5 Used Refresh applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah,",
+        "Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 25, 2025, 4:18 pm 5 Used",
+        "Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 25, 2025, 4:18 pm 5 Used",
+        "432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M.",
+        "432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M.",
+        "Refresh applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 24, 2025, 11:47 am 5 Used",
+        "Refresh applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 24, 2025, 11:47 am 5 Used",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M.",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M.",
+        "Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 20, 2025, 12:54 pm 5 Used",
+        "Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 20, 2025, 12:54 pm 5 Used",
+        "432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M.",
+        "432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M.",
+        "Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 30 Used",
+        "Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 30 Used",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M.",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M.",
+        "Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 90 Used",
+        "Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 90 Used",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M.",
+        "200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M."
+      ],
+      "charts": 65,
+      "text": "Credits Usage Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support Credits Usage Top-Up your Credits Status of your current package Available 6,250 Used 0 Total 6,250 Usage Breakdown Basic Listing 0 Hot Listing 0 Signature Listing 0 Refresh 0 Photography Service 0 Videography Service 0 Drone Footage Service 0 Credits Usage History Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 25, 2025, 4:18 pm 5 Used Refresh applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 24, 2025, 11:47 am 5 Used Refresh applied to listing 87812027 by Asbar Real Estate 432,000 Al Manar, North Jeddah, Jeddah Residential Land for Rent 0 Rooms 720 Sq. M. Nov 20, 2025, 12:54 pm 5 Used Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 30 Used Signature Listing applied to listing 87818765 by Asbar Real Estate 200,000 Al Bashaer, North Jeddah, Jeddah Exhibition Building for Rent 0 Rooms 2000 Sq. M. Nov 17, 2025, 5:25 pm 90 Used © 2026 – All Rights Reserved",
+      "navLabel": "Credits Usage",
+      "screenshot": "04-en-credits-usage.png",
+      "dialogs": [
+        {
+          "trigger": "Top-Up your Credits",
+          "screenshot": "04-en-credits-usage-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        }
+      ]
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/lms/leads",
+      "title": "Profolio",
+      "headings": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "View Trend",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "View Trend",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Show More",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Clear filters",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Search",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add New Lead",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Name",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Add Task",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Finish",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Search by Listing ID",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Select Date Range",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Select Date Range",
+          "name": ""
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Lead Details",
+            "Last Interaction",
+            "Interested In",
+            "Next Planned Task",
+            "Actions"
+          ],
+          "rows": 11
+        }
+      ],
+      "cards": [
+        "Asbar Real Estate",
+        "Asbar Real Estate",
+        "Asbar Real Estate",
+        "Total Leads 14 TruLeads 14 Bayut Match 0",
+        "Total Leads 14 TruLeads 14 Bayut Match 0",
+        "Call Insights View Trend Clicked 2 Received 0 Answered 0 Missed 0 Response Rate 0% Avg Duration 0 Avg Resp.Time 0",
+        "Call Insights View Trend Clicked 2 Received 0 Answered 0 Missed 0 Response Rate 0% Avg Duration 0 Avg Resp.Time 0",
+        "Whatsapp Insights View Trend Clicked 1 Received 10 Chat Initiated 1 Response Rate 10% Avg Resp.Time 23 secs",
+        "Whatsapp Insights View Trend Clicked 1 Received 10 Chat Initiated 1 Response Rate 10% Avg Resp.Time 23 secs",
+        "All Leads (14) Bayut Match (0) Lead Details Last Interaction Interested In Next Planned Task Actions Um Hatim [email redacted] Call Clicked on the call button to view your number Aug 03, 2026 Commercial Building for Rent Taiba District, North Jeddah, ... Add T",
+        "All Leads (14) Bayut Match (0)",
+        "All Leads (14) Bayut Match (0)",
+        "Lead Details Last Interaction Interested In Next Planned Task Actions Um Hatim [email redacted] Call Clicked on the call button to view your number Aug 03, 2026 Commercial Building for Rent Taiba District, North Jeddah, ... Add Task سبحان الملك القدوس [email r"
+      ],
+      "charts": 216,
+      "text": "TruLeads Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support Asbar Real Estate Total Leads 14 TruLeads 14 Bayut Match 0 Call Insights View Trend Clicked 2 Received 0 Answered 0 Missed 0 Response Rate 0% Avg Duration 0 Avg Resp.Time 0 Whatsapp Insights View Trend Clicked 1 Received 10 Chat Initiated 1 Response Rate 10% Avg Resp.Time 23 secs Search by Listing ID Lead Received Last Interaction Show More Clear filters Search Add New Lead All Leads (14) Bayut Match (0) Lead Details Last Interaction Interested In Next Planned Task Actions Um Hatim [email redacted] Call Clicked on the call button to view your number Aug 03, 2026 Commercial Building for Rent Taiba District, North Jeddah, ... Add Task سبحان الملك القدوس [email redacted] [phone redacted] Whatsapp مرحباً، أنا مهتم بعقارك الموجود على بيوت، رابط الإعلان: https://www.bayut.sa/pm/88055902/0423ae3d-c3c3-469e-b685-fb44ac33a1a8 Aug 03, 2026 Commercial Building for Rent Taiba District, North Jeddah, ... Add Task Nasr Musleh [email redacted] Whatsapp Clicked on the WhatsApp button on the listing Jan 15, 2026 Exhibition Building for Rent Al Bashaer, North Jeddah, Jedd... Add Task Asbar Real Estate [email redacted] [phone redacted] Call Clicked on the call button to view your number Dec 07, 2025 Exhibition Building for Rent Al Bashaer, North Jeddah, Jedd... + 1 more properties. Add Task NlMAN Ahmed🇩🇯 [phone redacted] Whatsapp مرحبًا، أنا مهتم بالعقار الخاص بك على بيوت السعودية: ‏ https://www.bayut.sa/pm/87812027/da5c5d1a-a204-40a2-a943-d99248e2b7b7 الرقم الي: ‏ID87812027 Nov 24, 2025 Residential Land for Rent Al Manar, North Jeddah, Jeddah Add Task وعـد [phone redacted] Whatsapp Clicked on the WhatsApp button on the listing Nov 22, 2025 Exhibition Building for Rent Al Bashaer, North Jeddah, Jedd... Add Task ابو وجية [phone redacted] Whatsapp مرحباً، أنا مهتم بعقارك الموجود على بيوت، رابط الإعلان: https://www.bayut.sa/pm/87818765/da40a7a3-e08a-4f80-94e2-82b7e4126cdc Nov 24, 2025 Exhibition Building for Rent Al Bashaer, North Jeddah, Jedd... Add Task Unnamed Lead Add Name [email redacted] Call Clicked on the call button to view your number Jun 04, 2025 Commercial Building for Rent Taiba District, North Jeddah, ... Add Task Rayan Mohammed [email redacted] Call Clicked on the call button to view your number Jul 10, 2025 Commercial Land for Rent Al Manar, North Jeddah, Jeddah Add Task User 3Qu5cJ [phone redacted] Call Clicked on the call button to view your number May 26, 2025 Commercial Land for Rent Al Manar, North Jeddah, Jeddah Add Task 1 2 © 2026 – All Rights Reserved See all your leads with their status, details, and interaction history for easier follow-up. Finish",
+      "navLabel": "TruLeads",
+      "screenshot": "05-en-lms-leads.png",
+      "dialogs": []
+    },
+    {
+      "navLabel": "Agent Performance Reports",
+      "url": "https://profolio.bayut.sa/en/lms/leads",
+      "title": "Profolio",
+      "screenshot": "",
+      "text": "Navigation failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Agent Performance Reports', { exact: true }).first()\u001b[22m\n",
+      "headings": [],
+      "links": [],
+      "buttons": [],
+      "inputs": [],
+      "tables": [],
+      "cards": [],
+      "charts": 0,
+      "dialogs": []
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/agency-staff",
+      "title": "Agency Staff - Profolio",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Asbar Real Estate",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "h1",
+          "text": "Manage Staff",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Invite User",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [],
+      "tables": [
+        {
+          "headers": [
+            "Staff Details",
+            "Credits Limit",
+            "Used Credits",
+            "Actions"
+          ],
+          "rows": 2
+        }
+      ],
+      "cards": [
+        "Asbar Real Estate [email redacted] 1 Users Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze",
+        "Asbar Real Estate [email redacted] 1 Users Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze",
+        "Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze",
+        "Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze",
+        "Available Credits 6,250",
+        "Available Credits",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Used 0",
+        "Used",
+        "0",
+        "0",
+        "0",
+        "Total 6,250",
+        "Total",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Staff Details Credits Limit Used Credits Actions Fahad HameedOwner [email redacted] [phone redacted] 6,250 0",
+        "Staff Details Credits Limit Used Credits Actions Fahad HameedOwner [email redacted] [phone redacted] 6,250 0"
+      ],
+      "charts": 33,
+      "text": "Agency Staff Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support Asbar Real Estate [email redacted] 1 Users Available Credits 6,250 Used 0 Total 6,250 Current Plan Bronze Manage Staff Invite User Staff Details Credits Limit Used Credits Actions Fahad HameedOwner [email redacted] [phone redacted] 6,250 0 © 2026 – All Rights Reserved",
+      "navLabel": "Agency Staff",
+      "screenshot": "07-en-agency-staff.png",
+      "dialogs": []
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/user-settings/user-profile",
+      "title": "User Settings - Profolio",
+      "headings": [
+        {
+          "tag": "h4",
+          "text": "Email",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "h4",
+          "text": "Phone Number",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "User Settings",
+          "href": "https://profolio.bayut.sa/en/user-settings/user-profile",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "Agency Settings",
+          "href": "https://profolio.bayut.sa/en/user-settings/agency-profile",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "Licenses",
+          "href": "https://profolio.bayut.sa/en/user-settings/licenses",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "Preferences",
+          "href": "https://profolio.bayut.sa/en/user-settings/preferences",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "Change Password",
+          "href": "https://profolio.bayut.sa/en/user-settings/change-password",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "a",
+          "text": "User Settings",
+          "href": "https://profolio.bayut.sa/en/user-settings/user-profile",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Why is this important?",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Generate Agent Description (English)",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "إنشاء وصف الوكيل (بالعربية)",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Browse and Upload",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "href": "",
+          "type": "",
+          "role": "button",
+          "aria": "animation",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Learn more",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Save Changes",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Please enter English title",
+          "name": "name"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Please enter Arabic title",
+          "name": "nameArabic"
+        },
+        {
+          "tag": "select",
+          "text": "Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Ascension Island Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Ba",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "Phone number country",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "tel",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter whatsapp number",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter National Short Address",
+          "name": "nationalShortAddress"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter Address",
+          "name": "address"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "radio",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": "gender"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "radio",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": "gender"
+        },
+        {
+          "tag": "textarea",
+          "text": "With over 10 years of experience in the real estate industry, I specialize in helping clients navigate the vibrant markets of Makkah, Jeddah, Taif, Al Manar, and Al Sadad. My deep market knowledge ens",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter Agent Description",
+          "name": "agentDescription"
+        },
+        {
+          "tag": "textarea",
+          "text": "مرحبًا! أنا وكيل عقاري بخبرة تصل إلى 10 سنوات في مجال العقارات، مختص في تقديم خدمات متميزة في المناطق مثل مكة وجدة والطائف والمنار والسداد. تتمتع معرفتي بالسوق المحلية بعمق، وأستخدم مهاراتي في التفاوض",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "أدخل وصف الوكيل",
+          "name": "agentDescriptionArabic"
+        }
+      ],
+      "tables": [],
+      "cards": [
+        "User Settings Agency Settings Licenses Preferences Change Password",
+        "User Settings Agency Settings Licenses Preferences Change Password",
+        "Profile Completeness Why is this important? 90% User Settings FAL License Verification Nafath Verification",
+        "Profile Completeness Why is this important? 90% User Settings FAL License Verification Nafath Verification",
+        "User Settings",
+        "User Settings",
+        "User Settings",
+        "User Settings",
+        "User Settings",
+        "FAL License Verification",
+        "FAL License Verification",
+        "FAL License Verification",
+        "FAL License Verification",
+        "FAL License Verification",
+        "Nafath Verification",
+        "Nafath Verification",
+        "Nafath Verification",
+        "Nafath Verification",
+        "Nafath Verification",
+        "90% Fahad Hameed Agency Nafath Verified [email redacted] Email [email redacted] Verified Edit Phone Number [phone redacted] Verified Edit",
+        "90% Fahad Hameed Agency Nafath Verified [email redacted] Email [email redacted] Verified Edit Phone Number [phone redacted] Verified Edit",
+        "90% Fahad Hameed Agency Nafath Verified [email redacted]",
+        "90%",
+        "90%",
+        "Fahad Hameed Agency Nafath Verified [email redacted]",
+        "Fahad Hameed Agency Nafath Verified",
+        "[email redacted]",
+        "Additional Information Title (English) العنوان (عربي) City Jeddah Whatsapp Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Ascension Island Australia Austria Azerbaijan Bahamas Bahrai",
+        "Additional Information Title (English) العنوان (عربي) City Jeddah Whatsapp Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Ascension Island Australia Austria Azerbaijan Bahamas Bahrai"
+      ],
+      "charts": 52,
+      "text": "Settings Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support User Settings Agency Settings Licenses Preferences Change Password Profile Completeness Why is this important? 90% User Settings FAL License Verification Nafath Verification 90% Fahad Hameed Agency Nafath Verified [email redacted] Email [email redacted] Verified Edit Phone Number [phone redacted] Verified Edit Additional Information Title (English) العنوان (عربي) City Jeddah Whatsapp Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Ascension Island Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Brazil British Indian Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, Democratic Republic of the Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway Oman Pakistan Palau Palestine Panama Papua New Guinea Paraguay Peru Philippines Poland Portugal Puerto Rico Qatar Reunion Romania Russia Rwanda Saint Barthélemy Saint Helena Saint Kitts and Nevis Saint Lucia Saint Martin (French Part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tristan da Cunha Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe National Short Address Address Gender Male Female Service Area Makkah Jeddah Taif Al Bashaer Al Manar Al Sadad +3 User Languages Arabic + 0 ... Years of Experience 10+ years Agent Description - English Generate Agent Description (English) وصف الوكيل - بالعربية (اختياري) إنشاء وصف الوكيل (بالعربية) Upload a picture Browse and Upload Profile Picture Guidelines: Upload a clear, high-resolution headshot with a solid background. Pictures of logos, buildings, or irrelevant images are not allowed. Learn more Save Changes © 2026 – All Rights Reserved",
+      "navLabel": "Settings",
+      "screenshot": "08-en-user-settings-user-profile.png",
+      "dialogs": [
+        {
+          "trigger": "Why is this important?",
+          "screenshot": "08-en-user-settings-user-profile-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Edit",
+          "screenshot": "08-en-user-settings-user-profile-dialog-02.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Edit",
+          "screenshot": "08-en-user-settings-user-profile-dialog-03.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Browse and Upload",
+          "screenshot": "08-en-user-settings-user-profile-dialog-04.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Learn more",
+          "screenshot": "08-en-user-settings-user-profile-dialog-05.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        }
+      ]
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/packages",
+      "title": "Advertise Your Property | Bayut Ksa",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Get a Package According to Your Business Needs",
+          "href": "",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Collapse side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "العربية",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Help & Support",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "What are Credits?",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Downgrade Unavailable",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Downgrade Unavailable",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Current Package",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Silver",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Gold",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Platinum",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Platinum Plus",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Titanium",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Get Top-up",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "text",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter the number of credits",
+          "name": ""
+        }
+      ],
+      "tables": [],
+      "cards": [
+        "Current Package Bronze (Yearly) 3000 credits Package End Date Jul 24, 2027 Top-ups Purchased 3,250 Available Credits 6,250 Used 0 Total 6,250 What are Credits?",
+        "Current Package Bronze (Yearly) 3000 credits Package End Date Jul 24, 2027 Top-ups Purchased 3,250 Available Credits 6,250 Used 0 Total 6,250 What are Credits?",
+        "Current Package Bronze (Yearly) 3000 credits Package End Date Jul 24, 2027 Top-ups Purchased 3,250",
+        "Current Package Bronze (Yearly) 3000 credits Package End Date Jul 24, 2027 Top-ups Purchased 3,250",
+        "Package End Date Jul 24, 2027",
+        "Package End Date",
+        "Jul 24, 2027",
+        "Jul 24, 2027",
+        "Top-ups Purchased 3,250",
+        "Top-ups Purchased",
+        "3,250",
+        "3,250",
+        "3,250",
+        "Available Credits 6,250 Used 0 Total 6,250 What are Credits?",
+        "Available Credits 6,250 Used 0 Total 6,250 What are Credits?",
+        "Available Credits 6,250",
+        "Available Credits",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Used 0",
+        "Used",
+        "0",
+        "0",
+        "0",
+        "Total 6,250",
+        "Total",
+        "6,250",
+        "6,250",
+        "6,250",
+        "Get a Package According to Your Business Needs Package Duration 1 Year 6 Months Benefits Basic Listings Hot Listings Signature Listings Photography Services Videography Services Credit Allocation to Staff Dedicated Account Manager Featured Tag for Your Agency ",
+        "Get a Package According to Your Business Needs Package Duration 1 Year 6 Months Benefits Basic Listings Hot Listings Signature Listings Photography Services Videography Services Credit Allocation to Staff Dedicated Account Manager Featured Tag for Your Agency ",
+        "Starter 2,990 700 credits Downgrade Unavailable up to 70 up to 17 up to 5 up to 2 up to 0 Save 15% Starter Pro 4,990 1,300 credits Downgrade Unavailable up to 130 up to 32 up to 9 up to 3 up to 1 Save 23% Bronze 6,990 3,000 credits Current Package up to 300 up",
+        "Starter 2,990 700 credits Downgrade Unavailable up to 70 up to 17 up to 5 up to 2 up to 0 Save 15%",
+        "Starter 2,990 700 credits Downgrade Unavailable up to 70 up to 17 up to 5 up to 2 up to 0 Save 15%",
+        "Starter Pro 4,990 1,300 credits Downgrade Unavailable up to 130 up to 32 up to 9 up to 3 up to 1 Save 23%",
+        "Starter Pro 4,990 1,300 credits Downgrade Unavailable up to 130 up to 32 up to 9 up to 3 up to 1 Save 23%",
+        "Bronze 6,990 3,000 credits Current Package up to 300 up to 75 up to 21 up to 8 up to 4 Save 53%",
+        "Bronze 6,990 3,000 credits Current Package up to 300 up to 75 up to 21 up to 8 up to 4 Save 53%",
+        "Silver Pay 11,990 to Upgrade 6,200 credits Get Silver up to 620 up to 155 up to 44 up to 17 up to 8 Save 61%",
+        "Silver Pay 11,990 to Upgrade 6,200 credits Get Silver up to 620 up to 155 up to 44 up to 17 up to 8 Save 61%",
+        "Gold Pay 17,990 to Upgrade 10,100 credits Get Gold up to 1010 up to 252 up to 72 up to 28 up to 13 Save 64%",
+        "Gold Pay 17,990 to Upgrade 10,100 credits Get Gold up to 1010 up to 252 up to 72 up to 28 up to 13 Save 64%",
+        "Platinum Pay 24,990 to Upgrade 18,000 credits Get Platinum up to 1800 up to 450 up to 128 up to 51 up to 24 Save 72%",
+        "Platinum Pay 24,990 to Upgrade 18,000 credits Get Platinum up to 1800 up to 450 up to 128 up to 51 up to 24 Save 72%",
+        "Platinum Plus Pay 35,990 to Upgrade 36,000 credits Get Platinum Plus up to 3600 up to 900 up to 257 up to 102 up to 48 Save 80%",
+        "Platinum Plus Pay 35,990 to Upgrade 36,000 credits Get Platinum Plus up to 3600 up to 900 up to 257 up to 102 up to 48 Save 80%",
+        "Titanium Pay 115,000 to Upgrade 144,000 credits Get Titanium up to 14400 up to 3600 up to 1028 up to 411 up to 192 Save 84%",
+        "Titanium Pay 115,000 to Upgrade 144,000 credits Get Titanium up to 14400 up to 3600 up to 1028 up to 411 up to 192 Save 84%",
+        "Credit Top-up Ran out of credits? Add more credits to your account to post more listings and avail more services seamlessly. Total Credits Total Credits 0 Get Top-up",
+        "Credit Top-up Ran out of credits? Add more credits to your account to post more listings and avail more services seamlessly. Total Credits Total Credits 0 Get Top-up",
+        "Total Credits 0 Get Top-up",
+        "Total Credits 0 Get Top-up"
+      ],
+      "charts": 95,
+      "text": "Credits & Packages Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages العربية Help & Support Current Package Bronze (Yearly) 3000 credits Package End Date Jul 24, 2027 Top-ups Purchased 3,250 Available Credits 6,250 Used 0 Total 6,250 What are Credits? Get a Package According to Your Business Needs Package Duration 1 Year 6 Months Benefits Basic Listings Hot Listings Signature Listings Photography Services Videography Services Credit Allocation to Staff Dedicated Account Manager Featured Tag for Your Agency Listing Collection by Bayut Starter 2,990 700 credits Downgrade Unavailable up to 70 up to 17 up to 5 up to 2 up to 0 Save 15% Starter Pro 4,990 1,300 credits Downgrade Unavailable up to 130 up to 32 up to 9 up to 3 up to 1 Save 23% Bronze 6,990 3,000 credits Current Package up to 300 up to 75 up to 21 up to 8 up to 4 Save 53% Silver Pay 11,990 to Upgrade 6,200 credits Get Silver up to 620 up to 155 up to 44 up to 17 up to 8 Save 61% Gold Pay 17,990 to Upgrade 10,100 credits Get Gold up to 1010 up to 252 up to 72 up to 28 up to 13 Save 64% Platinum Pay 24,990 to Upgrade 18,000 credits Get Platinum up to 1800 up to 450 up to 128 up to 51 up to 24 Save 72% Platinum Plus Pay 35,990 to Upgrade 36,000 credits Get Platinum Plus up to 3600 up to 900 up to 257 up to 102 up to 48 Save 80% Titanium Pay 115,000 to Upgrade 144,000 credits Get Titanium up to 14400 up to 3600 up to 1028 up to 411 up to 192 Save 84% Credit Top-up Ran out of credits? Add more credits to your account to post more listings and avail more services seamlessly. Total Credits Total Credits 0 Get Top-up © 2026 – All Rights Reserved",
+      "navLabel": "Credits & Packages",
+      "screenshot": "09-en-packages.png",
+      "dialogs": [
+        {
+          "trigger": "What are Credits?",
+          "screenshot": "09-en-packages-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        }
+      ]
+    },
+    {
+      "url": "https://profolio.bayut.sa/en/listings",
+      "title": "Your Property Listings Dashboard | Bayut Ksa",
+      "headings": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "Go to Bayut.sa",
+          "href": "https://www.bayut.sa/en",
+          "type": "",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "buttons": [
+        {
+          "tag": "button",
+          "text": "Download App",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Post Listing",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "Expand side menu",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Show More",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Clear filters",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        },
+        {
+          "tag": "button",
+          "text": "Search",
+          "href": "",
+          "type": "button",
+          "role": "",
+          "aria": "",
+          "placeholder": "",
+          "name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "number",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter Listing ID",
+          "name": ""
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "href": "",
+          "type": "number",
+          "role": "",
+          "aria": "",
+          "placeholder": "Enter REGA Ad License Number",
+          "name": ""
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Property",
+            "Timeline",
+            "Performance",
+            "Status",
+            "Upgrades",
+            "Actions"
+          ],
+          "rows": 11
+        }
+      ],
+      "cards": [
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0) Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone re",
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0)",
+        "Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0)",
+        "Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Ba"
+      ],
+      "charts": 256,
+      "text": "My Listings Download App Go to Bayut.sa Post Listing 24 KSA Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages Listing ID REGA Ad License Number Purpose Select Purpose Property Type Select Property Types Show More Clear filters Search Active (12) Draft (3) Pending (0) Removed (29) Ad License Requests (0) Property Timeline Performance Status Upgrades Actions 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087735 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087716 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087588 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 80,000 Basic 64% Complex for Rent 0 7983 Sq. M. Samtah Jazan Region, At Tahliyah Bayut ID: 88087505 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087477 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 100,000 Basic 64% Complex for Rent 0 1259 Sq. M. Jeddah, North Jeddah, Al Salehiyah Bayut ID: 88087395 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 300,000 Basic 64% Commercial Building for Rent 0 1800 Sq. M. Jeddah, North Jeddah, Al Falah Bayut ID: 88087392 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 3997 Sq. M. Jeddah, North Jeddah, Al Bashaer Bayut ID: 88087364 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087232 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 400,000 Basic 64% Commercial Building for Rent 0 2400 Sq. M. Jeddah, North Jeddah, Taiba District Bayut ID: 88087195 REGA ID: [phone redacted] Posted on Aug 03, 2026 Views 0 Clicks 0 Leads 0 Live 1 2 3 4 © 2026 – All Rights Reserved",
+      "screenshot": "01-en-listings.png",
+      "dialogs": [
+        {
+          "trigger": "Show More",
+          "screenshot": "01-en-listings-dialog-01.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        },
+        {
+          "trigger": "Search",
+          "screenshot": "01-en-listings-dialog-02.png",
+          "text": "Overview Post Listing My Listings Credits Usage TruLeads Agent Performance Reports Agency Staff Settings Credits & Packages"
+        }
+      ]
+    }
+  ]
+}

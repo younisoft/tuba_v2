@@ -1,0 +1,15 @@
+- generic "Dialog" [ref=f1e3]:
+  - button "Close button" [ref=f1e5] [cursor=pointer]
+  - generic [ref=f1e14]:
+    - generic [ref=f1e15]: Login into your Bayut account
+    - generic [ref=f1e21]:
+      - button "Login with Google" [ref=f1e22] [cursor=pointer]:
+        - img "Google" [ref=f1e23]
+      - button "Login with Facebook" [ref=f1e25] [cursor=pointer]:
+        - img "Facebook" [ref=f1e26]
+      - button "Login with one-time link" [ref=f1e28] [cursor=pointer]:
+        - img "Link" [ref=f1e29]
+      - generic [ref=f1e31]: Or
+      - button "Login with Email" [ref=f1e32] [cursor=pointer]
+      - button "Login with Phone" [ref=f1e36] [cursor=pointer]
+    - button "createAccountButton" [ref=f1e41] [cursor=pointer]: New to Bayut? Create an account

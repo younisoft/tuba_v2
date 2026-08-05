@@ -1,0 +1,184 @@
+- generic [ref=f11e2]:
+  - generic [ref=f11e7]:
+    - generic [ref=f11e8]:
+      - link "الإعلانات" [ref=f11e9] [cursor=pointer]:
+        - /url: /عقارات
+      - link "المشاريع" [ref=f11e13] [cursor=pointer]:
+        - /url: /المشاريع-العقارية
+      - link "الحجوزات" [ref=f11e16] [cursor=pointer]:
+        - /url: /الحجوزات
+    - link "الخريطة" [ref=f11e20] [cursor=pointer]:
+      - /url: /الخريطة
+    - link "إضافة" [ref=f11e25] [cursor=pointer]:
+      - /url: /إضافة-إعلان
+    - link "دخول / تسجيل" [ref=f11e29] [cursor=pointer]:
+      - /url: /login
+  - main [ref=f11e32]:
+    - main [ref=f11e33]:
+      - generic [ref=f11e34]:
+        - heading "إعلاناتي" [level=3] [ref=f11e35]
+        - link [ref=f11e37] [cursor=pointer]:
+          - /url: /add-listing
+        - generic [ref=f11e42]:
+          - generic [ref=f11e43]: الكل (0)
+          - generic [ref=f11e45]: منشورة (0)
+          - generic [ref=f11e47]: معلقة (0)
+          - generic [ref=f11e49]: منتهية الصلاحية (0)
+          - generic [ref=f11e51]: مؤرشفة (0)
+        - generic [ref=f11e54]:
+          - link "**** طلب تسويق ** ** ** *****" [ref=f11e55] [cursor=pointer]:
+            - /url: /my-listings/0
+            - generic [ref=f11e57]:
+              - paragraph [ref=f11e58]: "****"
+              - paragraph [ref=f11e59]: طلب تسويق
+              - list [ref=f11e60]:
+                - listitem [ref=f11e61]:
+                  - generic [ref=f11e62]: "**"
+                - listitem [ref=f11e63]:
+                  - generic [ref=f11e64]: "**"
+                - listitem [ref=f11e65]:
+                  - generic [ref=f11e66]: "**"
+              - paragraph [ref=f11e68]: "*****"
+          - link "**** طلب تسويق ** ** ** *****" [ref=f11e70] [cursor=pointer]:
+            - /url: /my-listings/1
+            - generic [ref=f11e72]:
+              - paragraph [ref=f11e73]: "****"
+              - paragraph [ref=f11e74]: طلب تسويق
+              - list [ref=f11e75]:
+                - listitem [ref=f11e76]:
+                  - generic [ref=f11e77]: "**"
+                - listitem [ref=f11e78]:
+                  - generic [ref=f11e79]: "**"
+                - listitem [ref=f11e80]:
+                  - generic [ref=f11e81]: "**"
+              - paragraph [ref=f11e83]: "*****"
+          - link "**** طلب تسويق ** ** ** *****" [ref=f11e85] [cursor=pointer]:
+            - /url: /my-listings/2
+            - generic [ref=f11e87]:
+              - paragraph [ref=f11e88]: "****"
+              - paragraph [ref=f11e89]: طلب تسويق
+              - list [ref=f11e90]:
+                - listitem [ref=f11e91]:
+                  - generic [ref=f11e92]: "**"
+                - listitem [ref=f11e93]:
+                  - generic [ref=f11e94]: "**"
+                - listitem [ref=f11e95]:
+                  - generic [ref=f11e96]: "**"
+              - paragraph [ref=f11e98]: "*****"
+          - link "**** طلب تسويق ** ** ** *****" [ref=f11e100] [cursor=pointer]:
+            - /url: /my-listings/3
+            - generic [ref=f11e102]:
+              - paragraph [ref=f11e103]: "****"
+              - paragraph [ref=f11e104]: طلب تسويق
+              - list [ref=f11e105]:
+                - listitem [ref=f11e106]:
+                  - generic [ref=f11e107]: "**"
+                - listitem [ref=f11e108]:
+                  - generic [ref=f11e109]: "**"
+                - listitem [ref=f11e110]:
+                  - generic [ref=f11e111]: "**"
+              - paragraph [ref=f11e113]: "*****"
+          - link "**** طلب تسويق ** ** ** *****" [ref=f11e115] [cursor=pointer]:
+            - /url: /my-listings/4
+            - generic [ref=f11e117]:
+              - paragraph [ref=f11e118]: "****"
+              - paragraph [ref=f11e119]: طلب تسويق
+              - list [ref=f11e120]:
+                - listitem [ref=f11e121]:
+                  - generic [ref=f11e122]: "**"
+                - listitem [ref=f11e123]:
+                  - generic [ref=f11e124]: "**"
+                - listitem [ref=f11e125]:
+                  - generic [ref=f11e126]: "**"
+              - paragraph [ref=f11e128]: "*****"
+    - generic [ref=f11e131]:
+      - generic [ref=f11e132]:
+        - link "Aqar" [ref=f11e133] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f11e135]:
+          - link [ref=f11e136] [cursor=pointer]:
+            - /url: https://apps.apple.com/sa/app/id879992882
+            - button [ref=f11e137]:
+              - img "App Store" [ref=f11e139]
+          - link [ref=f11e140] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=fm.aqar
+            - button [ref=f11e141]:
+              - img "Google Play" [ref=f11e143]
+          - link [ref=f11e144] [cursor=pointer]:
+            - /url: https://appgallery.huawei.com/app/C100162543
+            - button [ref=f11e145]:
+              - img "App Gallery" [ref=f11e147]
+      - generic [ref=f11e148]:
+        - generic [ref=f11e149]:
+          - heading "خيارات البحث" [level=3] [ref=f11e150]
+          - generic [ref=f11e151]:
+            - link "شقق للإيجار" [ref=f11e152] [cursor=pointer]:
+              - /url: /شقق-للإيجار
+            - link "شقق للبيع" [ref=f11e153] [cursor=pointer]:
+              - /url: /شقق-للبيع
+            - link "فلل للإيجار" [ref=f11e154] [cursor=pointer]:
+              - /url: /فلل-للإيجار
+            - link "أراضي للبيع" [ref=f11e155] [cursor=pointer]:
+              - /url: /أراضي-للبيع
+            - link "دور للإيجار" [ref=f11e156] [cursor=pointer]:
+              - /url: /دور-للإيجار
+            - link "شقق للإيجار بالرياض" [ref=f11e157] [cursor=pointer]:
+              - /url: /شقق-للإيجار/الرياض
+            - link "فلل للبيع" [ref=f11e158] [cursor=pointer]:
+              - /url: /فلل-للبيع
+            - link "شقق للإيجار بجدة" [ref=f11e159] [cursor=pointer]:
+              - /url: /شقق-للإيجار/جدة
+        - generic [ref=f11e160]:
+          - heading "روابط سريعة" [level=3] [ref=f11e161]
+          - generic [ref=f11e162]:
+            - link [ref=f11e163] [cursor=pointer]:
+              - /url: /إضافة-إعلان
+            - link [ref=f11e167] [cursor=pointer]:
+              - /url: /user/campaigns
+            - link [ref=f11e174] [cursor=pointer]:
+              - /url: /الخدمات
+            - link [ref=f11e180] [cursor=pointer]:
+              - /url: /partners
+            - link [ref=f11e185] [cursor=pointer]:
+              - /url: /financing/munaaseb
+            - link [ref=f11e192] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/blog
+            - link [ref=f11e197] [cursor=pointer]:
+              - /url: /الإحصائيات-العقارية
+            - link [ref=f11e204] [cursor=pointer]:
+              - /url: /الصفقات-العقارية
+            - link [ref=f11e208] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+            - link [ref=f11e212] [cursor=pointer]:
+              - /url: /user/ejar-contracts
+            - button "اتصل بنا" [ref=f11e218] [cursor=pointer]
+      - generic [ref=f11e222]:
+        - generic [ref=f11e223]:
+          - link "YouTube" [ref=f11e224] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+          - link "Snapchat" [ref=f11e228] [cursor=pointer]:
+            - /url: https://www.snapchat.com/add/aqarapp
+          - link "LinkedIn" [ref=f11e232] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/aqarfm/about/
+          - link "Facebook" [ref=f11e238] [cursor=pointer]:
+            - /url: https://www.facebook.com/aqarapp
+          - link "Instagram" [ref=f11e243] [cursor=pointer]:
+            - /url: https://www.instagram.com/aqarapp
+          - link "Twitter" [ref=f11e248] [cursor=pointer]:
+            - /url: https://twitter.com/aqarapp
+          - link "TikTok" [ref=f11e252] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@aqarapp
+        - generic [ref=f11e257]:
+          - button "Toggle theme" [ref=f11e258] [cursor=pointer]: الوضع الليلي
+          - link [ref=f11e262] [cursor=pointer]:
+            - /url: /en
+        - generic [ref=f11e269]:
+          - link "Ehsan خدمة التبرع السريع" [ref=f11e270] [cursor=pointer]:
+            - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+            - img "Ehsan" [ref=f11e272]
+            - generic [ref=f11e273]: خدمة التبرع السريع
+          - img "vat" [ref=f11e274]
+          - img "rega" [ref=f11e275]
+      - generic [ref=f11e276]:
+        - paragraph [ref=f11e277]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+        - paragraph [ref=f11e278]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505

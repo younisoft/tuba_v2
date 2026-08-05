@@ -1,0 +1,158 @@
+- generic [active] [ref=f11e1]:
+  - text:   
+  - generic [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - banner [ref=f11e4]:
+        - navigation [ref=f11e6]:
+          - link [ref=f11e7] [cursor=pointer]:
+            - /url: "#"
+            - img "header-logo.png" [ref=f11e8]
+          - list [ref=f11e9]:
+            - listitem [ref=f11e10]:
+              - button "إضافة عقار جديد" [ref=f11e11] [cursor=pointer]
+            - listitem
+            - listitem [ref=f11e12]:
+              - link [ref=f11e13] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f11e14]: 
+                - generic [ref=f11e16]:
+                  - img "Nafath Logo" [ref=f11e17]
+                  - text: وكيل موثق
+            - listitem [ref=f11e18]:
+              - link [ref=f11e19] [cursor=pointer]:
+                - /url: "#!"
+                - img "Nafath Logo" [ref=f11e20]
+                - text: Fal License
+            - listitem [ref=f11e21]:
+              - link [ref=f11e22] [cursor=pointer]:
+                - /url: https://tuba.com.sa
+                - generic [ref=f11e23]:
+                  - img [ref=f11e24]: 
+                  - text: موقع إليكتروني
+            - listitem [ref=f11e26]:
+              - link "English" [ref=f11e27] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f11e28]:
+              - generic [ref=f11e29] [cursor=pointer]:
+                - img [ref=f11e30]: 
+                - generic [ref=f11e32]: "0"
+            - listitem [ref=f11e33]:
+              - link "profile فهد" [ref=f11e35] [cursor=pointer]:
+                - /url: "#"
+                - img "profile" [ref=f11e36]
+                - generic [ref=f11e37]: فهد
+      - generic: 
+      - generic:          
+      - list [ref=f11e38]:
+        - listitem [ref=f11e39]:
+          - img "header-logo2.png" [ref=f11e40]
+        - listitem [ref=f11e41]: رئيسي
+        - listitem [ref=f11e42]:
+          - link "لوحة التحكم" [ref=f11e43] [cursor=pointer]:
+            - /url: https://tuba.com.sa/dashboard
+        - listitem [ref=f11e46]: إدارة القوائم
+        - listitem [ref=f11e47]:
+          - link "عقاراتي" [ref=f11e48] [cursor=pointer]:
+            - /url: https://tuba.com.sa/properties
+        - listitem [ref=f11e51]:
+          - link "البريد الوارد" [ref=f11e52] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-inbox
+        - listitem [ref=f11e55]:
+          - link " الطلبات العقارية" [ref=f11e56] [cursor=pointer]:
+            - /url: https://tuba.com.sa/property-requests
+            - generic [ref=f11e57]: 
+            - text: الطلبات العقارية
+        - listitem [ref=f11e58]: اعدادات المشرف
+        - listitem [ref=f11e59]: إدارة الحساب
+        - listitem [ref=f11e60]:
+          - link "اشتراكاتي" [ref=f11e61] [cursor=pointer]:
+            - /url: https://tuba.com.sa/package-detials
+        - listitem [ref=f11e64]:
+          - link "إدارة الفريق" [ref=f11e65] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-users
+            - img [ref=f11e66]: 
+            - text: إدارة الفريق
+        - listitem [ref=f11e68]:
+          - link "ملفي الشخصي" [ref=f11e69] [cursor=pointer]:
+            - /url: https://tuba.com.sa/my-profile
+            - img [ref=f11e70]: 
+            - text: ملفي الشخصي
+        - listitem [ref=f11e72]:
+          - link "اعدادات الحساب" [ref=f11e73] [cursor=pointer]:
+            - /url: https://tuba.com.sa/account-setting
+            - img [ref=f11e74]: 
+            - text: اعدادات الحساب
+        - listitem [ref=f11e76]:
+          - link " الباقات" [ref=f11e77] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+            - generic [ref=f11e78]: 
+            - text: الباقات
+            - img [ref=f11e79]: 
+          - text:   
+        - listitem [ref=f11e81]:
+          - link "الباقات" [ref=f11e82] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+        - listitem [ref=f11e85]:
+          - link "حزم المطورين" [ref=f11e86] [cursor=pointer]:
+            - /url: https://tuba.com.sa/developer-packages
+        - listitem [ref=f11e89]:
+          - link "باقات تراخيص الإعلانات" [ref=f11e90] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-license-packages
+        - listitem [ref=f11e93]:
+          - link "تسجيل الخروج" [ref=f11e94] [cursor=pointer]:
+            - /url: https://tuba.com.sa/logout
+      - generic [ref=f11e101]:
+        - generic [ref=f11e104]:
+          - heading "هلا, شركة اسبار" [level=2] [ref=f11e105]
+          - paragraph [ref=f11e106]: نحن سعداء لرؤيتك مرة أخرى!
+        - generic [ref=f11e111] [cursor=pointer]:
+          - strong [ref=f11e112]: أوشكت على الانتهاء!
+          - paragraph [ref=f11e113]: أضف المزيد من التفاصيل إلى ملفك الشخصي لزيادة الموثوقية وجذب المزيد من العملاء
+        - generic [ref=f11e115]:
+          - generic [ref=f11e116]:
+            - heading "الإعلانات" [level=2] [ref=f11e118]
+            - generic [ref=f11e119]:
+              - generic [ref=f11e124]:
+                - paragraph [ref=f11e125]: فعال
+                - heading "2" [level=3] [ref=f11e126]
+              - generic [ref=f11e132]:
+                - paragraph [ref=f11e133]: معلق
+                - heading "0" [level=3] [ref=f11e134]
+              - generic [ref=f11e140]:
+                - paragraph [ref=f11e141]: مباع
+                - heading "1" [level=3] [ref=f11e142]
+              - generic [ref=f11e144]:
+                - img [ref=f11e146]: 
+                - generic [ref=f11e148]:
+                  - paragraph [ref=f11e149]: للإيجار
+                  - heading "47" [level=3] [ref=f11e150]
+              - generic [ref=f11e156]:
+                - paragraph [ref=f11e157]: للبيع
+                - heading "6" [level=3] [ref=f11e158]
+              - generic [ref=f11e164]:
+                - paragraph [ref=f11e165]: التقييمات والمراجعات
+                - heading "0" [level=3] [ref=f11e166]
+          - generic [ref=f11e167]:
+            - heading "الترقيات" [level=2] [ref=f11e169]
+            - generic [ref=f11e170]:
+              - generic [ref=f11e172]:
+                - img [ref=f11e174]: 
+                - generic [ref=f11e176]:
+                  - paragraph [ref=f11e177]: إعلان أساسي
+                  - heading "22" [level=3] [ref=f11e178]
+              - generic [ref=f11e180]:
+                - img [ref=f11e182]: 
+                - generic [ref=f11e184]:
+                  - paragraph [ref=f11e185]: إعلان متميز
+                  - heading "4" [level=3] [ref=f11e186]
+              - generic [ref=f11e192]:
+                - paragraph [ref=f11e193]: إعلان متميز برو
+                - heading "2" [level=3] [ref=f11e194]
+        - heading "الإعلانات الأخيرة" [level=4] [ref=f11e195]
+      - text:         
+      - link [ref=f11e196] [cursor=pointer]:
+        - /url: https://wa.me/+966535020288?text=مرحباً، أنا  فهد حميد عبدالكريم الظاهري   وأحتاج مساعدة في منصة طوبة.
+        - img "WhatsApp" [ref=f11e197]
+      - text: 
+      - button "Scroll to bottom" [ref=f11e199] [cursor=pointer]
+    - generic [ref=f11e202]: Loading…

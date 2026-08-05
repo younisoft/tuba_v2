@@ -1,0 +1,13 @@
+# Strengths
+
+- **REGA/Wasata/Ejar compliance is deeply, structurally integrated**, not a bolted-on field — a mandatory license gate, a full alternate free-license issuance form, and a 7-state license lifecycle tracker together make Aqar's listing pipeline meaningfully harder to post non-compliant inventory through than what the Bayut audit documents for Bayut.
+- **Two independent, genuinely different monetization primitives beyond subscription** — an expiring cash wallet and a competitive-bid visibility auction (District Broker) — give Aqar real commercial mechanics that create urgency and price discovery, which a single fungible credit pool (Bayut's model, per the existing audit) does not.
+- **The Subscription Info FAQ accordion pre-answers the exact questions a broker would otherwise file a support ticket for** ("what happens when spaces run out," "can I add users") — small but genuinely well-targeted content design.
+- **Saved Searches has one of the best empty states observed across either audit**: specific explanatory copy paired with a CTA that matches it exactly.
+- **The Featured Listings explainer page** (3-step visual walkthrough + benefit illustrations) is a clear, well-designed piece of in-product education — better than the bare form-first pattern used almost everywhere else in the product.
+- **A genuine two-sided lead mechanic exists**: owner-posted "Marketing Request" listings, discoverable by any broker browsing the marketplace, is a real demand-generation feature with no equivalent documented in the Bayut audit.
+- **Ejar integration goes further than paperwork tracking** — a paid notarization service plus an assigned-contracts view with a real conversion-rate KPI is a genuine CRM-adjacent capability tied to an actual government transaction system.
+- **The account/establishment split (personal vs. business identity under one login) is a clean, sensible model** for a broker who might also act as an individual buyer/seller — one phone-verified login, two switchable identity contexts.
+- **Consistent, versioned icon and illustration systems** (`assets.aqar.fm/icons/v2/…`, topic-matched empty-state illustrations) indicate a maintained shared design-asset pipeline, not ad hoc per-page graphics.
+- **Disclosed, non-dark-pattern incentive design**: the auto-renewal toggle explicitly states its 20% discount rather than hiding the incentive or using confirm-shaming copy.
+- **Server-rendered pages with no visible loading-skeleton gap** across ~25 page loads — a technically solid baseline for perceived performance, consistent with a Next.js/RSC architecture (see `08_TECHNICAL_OBSERVATIONS.md`).

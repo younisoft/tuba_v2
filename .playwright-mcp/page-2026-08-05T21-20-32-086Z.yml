@@ -1,0 +1,187 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e2]:
+    - generic [ref=f35e7]:
+      - generic [ref=f35e8]:
+        - link "الإعلانات" [ref=f35e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f35e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f35e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f35e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f35e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "دخول / تسجيل" [ref=f35e29] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f35e32]:
+      - main [ref=f35e33]:
+        - generic [ref=f35e34]:
+          - heading "إدارة المكتب" [level=1] [ref=f35e35]
+          - generic [ref=f35e36]:
+            - navigation [ref=f35e37]:
+              - link "لوحة تحكم المدير" [ref=f35e38] [cursor=pointer]:
+                - /url: /offices-management
+              - link "الإعلانات" [ref=f35e42] [cursor=pointer]:
+                - /url: /offices-management/listings
+              - link "المحفظة (0 §)" [ref=f35e46] [cursor=pointer]:
+                - /url: /offices-management/wallet
+                - generic [ref=f35e47]:
+                  - text: المحفظة
+                  - generic [ref=f35e49]:
+                    - text: (
+                    - generic [ref=f35e50]: 0 §
+                    - text: )
+              - link "حملات التمييز" [ref=f35e52] [cursor=pointer]:
+                - /url: /offices-management/campaigns
+              - link "الإحصائيات" [ref=f35e56] [cursor=pointer]:
+                - /url: /offices-management/statistics
+              - link "المستخدمين" [ref=f35e60] [cursor=pointer]:
+                - /url: /offices-management/users
+              - link "المدفوعات و الفواتير" [ref=f35e63] [cursor=pointer]:
+                - /url: /offices-management/invoices
+              - link "إعدادات الحساب" [ref=f35e67] [cursor=pointer]:
+                - /url: /offices-management/settings
+            - main [ref=f35e71]:
+              - generic [ref=f35e72]:
+                - generic [ref=f35e74]:
+                  - textbox "أدخل رقم الجوال" [ref=f35e76]
+                  - button "إضافة موظف" [disabled] [ref=f35e77] [cursor=pointer]
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row "اسم المستخدم رقم الجوال تاريخ الانضمام البريد الإلكتروني عدد الإعلانات خيارات":
+                        - columnheader "اسم المستخدم"
+                        - columnheader "رقم الجوال"
+                        - columnheader "تاريخ الانضمام"
+                        - columnheader "البريد الإلكتروني"
+                        - columnheader "عدد الإعلانات"
+                        - columnheader "خيارات"
+                    - rowgroup:
+                      - row "- - 0":
+                        - cell
+                        - cell
+                        - cell "-"
+                        - cell "-"
+                        - cell "0"
+                        - cell
+                      - row "- - 0":
+                        - cell
+                        - cell
+                        - cell "-"
+                        - cell "-"
+                        - cell "0"
+                        - cell
+                      - row "- - 0":
+                        - cell
+                        - cell
+                        - cell "-"
+                        - cell "-"
+                        - cell "0"
+                        - cell
+                      - row "- - 0":
+                        - cell
+                        - cell
+                        - cell "-"
+                        - cell "-"
+                        - cell "0"
+                        - cell
+                      - row "- - 0":
+                        - cell
+                        - cell
+                        - cell "-"
+                        - cell "-"
+                        - cell "0"
+                        - cell
+      - generic [ref=f35e79]:
+        - generic [ref=f35e80]:
+          - link "Aqar" [ref=f35e81] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f35e83]:
+            - link [ref=f35e84] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f35e85]:
+                - img "App Store" [ref=f35e87]
+            - link [ref=f35e88] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f35e89]:
+                - img "Google Play" [ref=f35e91]
+            - link [ref=f35e92] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f35e93]:
+                - img "App Gallery" [ref=f35e95]
+        - generic [ref=f35e96]:
+          - generic [ref=f35e97]:
+            - heading "خيارات البحث" [level=3] [ref=f35e98]
+            - generic [ref=f35e99]:
+              - link "شقق للإيجار" [ref=f35e100] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f35e101] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f35e102] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f35e103] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f35e104] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f35e105] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f35e106] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f35e107] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f35e108]:
+            - heading "روابط سريعة" [level=3] [ref=f35e109]
+            - generic [ref=f35e110]:
+              - link [ref=f35e111] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f35e115] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f35e122] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f35e128] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f35e133] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f35e140] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f35e145] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f35e152] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f35e156] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f35e160] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f35e166] [cursor=pointer]
+        - generic [ref=f35e170]:
+          - generic [ref=f35e171]:
+            - link "YouTube" [ref=f35e172] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f35e176] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f35e180] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f35e186] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f35e191] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f35e196] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f35e200] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f35e205]:
+            - button "Toggle theme" [ref=f35e206] [cursor=pointer]: الوضع الليلي
+            - link [ref=f35e210] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f35e217]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f35e218] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f35e220]
+              - generic [ref=f35e221]: خدمة التبرع السريع
+            - img "vat" [ref=f35e222]
+            - img "rega" [ref=f35e223]
+        - generic [ref=f35e224]:
+          - paragraph [ref=f35e225]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f35e226]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f35e227]

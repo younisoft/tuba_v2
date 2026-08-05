@@ -1,0 +1,72 @@
+[
+  {
+    "area": "UX",
+    "score": 7.2,
+    "rationale": "Clear core flows and strong role focus, with weak hierarchy in dense tables and an unexplained four-state listing lifecycle."
+  },
+  {
+    "area": "UI",
+    "score": 7,
+    "rationale": "Professional Bayut design language, but repeated card/table density and low heading semantics."
+  },
+  {
+    "area": "Performance",
+    "score": 6.6,
+    "rationale": "SPA generally loads, but direct route refreshes intermittently produced Failed to fetch screens."
+  },
+  {
+    "area": "Navigation",
+    "score": 7.1,
+    "rationale": "Simple side rail; discoverability suffers because many navigation elements are buttons, not links, and Agent Performance / Reports render as two adjacent same-styled items easily mistaken for one."
+  },
+  {
+    "area": "Search",
+    "score": 6.5,
+    "rationale": "Useful ID and REGA filters, but limited saved searches, global search, or semantic search."
+  },
+  {
+    "area": "Reporting",
+    "score": 7,
+    "rationale": "Dashboard metrics plus a dedicated Reports Summary (composition, location breakdown, tiered performance) now confirmed reachable; still no export, benchmark, or period comparison."
+  },
+  {
+    "area": "Analytics",
+    "score": 7.1,
+    "rationale": "Good core KPI coverage (views, clicks, leads, calls, WhatsApp, SMS, email) plus a second axis via Agent Performance (image/feature quality scores, responsiveness); no funnel or benchmark."
+  },
+  {
+    "area": "Agent Experience",
+    "score": 7.6,
+    "rationale": "Actionable profile completion, TruBroker gamification (leaderboard, TruPoints, badges), and lead management are practical, though badges are Locked with no visible path to unlock."
+  },
+  {
+    "area": "Admin Experience",
+    "score": 7,
+    "rationale": "Agency staff, per-staff credit limits, and license-sharing toggle give owners real (if coarse) controls; role granularity beyond Owner was not observable in a single-seat account."
+  },
+  {
+    "area": "Business Value",
+    "score": 8,
+    "rationale": "Directly tied to listing quality, lead conversion, package monetization, and agency operations."
+  },
+  {
+    "area": "Innovation",
+    "score": 6.3,
+    "rationale": "TruBroker gamification (badges tied to measurable quality/responsiveness) is a genuine differentiator beyond marketplace CRM basics; still limited visible AI or predictive intelligence."
+  },
+  {
+    "area": "Scalability",
+    "score": 6.9,
+    "rationale": "Pagination and module separation are present; bulk and governance tooling look shallow."
+  },
+  {
+    "area": "Accessibility",
+    "score": 5.8,
+    "rationale": "Buttons without accessible names/labels (confirmed via DOM inspection of table action icons) and heading extraction gaps suggest semantic accessibility weaknesses."
+  },
+  {
+    "area": "Overall Product Score",
+    "score": 7.1,
+    "rationale": "A commercially useful real-estate SaaS console with a genuine gamification differentiator, still lacking workflow intelligence, export/benchmarking, and granular permissions."
+  }
+]

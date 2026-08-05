@@ -1,0 +1,21 @@
+flowchart TD
+    A[Click Add / إضافة in global nav] --> B{Select role}
+    B -->|Broker/Marketer وسيط-مسوق| C[Action cards shown]
+    C --> D[إضافة إعلان عقاري - Add real listing]
+    C --> E[إصدار ترخيص مجاني - Issue free license]
+    C --> F[روج حسابك - Promote in District Broker]
+
+    D --> G[REGA license number gate]
+    G -->|Have a REGA license number| H[Enter number, click التالي]
+    G -->|No license number| E
+
+    H --> I{License valid?}
+    I -->|Not tested - requires real REGA ID| Z1[STOPPED: cannot fabricate a government license number]
+
+    E --> J[Requirements screen: must have active Wasata marketing contract]
+    J --> K[Form: Wasata contract #, deed #, price, ad type, POA toggle]
+    K --> L{Submit}
+    L -->|Requires real Wasata/deed IDs| Z2[STOPPED: cannot fabricate government contract/deed numbers]
+
+    style Z1 fill:#f66,color:#fff
+    style Z2 fill:#f66,color:#fff

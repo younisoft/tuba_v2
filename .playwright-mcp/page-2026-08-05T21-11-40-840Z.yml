@@ -1,0 +1,122 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - generic [ref=f17e7]:
+      - generic [ref=f17e8]:
+        - link "الإعلانات" [ref=f17e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f17e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f17e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f17e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f17e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "دخول / تسجيل" [ref=f17e29] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f17e32]:
+      - main [ref=f17e33]:
+        - generic [ref=f17e34]:
+          - heading "معلومات الترخيص" [level=1] [ref=f17e35]
+          - generic [ref=f17e36]:
+            - paragraph [ref=f17e40]: لإضافة إعلان في منصة عقار يجب أن يكون لديك ترخيص إعلان صادر من الهيئة العامة للعقار
+            - generic [ref=f17e41]:
+              - generic [ref=f17e42]:
+                - paragraph [ref=f17e43]: رقم ترخيص الإعلان
+                - link "ما هو ترخيص الإعلان؟" [ref=f17e44] [cursor=pointer]:
+                  - /url: https://aqr.to/ad-how-to
+              - textbox [ref=f17e46]
+            - button "التالي" [disabled] [ref=f17e48] [cursor=pointer]
+            - button "إذا لم يكن لديك رخصة إعلان يمكنك اصدار الترخيص مجانا من خلال منصة عقار" [ref=f17e51] [cursor=pointer]
+      - generic [ref=f17e53]:
+        - generic [ref=f17e54]:
+          - link "Aqar" [ref=f17e55] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f17e57]:
+            - link [ref=f17e58] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f17e59]:
+                - img "App Store" [ref=f17e61]
+            - link [ref=f17e62] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f17e63]:
+                - img "Google Play" [ref=f17e65]
+            - link [ref=f17e66] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f17e67]:
+                - img "App Gallery" [ref=f17e69]
+        - generic [ref=f17e70]:
+          - generic [ref=f17e71]:
+            - heading "خيارات البحث" [level=3] [ref=f17e72]
+            - generic [ref=f17e73]:
+              - link "شقق للإيجار" [ref=f17e74] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f17e75] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f17e76] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f17e77] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f17e78] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f17e79] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f17e80] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f17e81] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f17e82]:
+            - heading "روابط سريعة" [level=3] [ref=f17e83]
+            - generic [ref=f17e84]:
+              - link [ref=f17e85] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f17e89] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f17e96] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f17e102] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f17e107] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f17e114] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f17e119] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f17e126] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f17e132] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f17e136] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f17e142] [cursor=pointer]
+        - generic [ref=f17e146]:
+          - generic [ref=f17e147]:
+            - link "YouTube" [ref=f17e148] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f17e152] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f17e156] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f17e162] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f17e167] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f17e172] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f17e176] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f17e181]:
+            - button "Toggle theme" [ref=f17e182] [cursor=pointer]: الوضع الليلي
+            - link [ref=f17e186] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f17e193]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f17e194] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f17e196]
+              - generic [ref=f17e197]: خدمة التبرع السريع
+            - img "vat" [ref=f17e198]
+            - img "rega" [ref=f17e199]
+        - generic [ref=f17e200]:
+          - paragraph [ref=f17e201]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f17e202]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f17e203]

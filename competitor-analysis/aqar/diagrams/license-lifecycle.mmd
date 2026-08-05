@@ -1,0 +1,16 @@
+flowchart LR
+    A[License request submitted] --> B["بانتظار المعلومات
+Awaiting Information"]
+    B --> C["جاري إصدار العقد
+Contract Issuance in Progress"]
+    C --> D["بانتظار الموافقة على العقد
+Awaiting Contract Approval"]
+    D --> E["جاري الترخيص
+Licensing in Progress"]
+    E --> F["بانتظار الدفع
+Awaiting Payment"]
+    F --> G["إعلانات مرخصة
+Licensed - listing can go live"]
+    G --> H["رخصة منتهية
+Expired License"]
+    H -.renew.-> A

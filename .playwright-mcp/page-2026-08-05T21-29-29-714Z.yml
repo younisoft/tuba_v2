@@ -1,0 +1,121 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e2]:
+    - generic [ref=f53e7]:
+      - generic [ref=f53e8]:
+        - link "الإعلانات" [ref=f53e9] [cursor=pointer]:
+          - /url: /عقارات
+        - link "المشاريع" [ref=f53e13] [cursor=pointer]:
+          - /url: /المشاريع-العقارية
+        - link "الحجوزات" [ref=f53e16] [cursor=pointer]:
+          - /url: /الحجوزات
+      - link "الخريطة" [ref=f53e20] [cursor=pointer]:
+        - /url: /الخريطة
+      - link "إضافة" [ref=f53e25] [cursor=pointer]:
+        - /url: /إضافة-إعلان
+      - link "حسابي" [ref=f53e197] [cursor=pointer]:
+        - /url: /my-account
+    - main [ref=f53e32]:
+      - main [ref=f53e33]:
+        - generic [ref=f53e204]:
+          - heading "معلومات المزايدة" [level=1] [ref=f53e205]
+          - generic [ref=f53e206]:
+            - paragraph [ref=f53e207]: اختر حي الظهور وشارك في المزايدة على ترويج حسابك لمدة أسبوع
+            - generic [ref=f53e209]:
+              - generic [ref=f53e210]:
+                - generic [ref=f53e211]: المدينة
+                - generic [ref=f53e212]: الرياض
+              - generic [ref=f53e315]:
+                - generic [ref=f53e316]: الجهة
+                - generic [ref=f53e317]: اختر الجهة
+      - generic [ref=f53e48]:
+        - generic [ref=f53e49]:
+          - link "Aqar" [ref=f53e50] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f53e52]:
+            - link [ref=f53e53] [cursor=pointer]:
+              - /url: https://apps.apple.com/sa/app/id879992882
+              - button [ref=f53e54]:
+                - img "App Store" [ref=f53e56]
+            - link [ref=f53e57] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=fm.aqar
+              - button [ref=f53e58]:
+                - img "Google Play" [ref=f53e60]
+            - link [ref=f53e61] [cursor=pointer]:
+              - /url: https://appgallery.huawei.com/app/C100162543
+              - button [ref=f53e62]:
+                - img "App Gallery" [ref=f53e64]
+        - generic [ref=f53e65]:
+          - generic [ref=f53e66]:
+            - heading "خيارات البحث" [level=3] [ref=f53e67]
+            - generic [ref=f53e68]:
+              - link "شقق للإيجار" [ref=f53e69] [cursor=pointer]:
+                - /url: /شقق-للإيجار
+              - link "شقق للبيع" [ref=f53e70] [cursor=pointer]:
+                - /url: /شقق-للبيع
+              - link "فلل للإيجار" [ref=f53e71] [cursor=pointer]:
+                - /url: /فلل-للإيجار
+              - link "أراضي للبيع" [ref=f53e72] [cursor=pointer]:
+                - /url: /أراضي-للبيع
+              - link "دور للإيجار" [ref=f53e73] [cursor=pointer]:
+                - /url: /دور-للإيجار
+              - link "شقق للإيجار بالرياض" [ref=f53e74] [cursor=pointer]:
+                - /url: /شقق-للإيجار/الرياض
+              - link "فلل للبيع" [ref=f53e75] [cursor=pointer]:
+                - /url: /فلل-للبيع
+              - link "شقق للإيجار بجدة" [ref=f53e76] [cursor=pointer]:
+                - /url: /شقق-للإيجار/جدة
+          - generic [ref=f53e77]:
+            - heading "روابط سريعة" [level=3] [ref=f53e78]
+            - generic [ref=f53e79]:
+              - link [ref=f53e80] [cursor=pointer]:
+                - /url: /إضافة-إعلان
+              - link [ref=f53e84] [cursor=pointer]:
+                - /url: /user/campaigns
+              - link [ref=f53e91] [cursor=pointer]:
+                - /url: /الخدمات
+              - link [ref=f53e97] [cursor=pointer]:
+                - /url: /partners
+              - link [ref=f53e102] [cursor=pointer]:
+                - /url: /financing/munaaseb
+              - link [ref=f53e109] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/blog
+              - link [ref=f53e114] [cursor=pointer]:
+                - /url: /الإحصائيات-العقارية
+              - link [ref=f53e121] [cursor=pointer]:
+                - /url: /الصفقات-العقارية
+              - link [ref=f53e125] [cursor=pointer]:
+                - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+              - link [ref=f53e129] [cursor=pointer]:
+                - /url: /user/ejar-contracts
+              - button "اتصل بنا" [ref=f53e135] [cursor=pointer]
+        - generic [ref=f53e139]:
+          - generic [ref=f53e140]:
+            - link "YouTube" [ref=f53e141] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+            - link "Snapchat" [ref=f53e145] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/aqarapp
+            - link "LinkedIn" [ref=f53e149] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/aqarfm/about/
+            - link "Facebook" [ref=f53e155] [cursor=pointer]:
+              - /url: https://www.facebook.com/aqarapp
+            - link "Instagram" [ref=f53e160] [cursor=pointer]:
+              - /url: https://www.instagram.com/aqarapp
+            - link "Twitter" [ref=f53e165] [cursor=pointer]:
+              - /url: https://twitter.com/aqarapp
+            - link "TikTok" [ref=f53e169] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aqarapp
+          - generic [ref=f53e174]:
+            - button "Toggle theme" [ref=f53e175] [cursor=pointer]: الوضع الليلي
+            - link [ref=f53e179] [cursor=pointer]:
+              - /url: /en
+          - generic [ref=f53e186]:
+            - link "Ehsan خدمة التبرع السريع" [ref=f53e187] [cursor=pointer]:
+              - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+              - img "Ehsan" [ref=f53e189]
+              - generic [ref=f53e190]: خدمة التبرع السريع
+            - img "vat" [ref=f53e191]
+            - img "rega" [ref=f53e192]
+        - generic [ref=f53e193]:
+          - paragraph [ref=f53e194]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+          - paragraph [ref=f53e195]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505
+  - alert [ref=f53e196]

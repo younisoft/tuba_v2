@@ -1,0 +1,186 @@
+- generic [ref=f45e2]:
+  - generic [ref=f45e7]:
+    - generic [ref=f45e8]:
+      - link "الإعلانات" [ref=f45e9] [cursor=pointer]:
+        - /url: /عقارات
+      - link "المشاريع" [ref=f45e13] [cursor=pointer]:
+        - /url: /المشاريع-العقارية
+      - link "الحجوزات" [ref=f45e16] [cursor=pointer]:
+        - /url: /الحجوزات
+    - link "الخريطة" [ref=f45e20] [cursor=pointer]:
+      - /url: /الخريطة
+    - link "إضافة" [ref=f45e25] [cursor=pointer]:
+      - /url: /إضافة-إعلان
+    - link "دخول / تسجيل" [ref=f45e29] [cursor=pointer]:
+      - /url: /login
+  - main [ref=f45e32]:
+    - main [ref=f45e33]:
+      - generic [ref=f45e34]:
+        - heading "إدارة المكتب" [level=1] [ref=f45e35]
+        - generic [ref=f45e36]:
+          - navigation [ref=f45e37]:
+            - link "لوحة تحكم المدير" [ref=f45e38] [cursor=pointer]:
+              - /url: /offices-management
+            - link "الإعلانات" [ref=f45e42] [cursor=pointer]:
+              - /url: /offices-management/listings
+            - link "المحفظة (0 §)" [ref=f45e46] [cursor=pointer]:
+              - /url: /offices-management/wallet
+              - generic [ref=f45e47]:
+                - text: المحفظة
+                - generic [ref=f45e49]:
+                  - text: (
+                  - generic [ref=f45e50]: 0 §
+                  - text: )
+            - link "حملات التمييز" [ref=f45e52] [cursor=pointer]:
+              - /url: /offices-management/campaigns
+            - link "الإحصائيات" [ref=f45e56] [cursor=pointer]:
+              - /url: /offices-management/statistics
+            - link "المستخدمين" [ref=f45e60] [cursor=pointer]:
+              - /url: /offices-management/users
+            - link "المدفوعات و الفواتير" [ref=f45e64] [cursor=pointer]:
+              - /url: /offices-management/invoices
+            - link "إعدادات الحساب" [ref=f45e67] [cursor=pointer]:
+              - /url: /offices-management/settings
+          - main [ref=f45e71]:
+            - generic [ref=f45e74]:
+              - generic [ref=f45e75] [cursor=pointer]:
+                - generic [ref=f45e76]:
+                  - generic [ref=f45e77]: "******** ******* **********"
+                  - generic [ref=f45e78]: "*** **:**"
+                - generic [ref=f45e79]: "****"
+              - generic [ref=f45e80] [cursor=pointer]:
+                - generic [ref=f45e81]:
+                  - generic [ref=f45e82]: "******** ******* **********"
+                  - generic [ref=f45e83]: "*** **:**"
+                - generic [ref=f45e84]: "****"
+              - generic [ref=f45e85] [cursor=pointer]:
+                - generic [ref=f45e86]:
+                  - generic [ref=f45e87]: "******** ******* **********"
+                  - generic [ref=f45e88]: "*** **:**"
+                - generic [ref=f45e89]: "****"
+              - generic [ref=f45e90] [cursor=pointer]:
+                - generic [ref=f45e91]:
+                  - generic [ref=f45e92]: "******** ******* **********"
+                  - generic [ref=f45e93]: "*** **:**"
+                - generic [ref=f45e94]: "****"
+              - generic [ref=f45e95] [cursor=pointer]:
+                - generic [ref=f45e96]:
+                  - generic [ref=f45e97]: "******** ******* **********"
+                  - generic [ref=f45e98]: "*** **:**"
+                - generic [ref=f45e99]: "****"
+              - generic [ref=f45e100] [cursor=pointer]:
+                - generic [ref=f45e101]:
+                  - generic [ref=f45e102]: "******** ******* **********"
+                  - generic [ref=f45e103]: "*** **:**"
+                - generic [ref=f45e104]: "****"
+              - generic [ref=f45e105] [cursor=pointer]:
+                - generic [ref=f45e106]:
+                  - generic [ref=f45e107]: "******** ******* **********"
+                  - generic [ref=f45e108]: "*** **:**"
+                - generic [ref=f45e109]: "****"
+              - generic [ref=f45e110] [cursor=pointer]:
+                - generic [ref=f45e111]:
+                  - generic [ref=f45e112]: "******** ******* **********"
+                  - generic [ref=f45e113]: "*** **:**"
+                - generic [ref=f45e114]: "****"
+              - generic [ref=f45e115] [cursor=pointer]:
+                - generic [ref=f45e116]:
+                  - generic [ref=f45e117]: "******** ******* **********"
+                  - generic [ref=f45e118]: "*** **:**"
+                - generic [ref=f45e119]: "****"
+              - generic [ref=f45e120] [cursor=pointer]:
+                - generic [ref=f45e121]:
+                  - generic [ref=f45e122]: "******** ******* **********"
+                  - generic [ref=f45e123]: "*** **:**"
+                - generic [ref=f45e124]: "****"
+    - generic [ref=f45e126]:
+      - generic [ref=f45e127]:
+        - link "Aqar" [ref=f45e128] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f45e130]:
+          - link [ref=f45e131] [cursor=pointer]:
+            - /url: https://apps.apple.com/sa/app/id879992882
+            - button [ref=f45e132]:
+              - img "App Store" [ref=f45e134]
+          - link [ref=f45e135] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=fm.aqar
+            - button [ref=f45e136]:
+              - img "Google Play" [ref=f45e138]
+          - link [ref=f45e139] [cursor=pointer]:
+            - /url: https://appgallery.huawei.com/app/C100162543
+            - button [ref=f45e140]:
+              - img "App Gallery" [ref=f45e142]
+      - generic [ref=f45e143]:
+        - generic [ref=f45e144]:
+          - heading "خيارات البحث" [level=3] [ref=f45e145]
+          - generic [ref=f45e146]:
+            - link "شقق للإيجار" [ref=f45e147] [cursor=pointer]:
+              - /url: /شقق-للإيجار
+            - link "شقق للبيع" [ref=f45e148] [cursor=pointer]:
+              - /url: /شقق-للبيع
+            - link "فلل للإيجار" [ref=f45e149] [cursor=pointer]:
+              - /url: /فلل-للإيجار
+            - link "أراضي للبيع" [ref=f45e150] [cursor=pointer]:
+              - /url: /أراضي-للبيع
+            - link "دور للإيجار" [ref=f45e151] [cursor=pointer]:
+              - /url: /دور-للإيجار
+            - link "شقق للإيجار بالرياض" [ref=f45e152] [cursor=pointer]:
+              - /url: /شقق-للإيجار/الرياض
+            - link "فلل للبيع" [ref=f45e153] [cursor=pointer]:
+              - /url: /فلل-للبيع
+            - link "شقق للإيجار بجدة" [ref=f45e154] [cursor=pointer]:
+              - /url: /شقق-للإيجار/جدة
+        - generic [ref=f45e155]:
+          - heading "روابط سريعة" [level=3] [ref=f45e156]
+          - generic [ref=f45e157]:
+            - link [ref=f45e158] [cursor=pointer]:
+              - /url: /إضافة-إعلان
+            - link [ref=f45e162] [cursor=pointer]:
+              - /url: /user/campaigns
+            - link [ref=f45e169] [cursor=pointer]:
+              - /url: /الخدمات
+            - link [ref=f45e175] [cursor=pointer]:
+              - /url: /partners
+            - link [ref=f45e180] [cursor=pointer]:
+              - /url: /financing/munaaseb
+            - link [ref=f45e187] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/blog
+            - link [ref=f45e192] [cursor=pointer]:
+              - /url: /الإحصائيات-العقارية
+            - link [ref=f45e199] [cursor=pointer]:
+              - /url: /الصفقات-العقارية
+            - link [ref=f45e203] [cursor=pointer]:
+              - /url: https://sa.aqar.fm/اتفاقية-استخدام-تطبيق-عقار
+            - link [ref=f45e207] [cursor=pointer]:
+              - /url: /user/ejar-contracts
+            - button "اتصل بنا" [ref=f45e213] [cursor=pointer]
+      - generic [ref=f45e217]:
+        - generic [ref=f45e218]:
+          - link "YouTube" [ref=f45e219] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCxWf_zM_FSEBaH5Z_4K8oaA/videos
+          - link "Snapchat" [ref=f45e223] [cursor=pointer]:
+            - /url: https://www.snapchat.com/add/aqarapp
+          - link "LinkedIn" [ref=f45e227] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/aqarfm/about/
+          - link "Facebook" [ref=f45e233] [cursor=pointer]:
+            - /url: https://www.facebook.com/aqarapp
+          - link "Instagram" [ref=f45e238] [cursor=pointer]:
+            - /url: https://www.instagram.com/aqarapp
+          - link "Twitter" [ref=f45e243] [cursor=pointer]:
+            - /url: https://twitter.com/aqarapp
+          - link "TikTok" [ref=f45e247] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@aqarapp
+        - generic [ref=f45e252]:
+          - button "Toggle theme" [ref=f45e253] [cursor=pointer]: الوضع الليلي
+          - link [ref=f45e257] [cursor=pointer]:
+            - /url: /en
+        - generic [ref=f45e264]:
+          - link "Ehsan خدمة التبرع السريع" [ref=f45e265] [cursor=pointer]:
+            - /url: https://ehsan.sa/FastDonation/F663F6DC6CB3F9BF6D94E7A6BAA658E9AE41AA889BF9DF3641EE295620B25612E3C0A8EDBEE37261F211E03CF47615F3
+            - img "Ehsan" [ref=f45e267]
+            - generic [ref=f45e268]: خدمة التبرع السريع
+          - img "vat" [ref=f45e269]
+          - img "rega" [ref=f45e270]
+      - generic [ref=f45e271]:
+        - paragraph [ref=f45e272]: © كافة الحقوق محفوظة لتطبيق عقار 2026
+        - paragraph [ref=f45e273]: شركة تطبيق عقار مرخصة من وزارة السياحة لحجز وحدات الضيافة برقم 73106505

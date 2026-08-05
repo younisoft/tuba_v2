@@ -1,0 +1,49 @@
+%% Tuba Current-State Component Tree — Observed (source-code read, 2026-08-06)
+%% See 10_COMPONENT_LIBRARY.md for full detail. There is no formal component library beyond the
+%% 6 leaf nodes marked [Blade Component] — everything else is a plain, non-parameterized Blade
+%% @include/@extends partial, frequently copy-pasted rather than shared.
+
+flowchart TB
+    Root["resources/views/"]
+
+    Root --> Layouts["layouts/app.blade.php\n(dead Breeze scaffold — only @vite() reference in the codebase)"]
+    Root --> LoginLayout["login_layout/ (shared authenticated-area chrome)"]
+    Root --> FrontEnd["front-end/ (public site views)"]
+    Root --> AdminViews["admin/ (2 files: agent_dashboard, dashboard —\nrole-branched from the same route)"]
+    Root --> Backend["backend/ (27 module directories,\nshared by Admin CMS AND Agent dashboard)"]
+    Root --> Components["components/ (6 formal Blade Components)"]
+
+    LoginLayout --> LL1["master.blade.php (base shell)"]
+    LoginLayout --> LL2["header.blade.php + home-header.blade.php\n(two separate files, not one parameterized header)"]
+    LoginLayout --> LL3["admin-header / admin-sidebar / admin-footer\n(flat ~27-item sidebar, see navigation.mmd)"]
+    LoginLayout --> LL4["footer.blade.php\n(dead Mailchimp form, no action attribute)"]
+    LoginLayout --> LL5["header-scripts / footer-scripts\n(17+ unbundled <script> tags, not componentized)"]
+    LoginLayout --> LL6["notification-items.blade.php"]
+
+    Components --> OG["og-meta.blade.php\n(og:type bug in fallback branch)"]:::comp
+    Components --> Pag["pagination-info.blade.php"]:::comp
+    Components --> PayModal["payment-modal.blade.php\n(Tabby option commented out\ndespite Tabby being live elsewhere)"]:::comp
+    Components --> ListModal["post_a_listing_modal.blade.php"]:::comp
+    Components --> WA["whatsapp-icon.blade.php\n(hardcoded phone number)"]:::comp
+    Components --> AdCards["why-choose-us-ad-cards.blade.php"]:::comp
+
+    Backend --> BAgents["agents/, agent-users/, agent-profile/"]
+    Backend --> BListings["property/, project/"]
+    Backend --> BLeads["property_request/, agent-inbox/, favorites/"]
+    Backend --> BCommerce["packages/, license_packages/, single_packages/,\nhyper_checkout/, tabby/, payment_histories/"]
+    Backend --> BRef["countries/, regions/, cities/, districts/,\ncategories/, property_types/, ban_numbers/"]
+    Backend --> BOther["roles/, users/, page_seo/, newsroom/, faqs/,\nservices/, notifications/, bell_notifications/"]
+
+    subgraph Uncomponentized ["Repeated, NOT shared — the real component gap"]
+        direction TB
+        PropertyCard["Property card markup\n(hand-copied across ≥4 views:\nhome, search results, agent-properties, favorites)"]
+        AgentDashModals["6 near-duplicate modals in\nadmin/agent_dashboard.blade.php (1,198 lines)"]
+        FormFields["Hand-written form-group markup\nper module — no shared input/error component"]
+        Buttons["Ad hoc button classes\n(btn-thm2, btn-log, btn-fpswd, btn-fb, btn-googl)\n— no button variant system"]
+    end
+
+    Root -.-> Uncomponentized
+
+    classDef comp fill:#1e7e34,color:#fff,stroke:#155724
+    style Uncomponentized fill:#8b1e1e,color:#fff,stroke:#5c1414
+</content>
