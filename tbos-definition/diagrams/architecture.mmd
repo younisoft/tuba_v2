@@ -1,0 +1,59 @@
+%% TBOS Product Architecture — the two-system split and three-layer module map
+%% See 06_PRODUCT_ARCHITECTURE.md and 07_INFORMATION_ARCHITECTURE.md for full reasoning.
+
+flowchart TB
+    TBOS["Tuba Broker OS (TBOS)"]
+
+    TBOS --> BrokerOS["Broker OS\n(all personas except Administrator)"]
+    TBOS --> PlatformConsole["Platform Console\n(Administrator only — fully separate\nroute space, login, session)"]
+
+    subgraph Orientation ["Orientation Layer — what needs my attention"]
+        direction LR
+        Home["Home"]
+        Today["Today\n(Decision Support System)"]
+        Tasks["Tasks"]
+    end
+
+    subgraph Operating ["Operating Layer — where the jobs get done"]
+        direction LR
+        Properties["Properties"]
+        Projects["Projects"]
+        Leads["Leads\n(Unified Pipeline)"]
+        Customers["Customers"]
+        Owners["Owners\n(incl. Marketing Requests)"]
+        Contracts["Contracts"]
+        Marketing["Marketing"]
+    end
+
+    subgraph Intelligence ["Intelligence & Control Layer — understand and configure"]
+        direction LR
+        Finance["Finance"]
+        Wallet["Wallet"]
+        Analytics["Analytics"]
+        Reports["Reports"]
+        Automation["Automation"]
+        AICopilot["AI Copilot"]
+        Notifications["Notifications"]
+        Knowledge["Knowledge"]
+        Settings["Settings\n(RBAC lives here)"]
+    end
+
+    BrokerOS --> Orientation
+    BrokerOS --> Operating
+    BrokerOS --> Intelligence
+
+    PlatformConsole --> Moderation["Moderation Queue"]
+    PlatformConsole --> RefData["Reference Data"]
+    PlatformConsole --> ComplianceOversight["Compliance Oversight"]
+    PlatformConsole --> Support["Support Tools"]
+
+    Settings -.->|"RBAC scopes visibility of"| Operating
+    Settings -.->|"RBAC scopes visibility of"| Intelligence
+    Today -.->|"derived view across"| Operating
+
+    style BrokerOS fill:#1e3a5f,color:#fff,stroke:#0d1f33
+    style PlatformConsole fill:#7c2d12,color:#fff,stroke:#4a1a0a
+    style Orientation fill:#1e7e34,color:#fff,stroke:#155724
+    style Operating fill:#5b3a8e,color:#fff,stroke:#3d2560
+    style Intelligence fill:#8a6d00,color:#fff,stroke:#5c4800
+</content>

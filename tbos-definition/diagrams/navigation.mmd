@@ -1,0 +1,36 @@
+%% TBOS Navigation System — device patterns and role-scoped visibility
+%% See 08_NAVIGATION_SYSTEM.md and 07_INFORMATION_ARCHITECTURE.md for full reasoning.
+
+flowchart TB
+    User(["Broker logs in"]) --> RoleCheck{"RBAC role\n(Settings → Team & Roles)"}
+
+    RoleCheck -->|"Solo Broker /\nAgency Owner"| FullTree["Full navigation tree visible"]
+    RoleCheck -->|"Sales Manager"| ScopedSM["Full tree except\nFinance/Wallet by default"]
+    RoleCheck -->|"Marketing Manager"| ScopedMM["Properties, Projects, Owners,\nMarketing, Analytics, Knowledge"]
+    RoleCheck -->|"Operations Manager"| ScopedOM["Contracts, Compliance Docs,\nKnowledge, full Analytics (read-only elsewhere)"]
+    RoleCheck -->|"Property Consultant"| ScopedPC["Own Leads/Customers/Contracts only —\nno Team, Finance, or agency Analytics"]
+    RoleCheck -->|"Administrator"| Console["Platform Console ONLY —\nzero Broker OS access, by architecture"]
+
+    FullTree --> Device{"Device"}
+    ScopedSM --> Device
+    ScopedMM --> Device
+    ScopedOM --> Device
+    ScopedPC --> Device
+
+    Device -->|"Desktop"| Desktop["Persistent left rail,\n3 collapsible layer-groups,\ntop bar: search + quick action + notifications"]
+    Device -->|"Tablet"| Tablet["Icons-only rail,\nexpandable on tap"]
+    Device -->|"Mobile"| Mobile["Bottom tab bar (5 items):\nHome · Today · Search · Quick Actions · Notifications"]
+
+    Desktop --> GlobalSearch["Global Search\n(primary nav method for any list > ~15 items)"]
+    Tablet --> GlobalSearch
+    Mobile --> GlobalSearch
+
+    Desktop --> QuickActions["Quick Actions:\nAdd Lead · Add Property ·\nLog Follow-up · Submit Compliance Doc"]
+    Mobile --> QuickActions
+
+    GlobalSearch --> AnyEntity["Any entity, any module,\nranked by relevance + recency,\nRBAC-scoped results only"]
+
+    style Console fill:#7c2d12,color:#fff,stroke:#4a1a0a
+    style GlobalSearch fill:#1e7e34,color:#fff,stroke:#155724
+    style QuickActions fill:#1e7e34,color:#fff,stroke:#155724
+</content>

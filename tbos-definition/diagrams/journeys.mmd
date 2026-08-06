@@ -1,0 +1,43 @@
+%% TBOS Core Journeys — New Lead (the P0 workflow) and New Property
+%% See 09_WORKFLOW_ARCHITECTURE.md for full step/decision detail.
+%% Contrast with the CONFIRMED BROKEN current-state version at
+%% tuba-current-state/diagrams/workflow.mmd (agent's own contact info shown as "sender").
+
+flowchart TD
+    subgraph Journey1 ["Journey: New Lead"]
+        direction TB
+        Source{"Lead source"}
+        Source -->|"Buyer-inbound inquiry"| Capture1["Captured into Leads\nwith correct requester identity\n(fixes the live-confirmed misrouting bug)"]
+        Source -->|"Owner-originated\n(Marketing Request)"| Capture2["Captured into Owners,\nlinked lead created,\nsurfaced in Today if time-sensitive"]
+
+        Capture1 --> Route["Automated routing\n(capacity-aware, not broadcast-to-all)"]
+        Capture2 --> Route
+
+        Route --> SLA["SLA clock starts, visible to assignee\nand Sales Manager"]
+        SLA --> Notify["Correct assignee notified\n(push + in-app, per Notification Strategy)"]
+        Notify --> Respond{"Response within SLA?"}
+
+        Respond -->|"Yes"| Qualify["Lead qualified,\nmoves through Pipeline stages"]
+        Respond -->|"No — approaching breach"| Escalate["Auto-escalates to Sales Manager,\nsurfaces in Today"]
+        Escalate --> Qualify
+
+        Qualify --> Outcome{"Outcome"}
+        Outcome -->|"Won"| ToContract["Becomes a Contract\n(structured offer/accept flow)"]
+        Outcome -->|"Lost"| LostReason["Closed WITH a reason\n(fixes 'no lost-lead reasons' gap)"]
+    end
+
+    subgraph Journey2 ["Journey: New Property"]
+        direction TB
+        Start(["Broker: Add Property\n(Quick Action)"]) --> Checklist["Upfront requirements checklist shown\n(license, media, pricing, est. time)\n— extends the current platform's\nreal but partial license-lookup step"]
+        Checklist --> License["License / Commercial Registry lookup"]
+        License --> Details["Property details entered,\nAI description offered inline\n(extended to Projects too)"]
+        Details --> Media["Media upload — real-time status,\nnever a silent synchronous step"]
+        Media --> Gate{"Pre-publish completeness gate"}
+        Gate -->|"Incomplete"| Draft["Saved as Draft —\nexplicit state, not ambiguous"]
+        Gate -->|"Complete"| Publish["Published — confirmation states\nwhere/when it's now visible"]
+    end
+
+    style Capture1 fill:#1e7e34,color:#fff,stroke:#155724
+    style LostReason fill:#1e7e34,color:#fff,stroke:#155724
+    style Gate fill:#8a6d00,color:#fff,stroke:#5c4800
+</content>

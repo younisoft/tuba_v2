@@ -1,0 +1,101 @@
+%% TBOS Module Dependency Graph — derived from the "Depends On" field of every
+%% module spec in 16_MODULE_SPECIFICATIONS.md. Arrows point FROM a module TO
+%% what it depends on (cannot function without).
+
+flowchart LR
+    %% Foundational / leaf modules — depend on nothing
+    Settings["Settings\n(RBAC)"]:::foundation
+    Wallet["Wallet"]:::foundation
+    Knowledge["Knowledge"]:::foundation
+
+    %% Orientation
+    Home["Home"]:::orientation
+    Today["Today"]:::orientation
+    Tasks["Tasks"]:::orientation
+
+    %% Operating
+    Properties["Properties"]:::operating
+    Projects["Projects"]:::operating
+    Leads["Leads"]:::operating
+    Customers["Customers"]:::operating
+    Owners["Owners"]:::operating
+    Contracts["Contracts"]:::operating
+    Marketing["Marketing"]:::operating
+
+    %% Intelligence
+    Finance["Finance"]:::intelligence
+    Analytics["Analytics"]:::intelligence
+    Reports["Reports"]:::intelligence
+    Automation["Automation"]:::intelligence
+    AICopilot["AI Copilot"]:::intelligence
+    Notifications["Notifications"]:::intelligence
+
+    Home --> Wallet
+    Home --> Analytics
+
+    Today --> Properties
+    Today --> Projects
+    Today --> Leads
+    Today --> Customers
+    Today --> Owners
+    Today --> Contracts
+    Today --> Marketing
+
+    Tasks --> Automation
+    Tasks --> Notifications
+
+    Properties --> Wallet
+    Properties --> AICopilot
+    Properties --> Leads
+
+    Projects --> Wallet
+    Projects --> AICopilot
+    Projects --> Leads
+
+    Leads --> Automation
+    Leads --> AICopilot
+    Leads --> Notifications
+    Leads --> Customers
+    Leads --> Owners
+
+    Customers --> Leads
+    Customers --> Contracts
+
+    Owners --> Wallet
+    Owners --> Today
+
+    Contracts --> Leads
+    Contracts --> Customers
+    Contracts --> Owners
+    Contracts --> Automation
+    Contracts --> Knowledge
+
+    Marketing --> Wallet
+    Marketing --> AICopilot
+    Marketing --> Properties
+    Marketing --> Projects
+
+    Finance --> Contracts
+
+    Analytics --> Properties
+    Analytics --> Projects
+    Analytics --> Leads
+    Analytics --> Customers
+    Analytics --> Owners
+    Analytics --> Contracts
+    Analytics --> Marketing
+    Analytics --> Finance
+
+    Reports --> Analytics
+
+    Automation --> Notifications
+
+    AICopilot --> Knowledge
+
+    Notifications -.-> Automation
+
+    classDef foundation fill:#4b5563,color:#fff,stroke:#2d3339
+    classDef orientation fill:#1e7e34,color:#fff,stroke:#155724
+    classDef operating fill:#5b3a8e,color:#fff,stroke:#3d2560
+    classDef intelligence fill:#8a6d00,color:#fff,stroke:#5c4800
+</content>
