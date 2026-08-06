@@ -1,0 +1,56 @@
+%% TBOS Navigation Blueprint — screen-level extension of tbos-definition/diagrams/navigation.mmd
+%% Read alongside: 02_NAVIGATION_BLUEPRINT.md
+flowchart TB
+    Login([Broker OS Login]) --> RoleCheck{Persona / RBAC role}
+
+    RoleCheck -->|SB / AO| FullTree[Full rail: all 3 layers visible]
+    RoleCheck -->|SM| SMTree[Full rail minus Finance/Wallet by default]
+    RoleCheck -->|MM| MMTree[Properties, Projects, Owners, Marketing, Analytics, Knowledge]
+    RoleCheck -->|OM| OMTree[Contracts, Settings→Compliance, Knowledge, full Analytics; read-only Properties/Projects/Marketing]
+    RoleCheck -->|PC| PCTree[Own Leads/Customers/Contracts only]
+    RoleCheck -->|ADM| Console[Platform Console ONLY]
+
+    Console -.->|architecturally isolated, never crosses| StopADM[/No path into Broker OS/]
+
+    FullTree --> Device{Device}
+    SMTree --> Device
+    MMTree --> Device
+    OMTree --> Device
+    PCTree --> Device
+
+    Device -->|Desktop ≥1280px| Rail[Persistent left rail, 3 grouped sections]
+    Device -->|Tablet 768-1279px| IconRail[Icon-only rail, expandable overlay]
+    Device -->|Mobile <768px| TabBar["Bottom tab bar: Home / Today / Search / Quick Actions / Notifications"]
+
+    Rail --> Orientation["Orientation: Home · Today · Tasks"]
+    Rail --> Operating["Operating: Properties · Projects · Leads · Customers · Owners · Contracts · Marketing"]
+    Rail --> Intelligence["Intelligence & Control: Finance · Wallet · Analytics · Reports · Automation · AI Copilot · Notifications · Knowledge · Settings"]
+
+    IconRail --> Orientation
+    IconRail --> Operating
+    IconRail --> Intelligence
+
+    TabBar --> HomeS[Home]
+    TabBar --> TodayS[Today]
+    TabBar --> SearchS[Search]
+    TabBar --> QAS[Quick Actions]
+    TabBar --> NotifS[Notifications]
+
+    SearchS -.reaches everything else via.-> GS[Global Search / Command Palette]
+    Orientation -.-> GS
+    Operating -.-> GS
+    Intelligence -.-> GS
+
+    GS -->|"> command mode"| CMD[Command Palette actions]
+    GS -->|plain query| Results[Ranked cross-module results]
+
+    QAS --> QA1[Add Lead]
+    QAS --> QA2[Add Property]
+    QAS --> QA3[Log Follow-up]
+    QAS --> QA4[Submit Compliance Document]
+
+    Operating --> Detail[Any detail screen]
+    Detail -.contextual panel, not new nav depth.-> Related[Linked records: Leads / Contract / Owner / Customer]
+
+    classDef console fill:#3a1f1f,stroke:#c0392b,color:#f5d5d5;
+    class Console,StopADM console;

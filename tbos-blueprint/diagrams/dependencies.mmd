@@ -1,0 +1,116 @@
+%% TBOS Dependency Graph — module dependencies mapped onto release sequence
+%% Read alongside: 14_DEVELOPMENT_BLUEPRINT.md, extends tbos-definition/diagrams/modules.mmd with release grouping
+
+flowchart LR
+    subgraph R0["R0 - Prerequisites"]
+        Security[Phase 0 security fixes]
+        Checkout[Checkout consistency]
+    end
+
+    subgraph R1["R1 - Foundation"]
+        RBAC[Settings: RBAC]
+        Leads[Leads: Unified Pipeline]
+        Notif[Notifications: real delivery]
+        Audit[AI Copilot: audit log]
+    end
+
+    subgraph R2["R2 - Core Experience"]
+        Media[Media pipeline]
+        Properties[Properties]
+        Projects[Projects]
+        Owners[Owners + Marketing Requests]
+        Customers[Customers]
+        Wallet[Wallet]
+        Today[Today]
+    end
+
+    subgraph R3["R3 - Broker Productivity"]
+        Search[Search infrastructure]
+        AISearch[AI Search]
+        SavedSearch[Saved Search subscriptions]
+        Marketing[Marketing campaigns]
+        ContentQ[Content Quality Queue]
+        Knowledge[Knowledge]
+    end
+
+    subgraph R4["R4 - AI + Automation Layer"]
+        AIWriting[AI Writing - Projects]
+        LeadScoreV2[Lead Scoring v2]
+        Copilot[Agent Copilot v1]
+        PropQuality[Property Quality AI]
+        DocIntel[Document Intelligence]
+        AutoVisible[Automation - visible/editable]
+    end
+
+    subgraph R5["R5 - Analytics"]
+        Analytics[Analytics Explorer]
+        Reports[Reports]
+        Finance1[Finance - partial]
+    end
+
+    subgraph R6["R6 - Transaction"]
+        Contracts[Contracts]
+        ESign[E-signature]
+        MarketIntel[Market Intelligence + AI Pricing]
+        FinanceFull[Finance - full]
+    end
+
+    subgraph R7["R7 - Enterprise"]
+        Console[Platform Console]
+        FutureMod[Future Modules]
+    end
+
+    Security --> RBAC
+    Checkout --> RBAC
+    RBAC --> Leads
+    RBAC --> Properties
+    RBAC --> Owners
+    RBAC --> Contracts
+    Notif --> Leads
+    Notif --> SavedSearch
+    Audit --> Copilot
+    Audit --> DocIntel
+
+    Media --> Properties
+    Media --> Projects
+    Media --> PropQuality
+    Properties --> Today
+    Leads --> Today
+    Owners --> Today
+    Leads --> Customers
+    Wallet --> Marketing
+    Properties --> Marketing
+    Properties --> ContentQ
+
+    Properties --> Search
+    Projects --> Search
+    Leads --> Search
+    Customers --> Search
+    Owners --> Search
+    Contracts --> Search
+    Search --> AISearch
+    Search --> SavedSearch
+
+    Leads --> LeadScoreV2
+    Properties --> AIWriting
+    Audit --> AutoVisible
+    Leads --> AutoVisible
+
+    R1 --> Analytics
+    R2 --> Analytics
+    R3 --> Analytics
+    R4 --> Analytics
+    Analytics --> Reports
+
+    Leads --> Contracts
+    Contracts --> ESign
+    Properties -.price history, accumulated over time.-> MarketIntel
+    Contracts --> FinanceFull
+    Analytics --> Finance1
+
+    R1 -.zero dependency, can start anytime.-> Console
+
+    classDef gate fill:#3a1f1f,stroke:#c0392b,color:#f5d5d5;
+    classDef foundation fill:#1f2f3a,stroke:#3498db,color:#d5e8f5;
+    class Security,Checkout gate;
+    class RBAC,Leads,Notif,Audit foundation;

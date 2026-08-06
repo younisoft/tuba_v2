@@ -1,0 +1,41 @@
+%% TBOS State Architecture — the two highest-transition-complexity lifecycles
+%% Read alongside: 06_STATE_ARCHITECTURE.md §2
+
+flowchart TD
+    subgraph PROP["Property / Project Lifecycle (PROP-02)"]
+        direction TB
+        P_Draft([Draft]) -->|submitted for verification| P_Pending[Pending Compliance]
+        P_Pending -->|verification passes| P_Active[Active]
+        P_Pending -->|verification fails| P_Rejected[Rejected]
+        P_Rejected -->|"broker fixes flagged fields\n(never a dead end)"| P_Draft
+        P_Active -->|approaching expiry| P_Expiring[Expiring]
+        P_Expiring -->|"renewed\n(one-click)"| P_Active
+        P_Expiring -->|not renewed in time| P_Expired[Expired]
+        P_Expired -->|renewed within grace window| P_Active
+        P_Expired -->|grace window elapses| P_Archived[Archived]
+        P_Active -->|broker marks outcome| P_Sold[Sold / Rented]
+        P_Sold --> P_Archived
+        P_Active --> P_Archived
+        P_Archived -->|un-archived| P_Active
+    end
+
+    subgraph LEAD["Lead Pipeline (LEAD-01/02/03)"]
+        direction TB
+        L_New([New]) -->|capacity-aware auto-routing| L_Assigned[Assigned]
+        L_New -->|no confident routing match| L_Manual[Manual Queue - Sales Manager]
+        L_Manual -->|manager assigns| L_Assigned
+        L_Assigned -->|broker responds| L_Contacted[Contacted]
+        L_Assigned -->|"no response before SLA\n(never silently dropped)"| L_Breach[SLA Breach - auto-escalated]
+        L_Breach -->|late response, still logged| L_Contacted
+        L_Contacted -->|interest confirmed| L_Qualified[Qualified]
+        L_Contacted -->|no further interest| L_Lost[Lost - reason required]
+        L_Qualified -->|offer discussion begins| L_Negotiating[Negotiating]
+        L_Negotiating -->|offer accepted| L_Won([Won -> Contract created])
+        L_Negotiating -->|deal falls through| L_Lost
+        L_Lost -->|"reopened\n(premature close)"| L_Assigned
+    end
+
+    classDef terminal fill:#1f3a2a,stroke:#2ecc71,color:#d5f5e0;
+    classDef risk fill:#3a1f1f,stroke:#c0392b,color:#f5d5d5;
+    class P_Sold,L_Won terminal;
+    class P_Rejected,L_Breach,L_Lost risk;

@@ -1,0 +1,42 @@
+%% TBOS User Journeys — decision-tree detail for the two highest-stakes journeys
+%% Read alongside: 03_USER_JOURNEYS.md (#2 Receiving Leads, #3 Publishing a Property)
+%% Contrast against tuba-current-state/diagrams/workflow.mmd (current, confirmed-broken lead journey)
+
+flowchart TD
+    subgraph J2["Journey 2 — Receiving Leads (WF-LEAD-NEW)"]
+        L0([Buyer or owner contacts TBOS]) --> L1{Matches existing<br/>Customer/Owner?}
+        L1 -->|Yes| L2[Merge into existing record]
+        L1 -->|No| L3[Create new Lead record]
+        L2 --> L4{Capacity-aware<br/>auto-routing confident?}
+        L3 --> L4
+        L4 -->|Yes| L5[Assign to broker<br/>SLA clock starts]
+        L4 -->|No| L6[Route to Sales Manager<br/>manual-assignment queue]
+        L6 --> L5
+        L5 --> L7[Push notification to assignee<br/>LEAD-03 deep link]
+        L7 --> L8{Broker responds<br/>within SLA?}
+        L8 -->|Yes| L9([Lead progresses in pipeline])
+        L8 -->|No, approaching breach| L10[Auto-escalate to Sales Manager<br/>High-urgency alert]
+        L10 --> L11{Response arrives?}
+        L11 -->|Yes| L9
+        L11 -->|No, breached| L12[Visible SLA-breach state<br/>never silently dropped]
+    end
+
+    subgraph J3["Journey 3 — Publishing a Property (WF-PROPERTY-NEW)"]
+        P0([Broker starts Add Property]) --> P1[Upfront requirements checklist shown]
+        P1 --> P2{License resolves via<br/>REGA lookup?}
+        P2 -->|Yes| P3[Auto-fill license fields]
+        P2 -->|No| P4[Manual entry<br/>flag for Operations if required]
+        P3 --> P5[Property details + inline AI<br/>description/SEO]
+        P4 --> P5
+        P5 --> P6[Media upload<br/>async, non-blocking]
+        P6 --> P7{Pre-publish completeness<br/>check passes?}
+        P7 -->|No| P8[Publish disabled<br/>inline list of what's missing]
+        P8 --> P5
+        P7 -->|Yes| P9{Broker publishes now<br/>or saves Draft?}
+        P9 -->|Publish| P10([Live, compliant listing])
+        P9 -->|Draft| P11([Explicit Draft state<br/>resumable])
+    end
+
+    L9 -.feeds.-> P0
+    classDef terminal fill:#1f3a2a,stroke:#2ecc71,color:#d5f5e0;
+    class L9,L12,P10,P11 terminal;
