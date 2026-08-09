@@ -1,0 +1,42 @@
+- generic [ref=f73e3]:
+  - generic [ref=f73e4]:
+    - banner [ref=f73e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f73e6]
+      - generic [ref=f73e10]:
+        - button "الإشعارات" [ref=f73e12]
+        - button "النظام" [ref=f73e15]
+        - button "الإنجليزية" [ref=f73e18]
+        - button "قائمة الحساب" [ref=f73e22]:
+          - generic [ref=f73e23]: SA
+    - main [ref=f73e24]:
+      - generic [ref=f73e88]:
+        - generic [ref=f73e89]:
+          - generic [ref=f73e90]:
+            - heading "Abdullah Al-Ghamdi" [level=1] [ref=f73e92]
+            - list [ref=f73e94]:
+              - listitem [ref=f73e95]: "+966501110001"
+              - listitem [ref=f73e98]: 3 عقارات مرتبطة
+          - button "الرد" [ref=f73e102]
+        - generic [ref=f73e104]:
+          - tablist "الملاك" [ref=f73e105]:
+            - tab "نظرة عامة" [ref=f73e106]
+            - tab "طلبات التسويق" [active] [selected] [ref=f73e107]
+            - tab "النشاط" [ref=f73e108]
+          - tabpanel "طلبات التسويق" [ref=f73e145]:
+            - list [ref=f73e146]:
+              - listitem [ref=f73e147]:
+                - generic [ref=f73e148]:
+                  - generic [ref=f73e149]:
+                    - paragraph [ref=f73e150]: Villa 42, Al Nakheel — repaint & re-list photography
+                    - generic [ref=f73e151]: مفتوح
+                  - generic [ref=f73e152]:
+                    - button "الرد" [ref=f73e153]
+                    - button "وضع علامة خسارة" [ref=f73e154]
+  - navigation "Primary" [ref=f73e41]:
+    - link "Home" [ref=f73e42] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f73e45] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f73e48]
+    - button "إجراءات سريعة" [ref=f73e52]
+    - button "Alerts" [ref=f73e55]

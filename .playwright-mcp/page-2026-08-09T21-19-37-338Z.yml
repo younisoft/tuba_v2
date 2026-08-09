@@ -1,0 +1,32 @@
+- generic [ref=f163e4]:
+  - img "نظام تشغيل الوسيط توبا" [ref=f163e5]
+  - paragraph [ref=f163e14]: اختر شخصية لتسجيل الدخول بها
+  - generic [ref=f163e15]:
+    - button "Sara Al-Otaibi Agency Owner · Al Waha Real Estate" [ref=f163e16]:
+      - generic [ref=f163e17]:
+        - generic [ref=f163e18]: Sara Al-Otaibi
+        - generic [ref=f163e19]: Agency Owner · Al Waha Real Estate
+    - button "Faisal Al-Harbi Sales Manager · Al Waha Real Estate" [ref=f163e20]:
+      - generic [ref=f163e21]:
+        - generic [ref=f163e22]: Faisal Al-Harbi
+        - generic [ref=f163e23]: Sales Manager · Al Waha Real Estate
+    - button "Noura Al-Qahtani Marketing Manager · Al Waha Real Estate" [ref=f163e24]:
+      - generic [ref=f163e25]:
+        - generic [ref=f163e26]: Noura Al-Qahtani
+        - generic [ref=f163e27]: Marketing Manager · Al Waha Real Estate
+    - button "Khalid Al-Zahrani Operations Manager · Al Waha Real Estate" [ref=f163e28]:
+      - generic [ref=f163e29]:
+        - generic [ref=f163e30]: Khalid Al-Zahrani
+        - generic [ref=f163e31]: Operations Manager · Al Waha Real Estate
+    - button "Reem Al-Dosari Property Consultant · Al Waha Real Estate" [ref=f163e32]:
+      - generic [ref=f163e33]:
+        - generic [ref=f163e34]: Reem Al-Dosari
+        - generic [ref=f163e35]: Property Consultant · Al Waha Real Estate
+    - button "Omar Al-Rashid Solo Broker · Omar Realty" [ref=f163e36]:
+      - generic [ref=f163e37]:
+        - generic [ref=f163e38]: Omar Al-Rashid
+        - generic [ref=f163e39]: Solo Broker · Omar Realty
+  - paragraph [ref=f163e40]:
+    - text: Tuba platform staff?
+    - link "Sign in to the Platform Console" [ref=f163e41] [cursor=pointer]:
+      - /url: /console/login

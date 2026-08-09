@@ -1,0 +1,51 @@
+- generic [ref=f6e3]:
+  - navigation "Primary" [ref=f6e5]:
+    - generic [ref=f6e6]:
+      - generic [ref=f6e7]: Tuba Broker OS
+      - button "Collapse navigation" [ref=f6e8]
+    - generic [ref=f6e11]:
+      - generic [ref=f6e12]:
+        - button "Orientation" [expanded] [ref=f6e13]
+        - list [ref=f6e16]:
+          - listitem [ref=f6e17]:
+            - link "Home" [ref=f6e18] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f6e22]:
+            - link "Today" [ref=f6e23] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f6e27]:
+            - link "Tasks" [ref=f6e28] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f6e32]:
+        - button "Operating" [expanded] [ref=f6e33]
+        - list [ref=f6e36]:
+          - listitem [ref=f6e37]:
+            - link "Properties" [ref=f6e38] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f6e42]:
+            - link "Projects" [ref=f6e43] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f6e47]:
+            - link "Leads" [ref=f6e48] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f6e52]:
+            - link "Customers" [ref=f6e53] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f6e57]:
+            - link "Owners" [ref=f6e58] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f6e62]:
+            - link "Contracts" [ref=f6e63] [cursor=pointer]:
+              - /url: /contracts
+      - button "Intelligence & Control" [ref=f6e68]
+  - generic [ref=f6e71]:
+    - banner [ref=f6e72]:
+      - button "Search properties, leads, customers…" [ref=f6e73]
+      - generic [ref=f6e77]:
+        - button "Quick actions" [ref=f6e79]
+        - button "Notifications" [ref=f6e83]
+        - button "System" [ref=f6e86]
+        - button "Arabic" [ref=f6e89]
+        - button "Account menu" [ref=f6e93]:
+          - generic [ref=f6e94]: RA
+    - main [ref=f6e95]

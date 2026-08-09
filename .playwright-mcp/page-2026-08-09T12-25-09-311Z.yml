@@ -1,0 +1,19 @@
+- generic [ref=f145e3]:
+  - generic [ref=f145e4]:
+    - banner [ref=f145e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f145e6]
+      - generic [ref=f145e10]:
+        - button "الإشعارات" [ref=f145e12]
+        - button "النظام" [ref=f145e15]
+        - button "الإنجليزية" [ref=f145e18]
+        - button "قائمة الحساب" [ref=f145e22]:
+          - generic [ref=f145e23]: SA
+    - main [ref=f145e24]
+  - navigation "Primary" [ref=f145e26]:
+    - link "Home" [ref=f145e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f145e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f145e33]
+    - button "إجراءات سريعة" [ref=f145e37]
+    - button "Alerts" [ref=f145e40]

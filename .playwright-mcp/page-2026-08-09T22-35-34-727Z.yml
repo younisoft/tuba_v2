@@ -1,0 +1,297 @@
+- generic [ref=f176e1]:
+  - text:   
+  - generic [ref=f176e2]:
+    - generic [ref=f176e3]:
+      - banner [ref=f176e4]:
+        - navigation [ref=f176e6]:
+          - link [ref=f176e332] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f176e9]:
+            - listitem [ref=f176e10]:
+              - button [ref=f176e334] [cursor=pointer]: إضافة عقار جديد
+            - listitem [ref=f176e12]:
+              - link [ref=f176e335] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f176e14]: 
+                - generic [ref=f176e16]: وكيل موثق
+            - listitem [ref=f176e18]:
+              - link [ref=f176e337] [cursor=pointer]:
+                - /url: "#!"
+                - text: Fal License
+            - listitem [ref=f176e21]:
+              - link [ref=f176e339] [cursor=pointer]:
+                - /url: https://tuba.com.sa
+                - generic [ref=f176e23]:
+                  - img [ref=f176e24]: 
+                  - text: موقع إليكتروني
+            - listitem [ref=f176e26]:
+              - link [ref=f176e340] [cursor=pointer]:
+                - /url: "#"
+                - text: English
+            - listitem [ref=f176e28]:
+              - generic [ref=f176e29] [cursor=pointer]:
+                - img [ref=f176e30]: 
+                - generic [ref=f176e32]: "0"
+            - listitem [ref=f176e33]:
+              - link [ref=f176e341] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f176e37]: فهد
+      - text:           
+      - list [ref=f176e38]:
+        - listitem [ref=f176e39]
+        - listitem [ref=f176e41]: رئيسي
+        - listitem [ref=f176e42]:
+          - link [ref=f176e344] [cursor=pointer]:
+            - /url: https://tuba.com.sa/dashboard
+            - text: لوحة التحكم
+        - listitem [ref=f176e46]: إدارة القوائم
+        - listitem [ref=f176e47]:
+          - link [ref=f176e345] [cursor=pointer]:
+            - /url: https://tuba.com.sa/properties
+            - text: عقاراتي
+        - listitem [ref=f176e51]:
+          - link [ref=f176e346] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-inbox
+            - text: البريد الوارد
+        - listitem [ref=f176e55]:
+          - link [ref=f176e347] [cursor=pointer]:
+            - /url: https://tuba.com.sa/property-requests
+            - generic [ref=f176e57]: 
+            - text: الطلبات العقارية
+        - listitem [ref=f176e58]: اعدادات المشرف
+        - listitem [ref=f176e59]: إدارة الحساب
+        - listitem [ref=f176e60]:
+          - link [ref=f176e348] [cursor=pointer]:
+            - /url: https://tuba.com.sa/package-detials
+            - text: اشتراكاتي
+        - listitem [ref=f176e64]:
+          - link [ref=f176e349] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-users
+            - img [ref=f176e66]: 
+            - text: إدارة الفريق
+        - listitem [ref=f176e68]:
+          - link [ref=f176e350] [cursor=pointer]:
+            - /url: https://tuba.com.sa/my-profile
+            - img [ref=f176e70]: 
+            - text: ملفي الشخصي
+        - listitem [ref=f176e72]:
+          - link [ref=f176e351] [cursor=pointer]:
+            - /url: https://tuba.com.sa/account-setting
+            - img [ref=f176e74]: 
+            - text: اعدادات الحساب
+        - listitem [ref=f176e76]:
+          - link [ref=f176e352] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+            - generic [ref=f176e78]: 
+            - text: الباقات
+            - img [ref=f176e79]: 
+          - text:   
+        - listitem [ref=f176e81]:
+          - link [ref=f176e353] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+            - text: الباقات
+        - listitem [ref=f176e85]:
+          - link [ref=f176e354] [cursor=pointer]:
+            - /url: https://tuba.com.sa/developer-packages
+            - text: حزم المطورين
+        - listitem [ref=f176e89]:
+          - link [ref=f176e355] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-license-packages
+            - text: باقات تراخيص الإعلانات
+        - listitem [ref=f176e93]:
+          - link [ref=f176e356] [cursor=pointer]:
+            - /url: https://tuba.com.sa/logout
+            - text: تسجيل الخروج
+      - generic [ref=f176e102]:
+        - generic [ref=f176e104]:
+          - heading [level=2] [ref=f176e357]: عقاراتي
+          - paragraph [ref=f176e106]: نحن سعداء برؤيتك مرة أخرى!
+        - list [ref=f176e109]:
+          - listitem [ref=f176e110]:
+            - button [ref=f176e358] [cursor=pointer]: إضافة عقار جديد
+            - button [ref=f176e359] [cursor=pointer]: ترخيص إعلان
+        - generic [ref=f176e114]:
+          - textbox [ref=f176e360]:
+            - /placeholder: ادخل رقم طوبة المرجعي
+          - textbox [ref=f176e361]:
+            - /placeholder: ادخل رقم ترخيص الاعلان
+          - textbox [ref=f176e362]:
+            - /placeholder: ابحث بالعنوان
+          - combobox [ref=f176e118]
+          - generic [ref=f176e119]:
+            - button [ref=f176e363] [cursor=pointer]
+            - button [ref=f176e364] [cursor=pointer]
+          - button [ref=f176e365] [cursor=pointer]:
+            - img [ref=f176e128]: 
+            - text: فلاتر
+            - img [ref=f176e130]: 
+        - generic [ref=f176e132]:
+          - tablist [ref=f176e133]:
+            - listitem [ref=f176e134]:
+              - tab [selected] [ref=f176e366] [cursor=pointer]: فعال (2)
+            - listitem [ref=f176e136]:
+              - tab [ref=f176e367] [cursor=pointer]: مسودة (0)
+            - listitem [ref=f176e138]:
+              - tab [ref=f176e368] [cursor=pointer]: معلق (0)
+            - listitem [ref=f176e140]:
+              - tab [ref=f176e369] [cursor=pointer]: محذوفة (25)
+            - listitem [ref=f176e142]:
+              - tab [ref=f176e370] [cursor=pointer]: مباع (1)
+            - listitem [ref=f176e144]:
+              - tab [ref=f176e371] [cursor=pointer]: اعلانات منتهية (20)
+            - listitem [ref=f176e146]:
+              - tab [ref=f176e372] [cursor=pointer]: اعلانات مرفوضة (5)
+          - tabpanel [ref=f176e373]:
+            - generic [ref=f176e150]:
+              - table [ref=f176e155]:
+                - rowgroup [ref=f176e156]:
+                  - row [ref=f176e374]:
+                    - columnheader [ref=f176e375]: العقار
+                    - columnheader [ref=f176e376]: الحالة
+                    - columnheader [ref=f176e377]: رصيد النشر
+                    - columnheader [ref=f176e378]: الأداء
+                    - columnheader [ref=f176e379]: ترقيات
+                    - columnheader [ref=f176e380]: الخدمات
+                    - columnheader [ref=f176e381]: اجراءات
+                - rowgroup [ref=f176e165]:
+                  - row [ref=f176e382]:
+                    - rowheader [ref=f176e383]:
+                      - generic [ref=f176e168]:
+                        - list [ref=f176e172]:
+                          - listitem [ref=f176e173]:
+                            - link [ref=f176e385] [cursor=pointer]:
+                              - /url: "#"
+                              - text: اساسي
+                        - generic [ref=f176e178]:
+                          - heading [level=4] [ref=f176e386]: مجمع تجاري للإيجار في صامطه
+                          - paragraph [ref=f176e180]:
+                            - generic [ref=f176e181]: 
+                            - text: صامطه 86387
+                          - paragraph [ref=f176e182]: "الرقم المرجعي: 75808207"
+                          - paragraph [ref=f176e184]: "رقم الترخيص: 7200822986"
+                          - paragraph [ref=f176e186]:
+                            - img [ref=f176e187]: 
+                            - text: "تاريخ النشر: 19-02-2026"
+                          - paragraph [ref=f176e189]:
+                            - img [ref=f176e190]: 
+                            - text: "ينتهي بتاريخ:"
+                          - paragraph [ref=f176e192]:
+                            - text: "👤 أنشئ بواسطة:"
+                            - generic [ref=f176e193]: عبدالحاكم
+                          - link [ref=f176e387] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f176e195]: 
+                            - text: 80k
+                    - cell [ref=f176e388]: فعال
+                    - cell [ref=f176e389]: الباقة
+                    - cell [ref=f176e390]:
+                      - paragraph [ref=f176e199]: "وصول الاعلان: 778"
+                      - paragraph [ref=f176e202]:
+                        - img [ref=f176e203]: 
+                        - text: "الزيارات: 170"
+                      - paragraph [ref=f176e205]: "عملاء محتملين: 0"
+                    - cell [ref=f176e391]:
+                      - generic [ref=f176e209]:
+                        - generic [ref=f176e210]: برو
+                        - generic [ref=f176e215] [cursor=pointer]:
+                          - img [ref=f176e216]: 
+                          - text: مميز
+                        - generic [ref=f176e218]: تحديث
+                    - cell [ref=f176e222]:
+                      - generic [ref=f176e223]:
+                        - img [ref=f176e225] [cursor=pointer]: 
+                        - generic [ref=f176e227] [cursor=pointer]
+                        - generic [ref=f176e230] [cursor=pointer]
+                    - cell [ref=f176e392]:
+                      - list [ref=f176e234]:
+                        - listitem [ref=f176e393]:
+                          - link [ref=f176e394] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/properties/1119/edit
+                            - generic [ref=f176e237]: 
+                        - listitem [ref=f176e395]:
+                          - link [ref=f176e239] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-8
+                            - img [ref=f176e240]: 
+                        - listitem [ref=f176e396]:
+                          - link [ref=f176e397] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f176e244]: 
+                  - row [ref=f176e398]:
+                    - rowheader [ref=f176e399]:
+                      - generic [ref=f176e247]:
+                        - list [ref=f176e251]:
+                          - listitem [ref=f176e252]:
+                            - link [ref=f176e401] [cursor=pointer]:
+                              - /url: "#"
+                              - text: اساسي
+                        - generic [ref=f176e257]:
+                          - heading [level=4] [ref=f176e402]: مجمع للإيجار في صامطه
+                          - paragraph [ref=f176e259]:
+                            - generic [ref=f176e260]: 
+                            - text: صامطه 86387
+                          - paragraph [ref=f176e261]: "الرقم المرجعي: 23562212"
+                          - paragraph [ref=f176e263]: "رقم الترخيص: 7200822986"
+                          - paragraph [ref=f176e265]:
+                            - img [ref=f176e266]: 
+                            - text: "تاريخ النشر: 08-01-2026"
+                          - paragraph [ref=f176e268]:
+                            - img [ref=f176e269]: 
+                            - text: "ينتهي بتاريخ: 19-08-2026"
+                          - link [ref=f176e403] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f176e272]: 
+                            - text: 80k
+                    - cell [ref=f176e404]: فعال
+                    - cell [ref=f176e405]: الباقة
+                    - cell [ref=f176e406]:
+                      - paragraph [ref=f176e276]: "وصول الاعلان: 12757"
+                      - paragraph [ref=f176e279]:
+                        - img [ref=f176e280]: 
+                        - text: "الزيارات: 439"
+                      - paragraph [ref=f176e282]: "عملاء محتملين: 0"
+                    - cell [ref=f176e407]:
+                      - generic [ref=f176e286]:
+                        - generic [ref=f176e287]: برو
+                        - generic [ref=f176e292] [cursor=pointer]:
+                          - img [ref=f176e293]: 
+                          - text: مميز
+                        - generic [ref=f176e295]: تحديث
+                    - cell [ref=f176e299]:
+                      - generic [ref=f176e300]:
+                        - img [ref=f176e302] [cursor=pointer]: 
+                        - generic [ref=f176e304] [cursor=pointer]
+                        - generic [ref=f176e307] [cursor=pointer]
+                    - cell [ref=f176e408]:
+                      - list [ref=f176e311]:
+                        - listitem [ref=f176e409]:
+                          - link [ref=f176e410] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/properties/38/edit
+                            - generic [ref=f176e314]: 
+                        - listitem [ref=f176e411]:
+                          - link [ref=f176e316] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-1
+                            - img [ref=f176e317]: 
+                        - listitem [ref=f176e412]:
+                          - link [ref=f176e413] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f176e321]: 
+              - generic [ref=f176e322]: Showing 1 to 2 of 2 entries (Page 1 of 1)
+              - generic [ref=f176e324]:
+                - generic [ref=f176e327]: Per page
+                - combobox [ref=f176e329] [cursor=pointer]
+    - text: "* * * * * *           "
+    - generic:
+      - button
+  - link [ref=f176e414] [cursor=pointer]:
+    - /url: https://wa.me/+966535020288?text=مرحباً، أنا  فهد حميد عبدالكريم الظاهري   وأحتاج مساعدة في منصة طوبة.
+  - text: 
+  - dialog [ref=f176e417]:
+    - generic [ref=f176e418]:
+      - generic [ref=f176e419]: "!"
+      - heading "ترخيص الإعلان صالح لمدة 9 يوم/أيام إضافية." [level=2] [ref=f176e421]
+    - generic [ref=f176e422]:
+      - generic [ref=f176e423]: Do you still want to continue?
+      - text: "!"
+    - generic [ref=f176e424]:
+      - button "Yes, proceed" [active] [ref=f176e425] [cursor=pointer]
+      - button "No, cancel" [ref=f176e426] [cursor=pointer]

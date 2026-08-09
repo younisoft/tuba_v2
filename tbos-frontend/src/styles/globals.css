@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+@config '../../tailwind.config.ts';
+@import './tokens.css';
+
+@layer base {
+  * {
+    border-color: var(--border-default);
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: var(--font-latin);
+    font-size: var(--type-body-size);
+    line-height: var(--type-body-lh);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  html[lang='ar'] body,
+  [dir='rtl'] body {
+    font-family: var(--font-arabic);
+  }
+
+  html[lang='ar'] {
+    line-height: calc(var(--type-body-lh) * var(--type-arabic-lh-multiplier));
+  }
+
+  /* Numerals always render Western Arabic per design-system/15_INTERNATIONALIZATION.md §4 */
+  html {
+    font-variant-numeric: normal;
+  }
+
+  :focus-visible {
+    outline: var(--border-width-thick) solid var(--border-focus);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--bg-brand-subtle);
+    color: var(--text-brand);
+  }
+
+  #root {
+    min-height: 100dvh;
+    isolation: isolate;
+  }
+}
+
+@layer utilities {
+  /* Always visually hidden, always present for assistive tech — supplementary
+     text that has no visual equivalent (e.g. a status word already conveyed
+     by an adjacent icon+color pairing). */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* Screen-reader-only helper — used before an interactive icon-only control gets a real aria-label */
+  .sr-only-focusable:not(:focus):not(:focus-within) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .skeleton-pulse {
+    animation: tbos-skeleton-pulse 1.6s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .skeleton-pulse {
+      animation: none;
+      opacity: 0.8;
+    }
+  }
+}
+
+@keyframes tbos-skeleton-pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}

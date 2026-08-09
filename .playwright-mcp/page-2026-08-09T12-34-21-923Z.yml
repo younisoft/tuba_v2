@@ -1,0 +1,50 @@
+- generic [ref=f149e42]:
+  - navigation "Primary" [ref=f149e44]:
+    - generic [ref=f149e45]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f149e46]
+      - button "طي القائمة" [ref=f149e55]
+    - generic [ref=f149e58]:
+      - generic [ref=f149e59]:
+        - button "الاتجاه" [expanded] [ref=f149e60]
+        - list [ref=f149e63]:
+          - listitem [ref=f149e64]:
+            - link "Home" [ref=f149e65] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f149e69]:
+            - link "Today" [ref=f149e70] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f149e74]:
+            - link "Tasks" [ref=f149e75] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f149e79]:
+        - button "التشغيل" [expanded] [ref=f149e80]
+        - list [ref=f149e83]:
+          - listitem [ref=f149e84]:
+            - link "Properties" [ref=f149e85] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f149e89]:
+            - link "Projects" [ref=f149e90] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f149e94]:
+            - link "Owners" [ref=f149e95] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f149e99]:
+            - link "Marketing" [ref=f149e100] [cursor=pointer]:
+              - /url: /marketing
+      - button "الذكاء والتحكم" [ref=f149e105]
+  - generic [ref=f149e108]:
+    - banner [ref=f149e109]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f149e110]:
+        - generic [ref=f149e113]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f149e114]: ⌘K
+      - generic [ref=f149e115]:
+        - button "إجراءات سريعة" [ref=f149e117]
+        - button "الإشعارات" [ref=f149e121]
+        - button "النظام" [ref=f149e124]
+        - button "الإنجليزية" [ref=f149e127]
+        - button "قائمة الحساب" [ref=f149e131]:
+          - generic [ref=f149e132]: NA
+    - main [ref=f149e133]:
+      - generic [ref=f149e136]:
+        - heading "اليوم" [level=1] [ref=f149e137]
+        - paragraph [ref=f149e138]: ما يستحق انتباهك الآن.

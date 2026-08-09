@@ -1,0 +1,122 @@
+- generic [ref=f122e3]:
+  - navigation "Primary" [ref=f122e5]:
+    - generic [ref=f122e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f122e7]
+      - button "طي القائمة" [ref=f122e16]
+    - generic [ref=f122e19]:
+      - generic [ref=f122e20]:
+        - button "الاتجاه" [expanded] [ref=f122e21]
+        - list [ref=f122e24]:
+          - listitem [ref=f122e25]:
+            - link "Home" [ref=f122e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f122e30]:
+            - link "Today" [ref=f122e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f122e35]:
+            - link "Tasks" [ref=f122e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f122e40]:
+        - button "التشغيل" [expanded] [ref=f122e41]
+        - list [ref=f122e44]:
+          - listitem [ref=f122e45]:
+            - link "Properties" [ref=f122e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f122e50]:
+            - link "Projects" [ref=f122e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f122e55]:
+            - link "Contracts" [ref=f122e56] [cursor=pointer]:
+              - /url: /contracts
+      - generic [ref=f122e60]:
+        - button "الذكاء والتحكم" [expanded] [ref=f122e61]
+        - list [ref=f122e64]:
+          - listitem [ref=f122e65]:
+            - link "Finance" [ref=f122e66] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f122e70]:
+            - link "Wallet" [ref=f122e71] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f122e75]:
+            - link "Analytics" [ref=f122e76] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f122e80]:
+            - link "Reports" [ref=f122e81] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f122e85]:
+            - link "Automation" [ref=f122e86] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f122e90]:
+            - link "AI Copilot" [ref=f122e91] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f122e95]:
+            - link "Notifications" [ref=f122e96] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f122e100]:
+            - link "Knowledge" [ref=f122e101] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f122e105]:
+            - link "Settings" [ref=f122e106] [cursor=pointer]:
+              - /url: /settings/profile
+  - generic [ref=f122e110]:
+    - banner [ref=f122e111]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f122e112]:
+        - generic [ref=f122e115]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f122e116]: ⌘K
+      - generic [ref=f122e117]:
+        - button "إجراءات سريعة" [ref=f122e119]
+        - generic [ref=f122e122]:
+          - button "الإشعارات — 1 إشعارات غير مقروءة" [ref=f122e137]
+          - generic [ref=f122e138]: "1"
+        - button "النظام" [ref=f122e126]
+        - button "الإنجليزية" [ref=f122e129]
+        - button "قائمة الحساب" [ref=f122e133]:
+          - generic [ref=f122e134]: KA
+    - main [ref=f122e135]:
+      - generic [ref=f122e136]:
+        - generic [ref=f122e139]:
+          - generic [ref=f122e140]:
+            - generic [ref=f122e141]:
+              - heading "Office Suite 12, Olaya" [level=1] [ref=f122e142]
+              - generic [ref=f122e143]: بانتظار الامتثال
+            - list [ref=f122e147]:
+              - listitem [ref=f122e148]: مكتب
+              - listitem [ref=f122e151]:
+                - button "Mona Al-Subaie" [ref=f122e154]
+              - listitem [ref=f122e155]: Reem Al-Dosari
+              - listitem [ref=f122e158]: Olaya, Riyadh
+          - generic [ref=f122e161]:
+            - generic [ref=f122e162]:
+              - generic [ref=f122e163]:
+                - button "إعادة الإسناد" [disabled]
+              - generic [ref=f122e165]:
+                - button "أرشفة" [disabled]
+            - generic [ref=f122e167]:
+              - button "نشر" [disabled]
+        - generic [ref=f122e169]:
+          - tablist "العقارات" [ref=f122e170]:
+            - tab "نظرة عامة" [ref=f122e171]
+            - tab "الوسائط" [ref=f122e172]
+            - tab "الامتثال" [active] [selected] [ref=f122e173]
+            - tab "الأداء" [ref=f122e174]
+            - tab "السجل" [ref=f122e175]
+          - tabpanel "الامتثال" [ref=f122e192]:
+            - generic [ref=f122e177]:
+              - status [ref=f122e178]:
+                - generic [ref=f122e181]: لا يمكن نشر هذا الإعلان بعد
+              - list [ref=f122e193]:
+                - listitem [ref=f122e194]:
+                  - generic [ref=f122e195]:
+                    - paragraph [ref=f122e196]: FAL License
+                    - paragraph [ref=f122e197]: FAL-2026-90045
+                  - generic [ref=f122e198]:
+                    - generic [ref=f122e199]: بانتظار التحقق
+                    - button "عرض الامتثال" [ref=f122e200]
+                - listitem [ref=f122e201]:
+                  - paragraph [ref=f122e203]: REGA Ad License
+                  - generic [ref=f122e204]:
+                    - generic [ref=f122e205]: مفقود
+                    - button "عرض الامتثال" [ref=f122e206]
+                - listitem [ref=f122e207]:
+                  - paragraph [ref=f122e209]: Nafath Owner Verification
+                  - generic [ref=f122e210]: مُتحقَّق منه

@@ -1,0 +1,713 @@
+[     301ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  183047ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  830375ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1014276ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s NotificationBell 1. useCallback                useCallback
+2. useCallback                useCallback
+3. useSyncExternalStore       useSyncExternalStore
+4. useDebugValue              useDebugValue
+5. useCallback                useCallback
+6. useCallback                useCallback
+7. useSyncExternalStore       useSyncExternalStore
+8. useDebugValue              useDebugValue
+9. useContext                 useContext
+10. useContext                useContext
+11. useContext                useContext
+12. useContext                useContext
+13. useContext                useContext
+14. useEffect                 useEffect
+15. useState                  useState
+16. useCallback               useCallback
+17. useSyncExternalStore      useSyncExternalStore
+18. useEffect                 useEffect
+19. useContext                useContext
+20. useContext                useContext
+21. useContext                useContext
+22. useEffect                 useEffect
+23. useState                  useState
+24. useCallback               useCallback
+25. useSyncExternalStore      useSyncExternalStore
+26. useEffect                 useEffect
+27. useContext                useContext
+28. useState                  useState
+29. useEffect                 useEffect
+30. useCallback               useCallback
+31. useSyncExternalStore      useSyncExternalStore
+32. useCallback               useCallback
+33. useContext                useContext
+34. useState                  useState
+35. useEffect                 useEffect
+36. useCallback               useCallback
+37. useSyncExternalStore      useSyncExternalStore
+38. useCallback               useCallback
+39. useCallback               useCallback
+40. useCallback               useCallback
+41. useSyncExternalStore      useSyncExternalStore
+42. useDebugValue             useDebugValue
+43. useCallback               useCallback
+44. useCallback               useCallback
+45. useSyncExternalStore      useSyncExternalStore
+46. useDebugValue             useDebugValue
+47. useContext                useContext
+48. useContext                useContext
+49. useContext                useContext
+50. useContext                useContext
+51. useContext                useContext
+52. useContext                useContext
+53. useContext                useContext
+54. useRef                    useRef
+55. useContext                useContext
+56. useLayoutEffect           useLayoutEffect
+57. useCallback               useCallback
+58. useRef                    useRef
+59. useEffect                 useEffect
+60. undefined                 useEffect
+ 
+    at NotificationBell (http://localhost:5173/src/components/navigation/NotificationBell.tsx?t=1786222923503:31:16)
+    at div
+    at header
+    at TopBar (http://localhost:5173/src/layouts/AppShell/TopBar.tsx?t=1786221518194:31:17)
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:520
+[ 1014281ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at NotificationBell (http://localhost:5173/src/components/navigation/NotificationBell.tsx?t=1786222923503:38:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014283ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s UserMenu 1. useContext                 useContext
+2. useCallback                useCallback
+3. useCallback                useCallback
+4. useSyncExternalStore       useSyncExternalStore
+5. useDebugValue              useDebugValue
+6. useCallback                useCallback
+7. useCallback                useCallback
+8. useSyncExternalStore       useSyncExternalStore
+9. useDebugValue              useDebugValue
+10. useContext                useContext
+11. useContext                useContext
+12. useContext                useContext
+13. useContext                useContext
+14. useContext                useContext
+15. useContext                useContext
+16. useContext                useContext
+17. useRef                    useRef
+18. useContext                useContext
+19. useLayoutEffect           useLayoutEffect
+20. useCallback               useCallback
+21. useState                  useState
+22. useRef                    useRef
+23. useEffect                 useEffect
+24. undefined                 useEffect
+ 
+    at UserMenu (http://localhost:5173/src/layouts/AppShell/UserMenu.tsx?t=1786222923503:28:40)
+    at div
+    at header
+    at TopBar (http://localhost:5173/src/layouts/AppShell/TopBar.tsx?t=1786221518194:31:17)
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:520
+[ 1014285ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at UserMenu (http://localhost:5173/src/layouts/AppShell/UserMenu.tsx?t=1786222923503:34:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014288ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s ExplainabilityPopover 1. useState                   useState
+2. useRef                     useRef
+3. useEffect                  useEffect
+4. undefined                  useEffect
+ 
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:28:41)
+    at div
+    at div
+    at RecommendationCard (http://localhost:5173/src/components/tbos/ai/RecommendationCard.tsx:35:3)
+    at div
+    at div
+    at TodayScreen (http://localhost:5173/src/features/today/TodayScreen.tsx?t=1786221518194:36:58)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786221518194:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:520
+[ 1014290ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014292ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014292ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014292ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s CommandPalette 1. useCallback                useCallback
+2. useCallback                useCallback
+3. useSyncExternalStore       useSyncExternalStore
+4. useDebugValue              useDebugValue
+5. useCallback                useCallback
+6. useCallback                useCallback
+7. useSyncExternalStore       useSyncExternalStore
+8. useDebugValue              useDebugValue
+9. useContext                 useContext
+10. useContext                useContext
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. useCallback               useCallback
+14. useSyncExternalStore      useSyncExternalStore
+15. useDebugValue             useDebugValue
+16. useCallback               useCallback
+17. useCallback               useCallback
+18. useSyncExternalStore      useSyncExternalStore
+19. useDebugValue             useDebugValue
+20. useContext                useContext
+21. useContext                useContext
+22. useContext                useContext
+23. useContext                useContext
+24. useContext                useContext
+25. useContext                useContext
+26. useContext                useContext
+27. useRef                    useRef
+28. useContext                useContext
+29. useLayoutEffect           useLayoutEffect
+30. useCallback               useCallback
+31. useContext                useContext
+32. useContext                useContext
+33. useContext                useContext
+34. useContext                useContext
+35. useContext                useContext
+36. useContext                useContext
+37. useContext                useContext
+38. useRef                    useRef
+39. useContext                useContext
+40. useLayoutEffect           useLayoutEffect
+41. useCallback               useCallback
+42. useCallback               useCallback
+43. useCallback               useCallback
+44. useSyncExternalStore      useSyncExternalStore
+45. useDebugValue             useDebugValue
+46. useCallback               useCallback
+47. useCallback               useCallback
+48. useSyncExternalStore      useSyncExternalStore
+49. useDebugValue             useDebugValue
+50. useCallback               useCallback
+51. useCallback               useCallback
+52. useSyncExternalStore      useSyncExternalStore
+53. useDebugValue             useDebugValue
+54. useCallback               useCallback
+55. useCallback               useCallback
+56. useSyncExternalStore      useSyncExternalStore
+57. useDebugValue             useDebugValue
+58. useCallback               useCallback
+59. useCallback               useCallback
+60. useSyncExternalStore      useSyncExternalStore
+61. useDebugValue             useDebugValue
+62. useCallback               useCallback
+63. useCallback               useCallback
+64. useSyncExternalStore      useSyncExternalStore
+65. useDebugValue             useDebugValue
+66. useState                  useState
+67. useRef                    useRef
+68. useEffect                 useEffect
+69. useMemo                   useEffect
+ 
+    at CommandPalette (http://localhost:5173/src/components/navigation/CommandPalette.tsx?t=1786222923503:30:16)
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:520
+[ 1014295ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateMemo (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12199:22)
+    at Object.useMemo (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12726:24)
+    at useMemo (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1094:29)
+    at CommandPalette (http://localhost:5173/src/components/navigation/CommandPalette.tsx?t=1786222923503:46:26)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+[ 1014294ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s QuickActionsPanel 1. useCallback                useCallback
+2. useCallback                useCallback
+3. useSyncExternalStore       useSyncExternalStore
+4. useDebugValue              useDebugValue
+5. useCallback                useCallback
+6. useCallback                useCallback
+7. useSyncExternalStore       useSyncExternalStore
+8. useDebugValue              useDebugValue
+9. useContext                 useContext
+10. useCallback               useCallback
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. useSyncExternalStore      useSyncExternalStore
+14. useDebugValue             useDebugValue
+15. useCallback               useCallback
+16. useCallback               useCallback
+17. useSyncExternalStore      useSyncExternalStore
+18. useDebugValue             useDebugValue
+19. useContext                useContext
+20. useContext                useContext
+21. useContext                useContext
+22. useContext                useContext
+23. useContext                useContext
+24. useContext                useContext
+25. useContext                useContext
+26. useRef                    useRef
+27. useContext                useContext
+28. useLayoutEffect           useLayoutEffect
+29. useCallback               useCallback
+30. useRef                    useRef
+31. useEffect                 useEffect
+32. undefined                 useEffect
+ 
+    at QuickActionsPanel (http://localhost:5173/src/components/navigation/QuickActionsPanel.tsx?t=1786222923503:27:16)
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:520
+[ 1014297ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at QuickActionsPanel (http://localhost:5173/src/components/navigation/QuickActionsPanel.tsx?t=1786222923503:34:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014302ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at NotificationBell (http://localhost:5173/src/components/navigation/NotificationBell.tsx?t=1786222923503:38:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014305ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at UserMenu (http://localhost:5173/src/layouts/AppShell/UserMenu.tsx?t=1786222923503:34:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014305ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014305ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014305ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014309ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateMemo (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12199:22)
+    at Object.useMemo (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12726:24)
+    at useMemo (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1094:29)
+    at CommandPalette (http://localhost:5173/src/components/navigation/CommandPalette.tsx?t=1786222923503:46:26)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+[ 1014309ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11678:21)
+    at updateEffectImpl (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12074:22)
+    at updateEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12099:18)
+    at Object.useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:12703:22)
+    at useEffect (http://localhost:5173/node_modules/.vite/deps/chunk-HPDSNDDJ.js?v=64bcbe31:1078:29)
+    at useFocusTrap (http://localhost:5173/src/lib/a11y/useFocusTrap.ts?t=1786222923503:11:3)
+    at QuickActionsPanel (http://localhost:5173/src/components/navigation/QuickActionsPanel.tsx?t=1786222923503:34:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14582:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15924:22)
+[ 1014312ms] [ERROR] The above error occurred in the <NotificationBell> component:
+
+    at NotificationBell (http://localhost:5173/src/components/navigation/NotificationBell.tsx?t=1786222923503:31:16)
+    at div
+    at header
+    at TopBar (http://localhost:5173/src/layouts/AppShell/TopBar.tsx?t=1786221518194:31:17)
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014313ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at NotificationBell (http://localhost:5173/sr…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014313ms] [ERROR] The above error occurred in the <UserMenu> component:
+
+    at UserMenu (http://localhost:5173/src/layouts/AppShell/UserMenu.tsx?t=1786222923503:28:40)
+    at div
+    at header
+    at TopBar (http://localhost:5173/src/layouts/AppShell/TopBar.tsx?t=1786221518194:31:17)
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014314ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at UserMenu (http://localhost:5173/src/layout…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014314ms] [ERROR] The above error occurred in the <ExplainabilityPopover> component:
+
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:28:41)
+    at div
+    at div
+    at RecommendationCard (http://localhost:5173/src/components/tbos/ai/RecommendationCard.tsx:35:3)
+    at div
+    at div
+    at TodayScreen (http://localhost:5173/src/features/today/TodayScreen.tsx?t=1786221518194:36:58)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786221518194:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014315ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at ExplainabilityPopover (http://localhost:51…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014315ms] [ERROR] The above error occurred in the <ExplainabilityPopover> component:
+
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:28:41)
+    at div
+    at div
+    at RecommendationCard (http://localhost:5173/src/components/tbos/ai/RecommendationCard.tsx:35:3)
+    at div
+    at div
+    at TodayScreen (http://localhost:5173/src/features/today/TodayScreen.tsx?t=1786221518194:36:58)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786221518194:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014315ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at ExplainabilityPopover (http://localhost:51…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014315ms] [ERROR] The above error occurred in the <ExplainabilityPopover> component:
+
+    at ExplainabilityPopover (http://localhost:5173/src/components/ai/ExplainabilityPopover.tsx?t=1786222923503:28:41)
+    at div
+    at div
+    at RecommendationCard (http://localhost:5173/src/components/tbos/ai/RecommendationCard.tsx:35:3)
+    at div
+    at div
+    at TodayScreen (http://localhost:5173/src/features/today/TodayScreen.tsx?t=1786221518194:36:58)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786221518194:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014316ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at ExplainabilityPopover (http://localhost:51…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014316ms] [ERROR] The above error occurred in the <CommandPalette> component:
+
+    at CommandPalette (http://localhost:5173/src/components/navigation/CommandPalette.tsx?t=1786222923503:30:16)
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014316ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at CommandPalette (http://localhost:5173/src/…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1014317ms] [ERROR] The above error occurred in the <QuickActionsPanel> component:
+
+    at QuickActionsPanel (http://localhost:5173/src/components/navigation/QuickActionsPanel.tsx?t=1786222923503:27:16)
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786219634816:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[ 1014317ms] [ERROR] [TBOS:error] Unhandled render error {message: Rendered more hooks than during the previous render., componentStack: 
+    at QuickActionsPanel (http://localhost:5173/s…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[ 1060514ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1282481ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1373135ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1397830ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1522836ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1546950ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1698747ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[ 1742838ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550

@@ -1,0 +1,33 @@
+- generic [ref=f103e3]:
+  - generic [ref=f103e4]:
+    - banner [ref=f103e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f103e6]
+      - generic [ref=f103e10]:
+        - button "الإشعارات" [ref=f103e12]
+        - button "النظام" [ref=f103e15]
+        - button "الإنجليزية" [ref=f103e18]
+        - button "قائمة الحساب" [ref=f103e22]:
+          - generic [ref=f103e23]: SA
+    - main [ref=f103e24]:
+      - generic [ref=f103e25]:
+        - generic [ref=f103e27]:
+          - heading "العقود" [level=1] [ref=f103e28]
+          - paragraph [ref=f103e29]: كل صفقة كسجل معاملة موثّق وقابل للتدقيق.
+        - generic [ref=f103e32]:
+          - searchbox "ابحث عن عقود بالعميل أو العقار…" [ref=f103e34]
+          - combobox "المرحلة" [ref=f103e36]:
+            - option "المرحلة" [selected]
+            - option "مسودة"
+            - option "بانتظار الامتثال"
+            - option "نشط"
+            - option "التجديد مستحق"
+            - option "مغلق"
+            - option "ملغى"
+  - navigation "Primary" [ref=f103e39]:
+    - link "Home" [ref=f103e40] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f103e43] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f103e46]
+    - button "إجراءات سريعة" [ref=f103e50]
+    - button "Alerts" [ref=f103e53]

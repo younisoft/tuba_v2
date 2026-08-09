@@ -1,0 +1,56 @@
+- generic [ref=f3e3]:
+  - navigation "Primary" [ref=f3e5]:
+    - generic [ref=f3e6]:
+      - generic [ref=f3e7]: Tuba Broker OS
+      - button "Collapse navigation" [ref=f3e8]
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]:
+        - button "Orientation" [expanded] [ref=f3e13]
+        - list [ref=f3e16]:
+          - listitem [ref=f3e17]:
+            - link "Home" [ref=f3e18] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f3e22]:
+            - link "Today" [ref=f3e23] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f3e27]:
+            - link "Tasks" [ref=f3e28] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f3e32]:
+        - button "Operating" [expanded] [ref=f3e33]
+        - list [ref=f3e36]:
+          - listitem [ref=f3e37]:
+            - link "Properties" [ref=f3e38] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f3e42]:
+            - link "Projects" [ref=f3e43] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f3e47]:
+            - link "Leads" [ref=f3e48] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f3e52]:
+            - link "Customers" [ref=f3e53] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f3e57]:
+            - link "Owners" [ref=f3e58] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f3e62]:
+            - link "Contracts" [ref=f3e63] [cursor=pointer]:
+              - /url: /contracts
+      - button "Intelligence & Control" [ref=f3e68]
+  - generic [ref=f3e71]:
+    - banner [ref=f3e72]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f3e73]:
+        - generic [ref=f3e76]: Search properties, leads, customers…
+        - generic [ref=f3e77]: ⌘K
+      - generic [ref=f3e78]:
+        - button "Quick actions" [ref=f3e80]
+        - button "Notifications" [ref=f3e84]
+        - button "System" [ref=f3e87]
+        - button "Arabic" [ref=f3e90]
+        - button "Account menu" [ref=f3e94]:
+          - generic [ref=f3e95]: RA
+    - main [ref=f3e96]:
+      - generic [ref=f3e97]:
+        - heading "Today" [level=1] [ref=f3e98]
+        - paragraph [ref=f3e99]: What deserves your attention right now.

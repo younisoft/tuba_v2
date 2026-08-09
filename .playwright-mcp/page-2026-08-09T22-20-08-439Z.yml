@@ -1,0 +1,1654 @@
+- generic [active] [ref=f169e1]:
+  - text:  
+  - generic [ref=f169e2]:
+    - banner [ref=f169e5]:
+      - navigation [ref=f169e7]:
+        - generic [ref=f169e8]:
+          - link [ref=f169e9] [cursor=pointer]:
+            - /url: https://tuba.com.sa
+          - list [ref=f169e10]:
+            - listitem [ref=f169e11]:
+              - link "العقارات المفضلة" [ref=f169e12] [cursor=pointer]:
+                - /url: "#!"
+            - listitem [ref=f169e13]:
+              - link "محفوظات البحث" [ref=f169e14] [cursor=pointer]:
+                - /url: "#!"
+            - listitem [ref=f169e15]:
+              - link [ref=f169e16] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f169e17]:
+                  - img [ref=f169e18]: 
+                  - text: إضافة
+        - list [ref=f169e20]:
+          - listitem [ref=f169e21]:
+            - link "المشاريع" [ref=f169e22] [cursor=pointer]:
+              - /url: https://tuba.com.sa/projects/listing
+          - listitem [ref=f169e25]:
+            - link "شراء" [ref=f169e26] [cursor=pointer]:
+              - /url: https://tuba.com.sa/properties/listing?ctl=for_sale
+          - listitem [ref=f169e29]:
+            - link "إيجار" [ref=f169e30] [cursor=pointer]:
+              - /url: https://tuba.com.sa/properties/listing?ctl=for_rent
+          - listitem [ref=f169e33]:
+            - link "اتصل" [ref=f169e34] [cursor=pointer]:
+              - /url: https://tuba.com.sa/contact
+          - listitem [ref=f169e37]:
+            - link "حمل التطبيق" [ref=f169e38] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f169e43]:
+            - link "English" [ref=f169e45] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f169e46]:
+            - generic [ref=f169e47]:
+              - link "تسجيل الدخول" [ref=f169e48] [cursor=pointer]:
+                - /url: https://tuba.com.sa/login
+              - text: /
+              - link "التسجيل" [ref=f169e51] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - img [ref=f169e52]: 
+                - text: التسجيل
+          - text: 
+    - generic: 
+    - generic [ref=f169e56]:
+      - heading "ابحث عن منزل الأحلام اليوم" [level=1] [ref=f169e60]: ابحث عنمنزل الأحلام اليوم
+      - generic [ref=f169e63]:
+        - tablist [ref=f169e64]:
+          - listitem [ref=f169e65]:
+            - generic [ref=f169e66]:
+              - button "شراء" [ref=f169e67] [cursor=pointer]
+              - button "إيجار" [ref=f169e68] [cursor=pointer]
+          - listitem [ref=f169e70]:
+            - tab "مباع" [ref=f169e71] [cursor=pointer]
+        - generic [ref=f169e72]:
+          - tabpanel [ref=f169e73]:
+            - list [ref=f169e76]:
+              - listitem [ref=f169e77]:
+                - textbox "ابحث بالمنطقة أو المدينة أو الرمز البريدي أو حسب الموقع الحالي" [ref=f169e80]
+          - text:  
+    - generic [ref=f169e83]:
+      - generic [ref=f169e85]:
+        - heading "مشاريع مميزة" [level=2] [ref=f169e86]
+        - link "عرض الكل " [ref=f169e87] [cursor=pointer]:
+          - /url: https://tuba.com.sa/projects/listing
+          - text: عرض الكل
+          - generic [ref=f169e88]: 
+      - generic [ref=f169e90]:
+        - generic [ref=f169e92]:
+          - link "fp10.jpg مشروع رفيعة | Rafiah Project  حي الرفيعة,الرياض |Al Rafiah District, Riyadh السعر 4.5m - 4.5m" [ref=f169e95] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%B1%D9%81%D9%8A%D8%B9%D8%A9-Rafiah-Project
+            - generic [ref=f169e96]:
+              - img "fp10.jpg" [ref=f169e98]
+              - list [ref=f169e99]:
+                - listitem
+              - generic [ref=f169e101]:
+                - heading "مشروع رفيعة | Rafiah Project" [level=4] [ref=f169e102]
+                - generic [ref=f169e103]:
+                  - paragraph [ref=f169e104]:
+                    - generic [ref=f169e105]: 
+                    - text: حي الرفيعة,الرياض |Al Rafiah District, Riyadh
+                  - generic [ref=f169e106]: السعر 4.5m - 4.5m
+          - link "fp10.jpg أدوار كلتا بلس | Kelta Plus Floors  RRRE7872، 7872 صهيب أبي موسى، العارض، ا... السعر 1.19m - 1.58m" [ref=f169e109] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D8%A3%D8%AF%D9%88%D8%A7%D8%B1-%D9%83%D9%84%D8%AA%D8%A7-%D8%A8%D9%84%D8%B3-Kelta-Plus-Floors
+            - generic [ref=f169e110]:
+              - img "fp10.jpg" [ref=f169e112]
+              - list [ref=f169e113]:
+                - listitem
+              - generic [ref=f169e115]:
+                - heading "أدوار كلتا بلس | Kelta Plus Floors" [level=4] [ref=f169e116]
+                - generic [ref=f169e117]:
+                  - paragraph [ref=f169e118]:
+                    - generic [ref=f169e119]: 
+                    - text: RRRE7872، 7872 صهيب أبي موسى، العارض، ا...
+                  - generic [ref=f169e120]: السعر 1.19m - 1.58m
+          - link "fp10.jpg مشروع فيو لوفت | View Loft Project  📍 الرياض – حي النرجس | Riyadh – Al Narj... السعر 1.8m - 1.9m" [ref=f169e123] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%81%D9%8A%D9%88-%D9%84%D9%88%D9%81%D8%AA-View-Loft-Project
+            - generic [ref=f169e124]:
+              - img "fp10.jpg" [ref=f169e126]
+              - list [ref=f169e127]:
+                - listitem
+              - generic [ref=f169e129]:
+                - heading "مشروع فيو لوفت | View Loft Project" [level=4] [ref=f169e130]
+                - generic [ref=f169e131]:
+                  - paragraph [ref=f169e132]:
+                    - generic [ref=f169e133]: 
+                    - text: 📍 الرياض – حي النرجس | Riyadh – Al Narj...
+                  - generic [ref=f169e134]: السعر 1.8m - 1.9m
+          - link "fp10.jpg مشروع نافذة الأركان | Nafithat Al...  حي العارض، الرياض السعر 1.24m - 1.44m" [ref=f169e137] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D9%83%D8%A7%D9%86-Nafithat-Al-Arkan-Project
+            - generic [ref=f169e138]:
+              - img "fp10.jpg" [ref=f169e140]
+              - list [ref=f169e141]:
+                - listitem
+              - generic [ref=f169e143]:
+                - heading "مشروع نافذة الأركان | Nafithat Al..." [level=4] [ref=f169e144]
+                - generic [ref=f169e145]:
+                  - paragraph [ref=f169e146]:
+                    - generic [ref=f169e147]: 
+                    - text: حي العارض، الرياض
+                  - generic [ref=f169e148]: السعر 1.24m - 1.44m
+          - link "fp10.jpg فلل أوش 42 | OASH 42 Villas  ابحر الشمالية، جدة السعر 3m - 3.5m" [ref=f169e151] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%81%D9%84%D9%84-%D8%A3%D9%88%D8%B4-42-OASH-42-Villas
+            - generic [ref=f169e152]:
+              - img "fp10.jpg" [ref=f169e154]
+              - list [ref=f169e155]:
+                - listitem
+              - generic [ref=f169e157]:
+                - heading "فلل أوش 42 | OASH 42 Villas" [level=4] [ref=f169e158]
+                - generic [ref=f169e159]:
+                  - paragraph [ref=f169e160]:
+                    - generic [ref=f169e161]: 
+                    - text: ابحر الشمالية، جدة
+                  - generic [ref=f169e162]: السعر 3m - 3.5m
+          - link "fp10.jpg مشروع فيو أرش | View Arch Project  📍 حي القدس – الرياض | Al Quds District –... السعر 1.35m - 1.74m" [ref=f169e165] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%81%D9%8A%D9%88-%D8%A3%D8%B1%D8%B4-View-Arch-Project
+            - generic [ref=f169e166]:
+              - img "fp10.jpg" [ref=f169e168]
+              - list [ref=f169e169]:
+                - listitem
+              - generic [ref=f169e171]:
+                - heading "مشروع فيو أرش | View Arch Project" [level=4] [ref=f169e172]
+                - generic [ref=f169e173]:
+                  - paragraph [ref=f169e174]:
+                    - generic [ref=f169e175]: 
+                    - text: 📍 حي القدس – الرياض | Al Quds District –...
+                  - generic [ref=f169e176]: السعر 1.35m - 1.74m
+          - link "fp10.jpg مشروع راف  حي العارض، الرياض السعر 1.8m - 1.9m" [ref=f169e179] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%B1%D8%A7%D9%81
+            - generic [ref=f169e180]:
+              - img "fp10.jpg" [ref=f169e182]
+              - list [ref=f169e183]:
+                - listitem
+              - generic [ref=f169e185]:
+                - heading "مشروع راف" [level=4] [ref=f169e186]
+                - generic [ref=f169e187]:
+                  - paragraph [ref=f169e188]:
+                    - generic [ref=f169e189]: 
+                    - text: حي العارض، الرياض
+                  - generic [ref=f169e190]: السعر 1.8m - 1.9m
+          - link "fp10.jpg فلل كلتا بلس | Kelta Villa Plus  واجهة شرقية، تقع شمال طريق الملك ... السعر 2.8m - 2.8m" [ref=f169e193] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%81%D9%84%D9%84-%D9%83%D9%84%D8%AA%D8%A7-%D8%A8%D9%84%D8%B3-Kelta-Villa-Plus
+            - generic [ref=f169e194]:
+              - img "fp10.jpg" [ref=f169e196]
+              - list [ref=f169e197]:
+                - listitem
+              - generic [ref=f169e199]:
+                - heading "فلل كلتا بلس | Kelta Villa Plus" [level=4] [ref=f169e200]
+                - generic [ref=f169e201]:
+                  - paragraph [ref=f169e202]:
+                    - generic [ref=f169e203]: 
+                    - text: واجهة شرقية، تقع شمال طريق الملك ...
+                  - generic [ref=f169e204]: السعر 2.8m - 2.8m
+          - link "fp10.jpg فلل فيو لوفت | View Loft Villas  الرياض – حي النرجس | Riyadh – Al Narjis Di... السعر 4m - 4m" [ref=f169e207] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%81%D9%84%D9%84-%D9%81%D9%8A%D9%88-%D9%84%D9%88%D9%81%D8%AA-View-Loft-Villas
+            - generic [ref=f169e208]:
+              - img "fp10.jpg" [ref=f169e210]
+              - list [ref=f169e211]:
+                - listitem
+              - generic [ref=f169e213]:
+                - heading "فلل فيو لوفت | View Loft Villas" [level=4] [ref=f169e214]
+                - generic [ref=f169e215]:
+                  - paragraph [ref=f169e216]:
+                    - generic [ref=f169e217]: 
+                    - text: الرياض – حي النرجس | Riyadh – Al Narjis Di...
+                  - generic [ref=f169e218]: السعر 4m - 4m
+          - link "fp10.jpg مشروع رفيعة | Rafiah Project  حي الرفيعة,الرياض |Al Rafiah District, Riyadh السعر 4.5m - 4.5m" [ref=f169e221] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%B1%D9%81%D9%8A%D8%B9%D8%A9-Rafiah-Project
+            - generic [ref=f169e222]:
+              - img "fp10.jpg" [ref=f169e224]
+              - list [ref=f169e225]:
+                - listitem
+              - generic [ref=f169e227]:
+                - heading "مشروع رفيعة | Rafiah Project" [level=4] [ref=f169e228]
+                - generic [ref=f169e229]:
+                  - paragraph [ref=f169e230]:
+                    - generic [ref=f169e231]: 
+                    - text: حي الرفيعة,الرياض |Al Rafiah District, Riyadh
+                  - generic [ref=f169e232]: السعر 4.5m - 4.5m
+          - link "fp10.jpg أدوار كلتا بلس | Kelta Plus Floors  RRRE7872، 7872 صهيب أبي موسى، العارض، ا... السعر 1.19m - 1.58m" [ref=f169e235] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D8%A3%D8%AF%D9%88%D8%A7%D8%B1-%D9%83%D9%84%D8%AA%D8%A7-%D8%A8%D9%84%D8%B3-Kelta-Plus-Floors
+            - generic [ref=f169e236]:
+              - img "fp10.jpg" [ref=f169e238]
+              - list [ref=f169e239]:
+                - listitem
+              - generic [ref=f169e241]:
+                - heading "أدوار كلتا بلس | Kelta Plus Floors" [level=4] [ref=f169e242]
+                - generic [ref=f169e243]:
+                  - paragraph [ref=f169e244]:
+                    - generic [ref=f169e245]: 
+                    - text: RRRE7872، 7872 صهيب أبي موسى، العارض، ا...
+                  - generic [ref=f169e246]: السعر 1.19m - 1.58m
+          - link "fp10.jpg مشروع فيو لوفت | View Loft Project  📍 الرياض – حي النرجس | Riyadh – Al Narj... السعر 1.8m - 1.9m" [ref=f169e249] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%81%D9%8A%D9%88-%D9%84%D9%88%D9%81%D8%AA-View-Loft-Project
+            - generic [ref=f169e250]:
+              - img "fp10.jpg" [ref=f169e252]
+              - list [ref=f169e253]:
+                - listitem
+              - generic [ref=f169e255]:
+                - heading "مشروع فيو لوفت | View Loft Project" [level=4] [ref=f169e256]
+                - generic [ref=f169e257]:
+                  - paragraph [ref=f169e258]:
+                    - generic [ref=f169e259]: 
+                    - text: 📍 الرياض – حي النرجس | Riyadh – Al Narj...
+                  - generic [ref=f169e260]: السعر 1.8m - 1.9m
+          - link "fp10.jpg مشروع نافذة الأركان | Nafithat Al...  حي العارض، الرياض السعر 1.24m - 1.44m" [ref=f169e263] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D9%83%D8%A7%D9%86-Nafithat-Al-Arkan-Project
+            - generic [ref=f169e264]:
+              - img "fp10.jpg" [ref=f169e266]
+              - list [ref=f169e267]:
+                - listitem
+              - generic [ref=f169e269]:
+                - heading "مشروع نافذة الأركان | Nafithat Al..." [level=4] [ref=f169e270]
+                - generic [ref=f169e271]:
+                  - paragraph [ref=f169e272]:
+                    - generic [ref=f169e273]: 
+                    - text: حي العارض، الرياض
+                  - generic [ref=f169e274]: السعر 1.24m - 1.44m
+          - link "fp10.jpg فلل أوش 42 | OASH 42 Villas  ابحر الشمالية، جدة السعر 3m - 3.5m" [ref=f169e277] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%81%D9%84%D9%84-%D8%A3%D9%88%D8%B4-42-OASH-42-Villas
+            - generic [ref=f169e278]:
+              - img "fp10.jpg" [ref=f169e280]
+              - list [ref=f169e281]:
+                - listitem
+              - generic [ref=f169e283]:
+                - heading "فلل أوش 42 | OASH 42 Villas" [level=4] [ref=f169e284]
+                - generic [ref=f169e285]:
+                  - paragraph [ref=f169e286]:
+                    - generic [ref=f169e287]: 
+                    - text: ابحر الشمالية، جدة
+                  - generic [ref=f169e288]: السعر 3m - 3.5m
+          - link "fp10.jpg مشروع فيو أرش | View Arch Project  📍 حي القدس – الرياض | Al Quds District –... السعر 1.35m - 1.74m" [ref=f169e291] [cursor=pointer]:
+            - /url: https://tuba.com.sa/view/project/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%81%D9%8A%D9%88-%D8%A3%D8%B1%D8%B4-View-Arch-Project
+            - generic [ref=f169e292]:
+              - img "fp10.jpg" [ref=f169e294]
+              - list [ref=f169e295]:
+                - listitem
+              - generic [ref=f169e297]:
+                - heading "مشروع فيو أرش | View Arch Project" [level=4] [ref=f169e298]
+                - generic [ref=f169e299]:
+                  - paragraph [ref=f169e300]:
+                    - generic [ref=f169e301]: 
+                    - text: 📍 حي القدس – الرياض | Al Quds District –...
+                  - generic [ref=f169e302]: السعر 1.35m - 1.74m
+        - generic:
+          - generic:
+            - generic [ref=f169e303] [cursor=pointer]: 
+            - generic [ref=f169e305] [cursor=pointer]: 
+    - generic [ref=f169e309]:
+      - generic [ref=f169e312]:
+        - heading "عقارات مميزة" [level=2] [ref=f169e313]
+        - paragraph:
+          - link "عرض الكل " [ref=f169e314] [cursor=pointer]:
+            - /url: "#"
+            - text: عرض الكل
+            - generic [ref=f169e315]: 
+      - generic [ref=f169e317]:
+        - generic [ref=f169e319]:
+          - generic [ref=f169e322] [cursor=pointer]:
+            - generic [ref=f169e323]:
+              - img "fp1.jpg" [ref=f169e324]
+              - generic [ref=f169e325]:
+                - list [ref=f169e326]:
+                  - listitem [ref=f169e327]: للبيع
+                  - listitem [ref=f169e328]:
+                    - link "برو" [ref=f169e329]:
+                      - /url: "#"
+                - list [ref=f169e332]:
+                  - listitem [ref=f169e333]:
+                    - link "" [ref=f169e334]:
+                      - /url: "#"
+                - generic [ref=f169e335]:
+                  - generic [ref=f169e336]: 
+                  - text: 730k
+            - generic [ref=f169e337]:
+              - link "شقة شقة للبيع في شارع علي الفاباتي, حي السل...  السلامة, 23525, جدة, منطقة مكة المكرمة 4 3 139.59 م²" [ref=f169e338]:
+                - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-15
+                - generic [ref=f169e339]:
+                  - paragraph [ref=f169e340]: شقة
+                  - heading "شقة للبيع في شارع علي الفاباتي, حي السل..." [level=4] [ref=f169e341]
+                  - paragraph [ref=f169e342]:
+                    - generic [ref=f169e343]: 
+                    - text: السلامة, 23525, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e344]:
+                    - listitem [ref=f169e345]:
+                      - img [ref=f169e346]: 
+                      - text: "4"
+                    - listitem [ref=f169e348]:
+                      - img [ref=f169e349]: 
+                      - text: "3"
+                    - listitem [ref=f169e351]:
+                      - img [ref=f169e352]: 
+                      - text: 139.59 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-Jp2PyDAa
+          - generic [ref=f169e356] [cursor=pointer]:
+            - generic [ref=f169e357]:
+              - img "fp1.jpg" [ref=f169e358]
+              - generic [ref=f169e359]:
+                - list [ref=f169e360]:
+                  - listitem [ref=f169e361]: للبيع
+                  - listitem [ref=f169e362]:
+                    - link "برو" [ref=f169e363]:
+                      - /url: "#"
+                - list [ref=f169e366]:
+                  - listitem [ref=f169e367]:
+                    - link "" [ref=f169e368]:
+                      - /url: "#"
+                - generic [ref=f169e369]:
+                  - generic [ref=f169e370]: 
+                  - text: 750k
+            - generic [ref=f169e371]:
+              - link "شقة شقة للبيع في جدة - حي الروضة  الروضة, 23434, جدة, منطقة مكة المكرمة 4 3 114.08 م²" [ref=f169e372]:
+                - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-17
+                - generic [ref=f169e373]:
+                  - paragraph [ref=f169e374]: شقة
+                  - heading "شقة للبيع في جدة - حي الروضة" [level=4] [ref=f169e375]
+                  - paragraph [ref=f169e376]:
+                    - generic [ref=f169e377]: 
+                    - text: الروضة, 23434, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e378]:
+                    - listitem [ref=f169e379]:
+                      - img [ref=f169e380]: 
+                      - text: "4"
+                    - listitem [ref=f169e382]:
+                      - img [ref=f169e383]: 
+                      - text: "3"
+                    - listitem [ref=f169e385]:
+                      - img [ref=f169e386]: 
+                      - text: 114.08 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-Jp2PyDAa
+          - generic [ref=f169e390] [cursor=pointer]:
+            - generic [ref=f169e391]:
+              - img "fp1.jpg" [ref=f169e392]
+              - generic [ref=f169e393]:
+                - list [ref=f169e394]:
+                  - listitem [ref=f169e395]: للبيع
+                  - listitem [ref=f169e396]:
+                    - link "برو" [ref=f169e397]:
+                      - /url: "#"
+                - list [ref=f169e400]:
+                  - listitem [ref=f169e401]:
+                    - link "" [ref=f169e402]:
+                      - /url: "#"
+                - generic [ref=f169e403]:
+                  - generic [ref=f169e404]: 
+                  - text: 750k
+            - generic [ref=f169e405]:
+              - link "شقة شقة للبيع في جدة - حي الروضة  الروضة, 23434, جدة, منطقة مكة المكرمة 4 3 114.08 م²" [ref=f169e406]:
+                - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-16
+                - generic [ref=f169e407]:
+                  - paragraph [ref=f169e408]: شقة
+                  - heading "شقة للبيع في جدة - حي الروضة" [level=4] [ref=f169e409]
+                  - paragraph [ref=f169e410]:
+                    - generic [ref=f169e411]: 
+                    - text: الروضة, 23434, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e412]:
+                    - listitem [ref=f169e413]:
+                      - img [ref=f169e414]: 
+                      - text: "4"
+                    - listitem [ref=f169e416]:
+                      - img [ref=f169e417]: 
+                      - text: "3"
+                    - listitem [ref=f169e419]:
+                      - img [ref=f169e420]: 
+                      - text: 114.08 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-Jp2PyDAa
+        - generic:
+          - generic:
+            - img [ref=f169e423] [cursor=pointer]: 
+            - img [ref=f169e426] [cursor=pointer]: 
+    - generic [ref=f169e429]:
+      - heading "ابحث عن عقارات في هذه المدن" [level=2] [ref=f169e433]
+      - generic [ref=f169e436]:
+        - generic [ref=f169e438]:
+          - generic [ref=f169e440]:
+            - generic [ref=f169e441] [cursor=pointer]:
+              - img "image-3" [ref=f169e442]
+              - link "الخبر" [ref=f169e443]:
+                - /url: "#!"
+            - generic [ref=f169e445] [cursor=pointer]:
+              - img "image-4" [ref=f169e446]
+              - link "ابها" [ref=f169e447]:
+                - /url: "#!"
+            - generic [ref=f169e449] [cursor=pointer]:
+              - img "image-5" [ref=f169e450]
+              - link "المدينه المنوره" [ref=f169e451]:
+                - /url: "#!"
+          - generic [ref=f169e454]:
+            - generic [ref=f169e455] [cursor=pointer]:
+              - img "image-6" [ref=f169e456]
+              - link "خميس مشيط" [ref=f169e457]:
+                - /url: "#!"
+            - generic [ref=f169e459] [cursor=pointer]:
+              - img "image-7" [ref=f169e460]
+              - link "الاحساء" [ref=f169e461]:
+                - /url: "#!"
+            - generic [ref=f169e463] [cursor=pointer]:
+              - img "image-8" [ref=f169e464]
+              - link "جازان" [ref=f169e465]:
+                - /url: "#!"
+          - generic [ref=f169e468]:
+            - generic [ref=f169e469] [cursor=pointer]:
+              - img "image-9" [ref=f169e470]
+              - link "نجران" [ref=f169e471]:
+                - /url: "#!"
+            - generic [ref=f169e473] [cursor=pointer]:
+              - img "image-10" [ref=f169e474]
+              - link "تبوك" [ref=f169e475]:
+                - /url: "#!"
+            - generic [ref=f169e477] [cursor=pointer]:
+              - img "image-11" [ref=f169e478]
+              - link "الطائف" [ref=f169e479]:
+                - /url: "#!"
+          - generic [ref=f169e482]:
+            - generic [ref=f169e483] [cursor=pointer]:
+              - img "image-0" [ref=f169e484]
+              - link "جدة" [ref=f169e485]:
+                - /url: "#!"
+            - generic [ref=f169e487] [cursor=pointer]:
+              - img "image-1" [ref=f169e488]
+              - link "الرياض" [ref=f169e489]:
+                - /url: "#!"
+            - generic [ref=f169e491] [cursor=pointer]:
+              - img "image-2" [ref=f169e492]
+              - link "مكه المكرمه" [ref=f169e493]:
+                - /url: "#!"
+          - generic [ref=f169e496]:
+            - generic [ref=f169e497] [cursor=pointer]:
+              - img "image-3" [ref=f169e498]
+              - link "الخبر" [ref=f169e499]:
+                - /url: "#!"
+            - generic [ref=f169e501] [cursor=pointer]:
+              - img "image-4" [ref=f169e502]
+              - link "ابها" [ref=f169e503]:
+                - /url: "#!"
+            - generic [ref=f169e505] [cursor=pointer]:
+              - img "image-5" [ref=f169e506]
+              - link "المدينه المنوره" [ref=f169e507]:
+                - /url: "#!"
+          - generic [ref=f169e510]:
+            - generic [ref=f169e511] [cursor=pointer]:
+              - img "image-6" [ref=f169e512]
+              - link "خميس مشيط" [ref=f169e513]:
+                - /url: "#!"
+            - generic [ref=f169e515] [cursor=pointer]:
+              - img "image-7" [ref=f169e516]
+              - link "الاحساء" [ref=f169e517]:
+                - /url: "#!"
+            - generic [ref=f169e519] [cursor=pointer]:
+              - img "image-8" [ref=f169e520]
+              - link "جازان" [ref=f169e521]:
+                - /url: "#!"
+          - generic [ref=f169e524]:
+            - generic [ref=f169e525] [cursor=pointer]:
+              - img "image-9" [ref=f169e526]
+              - link "نجران" [ref=f169e527]:
+                - /url: "#!"
+            - generic [ref=f169e529] [cursor=pointer]:
+              - img "image-10" [ref=f169e530]
+              - link "تبوك" [ref=f169e531]:
+                - /url: "#!"
+            - generic [ref=f169e533] [cursor=pointer]:
+              - img "image-11" [ref=f169e534]
+              - link "الطائف" [ref=f169e535]:
+                - /url: "#!"
+          - generic [ref=f169e538]:
+            - generic [ref=f169e539] [cursor=pointer]:
+              - img "image-0" [ref=f169e540]
+              - link "جدة" [ref=f169e541]:
+                - /url: "#!"
+            - generic [ref=f169e543] [cursor=pointer]:
+              - img "image-1" [ref=f169e544]
+              - link "الرياض" [ref=f169e545]:
+                - /url: "#!"
+            - generic [ref=f169e547] [cursor=pointer]:
+              - img "image-2" [ref=f169e548]
+              - link "مكه المكرمه" [ref=f169e549]:
+                - /url: "#!"
+          - generic [ref=f169e552]:
+            - generic [ref=f169e553] [cursor=pointer]:
+              - img "image-3" [ref=f169e554]
+              - link "الخبر" [ref=f169e555]:
+                - /url: "#!"
+            - generic [ref=f169e557] [cursor=pointer]:
+              - img "image-4" [ref=f169e558]
+              - link "ابها" [ref=f169e559]:
+                - /url: "#!"
+            - generic [ref=f169e561] [cursor=pointer]:
+              - img "image-5" [ref=f169e562]
+              - link "المدينه المنوره" [ref=f169e563]:
+                - /url: "#!"
+          - generic [ref=f169e566]:
+            - generic [ref=f169e567] [cursor=pointer]:
+              - img "image-6" [ref=f169e568]
+              - link "خميس مشيط" [ref=f169e569]:
+                - /url: "#!"
+            - generic [ref=f169e571] [cursor=pointer]:
+              - img "image-7" [ref=f169e572]
+              - link "الاحساء" [ref=f169e573]:
+                - /url: "#!"
+            - generic [ref=f169e575] [cursor=pointer]:
+              - img "image-8" [ref=f169e576]
+              - link "جازان" [ref=f169e577]:
+                - /url: "#!"
+        - generic:
+          - generic:
+            - generic [ref=f169e579] [cursor=pointer]: 
+            - generic [ref=f169e581] [cursor=pointer]: 
+    - generic [ref=f169e585]:
+      - generic [ref=f169e588]:
+        - heading "العقارات المدرجة حديثًا في المملكة العربية السعودية" [level=2] [ref=f169e589]
+        - paragraph:
+          - link "عرض الكل " [ref=f169e590] [cursor=pointer]:
+            - /url: "#"
+            - text: عرض الكل
+            - generic [ref=f169e591]: 
+      - generic [ref=f169e593]:
+        - generic [ref=f169e595]:
+          - generic [ref=f169e598] [cursor=pointer]:
+            - generic [ref=f169e599]:
+              - img "fp1.jpg" [ref=f169e600]
+              - generic [ref=f169e601]:
+                - list [ref=f169e602]:
+                  - listitem [ref=f169e603]: للبيع
+                - list [ref=f169e604]:
+                  - listitem [ref=f169e605]:
+                    - link "" [ref=f169e606]:
+                      - /url: "#"
+                - generic [ref=f169e607]:
+                  - generic [ref=f169e608]: 
+                  - text: 2k
+            - generic [ref=f169e609]:
+              - link "ارض أرض للبيع في حي الخير, مدينة الرياض, من�...  الخير, 13584, الرياض, منطقة الرياض 0 0 735 م²" [ref=f169e610]:
+                - /url: https://tuba.com.sa/property/land-for-sale-in-riyadh-50
+                - generic [ref=f169e611]:
+                  - paragraph [ref=f169e612]: ارض
+                  - heading "أرض للبيع في حي الخير, مدينة الرياض, من�..." [level=4] [ref=f169e613]
+                  - paragraph [ref=f169e614]:
+                    - generic [ref=f169e615]: 
+                    - text: الخير, 13584, الرياض, منطقة الرياض
+                  - list [ref=f169e616]:
+                    - listitem [ref=f169e617]:
+                      - img [ref=f169e618]: 
+                      - text: "0"
+                    - listitem [ref=f169e620]:
+                      - img [ref=f169e621]: 
+                      - text: "0"
+                    - listitem [ref=f169e623]:
+                      - img [ref=f169e624]: 
+                      - text: 735 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-6mkz1vAW
+          - generic [ref=f169e628] [cursor=pointer]:
+            - generic [ref=f169e629]:
+              - img "fp1.jpg" [ref=f169e630]
+              - generic [ref=f169e631]:
+                - list [ref=f169e632]:
+                  - listitem [ref=f169e633]: للبيع
+                - list [ref=f169e634]:
+                  - listitem [ref=f169e635]:
+                    - link "" [ref=f169e636]:
+                      - /url: "#"
+                - generic [ref=f169e637]:
+                  - generic [ref=f169e638]: 
+                  - text: 2.87m
+            - generic [ref=f169e639]:
+              - link "شقة شقة تاون هاوس - الرياض - حي النرجس  النرجس, 13324, الرياض, منطقة الرياض 4 5 219.19 م²" [ref=f169e640]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-298
+                - generic [ref=f169e641]:
+                  - paragraph [ref=f169e642]: شقة
+                  - heading "شقة تاون هاوس - الرياض - حي النرجس" [level=4] [ref=f169e643]
+                  - paragraph [ref=f169e644]:
+                    - generic [ref=f169e645]: 
+                    - text: النرجس, 13324, الرياض, منطقة الرياض
+                  - list [ref=f169e646]:
+                    - listitem [ref=f169e647]:
+                      - img [ref=f169e648]: 
+                      - text: "4"
+                    - listitem [ref=f169e650]:
+                      - img [ref=f169e651]: 
+                      - text: "5"
+                    - listitem [ref=f169e653]:
+                      - img [ref=f169e654]: 
+                      - text: 219.19 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e658] [cursor=pointer]:
+            - generic [ref=f169e659]:
+              - img "fp1.jpg" [ref=f169e660]
+              - generic [ref=f169e661]:
+                - list [ref=f169e662]:
+                  - listitem [ref=f169e663]: للبيع
+                - list [ref=f169e664]:
+                  - listitem [ref=f169e665]:
+                    - link "" [ref=f169e666]:
+                      - /url: "#"
+                - generic [ref=f169e667]:
+                  - generic [ref=f169e668]: 
+                  - text: 950k
+            - generic [ref=f169e669]:
+              - link "شقة شقة تاون هاوس - الرياض - الرمال  الرمال, 13266, الرياض, منطقة الرياض 8 7 149.4 م²" [ref=f169e670]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-428
+                - generic [ref=f169e671]:
+                  - paragraph [ref=f169e672]: شقة
+                  - heading "شقة تاون هاوس - الرياض - الرمال" [level=4] [ref=f169e673]
+                  - paragraph [ref=f169e674]:
+                    - generic [ref=f169e675]: 
+                    - text: الرمال, 13266, الرياض, منطقة الرياض
+                  - list [ref=f169e676]:
+                    - listitem [ref=f169e677]:
+                      - img [ref=f169e678]: 
+                      - text: "8"
+                    - listitem [ref=f169e680]:
+                      - img [ref=f169e681]: 
+                      - text: "7"
+                    - listitem [ref=f169e683]:
+                      - img [ref=f169e684]: 
+                      - text: 149.4 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e688] [cursor=pointer]:
+            - generic [ref=f169e689]:
+              - img "fp1.jpg" [ref=f169e690]
+              - generic [ref=f169e691]:
+                - list [ref=f169e692]:
+                  - listitem [ref=f169e693]: للإيجار
+                - list [ref=f169e694]:
+                  - listitem [ref=f169e695]:
+                    - link "" [ref=f169e696]:
+                      - /url: "#"
+                - generic [ref=f169e697]:
+                  - generic [ref=f169e698]: 
+                  - text: 51.60k /شهري
+            - generic [ref=f169e699]:
+              - link "شقة شقة مؤثثة للإيجار في جدة – حي السلامة  السلامة, 23436, جدة, منطقة مكة المكرمة 1 2 300 م²" [ref=f169e700]:
+                - /url: https://tuba.com.sa/property/apartment-for-rent-in-jeddah-376
+                - generic [ref=f169e701]:
+                  - paragraph [ref=f169e702]: شقة
+                  - heading "شقة مؤثثة للإيجار في جدة – حي السلامة" [level=4] [ref=f169e703]
+                  - paragraph [ref=f169e704]:
+                    - generic [ref=f169e705]: 
+                    - text: السلامة, 23436, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e706]:
+                    - listitem [ref=f169e707]:
+                      - img [ref=f169e708]: 
+                      - text: "1"
+                    - listitem [ref=f169e710]:
+                      - img [ref=f169e711]: 
+                      - text: "2"
+                    - listitem [ref=f169e713]:
+                      - img [ref=f169e714]: 
+                      - text: 300 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+          - generic [ref=f169e718] [cursor=pointer]:
+            - generic [ref=f169e719]:
+              - img "fp1.jpg" [ref=f169e720]
+              - generic [ref=f169e721]:
+                - list [ref=f169e722]:
+                  - listitem [ref=f169e723]: للإيجار
+                - list [ref=f169e724]:
+                  - listitem [ref=f169e725]:
+                    - link "" [ref=f169e726]:
+                      - /url: "#"
+                - generic [ref=f169e727]:
+                  - generic [ref=f169e728]: 
+                  - text: 32.40k /شهري
+            - generic [ref=f169e729]:
+              - link "شقة شقة مفروشة للايجار الشهري والسنوي في ج...  السلامة, 23437, جدة, منطقة مكة المكرمة 1 1 30 م²" [ref=f169e730]:
+                - /url: https://tuba.com.sa/property/apartment-for-rent-in-jeddah-1666
+                - generic [ref=f169e731]:
+                  - paragraph [ref=f169e732]: شقة
+                  - heading "شقة مفروشة للايجار الشهري والسنوي في ج..." [level=4] [ref=f169e733]
+                  - paragraph [ref=f169e734]:
+                    - generic [ref=f169e735]: 
+                    - text: السلامة, 23437, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e736]:
+                    - listitem [ref=f169e737]:
+                      - img [ref=f169e738]: 
+                      - text: "1"
+                    - listitem [ref=f169e740]:
+                      - img [ref=f169e741]: 
+                      - text: "1"
+                    - listitem [ref=f169e743]:
+                      - img [ref=f169e744]: 
+                      - text: 30 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+          - generic [ref=f169e748] [cursor=pointer]:
+            - generic [ref=f169e749]:
+              - img "fp1.jpg" [ref=f169e750]
+              - generic [ref=f169e751]:
+                - list [ref=f169e752]:
+                  - listitem [ref=f169e753]: للبيع
+                - list [ref=f169e754]:
+                  - listitem [ref=f169e755]:
+                    - link "" [ref=f169e756]:
+                      - /url: "#"
+                - generic [ref=f169e757]:
+                  - generic [ref=f169e758]: 
+                  - text: 700k
+            - generic [ref=f169e759]:
+              - link "شقة شقة روف - الرياض - حي المعيزلة  المعيزيلة, 13234, الرياض, منطقة الرياض 4 3 80.15 م²" [ref=f169e760]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-123
+                - generic [ref=f169e761]:
+                  - paragraph [ref=f169e762]: شقة
+                  - heading "شقة روف - الرياض - حي المعيزلة" [level=4] [ref=f169e763]
+                  - paragraph [ref=f169e764]:
+                    - generic [ref=f169e765]: 
+                    - text: المعيزيلة, 13234, الرياض, منطقة الرياض
+                  - list [ref=f169e766]:
+                    - listitem [ref=f169e767]:
+                      - img [ref=f169e768]: 
+                      - text: "4"
+                    - listitem [ref=f169e770]:
+                      - img [ref=f169e771]: 
+                      - text: "3"
+                    - listitem [ref=f169e773]:
+                      - img [ref=f169e774]: 
+                      - text: 80.15 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e778] [cursor=pointer]:
+            - generic [ref=f169e779]:
+              - img "fp1.jpg" [ref=f169e780]
+              - generic [ref=f169e781]:
+                - list [ref=f169e782]:
+                  - listitem [ref=f169e783]: للبيع
+                - list [ref=f169e784]:
+                  - listitem [ref=f169e785]:
+                    - link "" [ref=f169e786]:
+                      - /url: "#"
+                - generic [ref=f169e787]:
+                  - generic [ref=f169e788]: 
+                  - text: 990k
+            - generic [ref=f169e789]:
+              - link "فيلا فيلا - الخبر - الامواج  الأمواج, 34751, الخبر, المنطقة الشرقية 8 7 414.48 م²" [ref=f169e790]:
+                - /url: https://tuba.com.sa/property/Villa-For-Sale-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-58
+                - generic [ref=f169e791]:
+                  - paragraph [ref=f169e792]: فيلا
+                  - heading "فيلا - الخبر - الامواج" [level=4] [ref=f169e793]
+                  - paragraph [ref=f169e794]:
+                    - generic [ref=f169e795]: 
+                    - text: الأمواج, 34751, الخبر, المنطقة الشرقية
+                  - list [ref=f169e796]:
+                    - listitem [ref=f169e797]:
+                      - img [ref=f169e798]: 
+                      - text: "8"
+                    - listitem [ref=f169e800]:
+                      - img [ref=f169e801]: 
+                      - text: "7"
+                    - listitem [ref=f169e803]:
+                      - img [ref=f169e804]: 
+                      - text: 414.48 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e808] [cursor=pointer]:
+            - generic [ref=f169e809]:
+              - img "fp1.jpg" [ref=f169e810]
+              - generic [ref=f169e811]:
+                - list [ref=f169e812]:
+                  - listitem [ref=f169e813]: للبيع
+                - list [ref=f169e814]:
+                  - listitem [ref=f169e815]:
+                    - link "" [ref=f169e816]:
+                      - /url: "#"
+                - generic [ref=f169e817]:
+                  - generic [ref=f169e818]: 
+                  - text: 1.49m
+            - generic [ref=f169e819]:
+              - link "فيلا فيلا - جدة - الخمرة  الخمرة, 22534, جدة, منطقة مكة المكرمة 7 6 450 م²" [ref=f169e820]:
+                - /url: https://tuba.com.sa/property/Villa-For-Sale-%D8%AC%D8%AF%D8%A9
+                - generic [ref=f169e821]:
+                  - paragraph [ref=f169e822]: فيلا
+                  - heading "فيلا - جدة - الخمرة" [level=4] [ref=f169e823]
+                  - paragraph [ref=f169e824]:
+                    - generic [ref=f169e825]: 
+                    - text: الخمرة, 22534, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e826]:
+                    - listitem [ref=f169e827]:
+                      - img [ref=f169e828]: 
+                      - text: "7"
+                    - listitem [ref=f169e830]:
+                      - img [ref=f169e831]: 
+                      - text: "6"
+                    - listitem [ref=f169e833]:
+                      - img [ref=f169e834]: 
+                      - text: 450 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e838] [cursor=pointer]:
+            - generic [ref=f169e839]:
+              - img "fp1.jpg" [ref=f169e840]
+              - generic [ref=f169e841]:
+                - list [ref=f169e842]:
+                  - listitem [ref=f169e843]: للبيع
+                - list [ref=f169e844]:
+                  - listitem [ref=f169e845]:
+                    - link "" [ref=f169e846]:
+                      - /url: "#"
+                - generic [ref=f169e847]:
+                  - generic [ref=f169e848]: 
+                  - text: 1.1m
+            - generic [ref=f169e849]:
+              - link "شقة شقة تاون هاوس - الرياض - حي الجنادرية  الجنادرية, 13613, الرياض, منطقة الرياض 5 7 238.32 م²" [ref=f169e850]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-110
+                - generic [ref=f169e851]:
+                  - paragraph [ref=f169e852]: شقة
+                  - heading "شقة تاون هاوس - الرياض - حي الجنادرية" [level=4] [ref=f169e853]
+                  - paragraph [ref=f169e854]:
+                    - generic [ref=f169e855]: 
+                    - text: الجنادرية, 13613, الرياض, منطقة الرياض
+                  - list [ref=f169e856]:
+                    - listitem [ref=f169e857]:
+                      - img [ref=f169e858]: 
+                      - text: "5"
+                    - listitem [ref=f169e860]:
+                      - img [ref=f169e861]: 
+                      - text: "7"
+                    - listitem [ref=f169e863]:
+                      - img [ref=f169e864]: 
+                      - text: 238.32 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e868] [cursor=pointer]:
+            - generic [ref=f169e869]:
+              - img "fp1.jpg" [ref=f169e870]
+              - generic [ref=f169e871]:
+                - list [ref=f169e872]:
+                  - listitem [ref=f169e873]: للبيع
+                - list [ref=f169e874]:
+                  - listitem [ref=f169e875]:
+                    - link "" [ref=f169e876]:
+                      - /url: "#"
+                - generic [ref=f169e877]:
+                  - generic [ref=f169e878]: 
+                  - text: 660k
+            - generic [ref=f169e879]:
+              - link "شقة شقة - أبها - الوصايف ( وادي الشق )  الوصايف, 62541, ابها, منطقة عسير 6 6 249.4 م²" [ref=f169e880]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D8%A8%D9%87%D8%A7-3
+                - generic [ref=f169e881]:
+                  - paragraph [ref=f169e882]: شقة
+                  - heading "شقة - أبها - الوصايف ( وادي الشق )" [level=4] [ref=f169e883]
+                  - paragraph [ref=f169e884]:
+                    - generic [ref=f169e885]: 
+                    - text: الوصايف, 62541, ابها, منطقة عسير
+                  - list [ref=f169e886]:
+                    - listitem [ref=f169e887]:
+                      - img [ref=f169e888]: 
+                      - text: "6"
+                    - listitem [ref=f169e890]:
+                      - img [ref=f169e891]: 
+                      - text: "6"
+                    - listitem [ref=f169e893]:
+                      - img [ref=f169e894]: 
+                      - text: 249.4 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e898] [cursor=pointer]:
+            - generic [ref=f169e899]:
+              - img "fp1.jpg" [ref=f169e900]
+              - generic [ref=f169e901]:
+                - list [ref=f169e902]:
+                  - listitem [ref=f169e903]: للبيع
+                - list [ref=f169e904]:
+                  - listitem [ref=f169e905]:
+                    - link "" [ref=f169e906]:
+                      - /url: "#"
+                - generic [ref=f169e907]:
+                  - generic [ref=f169e908]: 
+                  - text: 1.1m
+            - generic [ref=f169e909]:
+              - link "شقة شقة للبيع في الرياض  الصحافة, 13321, الرياض, منطقة الرياض 4 3 159.82 م²" [ref=f169e910]:
+                - /url: https://tuba.com.sa/property/apartment-for-sale-in-riyadh-3
+                - generic [ref=f169e911]:
+                  - paragraph [ref=f169e912]: شقة
+                  - heading "شقة للبيع في الرياض" [level=4] [ref=f169e913]
+                  - paragraph [ref=f169e914]:
+                    - generic [ref=f169e915]: 
+                    - text: الصحافة, 13321, الرياض, منطقة الرياض
+                  - list [ref=f169e916]:
+                    - listitem [ref=f169e917]:
+                      - img [ref=f169e918]: 
+                      - text: "4"
+                    - listitem [ref=f169e920]:
+                      - img [ref=f169e921]: 
+                      - text: "3"
+                    - listitem [ref=f169e923]:
+                      - img [ref=f169e924]: 
+                      - text: 159.82 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-V3kpmvMb
+          - generic [ref=f169e928] [cursor=pointer]:
+            - generic [ref=f169e929]:
+              - img "fp1.jpg" [ref=f169e930]
+              - generic [ref=f169e931]:
+                - list [ref=f169e932]:
+                  - listitem [ref=f169e933]: للبيع
+                - list [ref=f169e934]:
+                  - listitem [ref=f169e935]:
+                    - link "" [ref=f169e936]:
+                      - /url: "#"
+                - generic [ref=f169e937]:
+                  - generic [ref=f169e938]: 
+                  - text: 610k
+            - generic [ref=f169e939]:
+              - link "شقة شقة - الطائف - الواسط  الواسط, 26579, الطائف, منطقة مكة المكرمة 7 4 264.94 م²" [ref=f169e940]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81-43
+                - generic [ref=f169e941]:
+                  - paragraph [ref=f169e942]: شقة
+                  - heading "شقة - الطائف - الواسط" [level=4] [ref=f169e943]
+                  - paragraph [ref=f169e944]:
+                    - generic [ref=f169e945]: 
+                    - text: الواسط, 26579, الطائف, منطقة مكة المكرمة
+                  - list [ref=f169e946]:
+                    - listitem [ref=f169e947]:
+                      - img [ref=f169e948]: 
+                      - text: "7"
+                    - listitem [ref=f169e950]:
+                      - img [ref=f169e951]: 
+                      - text: "4"
+                    - listitem [ref=f169e953]:
+                      - img [ref=f169e954]: 
+                      - text: 264.94 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e958] [cursor=pointer]:
+            - generic [ref=f169e959]:
+              - img "fp1.jpg" [ref=f169e960]
+              - generic [ref=f169e961]:
+                - list [ref=f169e962]:
+                  - listitem [ref=f169e963]: للبيع
+                - list [ref=f169e964]:
+                  - listitem [ref=f169e965]:
+                    - link "" [ref=f169e966]:
+                      - /url: "#"
+                - generic [ref=f169e967]:
+                  - generic [ref=f169e968]: 
+                  - text: 850k
+            - generic [ref=f169e969]:
+              - link "فيلا فيلا - الطائف - حي الرحاب  الرحاب, 26573, الطائف, منطقة مكة المكرمة 7 5 305 م²" [ref=f169e970]:
+                - /url: https://tuba.com.sa/property/Villa-For-Sale-%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81-58
+                - generic [ref=f169e971]:
+                  - paragraph [ref=f169e972]: فيلا
+                  - heading "فيلا - الطائف - حي الرحاب" [level=4] [ref=f169e973]
+                  - paragraph [ref=f169e974]:
+                    - generic [ref=f169e975]: 
+                    - text: الرحاب, 26573, الطائف, منطقة مكة المكرمة
+                  - list [ref=f169e976]:
+                    - listitem [ref=f169e977]:
+                      - img [ref=f169e978]: 
+                      - text: "7"
+                    - listitem [ref=f169e980]:
+                      - img [ref=f169e981]: 
+                      - text: "5"
+                    - listitem [ref=f169e983]:
+                      - img [ref=f169e984]: 
+                      - text: 305 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e988] [cursor=pointer]:
+            - generic [ref=f169e989]:
+              - img "fp1.jpg" [ref=f169e990]
+              - generic [ref=f169e991]:
+                - list [ref=f169e992]:
+                  - listitem [ref=f169e993]: للإيجار
+                - list [ref=f169e994]:
+                  - listitem [ref=f169e995]:
+                    - link "" [ref=f169e996]:
+                      - /url: "#"
+                - generic [ref=f169e997]:
+                  - generic [ref=f169e998]: 
+                  - text: 70k /شهري
+            - generic [ref=f169e999]:
+              - link "دور دور للإيجار في حي النرجس, الرياض  النرجس, 13333, الرياض, منطقة الرياض 5 4 254.835 م²" [ref=f169e1000]:
+                - /url: https://tuba.com.sa/property/floor-for-rent-in-riyadh-9
+                - generic [ref=f169e1001]:
+                  - paragraph [ref=f169e1002]: دور
+                  - heading "دور للإيجار في حي النرجس, الرياض" [level=4] [ref=f169e1003]
+                  - paragraph [ref=f169e1004]:
+                    - generic [ref=f169e1005]: 
+                    - text: النرجس, 13333, الرياض, منطقة الرياض
+                  - list [ref=f169e1006]:
+                    - listitem [ref=f169e1007]:
+                      - img [ref=f169e1008]: 
+                      - text: "5"
+                    - listitem [ref=f169e1010]:
+                      - img [ref=f169e1011]: 
+                      - text: "4"
+                    - listitem [ref=f169e1013]:
+                      - img [ref=f169e1014]: 
+                      - text: 254.835 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-V3kpmvMb
+          - generic [ref=f169e1018] [cursor=pointer]:
+            - generic [ref=f169e1019]:
+              - img "fp1.jpg" [ref=f169e1020]
+              - generic [ref=f169e1021]:
+                - list [ref=f169e1022]:
+                  - listitem [ref=f169e1023]: للإيجار
+                - list [ref=f169e1024]:
+                  - listitem [ref=f169e1025]:
+                    - link "" [ref=f169e1026]:
+                      - /url: "#"
+                - generic [ref=f169e1027]:
+                  - generic [ref=f169e1028]: 
+                  - text: 42k /شهري
+            - generic [ref=f169e1029]:
+              - link "شقة شقة مفروشة مكونة من غرفتي نوم للإيجار �...  السلامة, 23436, جدة, منطقة مكة المكرمة 1 2 300 م²" [ref=f169e1030]:
+                - /url: https://tuba.com.sa/property/apartment-for-rent-in-jeddah-428
+                - generic [ref=f169e1031]:
+                  - paragraph [ref=f169e1032]: شقة
+                  - heading "شقة مفروشة مكونة من غرفتي نوم للإيجار �..." [level=4] [ref=f169e1033]
+                  - paragraph [ref=f169e1034]:
+                    - generic [ref=f169e1035]: 
+                    - text: السلامة, 23436, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e1036]:
+                    - listitem [ref=f169e1037]:
+                      - img [ref=f169e1038]: 
+                      - text: "1"
+                    - listitem [ref=f169e1040]:
+                      - img [ref=f169e1041]: 
+                      - text: "2"
+                    - listitem [ref=f169e1043]:
+                      - img [ref=f169e1044]: 
+                      - text: 300 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+          - generic [ref=f169e1048] [cursor=pointer]:
+            - generic [ref=f169e1049]:
+              - img "fp1.jpg" [ref=f169e1050]
+              - generic [ref=f169e1051]:
+                - list [ref=f169e1052]:
+                  - listitem [ref=f169e1053]: للبيع
+                - list [ref=f169e1054]:
+                  - listitem [ref=f169e1055]:
+                    - link "" [ref=f169e1056]:
+                      - /url: "#"
+                - generic [ref=f169e1057]:
+                  - generic [ref=f169e1058]: 
+                  - text: 2k
+            - generic [ref=f169e1059]:
+              - link "ارض أرض للبيع في حي الخير, مدينة الرياض, من�...  الخير, 13584, الرياض, منطقة الرياض 0 0 735 م²" [ref=f169e1060]:
+                - /url: https://tuba.com.sa/property/land-for-sale-in-riyadh-50
+                - generic [ref=f169e1061]:
+                  - paragraph [ref=f169e1062]: ارض
+                  - heading "أرض للبيع في حي الخير, مدينة الرياض, من�..." [level=4] [ref=f169e1063]
+                  - paragraph [ref=f169e1064]:
+                    - generic [ref=f169e1065]: 
+                    - text: الخير, 13584, الرياض, منطقة الرياض
+                  - list [ref=f169e1066]:
+                    - listitem [ref=f169e1067]:
+                      - img [ref=f169e1068]: 
+                      - text: "0"
+                    - listitem [ref=f169e1070]:
+                      - img [ref=f169e1071]: 
+                      - text: "0"
+                    - listitem [ref=f169e1073]:
+                      - img [ref=f169e1074]: 
+                      - text: 735 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-6mkz1vAW
+          - generic [ref=f169e1078] [cursor=pointer]:
+            - generic [ref=f169e1079]:
+              - img "fp1.jpg" [ref=f169e1080]
+              - generic [ref=f169e1081]:
+                - list [ref=f169e1082]:
+                  - listitem [ref=f169e1083]: للبيع
+                - list [ref=f169e1084]:
+                  - listitem [ref=f169e1085]:
+                    - link "" [ref=f169e1086]:
+                      - /url: "#"
+                - generic [ref=f169e1087]:
+                  - generic [ref=f169e1088]: 
+                  - text: 2.87m
+            - generic [ref=f169e1089]:
+              - link "شقة شقة تاون هاوس - الرياض - حي النرجس  النرجس, 13324, الرياض, منطقة الرياض 4 5 219.19 م²" [ref=f169e1090]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-298
+                - generic [ref=f169e1091]:
+                  - paragraph [ref=f169e1092]: شقة
+                  - heading "شقة تاون هاوس - الرياض - حي النرجس" [level=4] [ref=f169e1093]
+                  - paragraph [ref=f169e1094]:
+                    - generic [ref=f169e1095]: 
+                    - text: النرجس, 13324, الرياض, منطقة الرياض
+                  - list [ref=f169e1096]:
+                    - listitem [ref=f169e1097]:
+                      - img [ref=f169e1098]: 
+                      - text: "4"
+                    - listitem [ref=f169e1100]:
+                      - img [ref=f169e1101]: 
+                      - text: "5"
+                    - listitem [ref=f169e1103]:
+                      - img [ref=f169e1104]: 
+                      - text: 219.19 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1108] [cursor=pointer]:
+            - generic [ref=f169e1109]:
+              - img "fp1.jpg" [ref=f169e1110]
+              - generic [ref=f169e1111]:
+                - list [ref=f169e1112]:
+                  - listitem [ref=f169e1113]: للبيع
+                - list [ref=f169e1114]:
+                  - listitem [ref=f169e1115]:
+                    - link "" [ref=f169e1116]:
+                      - /url: "#"
+                - generic [ref=f169e1117]:
+                  - generic [ref=f169e1118]: 
+                  - text: 950k
+            - generic [ref=f169e1119]:
+              - link "شقة شقة تاون هاوس - الرياض - الرمال  الرمال, 13266, الرياض, منطقة الرياض 8 7 149.4 م²" [ref=f169e1120]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-428
+                - generic [ref=f169e1121]:
+                  - paragraph [ref=f169e1122]: شقة
+                  - heading "شقة تاون هاوس - الرياض - الرمال" [level=4] [ref=f169e1123]
+                  - paragraph [ref=f169e1124]:
+                    - generic [ref=f169e1125]: 
+                    - text: الرمال, 13266, الرياض, منطقة الرياض
+                  - list [ref=f169e1126]:
+                    - listitem [ref=f169e1127]:
+                      - img [ref=f169e1128]: 
+                      - text: "8"
+                    - listitem [ref=f169e1130]:
+                      - img [ref=f169e1131]: 
+                      - text: "7"
+                    - listitem [ref=f169e1133]:
+                      - img [ref=f169e1134]: 
+                      - text: 149.4 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1138] [cursor=pointer]:
+            - generic [ref=f169e1139]:
+              - img "fp1.jpg" [ref=f169e1140]
+              - generic [ref=f169e1141]:
+                - list [ref=f169e1142]:
+                  - listitem [ref=f169e1143]: للإيجار
+                - list [ref=f169e1144]:
+                  - listitem [ref=f169e1145]:
+                    - link "" [ref=f169e1146]:
+                      - /url: "#"
+                - generic [ref=f169e1147]:
+                  - generic [ref=f169e1148]: 
+                  - text: 51.60k /شهري
+            - generic [ref=f169e1149]:
+              - link "شقة شقة مؤثثة للإيجار في جدة – حي السلامة  السلامة, 23436, جدة, منطقة مكة المكرمة 1 2 300 م²" [ref=f169e1150]:
+                - /url: https://tuba.com.sa/property/apartment-for-rent-in-jeddah-376
+                - generic [ref=f169e1151]:
+                  - paragraph [ref=f169e1152]: شقة
+                  - heading "شقة مؤثثة للإيجار في جدة – حي السلامة" [level=4] [ref=f169e1153]
+                  - paragraph [ref=f169e1154]:
+                    - generic [ref=f169e1155]: 
+                    - text: السلامة, 23436, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e1156]:
+                    - listitem [ref=f169e1157]:
+                      - img [ref=f169e1158]: 
+                      - text: "1"
+                    - listitem [ref=f169e1160]:
+                      - img [ref=f169e1161]: 
+                      - text: "2"
+                    - listitem [ref=f169e1163]:
+                      - img [ref=f169e1164]: 
+                      - text: 300 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+          - generic [ref=f169e1168] [cursor=pointer]:
+            - generic [ref=f169e1169]:
+              - img "fp1.jpg" [ref=f169e1170]
+              - generic [ref=f169e1171]:
+                - list [ref=f169e1172]:
+                  - listitem [ref=f169e1173]: للإيجار
+                - list [ref=f169e1174]:
+                  - listitem [ref=f169e1175]:
+                    - link "" [ref=f169e1176]:
+                      - /url: "#"
+                - generic [ref=f169e1177]:
+                  - generic [ref=f169e1178]: 
+                  - text: 32.40k /شهري
+            - generic [ref=f169e1179]:
+              - link "شقة شقة مفروشة للايجار الشهري والسنوي في ج...  السلامة, 23437, جدة, منطقة مكة المكرمة 1 1 30 م²" [ref=f169e1180]:
+                - /url: https://tuba.com.sa/property/apartment-for-rent-in-jeddah-1666
+                - generic [ref=f169e1181]:
+                  - paragraph [ref=f169e1182]: شقة
+                  - heading "شقة مفروشة للايجار الشهري والسنوي في ج..." [level=4] [ref=f169e1183]
+                  - paragraph [ref=f169e1184]:
+                    - generic [ref=f169e1185]: 
+                    - text: السلامة, 23437, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e1186]:
+                    - listitem [ref=f169e1187]:
+                      - img [ref=f169e1188]: 
+                      - text: "1"
+                    - listitem [ref=f169e1190]:
+                      - img [ref=f169e1191]: 
+                      - text: "1"
+                    - listitem [ref=f169e1193]:
+                      - img [ref=f169e1194]: 
+                      - text: 30 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+          - generic [ref=f169e1198] [cursor=pointer]:
+            - generic [ref=f169e1199]:
+              - img "fp1.jpg" [ref=f169e1200]
+              - generic [ref=f169e1201]:
+                - list [ref=f169e1202]:
+                  - listitem [ref=f169e1203]: للبيع
+                - list [ref=f169e1204]:
+                  - listitem [ref=f169e1205]:
+                    - link "" [ref=f169e1206]:
+                      - /url: "#"
+                - generic [ref=f169e1207]:
+                  - generic [ref=f169e1208]: 
+                  - text: 700k
+            - generic [ref=f169e1209]:
+              - link "شقة شقة روف - الرياض - حي المعيزلة  المعيزيلة, 13234, الرياض, منطقة الرياض 4 3 80.15 م²" [ref=f169e1210]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-123
+                - generic [ref=f169e1211]:
+                  - paragraph [ref=f169e1212]: شقة
+                  - heading "شقة روف - الرياض - حي المعيزلة" [level=4] [ref=f169e1213]
+                  - paragraph [ref=f169e1214]:
+                    - generic [ref=f169e1215]: 
+                    - text: المعيزيلة, 13234, الرياض, منطقة الرياض
+                  - list [ref=f169e1216]:
+                    - listitem [ref=f169e1217]:
+                      - img [ref=f169e1218]: 
+                      - text: "4"
+                    - listitem [ref=f169e1220]:
+                      - img [ref=f169e1221]: 
+                      - text: "3"
+                    - listitem [ref=f169e1223]:
+                      - img [ref=f169e1224]: 
+                      - text: 80.15 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1228] [cursor=pointer]:
+            - generic [ref=f169e1229]:
+              - img "fp1.jpg" [ref=f169e1230]
+              - generic [ref=f169e1231]:
+                - list [ref=f169e1232]:
+                  - listitem [ref=f169e1233]: للبيع
+                - list [ref=f169e1234]:
+                  - listitem [ref=f169e1235]:
+                    - link "" [ref=f169e1236]:
+                      - /url: "#"
+                - generic [ref=f169e1237]:
+                  - generic [ref=f169e1238]: 
+                  - text: 990k
+            - generic [ref=f169e1239]:
+              - link "فيلا فيلا - الخبر - الامواج  الأمواج, 34751, الخبر, المنطقة الشرقية 8 7 414.48 م²" [ref=f169e1240]:
+                - /url: https://tuba.com.sa/property/Villa-For-Sale-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-58
+                - generic [ref=f169e1241]:
+                  - paragraph [ref=f169e1242]: فيلا
+                  - heading "فيلا - الخبر - الامواج" [level=4] [ref=f169e1243]
+                  - paragraph [ref=f169e1244]:
+                    - generic [ref=f169e1245]: 
+                    - text: الأمواج, 34751, الخبر, المنطقة الشرقية
+                  - list [ref=f169e1246]:
+                    - listitem [ref=f169e1247]:
+                      - img [ref=f169e1248]: 
+                      - text: "8"
+                    - listitem [ref=f169e1250]:
+                      - img [ref=f169e1251]: 
+                      - text: "7"
+                    - listitem [ref=f169e1253]:
+                      - img [ref=f169e1254]: 
+                      - text: 414.48 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1258] [cursor=pointer]:
+            - generic [ref=f169e1259]:
+              - img "fp1.jpg" [ref=f169e1260]
+              - generic [ref=f169e1261]:
+                - list [ref=f169e1262]:
+                  - listitem [ref=f169e1263]: للبيع
+                - list [ref=f169e1264]:
+                  - listitem [ref=f169e1265]:
+                    - link "" [ref=f169e1266]:
+                      - /url: "#"
+                - generic [ref=f169e1267]:
+                  - generic [ref=f169e1268]: 
+                  - text: 1.49m
+            - generic [ref=f169e1269]:
+              - link "فيلا فيلا - جدة - الخمرة  الخمرة, 22534, جدة, منطقة مكة المكرمة 7 6 450 م²" [ref=f169e1270]:
+                - /url: https://tuba.com.sa/property/Villa-For-Sale-%D8%AC%D8%AF%D8%A9
+                - generic [ref=f169e1271]:
+                  - paragraph [ref=f169e1272]: فيلا
+                  - heading "فيلا - جدة - الخمرة" [level=4] [ref=f169e1273]
+                  - paragraph [ref=f169e1274]:
+                    - generic [ref=f169e1275]: 
+                    - text: الخمرة, 22534, جدة, منطقة مكة المكرمة
+                  - list [ref=f169e1276]:
+                    - listitem [ref=f169e1277]:
+                      - img [ref=f169e1278]: 
+                      - text: "7"
+                    - listitem [ref=f169e1280]:
+                      - img [ref=f169e1281]: 
+                      - text: "6"
+                    - listitem [ref=f169e1283]:
+                      - img [ref=f169e1284]: 
+                      - text: 450 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1288] [cursor=pointer]:
+            - generic [ref=f169e1289]:
+              - img "fp1.jpg" [ref=f169e1290]
+              - generic [ref=f169e1291]:
+                - list [ref=f169e1292]:
+                  - listitem [ref=f169e1293]: للبيع
+                - list [ref=f169e1294]:
+                  - listitem [ref=f169e1295]:
+                    - link "" [ref=f169e1296]:
+                      - /url: "#"
+                - generic [ref=f169e1297]:
+                  - generic [ref=f169e1298]: 
+                  - text: 1.1m
+            - generic [ref=f169e1299]:
+              - link "شقة شقة تاون هاوس - الرياض - حي الجنادرية  الجنادرية, 13613, الرياض, منطقة الرياض 5 7 238.32 م²" [ref=f169e1300]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-110
+                - generic [ref=f169e1301]:
+                  - paragraph [ref=f169e1302]: شقة
+                  - heading "شقة تاون هاوس - الرياض - حي الجنادرية" [level=4] [ref=f169e1303]
+                  - paragraph [ref=f169e1304]:
+                    - generic [ref=f169e1305]: 
+                    - text: الجنادرية, 13613, الرياض, منطقة الرياض
+                  - list [ref=f169e1306]:
+                    - listitem [ref=f169e1307]:
+                      - img [ref=f169e1308]: 
+                      - text: "5"
+                    - listitem [ref=f169e1310]:
+                      - img [ref=f169e1311]: 
+                      - text: "7"
+                    - listitem [ref=f169e1313]:
+                      - img [ref=f169e1314]: 
+                      - text: 238.32 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+          - generic [ref=f169e1318] [cursor=pointer]:
+            - generic [ref=f169e1319]:
+              - img "fp1.jpg" [ref=f169e1320]
+              - generic [ref=f169e1321]:
+                - list [ref=f169e1322]:
+                  - listitem [ref=f169e1323]: للبيع
+                - list [ref=f169e1324]:
+                  - listitem [ref=f169e1325]:
+                    - link "" [ref=f169e1326]:
+                      - /url: "#"
+                - generic [ref=f169e1327]:
+                  - generic [ref=f169e1328]: 
+                  - text: 660k
+            - generic [ref=f169e1329]:
+              - link "شقة شقة - أبها - الوصايف ( وادي الشق )  الوصايف, 62541, ابها, منطقة عسير 6 6 249.4 م²" [ref=f169e1330]:
+                - /url: https://tuba.com.sa/property/Apartment-For-Sale-%D8%A7%D8%A8%D9%87%D8%A7-3
+                - generic [ref=f169e1331]:
+                  - paragraph [ref=f169e1332]: شقة
+                  - heading "شقة - أبها - الوصايف ( وادي الشق )" [level=4] [ref=f169e1333]
+                  - paragraph [ref=f169e1334]:
+                    - generic [ref=f169e1335]: 
+                    - text: الوصايف, 62541, ابها, منطقة عسير
+                  - list [ref=f169e1336]:
+                    - listitem [ref=f169e1337]:
+                      - img [ref=f169e1338]: 
+                      - text: "6"
+                    - listitem [ref=f169e1340]:
+                      - img [ref=f169e1341]: 
+                      - text: "6"
+                    - listitem [ref=f169e1343]:
+                      - img [ref=f169e1344]: 
+                      - text: 249.4 م²
+              - link:
+                - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+        - generic:
+          - generic:
+            - img [ref=f169e1347] [cursor=pointer]: 
+            - img [ref=f169e1350] [cursor=pointer]: 
+    - generic [ref=f169e1354]:
+      - generic [ref=f169e1358]:
+        - heading "هل تبحث عن عقار؟" [level=3] [ref=f169e1359]
+        - paragraph [ref=f169e1360]: يمكنك طلب نوع العقار الذي ترغب فيه، وسنساعدك في العثور على الخيارات المثالية التي تناسب احتياجاتك وميزانيتك. اجعل بحثك عن العقار تجربة مريحة وفعالة!
+        - link [ref=f169e1361] [cursor=pointer]:
+          - /url: https://tuba.com.sa/login
+          - button "اطلب الآن" [ref=f169e1362]
+      - generic [ref=f169e1366]:
+        - heading "هل لديك عقار تريد بيعه أو تأجيره؟" [level=3] [ref=f169e1367]
+        - paragraph [ref=f169e1368]: يمكنك الوصول إلى جمهور واسع من المهتمين. قم بنشر إعلانك بسهولة ودعنا نساعدك في تحقيق صفقتك بسرعة وكفاءة!
+        - link [ref=f169e1369] [cursor=pointer]:
+          - /url: https://tuba.com.sa/login
+          - button "احصل على العرض" [ref=f169e1370]
+    - generic [ref=f169e1372]:
+      - heading "لماذا تختارنا" [level=2] [ref=f169e1376]
+      - generic [ref=f169e1377]:
+        - link [ref=f169e1379] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f169e1384]:
+            - heading "شراء العقارات" [level=4] [ref=f169e1385]
+            - paragraph [ref=f169e1386]: اكتشف حلمك بامتلاك منزل مثالي من خلال منصتنا! نقدم لك مجموعة واسعة من العقارات المتنوعة، من الشقق الفاخرة إلى الفلل الراقية، جميعها مختارة بعناية لتلبية احتياجاتك.
+        - link [ref=f169e1388] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f169e1393]:
+            - heading "استأجر مع طوبة" [level=4] [ref=f169e1394]
+            - paragraph [ref=f169e1395]: استمتع بتجربة استئجار عقار مريحة وسلسة مع منصتنا! نحن نقدم مجموعة متنوعة من خيارات الإيجار، بدءًا من الشقق المريحة إلى المنازل الواسعة، لتلبية احتياجاتك المختلفة.
+        - link [ref=f169e1397] [cursor=pointer]:
+          - /url: https://tuba.com.sa/neighborhood
+          - generic [ref=f169e1402]:
+            - heading "احياء مميزة من طوبة" [level=4] [ref=f169e1403]
+            - paragraph [ref=f169e1404]: اكتشف الأحياء المميزة من طوبة، حيث يجتمع الجمال والراحة. نقدم لك مجموعة من الخيارات السكنية الفاخرة في أفضل المواقع، سواء كنت تبحث عن منزل جديد أو استثمار عقاري.
+    - text:       
+    - generic [ref=f169e1406]:
+      - heading "المقالات والنصائح" [level=2] [ref=f169e1410]
+      - generic [ref=f169e1411]:
+        - link [ref=f169e1414] [cursor=pointer]:
+          - /url: https://tuba.com.sa/newsrooms/ntham-tmlk-ghyr-alsaaodyyn-llaakar-fy-alsaaody
+          - img "newsroom.jpg" [ref=f169e1416]
+          - generic [ref=f169e1418]:
+            - paragraph [ref=f169e1419]: تحليل السوق
+            - heading "نظام تملك غير السعوديين للعقار في السعودية" [level=4] [ref=f169e1420]
+        - link [ref=f169e1423] [cursor=pointer]:
+          - /url: https://tuba.com.sa/newsrooms/thoyl-almsahat-aldakhly-afkar-ltgdyd-mnzlk-bakl-tklf
+          - img "newsroom.jpg" [ref=f169e1425]
+          - generic [ref=f169e1427]:
+            - paragraph [ref=f169e1428]: أفكار ديكور مبتكرة
+            - 'heading "تحويل المساحات الداخلية: أفكار لتجديد منزلك بأقل تكلفة" [level=4] [ref=f169e1429]'
+        - link [ref=f169e1432] [cursor=pointer]:
+          - /url: https://tuba.com.sa/newsrooms/aaoaml-tothr-aal-saar-alaakarat-fy-gd
+          - img "newsroom.jpg" [ref=f169e1434]
+          - generic [ref=f169e1436]:
+            - paragraph [ref=f169e1437]: تحليل السوق
+            - heading "عوامل تؤثر على سعر العقارات في جدة" [level=4] [ref=f169e1438]
+    - generic [ref=f169e1441]:
+      - generic [ref=f169e1442]:
+        - heading "اكتشف عالم العقارات بين يديك!" [level=1] [ref=f169e1443]
+        - paragraph [ref=f169e1444]: هل تبحث عن منزل أحلامك أو ترغب في بيع عقارك؟ حمل تطبيقنا الآن وابدأ رحلتك في عالم العقارات! مع واجهة مستخدم سهلة، خيارات متعددة، وتحديثات فورية، ستجد كل ما تحتاجه بنقرة واحدة فقط! لا تفوت الفرصة، انضم إلينا اليوم!
+        - generic [ref=f169e1445]:
+          - link [ref=f169e1447] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/app/tuba-%D8%B7%D9%88%D8%A8%D8%A9/id6745753208
+            - img "icon" [ref=f169e1448]
+          - link [ref=f169e1450] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.tuba&pcampaignid=web_share
+            - img "icon" [ref=f169e1451]
+      - img "download-image" [ref=f169e1453]
+    - generic [ref=f169e1455]:
+      - heading "العقاريين المميزين" [level=2] [ref=f169e1459]
+      - generic [ref=f169e1461]:
+        - generic [ref=f169e1463]:
+          - link [ref=f169e1466] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-eZAXJzMK
+            - generic [ref=f169e1467]:
+              - img "عبدالهادي البلوي" [ref=f169e1468]
+              - generic [ref=f169e1469]:
+                - heading "إسكان سلمان العقارية" [level=5] [ref=f169e1470]
+                - paragraph [ref=f169e1471]: وسيط منشأة
+                - generic [ref=f169e1472]:
+                  - img [ref=f169e1473]: 
+                  - text: "0"
+          - link [ref=f169e1477] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-eRA0G12Y
+            - generic [ref=f169e1478]:
+              - img "محمد الصعب" [ref=f169e1479]
+              - generic [ref=f169e1480]:
+                - heading "مؤسسة لون العقارية" [level=5] [ref=f169e1481]
+                - paragraph [ref=f169e1482]: وسيط منشأة
+                - generic [ref=f169e1483]:
+                  - img [ref=f169e1484]: 
+                  - text: "0"
+          - link [ref=f169e1488] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-p4kWz5AQ
+            - generic [ref=f169e1489]:
+              - img "تركي مدني" [ref=f169e1490]
+              - generic [ref=f169e1491]:
+                - heading "الأصول الشاملة العقارية" [level=5] [ref=f169e1492]
+                - paragraph [ref=f169e1493]: وسيط منشأة
+                - generic [ref=f169e1494]:
+                  - img [ref=f169e1495]: 
+                  - text: "0"
+          - link [ref=f169e1499] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-V3kpmvMb
+            - generic [ref=f169e1500]:
+              - img "محمد النهدي" [ref=f169e1501]
+              - generic [ref=f169e1502]:
+                - heading "شركة أصول الخبرة العقارية" [level=5] [ref=f169e1503]
+                - paragraph [ref=f169e1504]: وسيط منشأة
+                - generic [ref=f169e1505]:
+                  - img [ref=f169e1506]: 
+                  - text: "0"
+          - link [ref=f169e1510] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-0aAmWaMG
+            - generic [ref=f169e1511]:
+              - img "فيصل الجعفر" [ref=f169e1512]
+              - generic [ref=f169e1513]:
+                - heading "مؤسسة المربع الازرق للخدمات العقارية" [level=5] [ref=f169e1514]
+                - paragraph [ref=f169e1515]: وسيط منشأة
+                - generic [ref=f169e1516]:
+                  - img [ref=f169e1517]: 
+                  - text: "0"
+          - link [ref=f169e1521] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-wqANma2Q
+            - generic [ref=f169e1522]:
+              - img "محمد الرويسان" [ref=f169e1523]
+              - generic [ref=f169e1524]:
+                - heading "شركة خطوة المسير العقارية" [level=5] [ref=f169e1525]
+                - paragraph [ref=f169e1526]: وسيط منشأة
+                - generic [ref=f169e1527]:
+                  - img [ref=f169e1528]: 
+                  - text: "0"
+          - link [ref=f169e1532] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-detail-QW2Dvgk4
+            - generic [ref=f169e1533]:
+              - img "فهد الظاهري" [ref=f169e1534]
+              - generic [ref=f169e1535]:
+                - heading "شركة اسبار" [level=5] [ref=f169e1536]
+                - paragraph [ref=f169e1537]: وسيط منشأة
+                - generic [ref=f169e1538]:
+                  - img [ref=f169e1539]: 
+                  - text: "5"
+        - generic:
+          - generic:
+            - generic [ref=f169e1541] [cursor=pointer]: 
+            - generic [ref=f169e1543] [cursor=pointer]: 
+        - text:  
+    - generic [ref=f169e1547]:
+      - generic [ref=f169e1549]:
+        - heading "كن" [level=2] [ref=f169e1550]
+        - heading "وكيلاً عقارياً" [level=2] [ref=f169e1551]
+        - paragraph [ref=f169e1552]: انضم إلى شبكة الوسطاء الأكثر نجاحاً اليوم
+      - link "سجل الآن" [ref=f169e1555] [cursor=pointer]:
+        - /url: https://tuba.com.sa/agent-register
+    - generic [ref=f169e1558]:
+      - generic [ref=f169e1560]:
+        - heading "حول الموقع" [level=4] [ref=f169e1561]
+        - paragraph [ref=f169e1562]: نعيد تصور كيفية الشراء والبيع والإيجار. أصبح الآن من الأسهل الحصول على مكان تحبه. لنفعل هذا معًا.
+        - link [ref=f169e1563] [cursor=pointer]:
+          - /url: https://eservicesredp.rega.gov.sa/public/OfficesBroker/LicenseDetails/Bmlp/08dbfbc7-f18d-496e-8229-709ba873603a
+        - paragraph [ref=f169e1566]:
+          - link "© 2026 شركة طوبة العقارية" [ref=f169e1567] [cursor=pointer]:
+            - /url: https://tuba.com.sa/copyright
+      - generic [ref=f169e1569]:
+        - heading "روابط سريعة" [level=4] [ref=f169e1570]
+        - list [ref=f169e1571]:
+          - listitem [ref=f169e1572]:
+            - link "نبذة عن طوبة" [ref=f169e1573] [cursor=pointer]:
+              - /url: https://tuba.com.sa/about-us
+          - listitem [ref=f169e1574]:
+            - link "سياسة وشروط الخصوصية" [ref=f169e1575] [cursor=pointer]:
+              - /url: https://tuba.com.sa/privacy-policy
+          - listitem [ref=f169e1576]:
+            - link "الشروط والأحكام" [ref=f169e1577] [cursor=pointer]:
+              - /url: https://tuba.com.sa/terms-conditions
+          - listitem [ref=f169e1578]:
+            - link "شروط الإعلان عبر الموق" [ref=f169e1579] [cursor=pointer]:
+              - /url: https://tuba.com.sa/terms-of-advertising
+          - listitem [ref=f169e1580]:
+            - link "مركز الدعم" [ref=f169e1581] [cursor=pointer]:
+              - /url: https://tuba.com.sa/support-center
+          - listitem [ref=f169e1582]:
+            - link "إضغط هنا للمعلومات" [ref=f169e1583] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f169e1584]:
+            - link "حقوق الملكية" [ref=f169e1585] [cursor=pointer]:
+              - /url: https://tuba.com.sa/copyright
+          - listitem [ref=f169e1586]:
+            - link "الأسئلة الشائعة" [ref=f169e1587] [cursor=pointer]:
+              - /url: https://tuba.com.sa/faq
+          - listitem [ref=f169e1588]:
+            - link "الخدمات" [ref=f169e1589] [cursor=pointer]:
+              - /url: https://tuba.com.sa/services
+          - listitem [ref=f169e1590]:
+            - link "غرف الأخبار" [ref=f169e1591] [cursor=pointer]:
+              - /url: https://tuba.com.sa/newsrooms
+      - generic [ref=f169e1593]:
+        - heading "اتصل بنا" [level=4] [ref=f169e1594]
+        - list [ref=f169e1595]:
+          - listitem [ref=f169e1596]:
+            - link "info@tuba.com.sa" [ref=f169e1597] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f169e1598]:
+            - link "شارع فلسطين . جدة 2981 Jed 23223 KSA" [ref=f169e1599] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f169e1600]:
+            - link "+966553353394" [ref=f169e1601] [cursor=pointer]:
+              - /url: tel:+966553353394
+          - listitem [ref=f169e1602]:
+            - link "+966535020288" [ref=f169e1603] [cursor=pointer]:
+              - /url: tel:+966535020288
+      - generic [ref=f169e1605]:
+        - heading "تابعونا" [level=4] [ref=f169e1606]
+        - list [ref=f169e1607]:
+          - listitem [ref=f169e1608]:
+            - link [ref=f169e1609] [cursor=pointer]:
+              - /url: https://www.facebook.com/share/1Bpigbf3AG/?mibextid=wwXIfr
+              - img [ref=f169e1610]: 
+          - listitem [ref=f169e1612]:
+            - link [ref=f169e1613] [cursor=pointer]:
+              - /url: https://x.com/TubaPlatform
+          - listitem [ref=f169e1616]:
+            - link [ref=f169e1617] [cursor=pointer]:
+              - /url: https://www.instagram.com/tuba.platform/
+              - img [ref=f169e1618]: 
+          - listitem [ref=f169e1620]:
+            - link [ref=f169e1621] [cursor=pointer]:
+              - /url: https://pin.it/1dx9oNNiU
+              - img [ref=f169e1622]: 
+          - listitem [ref=f169e1624]:
+            - link [ref=f169e1625] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/tuba-platform/
+              - img [ref=f169e1626]: 
+          - listitem [ref=f169e1628]:
+            - link [ref=f169e1629] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@tubaplatform?is_from_webapp=1&sender_device=pc
+          - listitem [ref=f169e1632]:
+            - link [ref=f169e1633] [cursor=pointer]:
+              - /url: https://www.snapchat.com/add/tuba.platform?share_id=7h0XfzA-1Rk&locale=ar-SA-u-nu-latn
+              - img [ref=f169e1634]: 
+        - heading "اشترك" [level=4] [ref=f169e1636]
+        - generic [ref=f169e1638]:
+          - textbox "بريدك الإلكتروني" [ref=f169e1640]
+          - button [ref=f169e1642] [cursor=pointer]:
+            - img [ref=f169e1643]: 
+        - heading "قم بتحميل تطبيقنا على" [level=4] [ref=f169e1645]
+        - button [ref=f169e1646] [cursor=pointer]:
+          - link [ref=f169e1647]:
+            - /url: https://apps.apple.com/us/app/tuba-%D8%B7%D9%88%D8%A8%D8%A9/id6745753208
+            - img "icon" [ref=f169e1648]
+        - button [ref=f169e1649] [cursor=pointer]:
+          - link [ref=f169e1650]:
+            - /url: https://play.google.com/store/apps/details?id=com.tuba&pcampaignid=web_share
+            - img "icon" [ref=f169e1651]
+    - text: 

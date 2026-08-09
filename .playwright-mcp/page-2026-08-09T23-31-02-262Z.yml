@@ -1,0 +1,611 @@
+- generic [active] [ref=f183e1]:
+  - text:  
+  - generic [ref=f183e2]:
+    - generic [ref=f183e3]:
+      - banner [ref=f183e17]:
+        - navigation [ref=f183e19]:
+          - link [ref=f183e20] [cursor=pointer]:
+            - /url: https://tuba.com.sa
+            - img "header-logo.png" [ref=f183e21]
+          - list [ref=f183e23]:
+            - listitem [ref=f183e24]:
+              - generic [ref=f183e26]:
+                - generic [ref=f183e27]:
+                  - textbox "Search for District ,City, postal code or by current location" [ref=f183e28]
+                  - button "" [ref=f183e29] [cursor=pointer]
+                - text: 
+            - text: 
+          - list [ref=f183e31]:
+            - listitem [ref=f183e32]:
+              - link "Projects" [ref=f183e33] [cursor=pointer]:
+                - /url: https://tuba.com.sa/projects/listing
+            - listitem [ref=f183e35]:
+              - link "Buy" [ref=f183e36] [cursor=pointer]:
+                - /url: https://tuba.com.sa/properties/listing?ctl=for_sale
+            - listitem [ref=f183e37]:
+              - link "Rent" [ref=f183e38] [cursor=pointer]:
+                - /url: https://tuba.com.sa/properties/listing?ctl=for_rent
+            - listitem [ref=f183e39]:
+              - link "Contact" [ref=f183e40] [cursor=pointer]:
+                - /url: https://tuba.com.sa/contact
+            - listitem [ref=f183e41]:
+              - link "Download" [ref=f183e42] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f183e46]:
+              - link "عربی" [ref=f183e47] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f183e48]:
+              - link [ref=f183e49] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f183e50]:
+                  - img "Username" [ref=f183e51]
+                  - text: FAHAD
+              - text: 
+      - generic:  
+      - generic [ref=f183e53]:
+        - generic [ref=f183e54]:
+          - generic [ref=f183e56]:
+            - heading "Compound For Rent in Samith" [level=1] [ref=f183e57]
+            - paragraph [ref=f183e58]: At Tahliyah, 86387, Samith, منطقة جازان
+          - generic [ref=f183e60]:
+            - heading " 80k /year" [level=2] [ref=f183e62]:
+              - generic [ref=f183e63]: 
+              - text: 80k /year
+            - list [ref=f183e65]:
+              - listitem [ref=f183e66]:
+                - link "" [ref=f183e67] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f183e69]:
+                - link [ref=f183e70] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e71]: 
+                - text: 
+              - listitem [ref=f183e73]:
+                - link "" [ref=f183e74] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=f183e76]:
+          - generic [ref=f183e77]:
+            - generic [ref=f183e78]:
+              - paragraph [ref=f183e79]: Active
+              - paragraph [ref=f183e80]
+            - generic [ref=f183e81]: 5 months ago
+          - link [ref=f183e86] [cursor=pointer]:
+            - /url: "#"
+            - img "1.jpg" [ref=f183e87]
+          - generic [ref=f183e89]:
+            - link [ref=f183e92] [cursor=pointer]:
+              - /url: "#"
+              - img "0.jpg" [ref=f183e93]
+            - link [ref=f183e96] [cursor=pointer]:
+              - /url: "#"
+              - img "1.jpg" [ref=f183e97]
+            - link [ref=f183e100] [cursor=pointer]:
+              - /url: "#"
+              - img "2.jpg" [ref=f183e101]
+            - link [ref=f183e104] [cursor=pointer]:
+              - /url: "#"
+              - img "3.jpg" [ref=f183e105]
+            - link [ref=f183e108] [cursor=pointer]:
+              - /url: "#"
+              - img "4.jpg" [ref=f183e109]
+            - generic [ref=f183e111]:
+              - img "7.jpg" [ref=f183e112]
+              - heading [level=3] [ref=f183e113]:
+                - link "+3" [ref=f183e114] [cursor=pointer]:
+                  - /url: "#"
+      - text:       
+      - generic [ref=f183e117]:
+        - generic [ref=f183e119]:
+          - generic [ref=f183e121]:
+            - list [ref=f183e123]:
+              - listitem [ref=f183e124]:
+                - link "Compound" [ref=f183e125] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f183e126]:
+                - img [ref=f183e127]: 
+                - 'link "Baths: 1" [ref=f183e129] [cursor=pointer]':
+                  - /url: "#"
+              - listitem [ref=f183e130]:
+                - img [ref=f183e131]: 
+                - 'link "Area: 7983 Sq m" [ref=f183e133] [cursor=pointer]':
+                  - /url: "#"
+            - heading "Description" [level=4] [ref=f183e134]
+            - paragraph [ref=f183e136]: مجمع تجاري للإيجار في صامطه المشروع يقع على طريق الملك سلمان بن عبد العزيز يتميز بقربه من مدينة اسكان الملك عبد الله، وأحياء سكنية قائمة كما يتيح الموقع وصولاً سهلاً عبر محاور طرق رئيسية مما يوفر حركة مرور نشطة وفرص جذب عالية للمستثمرين والعملاء. محلات تجارية بواجهات زجاجية واضحة مناسب للأنشطة التجارية والخدمية مواقف سيارات أمامية مباشرة بنية تحتية متكاملة ايجار المعرض الواحد 40 الف سنويا
+            - paragraph [ref=f183e137]:
+              - link "Show More " [ref=f183e138] [cursor=pointer]:
+                - /url: "#"
+                - text: Show More
+                - generic [ref=f183e139]: 
+          - generic [ref=f183e142]:
+            - heading "Property Details" [level=4] [ref=f183e144]
+            - generic [ref=f183e146]:
+              - generic [ref=f183e147]: "Reference ID :"
+              - generic [ref=f183e148]: "75808207"
+              - generic [ref=f183e149]: "Price :"
+              - generic [ref=f183e150]:
+                - generic [ref=f183e151]: 
+                - text: 80k
+              - generic [ref=f183e152]: "Property Size :"
+              - generic [ref=f183e153]: 7983 Sq m
+            - generic [ref=f183e155]:
+              - generic [ref=f183e156]: "Bedrooms :"
+              - generic [ref=f183e157]: "0"
+              - generic [ref=f183e158]: "Bathrooms :"
+              - generic [ref=f183e159]: "1"
+              - generic [ref=f183e160]: "Garage :"
+              - generic [ref=f183e161]: "0"
+            - button "View more" [ref=f183e163] [cursor=pointer]:
+              - text: View more
+              - img [ref=f183e164]: 
+          - generic [ref=f183e168]:
+            - heading "Property Utilities" [level=4] [ref=f183e170]
+            - list [ref=f183e172]:
+              - listitem [ref=f183e173]:
+                - link [ref=f183e174] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e176]: 
+                  - paragraph [ref=f183e178]: كهرباء,مياه,صرف صحي
+          - generic [ref=f183e181]:
+            - heading "REGA Verified Information" [level=4] [ref=f183e183]
+            - table [ref=f183e185]:
+              - rowgroup [ref=f183e186]:
+                - row [ref=f183e187]:
+                  - cell "Responsible Employee Name" [ref=f183e188]
+                  - cell "فهد حميد عبدالكريم الظاهري" [ref=f183e189]
+                - row [ref=f183e190]:
+                  - cell "Responsible Mobile Number" [ref=f183e191]
+                  - cell "0542277022" [ref=f183e192]
+                - row [ref=f183e193]:
+                  - cell "FAL License Number" [ref=f183e194]
+                  - cell "1200004075" [ref=f183e195]
+                - row [ref=f183e196]:
+                  - cell "Advertising License Number" [ref=f183e197]
+                  - cell "7200822986" [ref=f183e198]
+                - row [ref=f183e199]:
+                  - cell "License Issued" [ref=f183e200]
+                  - cell "04/01/2026" [ref=f183e201]
+                - row [ref=f183e202]:
+                  - cell "License Expiry Date" [ref=f183e203]
+                  - cell "19/08/2026" [ref=f183e204]
+            - link "Click to go to Url" [ref=f183e212] [cursor=pointer]:
+              - /url: https://eservicesredp.rega.gov.sa/public/OfficesBroker/ElanDetails/08de4b71-26a5-49c6-85f8-f31a6de17089
+          - generic [ref=f183e214]:
+            - heading "Location At Tahliyah, 86387, Samith, منطقة جازان" [level=4] [ref=f183e215]:
+              - text: Location
+              - generic [ref=f183e216]: At Tahliyah, 86387, Samith, منطقة جازان
+            - generic [ref=f183e218]:
+              - generic [ref=f183e219]:
+                - generic [ref=f183e220]: The Property Location According To The Deed
+                - generic [ref=f183e221]: منطقة جازان &
+              - link "View more" [ref=f183e223] [cursor=pointer]:
+                - /url: "#"
+            - paragraph [ref=f183e224]: We hope to match the location below with the location mentioned in the property address description according to the deed.
+          - generic [ref=f183e231]:
+            - heading "Floor Plans" [level=4] [ref=f183e232]
+            - generic [ref=f183e238]:
+              - generic [ref=f183e240]:
+                - generic [ref=f183e242]:
+                  - img "floor_plan.png" [ref=f183e243]
+                  - paragraph [ref=f183e244]: Plan description.
+                - generic [ref=f183e246]:
+                  - img "floor_plan.png" [ref=f183e247]
+                  - paragraph [ref=f183e248]: Plan description.
+                - generic [ref=f183e250]:
+                  - img "floor_plan.png" [ref=f183e251]
+                  - paragraph [ref=f183e252]: Plan description.
+                - generic [ref=f183e254]:
+                  - img "floor_plan.png" [ref=f183e255]
+                  - paragraph [ref=f183e256]: Plan description.
+                - generic [ref=f183e258]:
+                  - img "floor_plan.png" [ref=f183e259]
+                  - paragraph [ref=f183e260]: Plan description.
+                - generic [ref=f183e262]:
+                  - img "floor_plan.png" [ref=f183e263]
+                  - paragraph [ref=f183e264]: Plan description.
+              - generic [ref=f183e266]:
+                - generic [ref=f183e267] [cursor=pointer]
+                - generic [ref=f183e269] [cursor=pointer]
+          - generic [ref=f183e272]:
+            - heading "What's Nearby" [level=4] [ref=f183e273]
+            - generic [ref=f183e274]:
+              - generic [ref=f183e275]:
+                - heading " Education" [level=5] [ref=f183e276]:
+                  - generic [ref=f183e277]: 
+                  - text: Education
+                - paragraph [ref=f183e279]: School
+                - paragraph [ref=f183e281]: College
+                - paragraph [ref=f183e283]: University
+                - paragraph [ref=f183e285]: Mosque
+              - generic [ref=f183e286]:
+                - heading " Health & Medical" [level=5] [ref=f183e287]:
+                  - generic [ref=f183e288]: 
+                  - text: Health & Medical
+                - paragraph [ref=f183e290]: Hospital
+                - paragraph [ref=f183e292]: Pharmacy
+              - generic [ref=f183e293]:
+                - heading " Transportation" [level=5] [ref=f183e294]:
+                  - generic [ref=f183e295]: 
+                  - text: Transportation
+                - paragraph [ref=f183e297]: Taxi
+                - paragraph [ref=f183e299]: Railway Station
+                - paragraph [ref=f183e301]: Bus Stand
+          - generic [ref=f183e305]:
+            - heading "Write a Review" [level=4] [ref=f183e306]
+            - list [ref=f183e307]:
+              - listitem [ref=f183e308]:
+                - list [ref=f183e309]:
+                  - listitem [ref=f183e310]:
+                    - img [ref=f183e311]: 
+                  - listitem [ref=f183e313]:
+                    - img [ref=f183e314]: 
+                  - listitem [ref=f183e316]:
+                    - img [ref=f183e317]: 
+                  - listitem [ref=f183e319]:
+                    - img [ref=f183e320]: 
+                  - listitem [ref=f183e322]:
+                    - img [ref=f183e323]: 
+              - listitem [ref=f183e325]: Your Rating & Review
+            - generic [ref=f183e326]:
+              - textbox "Your Review" [ref=f183e328]
+              - button "Submit Review" [ref=f183e329] [cursor=pointer]
+        - generic [ref=f183e331]:
+          - generic [ref=f183e334]:
+            - img "Company Logo" [ref=f183e336]
+            - generic [ref=f183e337]: Asbar Real Estate
+            - generic [ref=f183e338]: "Agent: Abdulhakem"
+            - generic [ref=f183e339]:
+              - link [ref=f183e340] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f183e341]: 
+              - link [ref=f183e343] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f183e344]: 
+              - link [ref=f183e346] [cursor=pointer]:
+                - /url: https://wa.me/+966557011839?text=Hello%2C+I+am+interested+in+your+property+listed+on+the+Tuba+real+estate+platform.%0A%0AReference+number%3A+75808207%0Ahttps%3A%2F%2Ftuba.com.sa%2Fproperty%2Fcompound-for-rent-in-samith-8
+                - img [ref=f183e347]: 
+            - link "View Profile" [ref=f183e349] [cursor=pointer]:
+              - /url: https://tuba.com.sa/agent-detail-QW2Dvgk4
+          - img "Rize" [ref=f183e352] [cursor=pointer]
+          - generic [ref=f183e354]:
+            - generic [ref=f183e355]:
+              - text: Rent now and pay later starting from
+              - generic [ref=f183e356]:
+                - text: 7.13k
+                - generic [ref=f183e357]: 
+                - text: Per Month
+            - generic [ref=f183e358]:
+              - img "Aqsat" [ref=f183e360]
+              - img "Rize" [ref=f183e362]
+            - link "Rent now" [ref=f183e363] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f183e364]:
+            - heading "Featured Properties" [level=4] [ref=f183e365]
+            - generic [ref=f183e366]:
+              - generic [ref=f183e368]:
+                - generic [ref=f183e372]:
+                  - img "fp1.jpg" [ref=f183e373]
+                  - generic [ref=f183e374]:
+                    - list [ref=f183e375]:
+                      - listitem [ref=f183e376]: For Sale
+                    - link " 750k/mo" [ref=f183e377] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e378]: 
+                      - text: 750k/mo
+                    - heading [level=4] [ref=f183e379]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e380] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-16
+                - generic [ref=f183e384]:
+                  - img "fp1.jpg" [ref=f183e385]
+                  - generic [ref=f183e386]:
+                    - list [ref=f183e387]:
+                      - listitem [ref=f183e388]: For Sale
+                    - link " 750k/mo" [ref=f183e389] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e390]: 
+                      - text: 750k/mo
+                    - heading [level=4] [ref=f183e391]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e392] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-17
+                - generic [ref=f183e396]:
+                  - img "fp1.jpg" [ref=f183e397]
+                  - generic [ref=f183e398]:
+                    - list [ref=f183e399]:
+                      - listitem [ref=f183e400]: For Sale
+                    - link " 730k/mo" [ref=f183e401] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e402]: 
+                      - text: 730k/mo
+                    - heading [level=4] [ref=f183e403]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e404] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-15
+                - generic [ref=f183e408]:
+                  - img "fp1.jpg" [ref=f183e409]
+                  - generic [ref=f183e410]:
+                    - list [ref=f183e411]:
+                      - listitem [ref=f183e412]: For Sale
+                    - link " 750k/mo" [ref=f183e413] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e414]: 
+                      - text: 750k/mo
+                    - heading [level=4] [ref=f183e415]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e416] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-16
+                - generic [ref=f183e420]:
+                  - img "fp1.jpg" [ref=f183e421]
+                  - generic [ref=f183e422]:
+                    - list [ref=f183e423]:
+                      - listitem [ref=f183e424]: For Sale
+                    - link " 750k/mo" [ref=f183e425] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e426]: 
+                      - text: 750k/mo
+                    - heading [level=4] [ref=f183e427]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e428] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-17
+                - generic [ref=f183e432]:
+                  - img "fp1.jpg" [ref=f183e433]
+                  - generic [ref=f183e434]:
+                    - list [ref=f183e435]:
+                      - listitem [ref=f183e436]: For Sale
+                    - link " 730k/mo" [ref=f183e437] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e438]: 
+                      - text: 730k/mo
+                    - heading [level=4] [ref=f183e439]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e440] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-15
+                - generic [ref=f183e444]:
+                  - img "fp1.jpg" [ref=f183e445]
+                  - generic [ref=f183e446]:
+                    - list [ref=f183e447]:
+                      - listitem [ref=f183e448]: For Sale
+                    - link " 750k/mo" [ref=f183e449] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f183e450]: 
+                      - text: 750k/mo
+                    - heading [level=4] [ref=f183e451]:
+                      - link "Apartment For Sale in Jeddah" [ref=f183e452] [cursor=pointer]:
+                        - /url: https://tuba.com.sa/property/apartment-for-sale-in-jeddah-16
+              - generic [ref=f183e453]:
+                - generic:
+                  - generic [ref=f183e454] [cursor=pointer]: 
+                  - generic [ref=f183e456] [cursor=pointer]: 
+                - generic [ref=f183e458]:
+                  - generic [ref=f183e459] [cursor=pointer]
+                  - generic [ref=f183e461] [cursor=pointer]
+                  - generic [ref=f183e463] [cursor=pointer]
+          - generic [ref=f183e465]:
+            - heading "Property Categories" [level=4] [ref=f183e466]
+            - list [ref=f183e468]:
+              - listitem [ref=f183e469]:
+                - link "Apartment 3252 Properties" [ref=f183e470] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e471]: 
+                  - text: Apartment
+                  - generic [ref=f183e473]: 3252 Properties
+              - listitem [ref=f183e474]:
+                - link "land 118 Properties" [ref=f183e475] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e476]: 
+                  - text: land
+                  - generic [ref=f183e478]: 118 Properties
+              - listitem [ref=f183e479]:
+                - link "Villa 1290 Properties" [ref=f183e480] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e481]: 
+                  - text: Villa
+                  - generic [ref=f183e483]: 1290 Properties
+              - listitem [ref=f183e484]:
+                - link "Floor 646 Properties" [ref=f183e485] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e486]: 
+                  - text: Floor
+                  - generic [ref=f183e488]: 646 Properties
+              - listitem [ref=f183e489]:
+                - link "Building 8 Properties" [ref=f183e490] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e491]: 
+                  - text: Building
+                  - generic [ref=f183e493]: 8 Properties
+              - listitem [ref=f183e494]:
+                - link "Office 96 Properties" [ref=f183e495] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e496]: 
+                  - text: Office
+                  - generic [ref=f183e498]: 96 Properties
+              - listitem [ref=f183e499]:
+                - link "RestHouse 5 Properties" [ref=f183e500] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e501]: 
+                  - text: RestHouse
+                  - generic [ref=f183e503]: 5 Properties
+              - listitem [ref=f183e504]:
+                - link "Warehouses 1 Properties" [ref=f183e505] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e506]: 
+                  - text: Warehouses
+                  - generic [ref=f183e508]: 1 Properties
+              - listitem [ref=f183e509]:
+                - link "Studio 6 Properties" [ref=f183e510] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e511]: 
+                  - text: Studio
+                  - generic [ref=f183e513]: 6 Properties
+              - listitem [ref=f183e514]:
+                - link "Room 2 Properties" [ref=f183e515] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e516]: 
+                  - text: Room
+                  - generic [ref=f183e518]: 2 Properties
+              - listitem [ref=f183e519]:
+                - link "Compound 3 Properties" [ref=f183e520] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e521]: 
+                  - text: Compound
+                  - generic [ref=f183e523]: 3 Properties
+              - listitem [ref=f183e524]:
+                - link "Exhibition 5 Properties" [ref=f183e525] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e526]: 
+                  - text: Exhibition
+                  - generic [ref=f183e528]: 5 Properties
+              - listitem [ref=f183e529]:
+                - link "Factory 1 Properties" [ref=f183e530] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e531]: 
+                  - text: Factory
+                  - generic [ref=f183e533]: 1 Properties
+              - listitem [ref=f183e534]:
+                - link "Farm 1 Properties" [ref=f183e535] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=f183e536]: 
+                  - text: Farm
+                  - generic [ref=f183e538]: 1 Properties
+          - heading "Recently Viewed" [level=4] [ref=f183e540]
+    - text:       
+  - generic [ref=f183e543]:
+    - heading "Similar Properties" [level=2] [ref=f183e546]
+    - generic [ref=f183e548]:
+      - generic [ref=f183e553] [cursor=pointer]:
+        - generic [ref=f183e554]:
+          - img "Property" [ref=f183e555]
+          - generic [ref=f183e556]:
+            - list [ref=f183e557]:
+              - listitem [ref=f183e558]: For Rent
+            - list [ref=f183e559]:
+              - listitem [ref=f183e560]:
+                - link "" [ref=f183e561]:
+                  - /url: "#"
+                - text: 
+            - link " 80000 /year" [ref=f183e562]:
+              - /url: "#"
+              - generic [ref=f183e563]: 
+              - text: "80000"
+              - generic [ref=f183e564]: /year
+        - generic [ref=f183e566]:
+          - paragraph [ref=f183e567]: Compound
+          - heading "Compound For Rent in Samith" [level=4] [ref=f183e568]
+          - paragraph [ref=f183e569]:
+            - generic [ref=f183e570]: 
+            - text: At Tahliyah, 86387, Samith, منطقة جازان
+          - list [ref=f183e571]:
+            - listitem [ref=f183e572]:
+              - link "0" [ref=f183e573]:
+                - /url: "#"
+                - img [ref=f183e574]: 
+                - text: "0"
+            - listitem [ref=f183e576]:
+              - link "0" [ref=f183e577]:
+                - /url: "#"
+                - img [ref=f183e578]: 
+                - text: "0"
+            - listitem [ref=f183e580]:
+              - link "7983 Sq m" [ref=f183e581]:
+                - /url: "#"
+                - img [ref=f183e582]: 
+                - text: 7983 Sq m
+      - generic:
+        - generic:
+          - img [ref=f183e585] [cursor=pointer]: 
+          - img [ref=f183e588] [cursor=pointer]: 
+  - generic [ref=f183e592]:
+    - generic [ref=f183e594]:
+      - heading "About Site" [level=4] [ref=f183e595]
+      - paragraph [ref=f183e596]: We’re reimagining how you buy, sell and rent. It’s now easier to get into a place you love. So let’s do this, together.
+      - link [ref=f183e597] [cursor=pointer]:
+        - /url: https://eservicesredp.rega.gov.sa/public/OfficesBroker/LicenseDetails/Bmlp/08dbfbc7-f18d-496e-8229-709ba873603a
+      - paragraph [ref=f183e600]:
+        - link "© 2026 Tuba Company Real Estate" [ref=f183e601] [cursor=pointer]:
+          - /url: https://tuba.com.sa/copyright
+    - generic [ref=f183e603]:
+      - heading "Quick Links" [level=4] [ref=f183e604]
+      - list [ref=f183e605]:
+        - listitem [ref=f183e606]:
+          - link "About Us" [ref=f183e607] [cursor=pointer]:
+            - /url: https://tuba.com.sa/about-us
+        - listitem [ref=f183e608]:
+          - link "Privacy Policy and Terms" [ref=f183e609] [cursor=pointer]:
+            - /url: https://tuba.com.sa/privacy-policy
+        - listitem [ref=f183e610]:
+          - link "Terms of Use" [ref=f183e611] [cursor=pointer]:
+            - /url: https://tuba.com.sa/terms-conditions
+        - listitem [ref=f183e612]:
+          - link "Terms of Advertising" [ref=f183e613] [cursor=pointer]:
+            - /url: https://tuba.com.sa/terms-of-advertising
+        - listitem [ref=f183e614]:
+          - link "Support Center" [ref=f183e615] [cursor=pointer]:
+            - /url: https://tuba.com.sa/support-center
+        - listitem [ref=f183e616]:
+          - link "Press Info" [ref=f183e617] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f183e618]:
+          - link "Copyright" [ref=f183e619] [cursor=pointer]:
+            - /url: https://tuba.com.sa/copyright
+        - listitem [ref=f183e620]:
+          - link "FAQ" [ref=f183e621] [cursor=pointer]:
+            - /url: https://tuba.com.sa/faq
+        - listitem [ref=f183e622]:
+          - link "Services" [ref=f183e623] [cursor=pointer]:
+            - /url: https://tuba.com.sa/services
+        - listitem [ref=f183e624]:
+          - link "Newsrooms" [ref=f183e625] [cursor=pointer]:
+            - /url: https://tuba.com.sa/newsrooms
+    - generic [ref=f183e627]:
+      - heading "Contact Us" [level=4] [ref=f183e628]
+      - list [ref=f183e629]:
+        - listitem [ref=f183e630]:
+          - link "info@tuba.com.sa" [ref=f183e631] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f183e632]:
+          - link "Palestine Street, Jeddah, 2981, Jed 23223, KSA" [ref=f183e633] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f183e634]:
+          - link "+966553353394" [ref=f183e635] [cursor=pointer]:
+            - /url: tel:+966553353394
+        - listitem [ref=f183e636]:
+          - link "+966535020288" [ref=f183e637] [cursor=pointer]:
+            - /url: tel:+966535020288
+    - generic [ref=f183e639]:
+      - heading "Follow Us" [level=4] [ref=f183e640]
+      - list [ref=f183e641]:
+        - listitem [ref=f183e642]:
+          - link [ref=f183e643] [cursor=pointer]:
+            - /url: https://www.facebook.com/share/1Bpigbf3AG/?mibextid=wwXIfr
+            - img [ref=f183e644]: 
+        - listitem [ref=f183e646]:
+          - link [ref=f183e647] [cursor=pointer]:
+            - /url: https://x.com/TubaPlatform
+        - listitem [ref=f183e650]:
+          - link [ref=f183e651] [cursor=pointer]:
+            - /url: https://www.instagram.com/tuba.platform/
+            - img [ref=f183e652]: 
+        - listitem [ref=f183e654]:
+          - link [ref=f183e655] [cursor=pointer]:
+            - /url: https://pin.it/1dx9oNNiU
+            - img [ref=f183e656]: 
+        - listitem [ref=f183e658]:
+          - link [ref=f183e659] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/tuba-platform/
+            - img [ref=f183e660]: 
+        - listitem [ref=f183e662]:
+          - link [ref=f183e663] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@tubaplatform?is_from_webapp=1&sender_device=pc
+        - listitem [ref=f183e666]:
+          - link [ref=f183e667] [cursor=pointer]:
+            - /url: https://www.snapchat.com/add/tuba.platform?share_id=7h0XfzA-1Rk&locale=ar-SA-u-nu-latn
+            - img [ref=f183e668]: 
+      - heading "Subscribe" [level=4] [ref=f183e670]
+      - generic [ref=f183e672]:
+        - textbox "Your email" [ref=f183e674]
+        - button [ref=f183e676] [cursor=pointer]:
+          - img [ref=f183e677]: 
+      - heading "Download our App on" [level=4] [ref=f183e679]
+      - button [ref=f183e680] [cursor=pointer]:
+        - link [ref=f183e681]:
+          - /url: https://apps.apple.com/us/app/tuba-%D8%B7%D9%88%D8%A8%D8%A9/id6745753208
+          - img "icon" [ref=f183e682]
+      - button [ref=f183e683] [cursor=pointer]:
+        - link [ref=f183e684]:
+          - /url: https://play.google.com/store/apps/details?id=com.tuba&pcampaignid=web_share
+          - img "icon" [ref=f183e685]
+  - text: 

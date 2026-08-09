@@ -1,0 +1,401 @@
+[     335ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[   38973ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  148150ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  170510ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  224531ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[25928414ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[25928442ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5173/:0
+[36568953ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[44692594ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[44707826ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[44779472ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44779479ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44779484ms] [ERROR] The above error occurred in the <AiProvider> component:
+
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786219634816:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268689036:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786221356835:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[44779484ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at AiProvider (http://localhost:5173/src/lib/…ppProviders.tsx?t=1786221356835:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[44779775ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[44779813ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[44779816ms] [ERROR] The above error occurred in the <OwnerDetailScreen> component:
+
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:45:28)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786268689036:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786268689036:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268689036:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268689036:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786268689036:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[44779816ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at OwnerDetailScreen (http://localhost:5173/@…ppProviders.tsx?t=1786268689036:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[44779844ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[44779856ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786219634816:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[44779857ms] [ERROR] The above error occurred in the <OwnerDetailScreen> component:
+
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786268689036:45:28)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786268689036:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786268689036:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268689036:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268689036:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786268689036:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[44779857ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at OwnerDetailScreen (http://localhost:5173/@…ppProviders.tsx?t=1786268689036:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[44862764ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268689036:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268689036:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44862764ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268689036:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268689036:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44862744ms] [ERROR] The above error occurred in the <AiProvider> component:
+
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268689036:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268772170:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786268689036:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[44862745ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at AiProvider (http://localhost:5173/src/lib/…ppProviders.tsx?t=1786268689036:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[44876874ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268772170:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268772170:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44876878ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268772170:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268772170:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[44876879ms] [ERROR] The above error occurred in the <AiProvider> component:
+
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268772170:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786268772170:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[44876880ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at AiProvider (http://localhost:5173/src/lib/…ppProviders.tsx?t=1786268772170:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[45224552ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[45298567ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268786217:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[45298658ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268786217:24:20)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19198:20)
+[45298624ms] [ERROR] The above error occurred in the <AiProvider> component:
+
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786268786217:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786269207890:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786268786217:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[45298625ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at AiProvider (http://localhost:5173/src/lib/…ppProviders.tsx?t=1786268786217:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[45299080ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts?t=1786269026775:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[45299126ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts?t=1786269026775:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[45299129ms] [ERROR] The above error occurred in the <OwnerDetailScreen> component:
+
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:45:28)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786269207890:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786269207890:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786269207890:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786269207890:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786269207890:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[45299129ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at OwnerDetailScreen (http://localhost:5173/@…ppProviders.tsx?t=1786269207890:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[45299174ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts?t=1786269026775:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[45299199ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786268786217:56:19)
+    at useOwner (http://localhost:5173/src/lib/owners/useOwner.ts?t=1786269026775:6:20)
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:46:133)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[45299202ms] [ERROR] The above error occurred in the <OwnerDetailScreen> component:
+
+    at OwnerDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/owners/OwnerDetailScreen.tsx?t=1786269207890:45:28)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786269207890:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786269207890:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786269207890:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786221356835:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786269207890:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786269207890:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[45299202ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at OwnerDetailScreen (http://localhost:5173/@…ppProviders.tsx?t=1786269207890:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4
+[45452891ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[45669785ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669785ms] [ERROR] [hmr] Failed to reload /@fs/C:\Users\YOUNES\Laravel projects\tuba_v2\tbos-frontend\src\features\properties\PropertiesListScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669785ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669786ms] [ERROR] [hmr] Failed to reload /src/features/leads/LeadsInboxScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669786ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669786ms] [ERROR] [hmr] Failed to reload /src/features/leads/LeadsPipelineScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669786ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669786ms] [ERROR] [hmr] Failed to reload /src/features/leads/LeadDetailScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669786ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669787ms] [ERROR] [hmr] Failed to reload /@fs/C:\Users\YOUNES\Laravel projects\tuba_v2\tbos-frontend\src\features\owners\MarketingRequestsQueueScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669788ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669788ms] [ERROR] [hmr] Failed to reload /@fs/C:\Users\YOUNES\Laravel projects\tuba_v2\tbos-frontend\src\features\properties\PropertyDetailScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669789ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669789ms] [ERROR] [hmr] Failed to reload /@fs/C:\Users\YOUNES\Laravel projects\tuba_v2\tbos-frontend\src\features\owners\OwnerDetailScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45669789ms] [ERROR] SyntaxError: The requested module '/src/mocks/api/db.ts?t=1786269207890' does not provide an export named 'leadsForAgency' @ http://localhost:5173/@vite/client:173
+[45669789ms] [ERROR] [hmr] Failed to reload /@fs/C:\Users\YOUNES\Laravel projects\tuba_v2\tbos-frontend\src\features\customers\CustomerDetailScreen.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[45703265ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550

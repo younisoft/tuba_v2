@@ -1,0 +1,59 @@
+- generic [ref=f142e3]:
+  - generic [ref=f142e4]:
+    - banner [ref=f142e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f142e6]
+      - generic [ref=f142e10]:
+        - button "الإشعارات" [ref=f142e12]
+        - button "النظام" [ref=f142e15]
+        - button "الإنجليزية" [ref=f142e18]
+        - button "قائمة الحساب" [ref=f142e22]:
+          - generic [ref=f142e23]: SA
+    - main [ref=f142e24]:
+      - generic [ref=f142e25]:
+        - generic [ref=f142e43]:
+          - generic [ref=f142e44]:
+            - generic [ref=f142e45]:
+              - heading "Al Malqa Apartments Refresh" [level=1] [ref=f142e46]
+              - generic [ref=f142e47]: نشطة
+            - list [ref=f142e49]:
+              - listitem [ref=f142e50]: 1 عقار
+              - listitem [ref=f142e53]: 1 وحدة حصة
+          - generic [ref=f142e56]:
+            - button "إنهاء الحملة" [ref=f142e120]
+            - button "إيقاف مؤقت" [ref=f142e121]
+        - status [ref=f142e123]:
+          - generic [ref=f142e126]: هذه الحملة نشطة حاليًا.
+        - generic [ref=f142e58]:
+          - 'generic "الإنفاق: ٠ ريال" [ref=f142e59]':
+            - generic [ref=f142e60]:
+              - generic [ref=f142e61]: الإنفاق
+              - 'button "Why: الإنفاق" [ref=f142e63]'
+            - generic [ref=f142e66]: ٠ ريال
+          - generic [ref=f142e68]:
+            - generic [ref=f142e69]:
+              - generic [ref=f142e70]: حصة المحفظة
+              - generic [ref=f142e71]: 38 of 50
+            - 'progressbar "حصة المحفظة: 38 of 50 used" [ref=f142e127]'
+        - generic [ref=f142e128]:
+          - heading "العقارات" [level=2] [ref=f142e129]
+          - list [ref=f142e130]:
+            - listitem [ref=f142e131]: Villa 42, Al Nakheel — ٢٬٣٠٠٬٠٠٠ ريال
+        - generic [ref=f142e98]:
+          - heading "النشاط" [level=2] [ref=f142e99]
+          - list [ref=f142e100]:
+            - listitem [ref=f142e132]:
+              - generic [ref=f142e136]:
+                - paragraph [ref=f142e137]: Sara Al-Otaibi Campaign launched — 1 listing(s), 1 quota unit(s).
+                - paragraph [ref=f142e138]: ٩‏/٨‏/٢٠٢٦، ٣:٢٢:٠٦ م
+            - listitem [ref=f142e101]:
+              - generic [ref=f142e105]:
+                - paragraph [ref=f142e106]: Noura Al-Qahtani Campaign created — inventory not yet selected.
+                - paragraph [ref=f142e107]: ٧‏/٨‏/٢٠٢٦، ١:٠٠:٠٠ م
+  - navigation "Primary" [ref=f142e26]:
+    - link "Home" [ref=f142e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f142e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f142e33]
+    - button "إجراءات سريعة" [ref=f142e37]
+    - button "Alerts" [ref=f142e40]

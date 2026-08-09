@@ -1,0 +1,125 @@
+- generic [ref=f164e3]:
+  - navigation "Primary" [ref=f164e5]:
+    - generic [ref=f164e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f164e7]
+      - button "طي القائمة" [ref=f164e16]
+    - generic [ref=f164e19]:
+      - generic [ref=f164e20]:
+        - button "الاتجاه" [expanded] [ref=f164e21]
+        - list [ref=f164e24]:
+          - listitem [ref=f164e25]:
+            - link "Home" [ref=f164e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f164e30]:
+            - link "Today" [ref=f164e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f164e35]:
+            - link "Tasks" [ref=f164e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f164e40]:
+        - button "التشغيل" [expanded] [ref=f164e41]
+        - list [ref=f164e44]:
+          - listitem [ref=f164e45]:
+            - link "Properties" [ref=f164e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f164e50]:
+            - link "Projects" [ref=f164e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f164e55]:
+            - link "Leads" [ref=f164e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f164e60]:
+            - link "Customers" [ref=f164e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f164e65]:
+            - link "Owners" [ref=f164e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f164e70]:
+            - link "Contracts" [ref=f164e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f164e75]:
+            - link "Marketing" [ref=f164e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f164e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f164e81]
+        - list [ref=f164e84]:
+          - listitem [ref=f164e85]:
+            - link "Finance" [ref=f164e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f164e90]:
+            - link "Wallet" [ref=f164e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f164e95]:
+            - link "Analytics" [ref=f164e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f164e100]:
+            - link "Reports" [ref=f164e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f164e105]:
+            - link "Automation" [ref=f164e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f164e110]:
+            - link "AI Copilot" [ref=f164e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f164e115]:
+            - link "Notifications" [ref=f164e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f164e120]:
+            - link "Knowledge" [ref=f164e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f164e125]:
+            - link "Settings" [ref=f164e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f164e130]: تبديل الدور →
+  - generic [ref=f164e131]:
+    - banner [ref=f164e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f164e133]:
+        - generic [ref=f164e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f164e137]: ⌘K
+      - generic [ref=f164e138]:
+        - button "إجراءات سريعة" [ref=f164e140]
+        - button "الإشعارات" [ref=f164e144]
+        - button "النظام" [ref=f164e147]
+        - button "الإنجليزية" [ref=f164e150]
+        - button "قائمة الحساب" [ref=f164e154]:
+          - generic [ref=f164e155]: SA
+    - main [ref=f164e156]:
+      - generic [ref=f164e214]:
+        - generic [ref=f164e215]:
+          - generic [ref=f164e216]:
+            - generic [ref=f164e217]:
+              - heading "Al Nakheel Residences" [level=1] [ref=f164e218]
+              - generic [ref=f164e219]: نشط
+            - list [ref=f164e223]:
+              - listitem [ref=f164e224]:
+                - button "Abdullah Al-Ghamdi" [ref=f164e227]
+              - listitem [ref=f164e228]: Reem Al-Dosari
+              - listitem [ref=f164e231]: Al Nakheel, Riyadh
+          - button "أرشفة" [ref=f164e235]
+        - generic [ref=f164e237]:
+          - tablist "المشاريع" [ref=f164e238]:
+            - tab "نظرة عامة" [ref=f164e239]
+            - tab "الوسائط" [ref=f164e240]
+            - tab "الامتثال" [active] [selected] [ref=f164e241]
+            - tab "الأداء" [ref=f164e242]
+            - tab "السجل" [ref=f164e243]
+          - tabpanel "الامتثال" [ref=f164e282]:
+            - generic [ref=f164e245]:
+              - status [ref=f164e246]:
+                - generic [ref=f164e249]: تم التحقق من جميع المتطلبات.
+              - list [ref=f164e283]:
+                - listitem [ref=f164e284]:
+                  - generic [ref=f164e285]:
+                    - paragraph [ref=f164e286]: FAL License
+                    - paragraph [ref=f164e287]: FAL-2026-91004
+                    - paragraph [ref=f164e288]: ١ مايو ٢٠٢٧
+                  - generic [ref=f164e289]: مُتحقَّق منه
+                - listitem [ref=f164e291]:
+                  - generic [ref=f164e292]:
+                    - paragraph [ref=f164e293]: REGA Ad License
+                    - paragraph [ref=f164e294]: REGA-AD-510093
+                    - paragraph [ref=f164e295]: ١ مايو ٢٠٢٧
+                  - generic [ref=f164e296]: مُتحقَّق منه
+                - listitem [ref=f164e298]:
+                  - paragraph [ref=f164e300]: Nafath Owner Verification
+                  - generic [ref=f164e301]: مُتحقَّق منه

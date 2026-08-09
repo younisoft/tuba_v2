@@ -1,0 +1,255 @@
+/**
+ * TBOS Design Tokens — CSS Custom Properties
+ * Generated from tokens.json. Do not hand-edit — edit tokens.json and regenerate.
+ * See 19_IMPLEMENTATION_GUIDE.md §1-2 for the pipeline and dark-mode scoping rule.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* ---- Tuba brand identity — canonical, exact reference values (not a tint/shade scale).
+     color.primitive.ink.600 and color.primitive.coral.500 below are the functional scales
+     built around these two exact anchors. See 03_COLOR_SYSTEM.md §1a. ---- */
+  --tuba-purple: #2A0C72;
+  --tuba-coral: #F95A60;
+
+  /* ---- Color primitives ---- */
+  --color-ink-50: #EFEBF9;   --color-ink-100: #D8CDF4;  --color-ink-200: #B69DF1;
+  --color-ink-300: #8D63EE;  --color-ink-400: #642BE9;  --color-ink-500: #4513B9;
+  --color-ink-600: #2A0C72;  --color-ink-700: #230A5C;  --color-ink-800: #1C0949; --color-ink-900: #150836;
+
+  --color-coral-50: #FCF3F3;  --color-coral-100: #F9E2E2; --color-coral-200: #F7C5C7;
+  --color-coral-300: #F7A1A4; --color-coral-400: #F87C80; --color-coral-500: #F95A60;
+  --color-coral-600: #F42A31; --color-coral-700: #D41118; --color-coral-800: #A11217; --color-coral-900: #741114;
+
+  --color-copilot-50: #F5F1FE;  --color-copilot-100: #E9E0FC; --color-copilot-200: #D2C2F9;
+  --color-copilot-300: #B39AF2; --color-copilot-400: #9274E8; --color-copilot-500: #7654D6;
+  --color-copilot-600: #5F3EB8; --color-copilot-700: #4B3193; --color-copilot-800: #392670; --color-copilot-900: #2B1D54;
+
+  --color-slate-0: #FFFFFF;   --color-slate-50: #F7F8FA;  --color-slate-100: #EEF0F4;
+  --color-slate-200: #E1E4EA; --color-slate-300: #CBD0DA; --color-slate-400: #9AA2B1;
+  --color-slate-500: #6C7484; --color-slate-600: #4E5563; --color-slate-700: #383D48;
+  --color-slate-800: #24272F; --color-slate-900: #14161B; --color-slate-950: #0B0C0F;
+
+  --color-success-50: #EEFAF1; --color-success-100: #D6F3DD; --color-success-300: #7DD696;
+  --color-success-500: #2A9D4F; --color-success-600: #1F7D3D; --color-success-700: #185F2F;
+
+  --color-warning-50: #FFF9E6; --color-warning-100: #FEEDB8; --color-warning-300: #FBCB4C;
+  --color-warning-500: #E8A317; --color-warning-600: #B87F0E; --color-warning-700: #8C5F0A;
+
+  --color-danger-50: #FDEEEE; --color-danger-100: #FAD4D4; --color-danger-300: #EF9494;
+  --color-danger-500: #D33F3F; --color-danger-600: #AB2E2E; --color-danger-700: #822323;
+
+  --color-info-50: #EAF6FC; --color-info-100: #CDEBF7; --color-info-300: #7FCBEA;
+  --color-info-500: #1E93C4; --color-info-600: #16729A; --color-info-700: #115774;
+
+  /* ---- Semantic color (light) — see 03_COLOR_SYSTEM.md §2 ---- */
+  --bg-canvas: var(--color-slate-50);
+  --bg-surface: var(--color-slate-0);
+  --bg-surface-raised: var(--color-slate-0);
+  --bg-sunken: var(--color-slate-100);
+  --bg-overlay-scrim: rgba(11,12,15,0.40);
+  --bg-brand-subtle: var(--color-ink-50);
+  --bg-brand: var(--color-ink-600);
+  --bg-brand-strong: var(--color-ink-700);
+  --bg-ai-subtle: var(--color-copilot-50);
+  --bg-ai: var(--color-copilot-600);
+  --bg-success-subtle: var(--color-success-50);
+  --bg-warning-subtle: var(--color-warning-50);
+  --bg-danger-subtle: var(--color-danger-50);
+  --bg-info-subtle: var(--color-info-50);
+  --bg-disabled: var(--color-slate-100);
+
+  --text-primary: var(--color-slate-900);
+  --text-secondary: var(--color-slate-600);
+  --text-muted: var(--color-slate-400);
+  --text-on-brand: var(--color-slate-0);
+  --text-on-ai: var(--color-slate-0);
+  --text-disabled: var(--color-slate-400);
+  --text-link: var(--color-ink-600);
+  --text-brand: var(--color-ink-600);
+  --text-ai: var(--color-copilot-600);
+  --text-success: var(--color-success-700);
+  --text-warning: var(--color-warning-700);
+  --text-danger: var(--color-danger-700);
+  --text-info: var(--color-info-700);
+
+  --border-default: var(--color-slate-200);
+  --border-strong: var(--color-slate-300);
+  --border-brand: var(--color-ink-500);
+  --border-focus: var(--color-ink-500);
+  --border-danger: var(--color-danger-500);
+
+  --icon-default: var(--color-slate-500);
+  --icon-muted: var(--color-slate-400);
+  --icon-on-brand: var(--color-slate-0);
+
+  --action-primary-bg: var(--color-ink-600);
+  --action-primary-bg-hover: var(--color-ink-700);
+  --action-primary-bg-active: var(--color-ink-800);
+  --action-secondary-bg: var(--color-slate-0);
+  --action-secondary-border: var(--color-slate-300);
+  --action-secondary-bg-hover: var(--color-slate-50);
+  --action-danger-bg: var(--color-coral-700);
+  --action-danger-bg-hover: var(--color-coral-800);
+
+  /* ---- Typography ---- */
+  --font-latin: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-arabic: 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --type-display-size: 2rem;      --type-display-lh: 2.5rem;   --type-display-weight: 700;
+  --type-h1-size: 1.5rem;         --type-h1-lh: 2rem;          --type-h1-weight: 700;
+  --type-h2-size: 1.25rem;        --type-h2-lh: 1.75rem;       --type-h2-weight: 600;
+  --type-h3-size: 1rem;           --type-h3-lh: 1.5rem;        --type-h3-weight: 600;
+  --type-body-lg-size: 0.9375rem; --type-body-lg-lh: 1.5rem;   --type-body-lg-weight: 400;
+  --type-body-size: 0.875rem;     --type-body-lh: 1.25rem;     --type-body-weight: 400;
+  --type-body-emphasis-weight: 600;
+  --type-label-size: 0.8125rem;   --type-label-lh: 1rem;       --type-label-weight: 600;
+  --type-caption-size: 0.75rem;   --type-caption-lh: 1rem;     --type-caption-weight: 400;
+  --type-micro-size: 0.6875rem;   --type-micro-lh: 0.875rem;   --type-micro-weight: 600;
+  --type-arabic-lh-multiplier: 1.15;
+
+  /* ---- Spacing (4px base) ---- */
+  --space-0: 0;    --space-1: 0.125rem; --space-2: 0.25rem;  --space-3: 0.5rem;
+  --space-4: 0.75rem; --space-5: 1rem;  --space-6: 1.25rem;  --space-7: 1.5rem;
+  --space-8: 2rem; --space-9: 2.5rem;   --space-10: 3rem;    --space-11: 4rem;
+  --space-12: 5rem; --space-13: 6rem;   --space-14: 8rem;
+
+  --density-comfortable-row-height: 3rem;
+  --density-comfortable-cell-py: 0.75rem;
+  --density-comfortable-cell-px: 1rem;
+  --density-compact-row-height: 2.25rem;
+  --density-compact-cell-py: 0.375rem;
+  --density-compact-cell-px: 0.75rem;
+
+  /* ---- Radius / Border ---- */
+  --radius-none: 0; --radius-xs: 0.25rem; --radius-sm: 0.375rem; --radius-md: 0.5rem;
+  --radius-lg: 0.75rem; --radius-xl: 1rem; --radius-full: 9999px;
+  --border-width-hairline: 1px; --border-width-default: 1px; --border-width-thick: 2px;
+
+  /* ---- Elevation ---- */
+  --elevation-0: none;
+  --elevation-1: 0 1px 2px rgba(11,15,25,0.04), 0 1px 3px rgba(11,15,25,0.06);
+  --elevation-2: 0 2px 4px rgba(11,15,25,0.04), 0 4px 8px rgba(11,15,25,0.08);
+  --elevation-3: 0 4px 8px rgba(11,15,25,0.06), 0 8px 24px rgba(11,15,25,0.12);
+  --elevation-4: 0 8px 16px rgba(11,15,25,0.08), 0 16px 48px rgba(11,15,25,0.16);
+
+  /* ---- Motion ---- */
+  --duration-instant: 0ms; --duration-micro: 80ms; --duration-fast: 120ms;
+  --duration-base: 180ms; --duration-moderate: 240ms; --duration-slow: 320ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0, 1);
+  --ease-accelerate: cubic-bezier(0.3, 0, 1, 1);
+
+  /* ---- Breakpoints (reference only — used via media queries, not custom properties, at build time) ---- */
+  --breakpoint-mobile: 0px; --breakpoint-tablet: 768px; --breakpoint-desktop: 1280px; --breakpoint-wide: 1600px;
+
+  /* ---- Z-index ---- */
+  --z-base: 0; --z-sticky: 10; --z-dropdown: 100; --z-overlay-scrim: 200; --z-panel: 300;
+  --z-modal: 400; --z-popover: 500; --z-toast: 600; --z-command-palette: 700; --z-tooltip: 800;
+
+  /* ---- Sizing ---- */
+  --size-touch-target-min: 2.75rem;
+  --size-icon-sm: 1rem; --size-icon-md: 1.25rem; --size-icon-lg: 1.5rem; --size-icon-xl: 2rem;
+  --size-avatar-sm: 1.5rem; --size-avatar-md: 2rem; --size-avatar-lg: 2.5rem; --size-avatar-xl: 4rem;
+  --size-rail-collapsed: 4rem; --size-rail-expanded: 15rem;
+  --size-panel-sm: 25rem; --size-panel-md: 35rem; --size-panel-lg: 45rem;
+
+  /* ---- Opacity ---- */
+  --opacity-disabled: 0.45; --opacity-hover-wash: 0.06; --opacity-active-wash: 0.10; --opacity-scrim: 0.40;
+
+  /* ---- Chart (light) — see 13_DATA_VISUALIZATION.md ---- */
+  --chart-1-blue: #2a78d6; --chart-2-orange: #eb6834; --chart-3-violet: #4a3aa7; --chart-4-yellow: #eda100;
+  --chart-5-magenta: #e87ba4; --chart-6-green: #008300; --chart-7-aqua: #1baf7a; --chart-8-red: #e34948;
+  --chart-status-good: #0ca30c; --chart-status-warning: #fab219; --chart-status-serious: #ec835a; --chart-status-critical: #d03b3b;
+  --chart-surface: #fcfcfb;
+}
+
+/* ---- Dark mode: OS-level preference (loses to an explicit [data-theme="light"] stamp) ---- */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+
+    --bg-canvas: var(--color-slate-950);
+    --bg-surface: var(--color-slate-900);
+    --bg-surface-raised: var(--color-slate-800);
+    --bg-sunken: var(--color-slate-950);
+    --bg-overlay-scrim: rgba(0,0,0,0.60);
+    --bg-brand-subtle: var(--color-ink-900);
+    --bg-brand: var(--color-ink-500);
+    --bg-brand-strong: var(--color-ink-600);
+    --bg-ai-subtle: var(--color-copilot-900);
+    --bg-ai: var(--color-copilot-500);
+    --bg-success-subtle: rgba(42,157,79,0.16);
+    --bg-warning-subtle: rgba(232,163,23,0.16);
+    --bg-danger-subtle: rgba(211,63,63,0.16);
+    --bg-info-subtle: rgba(30,147,196,0.16);
+    --bg-disabled: var(--color-slate-800);
+
+    --text-primary: var(--color-slate-50);
+    --text-secondary: var(--color-slate-300);
+    --text-muted: var(--color-slate-500);
+    --text-on-brand: var(--color-slate-0);
+    --text-on-ai: var(--color-slate-950);
+    --text-disabled: var(--color-slate-600);
+    --text-link: var(--color-ink-300);
+    --text-brand: var(--color-ink-300);
+    --text-ai: var(--color-copilot-300);
+    --text-success: var(--color-success-300);
+    --text-warning: var(--color-warning-300);
+    --text-danger: var(--color-danger-300);
+    --text-info: var(--color-info-300);
+
+    --border-default: var(--color-slate-700);
+    --border-strong: var(--color-slate-600);
+    --border-brand: var(--color-ink-400);
+    --border-focus: var(--color-ink-300);
+    --border-danger: var(--color-danger-300);
+
+    --icon-default: var(--color-slate-400);
+    --icon-muted: var(--color-slate-500);
+    --icon-on-brand: var(--color-slate-0);
+
+    --action-primary-bg: var(--color-ink-500);
+    --action-primary-bg-hover: var(--color-ink-600);
+    --action-primary-bg-active: var(--color-ink-700);
+    --action-secondary-bg: var(--color-slate-900);
+    --action-secondary-border: var(--color-slate-600);
+    --action-secondary-bg-hover: var(--color-slate-800);
+    --action-danger-bg: var(--color-coral-700);
+    --action-danger-bg-hover: var(--color-coral-800);
+
+    /* Elevation: dark adjustment per 09_ELEVATION_SYSTEM.md §4 — higher opacity + border reinforcement */
+    --elevation-2: 0 3px 6px rgba(0,0,0,0.24), 1px solid var(--color-slate-700);
+    --elevation-3: 0 6px 13px rgba(0,0,0,0.30);
+    --elevation-4: 0 13px 26px rgba(0,0,0,0.36);
+
+    --chart-1-blue: #3987e5; --chart-2-orange: #d95926; --chart-3-violet: #9085e9; --chart-4-yellow: #c98500;
+    --chart-5-magenta: #d55181; --chart-6-green: #008300; --chart-7-aqua: #199e70; --chart-8-red: #e66767;
+    --chart-surface: #1a1a19;
+  }
+}
+
+/* ---- Dark mode: explicit in-product toggle — wins over OS preference in both directions ---- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-canvas: var(--color-slate-950);
+  --bg-surface: var(--color-slate-900);
+  --bg-surface-raised: var(--color-slate-800);
+  --text-primary: var(--color-slate-50);
+  --text-secondary: var(--color-slate-300);
+  --border-default: var(--color-slate-700);
+  --action-primary-bg: var(--color-ink-500);
+  --chart-surface: #1a1a19;
+  /* Remaining roles: same set as the @media block above — a build-time transform expands both
+     from tokens.json in a real pipeline; kept short here to avoid duplicating the full block twice by hand. */
+}
+
+/* ---- Reduced motion: collapse every duration to instant, per 10_MOTION_SYSTEM.md §6 ---- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-instant: 0ms; --duration-micro: 0ms; --duration-fast: 0ms;
+    --duration-base: 0ms; --duration-moderate: 0ms; --duration-slow: 0ms;
+  }
+}

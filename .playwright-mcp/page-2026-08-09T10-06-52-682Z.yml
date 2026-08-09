@@ -1,0 +1,75 @@
+- generic [ref=f103e3]:
+  - generic [ref=f103e4]:
+    - banner [ref=f103e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f103e6]
+      - generic [ref=f103e10]:
+        - button "الإشعارات" [ref=f103e12]
+        - button "النظام" [ref=f103e15]
+        - button "الإنجليزية" [ref=f103e18]
+        - button "قائمة الحساب" [ref=f103e22]:
+          - generic [ref=f103e23]: SA
+    - main [ref=f103e24]:
+      - generic [ref=f103e130]:
+        - generic [ref=f103e131]:
+          - generic [ref=f103e132]:
+            - generic [ref=f103e133]:
+              - heading [level=1] [ref=f103e134]:
+                - button "Saad Al-Qahtani" [ref=f103e135]
+              - generic [ref=f103e136]: بانتظار الامتثال
+            - list [ref=f103e140]:
+              - listitem [ref=f103e141]: بيع
+              - listitem [ref=f103e144]:
+                - button "Villa 9, Al Yasmin" [ref=f103e147]
+              - listitem [ref=f103e148]:
+                - button "Mona Al-Subaie" [ref=f103e151]
+              - listitem [ref=f103e152]:
+                - button "العميل المحتمل الأصلي" [ref=f103e155]
+          - generic [ref=f103e156]:
+            - button "إلغاء العقد" [ref=f103e158]
+            - generic [ref=f103e215]:
+              - button "تفعيل" [disabled]
+        - status [ref=f103e161]:
+          - generic [ref=f103e164]: بانتظار استيفاء متطلبات الامتثال.
+        - 'generic "القيمة: ٢٬٧٥٠٬٠٠٠ ريال" [ref=f103e166]':
+          - generic [ref=f103e167]:
+            - generic [ref=f103e168]: القيمة
+            - 'button "Why: القيمة" [ref=f103e170]'
+          - generic [ref=f103e173]: ٢٬٧٥٠٬٠٠٠ ريال
+        - generic [ref=f103e175]:
+          - heading "الامتثال" [level=2] [ref=f103e176]
+          - list [ref=f103e177]:
+            - listitem [ref=f103e178]:
+              - generic [ref=f103e181]:
+                - paragraph [ref=f103e182]: تم التحقق من امتثال العقار المرتبط
+                - paragraph [ref=f103e183]: لم يتم التحقق بعد من امتثال العقار المرتبط
+              - generic [ref=f103e184]: blocked
+            - listitem [ref=f103e185]:
+              - paragraph [ref=f103e189]: Identity verification (Nafath) for all parties
+              - generic [ref=f103e190]: incomplete
+            - listitem [ref=f103e191]:
+              - paragraph [ref=f103e195]: Compliance documents reviewed
+              - generic [ref=f103e196]: incomplete
+        - generic [ref=f103e197]:
+          - heading "المستندات" [level=2] [ref=f103e198]
+          - generic [ref=f103e199]:
+            - heading "لا توجد مستندات بعد" [level=3] [ref=f103e203]
+            - paragraph [ref=f103e204]: لم يتم رفع أي مستندات امتثال لهذا العقد بعد.
+        - generic [ref=f103e205]:
+          - heading "النشاط" [level=2] [ref=f103e206]
+          - list [ref=f103e207]:
+            - listitem [ref=f103e216]:
+              - generic [ref=f103e220]:
+                - paragraph [ref=f103e221]: Sara Al-Otaibi Compliance checklist started.
+                - paragraph [ref=f103e222]: ٩‏/٨‏/٢٠٢٦، ١:٠٦:٥٢ م
+            - listitem [ref=f103e208]:
+              - generic [ref=f103e212]:
+                - paragraph [ref=f103e213]: System Contract created from Lead l-9 (Won).
+                - paragraph [ref=f103e214]: ٧‏/٨‏/٢٠٢٦، ١٢:٠٠:٠٠ م
+  - navigation "Primary" [ref=f103e39]:
+    - link "Home" [ref=f103e40] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f103e43] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f103e46]
+    - button "إجراءات سريعة" [ref=f103e50]
+    - button "Alerts" [ref=f103e53]

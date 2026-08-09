@@ -1,0 +1,89 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - generic [ref=f157e94]:
+          - button "Notifications — 2 unread notifications" [ref=f157e116]
+          - generic [ref=f157e117]: "2"
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e257]:
+        - generic [ref=f157e258]:
+          - generic [ref=f157e259]:
+            - generic [ref=f157e260]:
+              - heading "Townhouse 5, Al Rawdah" [level=1] [ref=f157e261]
+              - generic [ref=f157e262]: Sold / Rented
+            - list [ref=f157e266]:
+              - listitem [ref=f157e267]: Townhouse
+              - listitem [ref=f157e270]:
+                - button "Huda Al-Zahrani" [ref=f157e273]
+              - listitem [ref=f157e274]: Omar Al-Rashid
+              - listitem [ref=f157e277]: Al Rawdah, Jeddah
+          - generic [ref=f157e281]:
+            - button "Reassign" [ref=f157e284]
+            - button "Archive" [ref=f157e285]
+        - generic [ref=f157e288]:
+          - tablist "Properties" [ref=f157e289]:
+            - tab "Overview" [selected] [ref=f157e290]
+            - tab "Media" [ref=f157e291]
+            - tab "Compliance" [ref=f157e292]
+            - tab "Performance" [ref=f157e293]
+            - tab "History" [ref=f157e294]
+          - tabpanel "Overview" [ref=f157e295]:
+            - generic [ref=f157e296]:
+              - status [ref=f157e297]:
+                - generic [ref=f157e300]: Marked Sold/Rented.
+              - 'generic "Price (SAR): 980,000 SAR" [ref=f157e302]':
+                - generic [ref=f157e303]:
+                  - generic [ref=f157e304]: Price (SAR)
+                  - 'button "Why: Price (SAR)" [ref=f157e306]'
+                - generic [ref=f157e309]: 980,000 SAR

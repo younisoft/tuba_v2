@@ -1,0 +1,92 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - generic [ref=f157e94]:
+          - button "Notifications — 2 unread notifications" [ref=f157e116]
+          - generic [ref=f157e117]: "2"
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e360]:
+        - generic [ref=f157e361]:
+          - generic [ref=f157e362]:
+            - generic [ref=f157e363]:
+              - heading "Jeddah Autumn Push" [level=1] [ref=f157e364]
+              - generic [ref=f157e365]: Draft
+            - list [ref=f157e367]:
+              - listitem [ref=f157e368]: 0 listings
+              - listitem [ref=f157e371]: 1 quota unit
+          - button "Launch" [ref=f157e375]
+        - generic [ref=f157e376]:
+          - 'generic "Spend: 0 SAR" [ref=f157e377]':
+            - generic [ref=f157e378]:
+              - generic [ref=f157e379]: Spend
+              - 'button "Why: Spend" [ref=f157e381]'
+            - generic [ref=f157e384]: 0 SAR
+          - generic [ref=f157e386]:
+            - generic [ref=f157e387]:
+              - generic [ref=f157e388]: Wallet quota
+              - generic [ref=f157e389]: 9 of 10
+            - 'progressbar "Wallet quota: 9 of 10 used" [ref=f157e390]'
+        - generic [ref=f157e392]:
+          - heading "Inventory" [level=2] [ref=f157e393]
+          - generic [ref=f157e396]:
+            - heading "No eligible inventory" [level=3] [ref=f157e400]
+            - paragraph [ref=f157e401]: A campaign needs at least one Active or Expiring listing to launch. None of your listings currently qualify.
+            - button "Open Properties" [ref=f157e403]
+        - generic [ref=f157e404]:
+          - heading "Activity" [level=2] [ref=f157e405]
+          - list [ref=f157e406]:
+            - listitem [ref=f157e407]:
+              - generic [ref=f157e411]:
+                - paragraph [ref=f157e412]: Omar Al-Rashid Campaign created.
+                - paragraph [ref=f157e413]: 8/9/2026, 3:40:57 PM

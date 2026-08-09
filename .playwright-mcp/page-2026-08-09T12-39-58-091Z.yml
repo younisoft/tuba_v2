@@ -1,0 +1,56 @@
+- generic [ref=f156e3]:
+  - navigation "Primary" [ref=f156e5]:
+    - generic [ref=f156e6]:
+      - img "Tuba Broker OS" [ref=f156e7]
+      - button "Collapse navigation" [ref=f156e14]
+    - generic [ref=f156e17]:
+      - generic [ref=f156e18]:
+        - button "Orientation" [expanded] [ref=f156e19]
+        - list [ref=f156e22]:
+          - listitem [ref=f156e23]:
+            - link "Home" [ref=f156e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f156e28]:
+            - link "Today" [ref=f156e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f156e33]:
+            - link "Tasks" [ref=f156e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f156e38]:
+        - button "Operating" [expanded] [ref=f156e39]
+        - list [ref=f156e42]:
+          - listitem [ref=f156e43]:
+            - link "Properties" [ref=f156e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f156e48]:
+            - link "Projects" [ref=f156e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f156e53]:
+            - link "Leads" [ref=f156e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f156e58]:
+            - link "Customers" [ref=f156e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f156e63]:
+            - link "Owners" [ref=f156e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f156e68]:
+            - link "Contracts" [ref=f156e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f156e73]:
+            - link "Marketing" [ref=f156e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f156e79]
+  - generic [ref=f156e82]:
+    - banner [ref=f156e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f156e84]:
+        - generic [ref=f156e87]: Search properties, leads, customers…
+        - generic [ref=f156e88]: ⌘K
+      - generic [ref=f156e89]:
+        - button "Quick actions" [ref=f156e91]
+        - button "Notifications" [ref=f156e95]
+        - button "Dark" [ref=f156e98]
+        - button "Arabic" [ref=f156e101]
+        - button "Account menu" [ref=f156e105]:
+          - generic [ref=f156e106]: OA
+    - main [ref=f156e107]

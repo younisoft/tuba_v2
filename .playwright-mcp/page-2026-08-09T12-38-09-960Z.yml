@@ -1,0 +1,59 @@
+- generic [ref=f153e3]:
+  - navigation "Primary" [ref=f153e5]:
+    - generic [ref=f153e6]:
+      - img "Tuba Broker OS" [ref=f153e7]
+      - button "Collapse navigation" [ref=f153e14]
+    - generic [ref=f153e17]:
+      - generic [ref=f153e18]:
+        - button "Orientation" [expanded] [ref=f153e19]
+        - list [ref=f153e22]:
+          - listitem [ref=f153e23]:
+            - link "Home" [ref=f153e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f153e28]:
+            - link "Today" [ref=f153e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f153e33]:
+            - link "Tasks" [ref=f153e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f153e38]:
+        - button "Operating" [expanded] [ref=f153e39]
+        - list [ref=f153e42]:
+          - listitem [ref=f153e43]:
+            - link "Properties" [ref=f153e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f153e48]:
+            - link "Projects" [ref=f153e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f153e53]:
+            - link "Owners" [ref=f153e54] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f153e58]:
+            - link "Marketing" [ref=f153e59] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f153e64]
+  - generic [ref=f153e67]:
+    - banner [ref=f153e68]:
+      - button "Search properties, leads, customers…" [ref=f153e69]
+      - generic [ref=f153e73]:
+        - button "Quick actions" [ref=f153e75]
+        - button "Notifications" [ref=f153e79]
+        - button "Dark" [ref=f153e82]
+        - button "Arabic" [ref=f153e85]
+        - button "Account menu" [ref=f153e89]:
+          - generic [ref=f153e90]: NA
+    - main [ref=f153e91]:
+      - generic [ref=f153e92]:
+        - generic [ref=f153e93]:
+          - generic [ref=f153e94]:
+            - heading "Campaigns" [level=1] [ref=f153e95]
+            - paragraph [ref=f153e96]: Outbound campaign and promotion management.
+          - button "Create campaign" [ref=f153e97]
+        - generic [ref=f153e100]:
+          - searchbox "Search campaigns by name…" [ref=f153e102]
+          - combobox "Status" [ref=f153e104]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Running"
+            - option "Paused"
+            - option "Ended"

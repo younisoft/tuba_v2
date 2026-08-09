@@ -1,0 +1,43 @@
+- generic [ref=f52e3]:
+  - generic [ref=f52e4]:
+    - banner [ref=f52e5]:
+      - button "Search properties, leads, customers…" [ref=f52e6]
+      - generic [ref=f52e10]:
+        - button "Notifications" [ref=f52e12]
+        - button "System" [ref=f52e15]
+        - button "Arabic" [ref=f52e18]
+        - button "Account menu" [ref=f52e22]:
+          - generic [ref=f52e23]: SA
+    - main [ref=f52e24]:
+      - generic [ref=f52e25]:
+        - generic [ref=f52e27]:
+          - heading "Properties" [level=1] [ref=f52e28]
+          - paragraph [ref=f52e29]: Browse and manage your agency's property inventory.
+        - generic [ref=f52e32]:
+          - searchbox "Search properties by title or district…" [ref=f52e34]
+          - combobox "Status" [ref=f52e36]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Pending Compliance"
+            - option "Active"
+            - option "Expiring"
+            - option "Expired"
+            - option "Rejected"
+            - option "Sold / Rented"
+            - option "Archived"
+          - combobox "Type" [ref=f52e38]:
+            - option "Type" [selected]
+            - option "Apartment"
+            - option "Villa"
+            - option "Townhouse"
+            - option "Land"
+            - option "Office"
+            - option "Retail"
+  - navigation "Primary" [ref=f52e41]:
+    - link "Home" [ref=f52e42] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f52e45] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f52e48]
+    - button "Quick actions" [ref=f52e52]
+    - button "Alerts" [ref=f52e55]

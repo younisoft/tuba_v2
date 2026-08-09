@@ -1,0 +1,112 @@
+- generic [ref=f47e3]:
+  - navigation "Primary" [ref=f47e5]:
+    - generic [ref=f47e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f47e7]
+      - button "طي القائمة" [ref=f47e16]
+    - generic [ref=f47e19]:
+      - generic [ref=f47e20]:
+        - button "الاتجاه" [expanded] [ref=f47e21]
+        - list [ref=f47e24]:
+          - listitem [ref=f47e25]:
+            - link "Home" [ref=f47e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f47e30]:
+            - link "Today" [ref=f47e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f47e35]:
+            - link "Tasks" [ref=f47e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f47e40]:
+        - button "التشغيل" [expanded] [ref=f47e41]
+        - list [ref=f47e44]:
+          - listitem [ref=f47e45]:
+            - link "Properties" [ref=f47e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f47e50]:
+            - link "Projects" [ref=f47e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f47e55]:
+            - link "Leads" [ref=f47e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f47e60]:
+            - link "Customers" [ref=f47e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f47e65]:
+            - link "Owners" [ref=f47e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f47e70]:
+            - link "Contracts" [ref=f47e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f47e75]:
+            - link "Marketing" [ref=f47e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f47e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f47e81]
+        - list [ref=f47e84]:
+          - listitem [ref=f47e85]:
+            - link "Finance" [ref=f47e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f47e90]:
+            - link "Wallet" [ref=f47e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f47e95]:
+            - link "Analytics" [ref=f47e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f47e100]:
+            - link "Reports" [ref=f47e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f47e105]:
+            - link "Automation" [ref=f47e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f47e110]:
+            - link "AI Copilot" [ref=f47e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f47e115]:
+            - link "Notifications" [ref=f47e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f47e120]:
+            - link "Knowledge" [ref=f47e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f47e125]:
+            - link "Settings" [ref=f47e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f47e130]: تبديل الدور →
+  - generic [ref=f47e131]:
+    - banner [ref=f47e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f47e133]:
+        - generic [ref=f47e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f47e137]: ⌘K
+      - generic [ref=f47e138]:
+        - button "إجراءات سريعة" [ref=f47e140]
+        - button "الإشعارات" [ref=f47e144]
+        - button "النظام" [ref=f47e147]
+        - button "الإنجليزية" [ref=f47e150]
+        - button "قائمة الحساب" [ref=f47e154]:
+          - generic [ref=f47e155]: SA
+    - main [ref=f47e156]:
+      - generic [ref=f47e173]:
+        - generic [ref=f47e174]:
+          - generic [ref=f47e175]:
+            - generic [ref=f47e176]:
+              - heading "Office Suite 12, Olaya" [level=1] [ref=f47e177]
+              - generic [ref=f47e178]: بانتظار الامتثال
+            - list [ref=f47e182]:
+              - listitem [ref=f47e183]: مكتب
+              - listitem [ref=f47e186]: Mona Al-Subaie · Reem Al-Dosari
+              - listitem [ref=f47e189]: Olaya, Riyadh
+          - generic [ref=f47e192]:
+            - generic [ref=f47e193]:
+              - button "إعادة الإسناد" [ref=f47e195]
+              - button "أرشفة" [ref=f47e196]
+            - button "نشر" [ref=f47e197]
+        - generic [ref=f47e199]:
+          - tablist "العقارات" [ref=f47e200]:
+            - tab "نظرة عامة" [ref=f47e201]
+            - tab "الوسائط" [active] [selected] [ref=f47e202]
+            - tab "الامتثال" [ref=f47e203]
+            - tab "الأداء" [ref=f47e204]
+            - tab "السجل" [ref=f47e205]
+          - tabpanel "الوسائط" [ref=f47e242]:
+            - generic [ref=f47e244]:
+              - generic [ref=f47e248]: قيد المعالجة
+              - paragraph [ref=f47e249]: Office floor — uploaded, awaiting review

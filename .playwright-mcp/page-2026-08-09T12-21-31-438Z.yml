@@ -1,0 +1,65 @@
+- generic [ref=f142e3]:
+  - generic [ref=f142e4]:
+    - banner [ref=f142e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f142e6]
+      - generic [ref=f142e10]:
+        - button "الإشعارات" [ref=f142e12]
+        - button "النظام" [ref=f142e15]
+        - button "الإنجليزية" [ref=f142e18]
+        - button "قائمة الحساب" [ref=f142e22]:
+          - generic [ref=f142e23]: SA
+    - main [ref=f142e24]:
+      - generic [ref=f142e25]:
+        - generic [ref=f142e43]:
+          - generic [ref=f142e44]:
+            - generic [ref=f142e45]:
+              - heading "Al Malqa Apartments Refresh" [level=1] [ref=f142e46]
+              - generic [ref=f142e47]: مسودة
+            - list [ref=f142e49]:
+              - listitem [ref=f142e50]: 0 عقارات
+              - listitem [ref=f142e53]: 1 وحدة حصة
+          - button "إطلاق" [ref=f142e57]
+        - generic [ref=f142e58]:
+          - 'generic "الإنفاق: ٠ ريال" [ref=f142e59]':
+            - generic [ref=f142e60]:
+              - generic [ref=f142e61]: الإنفاق
+              - 'button "Why: الإنفاق" [ref=f142e63]'
+            - generic [ref=f142e66]: ٠ ريال
+          - generic [ref=f142e68]:
+            - generic [ref=f142e69]:
+              - generic [ref=f142e70]: حصة المحفظة
+              - generic [ref=f142e71]: 37 of 50
+            - 'progressbar "حصة المحفظة: 37 of 50 used" [ref=f142e72]'
+        - generic [ref=f142e74]:
+          - heading "العقارات" [level=2] [ref=f142e75]
+          - generic [ref=f142e76]:
+            - generic [ref=f142e77] [cursor=pointer]:
+              - checkbox "Villa 42, Al Nakheel — ٢٬٣٠٠٬٠٠٠ ريال" [checked] [active] [ref=f142e79]
+              - generic [ref=f142e80]: Villa 42, Al Nakheel — ٢٬٣٠٠٬٠٠٠ ريال
+            - generic [ref=f142e81] [cursor=pointer]:
+              - checkbox "Apartment 7B, Al Malqa — ١٬٦٥٠٬٠٠٠ ريال" [ref=f142e83]
+              - generic [ref=f142e84]: Apartment 7B, Al Malqa — ١٬٦٥٠٬٠٠٠ ريال
+          - generic [ref=f142e86]:
+            - generic [ref=f142e87]:
+              - generic [ref=f142e88]: AI suggested
+              - generic [ref=f142e89]: Medium confidence
+            - generic [ref=f142e92]: Discover exceptional homes with standout value — priced to move and ready for viewing this week.
+            - generic [ref=f142e94]:
+              - button "استخدام هذا النص" [ref=f142e95]
+              - button "Regenerate" [ref=f142e96]
+              - button "Discard" [ref=f142e97]
+        - generic [ref=f142e98]:
+          - heading "النشاط" [level=2] [ref=f142e99]
+          - list [ref=f142e100]:
+            - listitem [ref=f142e101]:
+              - generic [ref=f142e105]:
+                - paragraph [ref=f142e106]: Noura Al-Qahtani Campaign created — inventory not yet selected.
+                - paragraph [ref=f142e107]: ٧‏/٨‏/٢٠٢٦، ١:٠٠:٠٠ م
+  - navigation "Primary" [ref=f142e26]:
+    - link "Home" [ref=f142e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f142e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f142e33]
+    - button "إجراءات سريعة" [ref=f142e37]
+    - button "Alerts" [ref=f142e40]

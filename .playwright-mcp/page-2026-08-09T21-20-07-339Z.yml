@@ -1,0 +1,104 @@
+- generic [ref=f164e3]:
+  - navigation "Primary" [ref=f164e5]:
+    - generic [ref=f164e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f164e7]
+      - button "طي القائمة" [ref=f164e16]
+    - generic [ref=f164e19]:
+      - generic [ref=f164e20]:
+        - button "الاتجاه" [expanded] [ref=f164e21]
+        - list [ref=f164e24]:
+          - listitem [ref=f164e25]:
+            - link "Home" [ref=f164e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f164e30]:
+            - link "Today" [ref=f164e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f164e35]:
+            - link "Tasks" [ref=f164e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f164e40]:
+        - button "التشغيل" [expanded] [ref=f164e41]
+        - list [ref=f164e44]:
+          - listitem [ref=f164e45]:
+            - link "Properties" [ref=f164e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f164e50]:
+            - link "Projects" [ref=f164e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f164e55]:
+            - link "Leads" [ref=f164e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f164e60]:
+            - link "Customers" [ref=f164e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f164e65]:
+            - link "Owners" [ref=f164e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f164e70]:
+            - link "Contracts" [ref=f164e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f164e75]:
+            - link "Marketing" [ref=f164e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f164e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f164e81]
+        - list [ref=f164e84]:
+          - listitem [ref=f164e85]:
+            - link "Finance" [ref=f164e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f164e90]:
+            - link "Wallet" [ref=f164e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f164e95]:
+            - link "Analytics" [ref=f164e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f164e100]:
+            - link "Reports" [ref=f164e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f164e105]:
+            - link "Automation" [ref=f164e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f164e110]:
+            - link "AI Copilot" [ref=f164e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f164e115]:
+            - link "Notifications" [ref=f164e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f164e120]:
+            - link "Knowledge" [ref=f164e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f164e125]:
+            - link "Settings" [ref=f164e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f164e130]: تبديل الدور →
+  - generic [ref=f164e131]:
+    - banner [ref=f164e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f164e133]:
+        - generic [ref=f164e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f164e137]: ⌘K
+      - generic [ref=f164e138]:
+        - button "إجراءات سريعة" [ref=f164e140]
+        - button "الإشعارات" [ref=f164e144]
+        - button "النظام" [ref=f164e147]
+        - button "الإنجليزية" [ref=f164e150]
+        - button "قائمة الحساب" [ref=f164e154]:
+          - generic [ref=f164e155]: SA
+    - main [ref=f164e156]:
+      - generic [ref=f164e157]:
+        - generic [ref=f164e158]:
+          - generic [ref=f164e159]:
+            - heading "المشاريع" [level=1] [ref=f164e160]
+            - paragraph [ref=f164e161]: مخزون المطورين والوحدات المتعددة، منفصل هيكليًا عن العقارات ذات الوحدة الواحدة.
+          - button "إنشاء مشروع" [ref=f164e162]
+        - generic [ref=f164e165]:
+          - searchbox "ابحث عن مشروع بالاسم أو الحي…" [ref=f164e167]
+          - combobox "الحالة" [ref=f164e169]:
+            - option "الحالة" [selected]
+            - option "مسودة"
+            - option "بانتظار الامتثال"
+            - option "نشط"
+            - option "قارب على الانتهاء"
+            - option "منتهي"
+            - option "مرفوض"
+            - option "مباع / مؤجر"
+            - option "مؤرشف"

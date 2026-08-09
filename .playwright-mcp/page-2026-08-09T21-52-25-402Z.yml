@@ -1,0 +1,116 @@
+- generic [ref=f166e3]:
+  - navigation "Primary" [ref=f166e5]:
+    - generic [ref=f166e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f166e7]
+      - button "طي القائمة" [ref=f166e16]
+    - generic [ref=f166e19]:
+      - generic [ref=f166e20]:
+        - button "الاتجاه" [expanded] [ref=f166e21]
+        - list [ref=f166e24]:
+          - listitem [ref=f166e25]:
+            - link "Home" [ref=f166e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f166e30]:
+            - link "Today" [ref=f166e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f166e35]:
+            - link "Tasks" [ref=f166e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f166e40]:
+        - button "التشغيل" [expanded] [ref=f166e41]
+        - list [ref=f166e44]:
+          - listitem [ref=f166e45]:
+            - link "Properties" [ref=f166e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f166e50]:
+            - link "Projects" [ref=f166e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f166e55]:
+            - link "Leads" [ref=f166e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f166e60]:
+            - link "Customers" [ref=f166e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f166e65]:
+            - link "Owners" [ref=f166e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f166e70]:
+            - link "Contracts" [ref=f166e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f166e75]:
+            - link "Marketing" [ref=f166e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f166e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f166e81]
+        - list [ref=f166e84]:
+          - listitem [ref=f166e85]:
+            - link "Finance" [ref=f166e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f166e90]:
+            - link "Wallet" [ref=f166e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f166e95]:
+            - link "Analytics" [ref=f166e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f166e100]:
+            - link "Reports" [ref=f166e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f166e105]:
+            - link "Automation" [ref=f166e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f166e110]:
+            - link "AI Copilot" [ref=f166e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f166e115]:
+            - link "Notifications" [ref=f166e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f166e120]:
+            - link "Knowledge" [ref=f166e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f166e125]:
+            - link "Settings" [ref=f166e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f166e130]: تبديل الدور →
+  - generic [ref=f166e131]:
+    - banner [ref=f166e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f166e133]:
+        - generic [ref=f166e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f166e137]: ⌘K
+      - generic [ref=f166e138]:
+        - button "إجراءات سريعة" [ref=f166e140]
+        - button "الإشعارات" [ref=f166e144]
+        - button "النظام" [ref=f166e147]
+        - button "الإنجليزية" [ref=f166e150]
+        - button "قائمة الحساب" [ref=f166e154]:
+          - generic [ref=f166e155]: SA
+    - main [ref=f166e156]:
+      - generic [ref=f166e231]:
+        - heading "إعلان جديد" [level=1] [ref=f166e232]
+        - paragraph [ref=f166e233]: مسار إرشادي خطوة بخطوة — لن يُنشر شيء حتى تراجع وتؤكد.
+        - generic [ref=f166e235]:
+          - list "Step 4 of 5" [ref=f166e328]:
+            - listitem [ref=f166e237]:
+              - generic [ref=f166e241]: المتطلبات
+            - listitem [ref=f166e243]:
+              - generic [ref=f166e247]: التفاصيل
+            - listitem [ref=f166e249]:
+              - generic [ref=f166e251]: الامتثال
+            - listitem [ref=f166e253]:
+              - generic [ref=f166e254]: "4"
+              - generic [ref=f166e255]: الوسائط
+            - listitem [ref=f166e257]:
+              - generic [ref=f166e258]: "5"
+              - generic [ref=f166e259]: المراجعة
+          - generic [ref=f166e329]:
+            - generic [ref=f166e330]:
+              - paragraph [ref=f166e333]: اسحب الصور هنا أو اختر ملفات للرفع.
+              - button "Choose File" [ref=f166e334]
+              - button "اختيار ملفات" [active] [ref=f166e335]
+              - paragraph [ref=f166e336]: 0 صورة معتمدة
+            - list [ref=f166e337]:
+              - listitem [ref=f166e338]:
+                - generic [ref=f166e339]: villa-photo.jpg
+                - generic [ref=f166e340]: معتمدة
+          - generic [ref=f166e269]:
+            - button "Back" [ref=f166e270]
+            - button "Next" [ref=f166e271]

@@ -1,0 +1,28 @@
+- generic [ref=f143e3]:
+  - generic [ref=f143e4]:
+    - banner [ref=f143e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f143e6]
+      - generic [ref=f143e10]:
+        - button "الإشعارات" [ref=f143e12]
+        - button "النظام" [ref=f143e15]
+        - button "الإنجليزية" [ref=f143e18]
+        - button "قائمة الحساب" [ref=f143e22]:
+          - generic [ref=f143e23]: SA
+    - main [ref=f143e24]:
+      - generic [ref=f143e25]:
+        - generic [ref=f143e27]:
+          - heading "قائمة جودة المحتوى" [level=1] [ref=f143e28]
+          - paragraph [ref=f143e29]: العقارات المباشرة الأقل من معيار جودة المحتوى، الأسوأ أولاً.
+        - generic [ref=f143e33]:
+          - generic [ref=f143e34]:
+            - button "Apartment 7B, Al Malqa" [ref=f143e35]
+            - paragraph [ref=f143e36]: ١٬٦٥٠٬٠٠٠ ريال
+          - generic [ref=f143e37]: يحتاج إلى مزيد من الصور
+  - navigation "Primary" [ref=f143e51]:
+    - link "Home" [ref=f143e52] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f143e55] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f143e58]
+    - button "إجراءات سريعة" [ref=f143e62]
+    - button "Alerts" [ref=f143e65]

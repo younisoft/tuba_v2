@@ -1,0 +1,114 @@
+- generic [ref=f51e3]:
+  - generic [ref=f51e4]:
+    - banner [ref=f51e5]:
+      - button "Search properties, leads, customers…" [ref=f51e6]
+      - generic [ref=f51e10]:
+        - button "Notifications" [ref=f51e12]
+        - button "System" [ref=f51e15]
+        - button "Arabic" [ref=f51e18]
+        - button "Account menu" [ref=f51e22]:
+          - generic [ref=f51e23]: SA
+    - main [ref=f51e24]:
+      - generic [ref=f51e44]:
+        - generic [ref=f51e45]:
+          - generic [ref=f51e46]:
+            - heading "Leads Inbox" [level=1] [ref=f51e47]
+            - paragraph [ref=f51e48]: Every lead — buyer-inbound and owner-originated — in one scored, SLA-timed system.
+          - generic [ref=f51e49]:
+            - button "Pipeline view" [ref=f51e50]
+            - button "Inbox view" [disabled]
+        - table [ref=f51e53]:
+          - rowgroup [ref=f51e54]:
+            - row [ref=f51e55]:
+              - columnheader "Select all rows" [ref=f51e56]:
+                - generic [ref=f51e57] [cursor=pointer]:
+                  - checkbox "Select all rows" [ref=f51e59]
+                  - generic [ref=f51e60]: Select all rows
+              - columnheader "Customer" [ref=f51e61]
+              - columnheader "Stage" [ref=f51e62]
+              - columnheader "Source" [ref=f51e63]
+              - columnheader "Property" [ref=f51e64]
+              - columnheader "Score" [ref=f51e65]
+              - columnheader "Assignee" [ref=f51e66]
+              - columnheader "SLA" [ref=f51e67]
+          - rowgroup [ref=f51e68]:
+            - row [ref=f51e69] [cursor=pointer]:
+              - cell "Select Open lead for Bandar Al-Otaibi" [ref=f51e70]:
+                - generic [ref=f51e71]:
+                  - checkbox "Select Open lead for Bandar Al-Otaibi" [ref=f51e73]
+                  - generic [ref=f51e74]: Select Open lead for Bandar Al-Otaibi
+              - cell "Bandar Al-Otaibi" [ref=f51e75]
+              - cell "New" [ref=f51e76]
+              - cell "Buyer inquiry" [ref=f51e80]
+              - cell "No linked property" [ref=f51e82]
+              - cell "40" [ref=f51e83]
+              - cell "Faisal Al-Harbi" [ref=f51e84]
+              - cell "10 min left" [ref=f51e85]
+            - row [ref=f51e89] [cursor=pointer]:
+              - cell "Select Open lead for Fatimah Al-Otaibi" [ref=f51e90]:
+                - generic [ref=f51e91]:
+                  - checkbox "Select Open lead for Fatimah Al-Otaibi" [ref=f51e93]
+                  - generic [ref=f51e94]: Select Open lead for Fatimah Al-Otaibi
+              - cell "Fatimah Al-Otaibi" [ref=f51e95]
+              - cell "Assigned" [ref=f51e96]
+              - cell "Buyer inquiry" [ref=f51e100]
+              - cell "Apartment 7B, Al Malqa" [ref=f51e102]
+              - cell "65" [ref=f51e103]
+              - cell "Reem Al-Dosari" [ref=f51e104]
+              - cell "45 min left" [ref=f51e105]
+            - row [ref=f51e109] [cursor=pointer]:
+              - cell "Select Open lead for Ahmed Al-Rashid" [ref=f51e110]:
+                - generic [ref=f51e111]:
+                  - checkbox "Select Open lead for Ahmed Al-Rashid" [ref=f51e113]
+                  - generic [ref=f51e114]: Select Open lead for Ahmed Al-Rashid
+              - cell "Ahmed Al-Rashid" [ref=f51e115]
+              - cell "Negotiating" [ref=f51e116]
+              - cell "Buyer inquiry" [ref=f51e120]
+              - cell "Villa 42, Al Nakheel" [ref=f51e122]
+              - cell "82" [ref=f51e123]
+              - cell "Reem Al-Dosari" [ref=f51e124]
+              - cell [ref=f51e125]
+            - row [ref=f51e126] [cursor=pointer]:
+              - cell "Select Open lead for Saad Al-Qahtani" [ref=f51e127]:
+                - generic [ref=f51e128]:
+                  - checkbox "Select Open lead for Saad Al-Qahtani" [ref=f51e130]
+                  - generic [ref=f51e131]: Select Open lead for Saad Al-Qahtani
+              - cell "Saad Al-Qahtani" [ref=f51e132]
+              - cell "Won" [ref=f51e133]
+              - cell "Owner-originated" [ref=f51e137]
+              - cell "Land Plot 3, Al Narjis" [ref=f51e139]
+              - cell "90" [ref=f51e140]
+              - cell "Sara Al-Otaibi" [ref=f51e141]
+              - cell [ref=f51e142]
+            - row [ref=f51e143] [cursor=pointer]:
+              - cell "Select Open lead for Ahmed Al-Rashid" [ref=f51e144]:
+                - generic [ref=f51e145]:
+                  - checkbox "Select Open lead for Ahmed Al-Rashid" [ref=f51e147]
+                  - generic [ref=f51e148]: Select Open lead for Ahmed Al-Rashid
+              - cell "Ahmed Al-Rashid" [ref=f51e149]
+              - cell "Lost" [ref=f51e150]
+              - cell "Buyer inquiry" [ref=f51e154]
+              - cell "Office Suite 12, Olaya" [ref=f51e156]
+              - cell "55" [ref=f51e157]
+              - cell "Reem Al-Dosari" [ref=f51e158]
+              - cell [ref=f51e159]
+            - row [ref=f51e160] [cursor=pointer]:
+              - cell "Select Open lead for Reem Al-Dosari (own deal)" [ref=f51e161]:
+                - generic [ref=f51e162]:
+                  - checkbox "Select Open lead for Reem Al-Dosari (own deal)" [ref=f51e164]
+                  - generic [ref=f51e165]: Select Open lead for Reem Al-Dosari (own deal)
+              - cell "Reem Al-Dosari (own deal)" [ref=f51e166]
+              - cell "Won" [ref=f51e167]
+              - cell "Buyer inquiry" [ref=f51e171]
+              - cell "Apartment 7B, Al Malqa" [ref=f51e173]
+              - cell "88" [ref=f51e174]
+              - cell "Reem Al-Dosari" [ref=f51e175]
+              - cell [ref=f51e176]
+  - navigation "Primary" [ref=f51e27]:
+    - link "Home" [ref=f51e28] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f51e31] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f51e34]
+    - button "Quick actions" [ref=f51e38]
+    - button "Alerts" [ref=f51e41]

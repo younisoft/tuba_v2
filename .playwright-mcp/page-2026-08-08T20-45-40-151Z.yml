@@ -1,0 +1,90 @@
+- generic [ref=f76e3]:
+  - generic [ref=f76e4]:
+    - banner [ref=f76e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f76e6]
+      - generic [ref=f76e10]:
+        - button "الإشعارات" [ref=f76e12]
+        - button "النظام" [ref=f76e15]
+        - button "الإنجليزية" [ref=f76e18]
+        - button "قائمة الحساب" [ref=f76e22]:
+          - generic [ref=f76e23]: SA
+    - main [ref=f76e24]:
+      - generic [ref=f76e25]:
+        - generic [ref=f76e27]:
+          - heading "اليوم" [level=1] [ref=f76e28]
+          - paragraph [ref=f76e29]: ما يستحق انتباهك الآن.
+        - generic [ref=f76e30]:
+          - generic [ref=f76e48]:
+            - generic [ref=f76e49]:
+              - generic [ref=f76e50]:
+                - generic [ref=f76e51]: حرج
+                - generic [ref=f76e54]: متابعة عميل محتمل
+              - button "تجاهل" [ref=f76e55]
+            - heading "Contact Bandar Al-Otaibi" [level=3] [ref=f76e58]
+            - paragraph [ref=f76e59]: This lead is within 10 minutes of an SLA breach.
+            - paragraph [ref=f76e60]: 10 min remaining
+            - generic [ref=f76e61]:
+              - button "Open lead" [ref=f76e62]
+              - button "لماذا هذا؟" [ref=f76e64]
+          - generic [ref=f76e67]:
+            - generic [ref=f76e68]:
+              - generic [ref=f76e69]:
+                - generic [ref=f76e70]: مرتفع
+                - generic [ref=f76e73]: متابعة عميل محتمل
+              - button "تجاهل" [ref=f76e74]
+            - heading "Contact Fatimah Al-Otaibi about Apartment 7B, Al Malqa" [level=3] [ref=f76e77]
+            - paragraph [ref=f76e78]: This lead is 45 minutes from its SLA window closing.
+            - paragraph [ref=f76e79]: 45 min remaining
+            - generic [ref=f76e80]:
+              - button "Open lead" [ref=f76e81]
+              - button "لماذا هذا؟" [ref=f76e83]
+          - generic [ref=f76e86]:
+            - generic [ref=f76e87]:
+              - generic [ref=f76e88]:
+                - generic [ref=f76e89]: مرتفع
+                - generic [ref=f76e92]: الامتثال
+              - button "تجاهل" [ref=f76e93]
+            - heading "Fix and resubmit Retail Unit 4, Al Olaya Market" [level=3] [ref=f76e96]
+            - paragraph [ref=f76e97]: REGA ad-license reference number does not match the submitted commercial registration.
+            - button "Open property" [ref=f76e99]
+          - generic [ref=f76e100]:
+            - generic [ref=f76e101]:
+              - generic [ref=f76e102]:
+                - generic [ref=f76e103]: متوسط
+                - generic [ref=f76e106]: فرصة
+              - button "تجاهل" [ref=f76e107]
+            - heading "Push Ahmed Al-Rashid's negotiation toward close" [level=3] [ref=f76e110]
+            - paragraph [ref=f76e111]: Scored 82/100 and already in Negotiating on Villa 42, Al Nakheel — one of the strongest open opportunities in the pipeline.
+            - generic [ref=f76e112]:
+              - button "Open lead" [ref=f76e113]
+              - button "لماذا هذا؟" [ref=f76e115]
+          - generic [ref=f76e118]:
+            - generic [ref=f76e119]:
+              - generic [ref=f76e120]:
+                - generic [ref=f76e121]: متوسط
+                - generic [ref=f76e124]: الامتثال
+              - button "تجاهل" [ref=f76e125]
+            - heading "Renew Apartment 7B, Al Malqa before it expires" [level=3] [ref=f76e128]
+            - paragraph [ref=f76e129]: Expires in 9 days — renew now to avoid a listing gap.
+            - paragraph [ref=f76e130]: 9 days left
+            - button "Open property" [ref=f76e132]
+          - generic [ref=f76e133]:
+            - generic [ref=f76e134]:
+              - generic [ref=f76e135]:
+                - generic [ref=f76e136]: متوسط
+                - generic [ref=f76e139]: العلاقة
+              - button "تجاهل" [ref=f76e140]
+            - heading "Respond to Abdullah Al-Ghamdi's marketing request" [level=3] [ref=f76e143]
+            - paragraph [ref=f76e144]: New request — Villa 42, Al Nakheel — repaint & re-list photography.
+            - button "Open owner" [ref=f76e146]
+  - navigation "Primary" [ref=f76e31]:
+    - link "Home" [ref=f76e32] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f76e35] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f76e38]
+    - button "إجراءات سريعة" [ref=f76e42]
+    - button "Alerts" [ref=f76e45]
+  - dialog "Command palette" [ref=f76e148]:
+    - textbox "ابحث، أو اكتب «>» لعرض الأوامر…" [active] [ref=f76e152]
+    - paragraph [ref=f76e154]: ابحث، أو اكتب «>» لعرض الأوامر…

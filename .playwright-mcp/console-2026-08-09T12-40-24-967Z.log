@@ -1,0 +1,62 @@
+[     244ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  227936ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[  271406ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[11673399ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[11673506ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5173/:0
+[26521831ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[26523274ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap:0
+[28425584ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[28459672ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:21550
+[28535879ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786276756418:56:19)
+    at useCampaign (http://localhost:5173/src/lib/marketing/useCampaign.ts?t=1786278185199:5:20)
+    at CampaignDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/marketing/CampaignDetailScreen.tsx?t=1786307759775:68:172)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[28535904ms] Error: useAuth must be used within <AuthProvider>
+    at useAuth (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786276756418:56:19)
+    at useCampaign (http://localhost:5173/src/lib/marketing/useCampaign.ts?t=1786278185199:5:20)
+    at CampaignDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/marketing/CampaignDetailScreen.tsx?t=1786307759775:68:172)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:19765:15)
+[28535907ms] [ERROR] The above error occurred in the <CampaignDetailScreen> component:
+
+    at CampaignDetailScreen (http://localhost:5173/@fs/C:/Users/YOUNES/Laravel%20projects/tuba_v2/tbos-frontend/src/features/marketing/CampaignDetailScreen.tsx?t=1786307759775:65:43)
+    at RouteGuard (http://localhost:5173/src/app/guards/RouteGuard.tsx?t=1786307759775:21:30)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7534:26)
+    at Suspense
+    at main
+    at div
+    at div
+    at AppShell
+    at BrokerAuthGuard (http://localhost:5173/src/app/guards/BrokerAuthGuard.tsx?t=1786307759775:22:35)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:6669:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7604:3)
+    at AppRouter
+    at AiProvider (http://localhost:5173/src/lib/ai/AiProvider.tsx?t=1786307759775:22:30)
+    at PermissionProvider (http://localhost:5173/src/lib/permissions/PermissionProvider.tsx?t=1786279432480:21:38)
+    at AuthProvider (http://localhost:5173/src/lib/auth/AuthProvider.tsx?t=1786307759775:21:32)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:7543:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=64bcbe31:10859:3)
+    at LocaleProvider (http://localhost:5173/src/app/providers/LocaleProvider.tsx:20:34)
+    at ThemeProvider (http://localhost:5173/src/app/providers/ThemeProvider.tsx:20:33)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=64bcbe31:3253:3)
+    at ErrorBoundary (http://localhost:5173/src/components/feedback/ErrorBoundary.tsx:8:8)
+    at AppProviders (http://localhost:5173/src/app/providers/AppProviders.tsx?t=1786307759775:26:32)
+    at App
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:5173/node_modules/.vite/deps/chunk-LGZLQBMG.js?v=64bcbe31:14031
+[28535908ms] [ERROR] [TBOS:error] Unhandled render error {message: useAuth must be used within <AuthProvider>, componentStack: 
+    at CampaignDetailScreen (http://localhost:517…ppProviders.tsx?t=1786307759775:26:32)
+    at App} @ http://localhost:5173/src/lib/logging/logger.ts:4

@@ -1,0 +1,22 @@
+- generic [ref=f109e42]:
+  - generic [ref=f109e43]:
+    - banner [ref=f109e44]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f109e45]
+      - generic [ref=f109e49]:
+        - button "الإشعارات" [ref=f109e51]
+        - button "النظام" [ref=f109e54]
+        - button "الإنجليزية" [ref=f109e57]
+        - button "قائمة الحساب" [ref=f109e61]:
+          - generic [ref=f109e62]: OA
+    - main [ref=f109e63]:
+      - generic [ref=f109e66]:
+        - heading "اليوم" [level=1] [ref=f109e67]
+        - paragraph [ref=f109e68]: ما يستحق انتباهك الآن.
+  - navigation "Primary" [ref=f109e70]:
+    - link "Home" [ref=f109e71] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f109e74] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f109e77]
+    - button "إجراءات سريعة" [ref=f109e81]
+    - button "Alerts" [ref=f109e84]

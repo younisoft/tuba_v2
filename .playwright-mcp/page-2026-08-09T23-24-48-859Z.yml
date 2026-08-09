@@ -1,0 +1,325 @@
+- generic [ref=f182e1]:
+  - text:   
+  - generic [ref=f182e2]:
+    - generic [ref=f182e3]:
+      - banner [ref=f182e4]:
+        - navigation [ref=f182e6]:
+          - link [ref=f182e440] [cursor=pointer]:
+            - /url: "#"
+            - img "header-logo.png" [ref=f182e441]
+          - list [ref=f182e9]:
+            - listitem [ref=f182e10]:
+              - button "Post a listing" [ref=f182e442] [cursor=pointer]
+            - listitem
+            - listitem [ref=f182e12]:
+              - link [ref=f182e443] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f182e14]: 
+                - generic [ref=f182e16]:
+                  - img "Nafath Logo" [ref=f182e444]
+                  - text: Verified Agent
+            - listitem [ref=f182e18]:
+              - link [ref=f182e445] [cursor=pointer]:
+                - /url: "#!"
+                - img "Nafath Logo" [ref=f182e446]
+                - text: Fal License
+            - listitem [ref=f182e21]:
+              - link [ref=f182e447] [cursor=pointer]:
+                - /url: https://tuba.com.sa
+                - generic [ref=f182e23]:
+                  - img [ref=f182e24]: 
+                  - text: Website
+            - listitem [ref=f182e26]:
+              - link "عربی" [ref=f182e448] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f182e28]:
+              - generic [ref=f182e29] [cursor=pointer]:
+                - img [ref=f182e30]: 
+                - generic [ref=f182e32]: "0"
+            - listitem [ref=f182e33]:
+              - link "profile FAHAD" [ref=f182e449] [cursor=pointer]:
+                - /url: "#"
+                - img "profile" [ref=f182e450]
+                - generic [ref=f182e37]: FAHAD
+      - generic: 
+      - generic:          
+      - list [ref=f182e38]:
+        - listitem [ref=f182e39]:
+          - img "header-logo2.png" [ref=f182e451]
+        - listitem [ref=f182e41]: Main
+        - listitem [ref=f182e42]:
+          - link "Dashboard" [ref=f182e452] [cursor=pointer]:
+            - /url: https://tuba.com.sa/dashboard
+        - listitem [ref=f182e46]: Manage Listings
+        - listitem [ref=f182e47]:
+          - link "My Properties" [ref=f182e453] [cursor=pointer]:
+            - /url: https://tuba.com.sa/properties
+        - listitem [ref=f182e51]:
+          - link "Inbox" [ref=f182e454] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-inbox
+        - listitem [ref=f182e55]:
+          - link " Property Requests" [ref=f182e455] [cursor=pointer]:
+            - /url: https://tuba.com.sa/property-requests
+            - generic [ref=f182e57]: 
+            - text: Property Requests
+        - listitem [ref=f182e58]: Admin Settings
+        - listitem [ref=f182e59]: Manage Account
+        - listitem [ref=f182e60]:
+          - link "My Package" [ref=f182e456] [cursor=pointer]:
+            - /url: https://tuba.com.sa/package-detials
+        - listitem [ref=f182e64]:
+          - link "Team Management" [ref=f182e457] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-users
+            - img [ref=f182e66]: 
+            - text: Team Management
+        - listitem [ref=f182e68]:
+          - link "My Profile" [ref=f182e458] [cursor=pointer]:
+            - /url: https://tuba.com.sa/my-profile
+            - img [ref=f182e70]: 
+            - text: My Profile
+        - listitem [ref=f182e72]:
+          - link "Account Setting" [ref=f182e459] [cursor=pointer]:
+            - /url: https://tuba.com.sa/account-setting
+            - img [ref=f182e74]: 
+            - text: Account Setting
+        - listitem [ref=f182e76]:
+          - link " The packages" [ref=f182e460] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+            - generic [ref=f182e78]: 
+            - text: The packages
+            - img [ref=f182e79]: 
+          - text:   
+        - listitem [ref=f182e81]:
+          - link "The Packages" [ref=f182e461] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+        - listitem [ref=f182e85]:
+          - link "Developer Packages" [ref=f182e462] [cursor=pointer]:
+            - /url: https://tuba.com.sa/developer-packages
+        - listitem [ref=f182e89]:
+          - link "License Packages" [ref=f182e463] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-license-packages
+        - listitem [ref=f182e93]:
+          - link "Logout" [ref=f182e464] [cursor=pointer]:
+            - /url: https://tuba.com.sa/logout
+      - generic [ref=f182e102]:
+        - generic [ref=f182e104]:
+          - heading "My Properties" [level=2] [ref=f182e465]
+          - paragraph [ref=f182e106]: We are glad to see you again!
+        - list [ref=f182e109]:
+          - listitem [ref=f182e110]:
+            - button "Post a listing" [ref=f182e466] [cursor=pointer]
+            - button "Get License by Tuba" [ref=f182e467] [cursor=pointer]
+        - generic [ref=f182e114]:
+          - textbox "Enter Tuba Listing ID" [ref=f182e468]
+          - textbox "Enter REGA Ad License Number" [ref=f182e469]
+          - textbox "Search by Title..." [ref=f182e470]
+          - combobox [ref=f182e118]:
+            - option "Newly Listed" [selected]
+            - option "Featured"
+            - option "Price lowest to highest"
+            - option "Price highest to lowest"
+          - generic [ref=f182e119]:
+            - button "Reset Filters" [ref=f182e471] [cursor=pointer]
+            - button "Search" [ref=f182e472] [cursor=pointer]
+          - button "Filters" [ref=f182e473] [cursor=pointer]:
+            - img [ref=f182e128]: 
+            - text: Filters
+            - img [ref=f182e130]: 
+        - generic [ref=f182e132]:
+          - tablist [ref=f182e133]:
+            - listitem [ref=f182e134]:
+              - tab "Active Listing (2)" [selected] [ref=f182e474] [cursor=pointer]
+            - listitem [ref=f182e136]:
+              - tab "Draft Listing (1)" [ref=f182e475] [cursor=pointer]
+            - listitem [ref=f182e138]:
+              - tab "Pending Listing (0)" [ref=f182e476] [cursor=pointer]
+            - listitem [ref=f182e140]:
+              - tab "Canceled Listing (25)" [ref=f182e477] [cursor=pointer]
+            - listitem [ref=f182e142]:
+              - tab "Sold Listing (1)" [ref=f182e478] [cursor=pointer]
+            - listitem [ref=f182e144]:
+              - tab "Expired Listing (20)" [ref=f182e479] [cursor=pointer]
+            - listitem [ref=f182e146]:
+              - tab "Rejected Listing (5)" [ref=f182e480] [cursor=pointer]
+          - tabpanel "Active Listing (2)" [ref=f182e481]:
+            - generic [ref=f182e152]:
+              - table [ref=f182e157]:
+                - rowgroup [ref=f182e158]:
+                  - row [ref=f182e482]:
+                    - columnheader "Property" [ref=f182e483]
+                    - columnheader "Status" [ref=f182e484]
+                    - columnheader "Publish Type" [ref=f182e485]
+                    - columnheader "Performance" [ref=f182e486]
+                    - columnheader "Upgrades" [ref=f182e487]
+                    - columnheader "Services" [ref=f182e488]
+                    - columnheader "Action" [ref=f182e489]
+                - rowgroup [ref=f182e167]:
+                  - row [ref=f182e490]:
+                    - 'rowheader "fp2.jpg basic Compound For Rent in Samith  Samith 86387 Tuba ID: 75808207 Rega ID: 7200822986 Posted on: 19-02-2026 End on: 👤 Created By: Abdulhakem  80k" [ref=f182e491]':
+                      - generic [ref=f182e170]:
+                        - generic [ref=f182e171]:
+                          - img "fp2.jpg" [ref=f182e492]
+                          - list [ref=f182e174]:
+                            - listitem [ref=f182e175]:
+                              - link "basic" [ref=f182e493] [cursor=pointer]:
+                                - /url: "#"
+                        - generic [ref=f182e180]:
+                          - heading "Compound For Rent in Samith" [level=4] [ref=f182e494]
+                          - paragraph [ref=f182e182]:
+                            - generic [ref=f182e183]: 
+                            - text: Samith 86387
+                          - paragraph [ref=f182e184]: "Tuba ID: 75808207"
+                          - paragraph [ref=f182e186]: "Rega ID: 7200822986"
+                          - paragraph [ref=f182e188]:
+                            - img [ref=f182e189]: 
+                            - text: "Posted on: 19-02-2026"
+                          - paragraph [ref=f182e191]:
+                            - img [ref=f182e192]: 
+                            - text: "End on:"
+                          - paragraph [ref=f182e194]:
+                            - text: "👤 Created By:"
+                            - generic [ref=f182e195]: Abdulhakem
+                          - link " 80k" [ref=f182e495] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f182e197]: 
+                            - text: 80k
+                    - cell "Active" [ref=f182e496]
+                    - cell "Package" [ref=f182e497]
+                    - cell [ref=f182e498]:
+                      - paragraph [ref=f182e201]: "Reach: 778"
+                      - paragraph [ref=f182e204]:
+                        - img [ref=f182e205]: 
+                        - text: "Views: 170"
+                      - paragraph [ref=f182e207]: "Leads: 0"
+                    - cell [ref=f182e499]:
+                      - generic [ref=f182e211]:
+                        - generic [ref=f182e212]: Pro
+                        - generic [ref=f182e217] [cursor=pointer]:
+                          - img [ref=f182e218]: 
+                          - text: Featured
+                        - generic [ref=f182e220]: Renew
+                    - cell [ref=f182e224]:
+                      - generic [ref=f182e225]:
+                        - img [ref=f182e227] [cursor=pointer]: 
+                        - generic [ref=f182e229] [cursor=pointer]
+                        - generic [ref=f182e232] [cursor=pointer]
+                    - cell [ref=f182e500]:
+                      - list [ref=f182e236]:
+                        - listitem "Edit" [ref=f182e501]:
+                          - link "" [ref=f182e502] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/properties/1119/edit
+                        - listitem "View" [ref=f182e503]:
+                          - link [ref=f182e241] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-8
+                            - img [ref=f182e242]: 
+                        - listitem "Delete" [ref=f182e504]:
+                          - link "" [ref=f182e505] [cursor=pointer]:
+                            - /url: "#"
+                  - row [ref=f182e506]:
+                    - 'rowheader "fp2.jpg basic Compound For Rent in Samith  Samith 86387 Tuba ID: 23562212 Rega ID: 7200822986 Posted on: 08-01-2026 End on: 19-08-2026  80k" [ref=f182e507]':
+                      - generic [ref=f182e249]:
+                        - generic [ref=f182e250]:
+                          - img "fp2.jpg" [ref=f182e508]
+                          - list [ref=f182e253]:
+                            - listitem [ref=f182e254]:
+                              - link "basic" [ref=f182e509] [cursor=pointer]:
+                                - /url: "#"
+                        - generic [ref=f182e259]:
+                          - heading "Compound For Rent in Samith" [level=4] [ref=f182e510]
+                          - paragraph [ref=f182e261]:
+                            - generic [ref=f182e262]: 
+                            - text: Samith 86387
+                          - paragraph [ref=f182e263]: "Tuba ID: 23562212"
+                          - paragraph [ref=f182e265]: "Rega ID: 7200822986"
+                          - paragraph [ref=f182e267]:
+                            - img [ref=f182e268]: 
+                            - text: "Posted on: 08-01-2026"
+                          - paragraph [ref=f182e270]:
+                            - img [ref=f182e271]: 
+                            - text: "End on: 19-08-2026"
+                          - link " 80k" [ref=f182e511] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=f182e274]: 
+                            - text: 80k
+                    - cell "Active" [ref=f182e512]
+                    - cell "Package" [ref=f182e513]
+                    - cell [ref=f182e514]:
+                      - paragraph [ref=f182e278]: "Reach: 12757"
+                      - paragraph [ref=f182e281]:
+                        - img [ref=f182e282]: 
+                        - text: "Views: 439"
+                      - paragraph [ref=f182e284]: "Leads: 0"
+                    - cell [ref=f182e515]:
+                      - generic [ref=f182e288]:
+                        - generic [ref=f182e289]: Pro
+                        - generic [ref=f182e294] [cursor=pointer]:
+                          - img [ref=f182e295]: 
+                          - text: Featured
+                        - generic [ref=f182e297]: Renew
+                    - cell [ref=f182e301]:
+                      - generic [ref=f182e302]:
+                        - img [ref=f182e304] [cursor=pointer]: 
+                        - generic [ref=f182e306] [cursor=pointer]
+                        - generic [ref=f182e309] [cursor=pointer]
+                    - cell [ref=f182e516]:
+                      - list [ref=f182e313]:
+                        - listitem "Edit" [ref=f182e517]:
+                          - link "" [ref=f182e518] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/properties/38/edit
+                        - listitem "View" [ref=f182e519]:
+                          - link [ref=f182e318] [cursor=pointer]:
+                            - /url: https://tuba.com.sa/property/compound-for-rent-in-samith-1
+                            - img [ref=f182e319]: 
+                        - listitem "Delete" [ref=f182e520]:
+                          - link "" [ref=f182e521] [cursor=pointer]:
+                            - /url: "#"
+              - generic [ref=f182e324]: Showing 1 to 2 of 2 entries (Page 1 of 1)
+              - generic [ref=f182e326]:
+                - generic [ref=f182e329]: Per page
+                - combobox [ref=f182e331] [cursor=pointer]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+    - text: "* * * * * *      "
+    - dialog [active] [ref=f182e554]:
+      - document:
+        - generic [ref=f182e555]:
+          - generic [ref=f182e556]:
+            - heading "Request Photography Service" [level=5] [ref=f182e557]
+            - button "Close" [ref=f182e558] [cursor=pointer]: ×
+          - generic [ref=f182e560]:
+            - generic [ref=f182e561]:
+              - generic [ref=f182e562]: Date & Time
+              - textbox "Date & Time" [ref=f182e563]:
+                - /placeholder: Select date & time
+            - generic [ref=f182e564]:
+              - generic [ref=f182e565]: Comments
+              - textbox "Comments" [ref=f182e566]:
+                - /placeholder: e.g Please call before visiting
+            - heading "Payment Method" [level=6] [ref=f182e567]
+            - generic [ref=f182e568]:
+              - generic [ref=f182e569]:
+                - radio "Package" [checked] [ref=f182e570]
+                - strong [ref=f182e571]: Package
+              - generic [ref=f182e572]: Deduction from the current package balance
+              - generic [ref=f182e573]:
+                - img [ref=f182e575]: 
+                - text: "You have enough credit in your current package: 1 Photograph Service Left"
+            - generic [ref=f182e577]:
+              - generic [ref=f182e578]:
+                - radio "Credit Card  1000" [ref=f182e579]
+                - strong [ref=f182e580]: Credit Card
+                - generic [ref=f182e581]:
+                  - generic [ref=f182e582]: 
+                  - text: "1000"
+              - generic [ref=f182e583]: Pay online using other payment methods
+          - generic [ref=f182e584]:
+            - button "Cancel" [ref=f182e585] [cursor=pointer]
+            - button "Continue" [ref=f182e586] [cursor=pointer]
+    - text:   
+    - button "Scroll to bottom" [ref=f182e551] [cursor=pointer]
+  - link [ref=f182e552] [cursor=pointer]:
+    - /url: https://wa.me/+966535020288?text=Hello, I am  FAHAD HAMEED A ALDAHRI  I need help with Tuba platform
+    - img "WhatsApp" [ref=f182e553]
+  - text: 

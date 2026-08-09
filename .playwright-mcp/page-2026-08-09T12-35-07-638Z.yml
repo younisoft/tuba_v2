@@ -1,0 +1,47 @@
+- generic [ref=f151e3]:
+  - navigation "Primary" [ref=f151e5]:
+    - generic [ref=f151e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f151e7]
+      - button "طي القائمة" [ref=f151e16]
+    - generic [ref=f151e19]:
+      - generic [ref=f151e20]:
+        - button "الاتجاه" [expanded] [ref=f151e21]
+        - list [ref=f151e24]:
+          - listitem [ref=f151e25]:
+            - link "Home" [ref=f151e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f151e30]:
+            - link "Today" [ref=f151e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f151e35]:
+            - link "Tasks" [ref=f151e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f151e40]:
+        - button "التشغيل" [expanded] [ref=f151e41]
+        - list [ref=f151e44]:
+          - listitem [ref=f151e45]:
+            - link "Properties" [ref=f151e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f151e50]:
+            - link "Projects" [ref=f151e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f151e55]:
+            - link "Owners" [ref=f151e56] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f151e60]:
+            - link "Marketing" [ref=f151e61] [cursor=pointer]:
+              - /url: /marketing
+      - button "الذكاء والتحكم" [ref=f151e66]
+  - generic [ref=f151e69]:
+    - banner [ref=f151e70]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f151e71]:
+        - generic [ref=f151e74]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f151e75]: ⌘K
+      - generic [ref=f151e76]:
+        - button "إجراءات سريعة" [ref=f151e78]
+        - button "الإشعارات" [ref=f151e82]
+        - button "النظام" [ref=f151e85]
+        - button "الإنجليزية" [ref=f151e88]
+        - button "قائمة الحساب" [ref=f151e92]:
+          - generic [ref=f151e93]: NA
+    - main [ref=f151e94]

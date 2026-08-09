@@ -1,0 +1,22 @@
+- generic [ref=f75e3]:
+  - generic [ref=f75e4]:
+    - banner [ref=f75e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f75e6]
+      - generic [ref=f75e10]:
+        - button "الإشعارات" [ref=f75e12]
+        - button "النظام" [ref=f75e15]
+        - button "الإنجليزية" [ref=f75e18]
+        - button "قائمة الحساب" [ref=f75e22]:
+          - generic [ref=f75e23]: SA
+    - main [ref=f75e24]:
+      - generic [ref=f75e27]:
+        - heading "طلبات التسويق" [level=1] [ref=f75e28]
+        - paragraph [ref=f75e29]: طلبات المساعدة التسويقية والبيعية الصادرة من الملاك، على مستوى الوكالة.
+  - navigation "Primary" [ref=f75e32]:
+    - link "Home" [ref=f75e33] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f75e36] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f75e39]
+    - button "إجراءات سريعة" [ref=f75e43]
+    - button "Alerts" [ref=f75e46]

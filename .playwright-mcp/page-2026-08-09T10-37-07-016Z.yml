@@ -1,0 +1,124 @@
+- generic [ref=f123e3]:
+  - navigation "Primary" [ref=f123e5]:
+    - generic [ref=f123e6]:
+      - img "Tuba Broker OS" [ref=f123e225]
+      - button "Collapse navigation" [ref=f123e229]
+    - generic [ref=f123e19]:
+      - generic [ref=f123e20]:
+        - button "Orientation" [expanded] [ref=f123e230]
+        - list [ref=f123e24]:
+          - listitem [ref=f123e25]:
+            - link "Home" [ref=f123e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f123e30]:
+            - link "Today" [ref=f123e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f123e35]:
+            - link "Tasks" [ref=f123e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f123e40]:
+        - button "Operating" [expanded] [ref=f123e231]
+        - list [ref=f123e44]:
+          - listitem [ref=f123e45]:
+            - link "Properties" [ref=f123e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f123e50]:
+            - link "Projects" [ref=f123e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f123e55]:
+            - link "Contracts" [ref=f123e56] [cursor=pointer]:
+              - /url: /contracts
+      - generic [ref=f123e60]:
+        - button "Intelligence & Control" [expanded] [ref=f123e232]
+        - list [ref=f123e64]:
+          - listitem [ref=f123e65]:
+            - link "Finance" [ref=f123e66] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f123e70]:
+            - link "Wallet" [ref=f123e71] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f123e75]:
+            - link "Analytics" [ref=f123e76] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f123e80]:
+            - link "Reports" [ref=f123e81] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f123e85]:
+            - link "Automation" [ref=f123e86] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f123e90]:
+            - link "AI Copilot" [ref=f123e91] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f123e95]:
+            - link "Notifications" [ref=f123e96] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f123e100]:
+            - link "Knowledge" [ref=f123e101] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f123e105]:
+            - link "Settings" [ref=f123e106] [cursor=pointer]:
+              - /url: /settings/profile
+  - generic [ref=f123e110]:
+    - banner [ref=f123e111]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f123e233]:
+        - generic [ref=f123e115]: Search properties, leads, customers…
+        - generic [ref=f123e116]: ⌘K
+      - generic [ref=f123e117]:
+        - button "Quick actions" [ref=f123e234]
+        - generic [ref=f123e122]:
+          - button "Notifications — 1 unread notifications" [ref=f123e235]
+          - generic [ref=f123e138]: "1"
+        - button "Dark" [active] [ref=f123e248]
+        - button "Arabic" [ref=f123e237]
+        - button "Account menu" [ref=f123e238]:
+          - generic [ref=f123e134]: KA
+    - main [ref=f123e135]:
+      - generic [ref=f123e136]:
+        - generic [ref=f123e139]:
+          - generic [ref=f123e140]:
+            - generic [ref=f123e141]:
+              - heading [level=1] [ref=f123e142]:
+                - button "Nasser Al-Harbi" [ref=f123e143]
+              - generic [ref=f123e144]: Pending Compliance
+            - list [ref=f123e148]:
+              - listitem [ref=f123e149]: Sale
+              - listitem [ref=f123e152]:
+                - button "Villa 42, Al Nakheel" [ref=f123e155]
+              - listitem [ref=f123e156]:
+                - button "Abdullah Al-Ghamdi" [ref=f123e159]
+              - listitem [ref=f123e160]:
+                - button "Originating lead" [ref=f123e239]
+          - generic [ref=f123e164]:
+            - button "Cancel contract" [ref=f123e240]
+            - button "Activate" [ref=f123e241]
+        - status [ref=f123e169]:
+          - generic [ref=f123e172]: Waiting on compliance requirements.
+        - 'generic "Value: 2,300,000 SAR" [ref=f123e242]':
+          - generic [ref=f123e175]:
+            - generic [ref=f123e176]: Value
+            - 'button "Why: Value" [ref=f123e243]'
+          - generic [ref=f123e181]: 2,300,000 SAR
+        - generic [ref=f123e183]:
+          - heading "Compliance" [level=2] [ref=f123e244]
+          - list [ref=f123e185]:
+            - listitem [ref=f123e186]:
+              - paragraph [ref=f123e190]: Linked property compliance verified
+              - generic [ref=f123e191]: complete
+            - listitem [ref=f123e192]:
+              - paragraph [ref=f123e196]: Identity verification (Nafath) for all parties
+              - generic [ref=f123e197]: complete
+            - listitem [ref=f123e198]:
+              - paragraph [ref=f123e202]: Compliance documents reviewed
+              - generic [ref=f123e203]: complete
+        - generic [ref=f123e204]:
+          - heading "Documents" [level=2] [ref=f123e245]
+          - generic [ref=f123e208]:
+            - generic [ref=f123e211]: Sale Agreement — draft.pdf
+            - generic [ref=f123e212]: Verified
+        - generic [ref=f123e215]:
+          - heading "Activity" [level=2] [ref=f123e246]
+          - list [ref=f123e217]:
+            - listitem [ref=f123e218]:
+              - generic [ref=f123e222]:
+                - paragraph [ref=f123e223]: System Contract created from Lead l-12 (Won).
+                - paragraph [ref=f123e224]: 8/8/2026, 12:00:00 PM

@@ -1,0 +1,61 @@
+- generic [ref=f150e3]:
+  - navigation "Primary" [ref=f150e5]:
+    - generic [ref=f150e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f150e7]
+      - button "طي القائمة" [ref=f150e16]
+    - generic [ref=f150e19]:
+      - generic [ref=f150e20]:
+        - button "الاتجاه" [expanded] [ref=f150e21]
+        - list [ref=f150e24]:
+          - listitem [ref=f150e25]:
+            - link "Home" [ref=f150e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f150e30]:
+            - link "Today" [ref=f150e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f150e35]:
+            - link "Tasks" [ref=f150e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f150e40]:
+        - button "التشغيل" [expanded] [ref=f150e41]
+        - list [ref=f150e44]:
+          - listitem [ref=f150e45]:
+            - link "Properties" [ref=f150e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f150e50]:
+            - link "Projects" [ref=f150e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f150e55]:
+            - link "Owners" [ref=f150e56] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f150e60]:
+            - link "Marketing" [ref=f150e61] [cursor=pointer]:
+              - /url: /marketing
+      - button "الذكاء والتحكم" [ref=f150e66]
+  - generic [ref=f150e69]:
+    - banner [ref=f150e70]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f150e71]:
+        - generic [ref=f150e74]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f150e75]: ⌘K
+      - generic [ref=f150e76]:
+        - button "إجراءات سريعة" [ref=f150e78]
+        - button "الإشعارات" [ref=f150e82]
+        - button "النظام" [ref=f150e85]
+        - button "الإنجليزية" [ref=f150e88]
+        - button "قائمة الحساب" [ref=f150e92]:
+          - generic [ref=f150e93]: NA
+    - main [ref=f150e94]:
+      - generic [ref=f150e95]:
+        - generic [ref=f150e96]:
+          - generic [ref=f150e97]:
+            - heading "الحملات" [level=1] [ref=f150e98]
+            - paragraph [ref=f150e99]: إدارة الحملات والترويج الصادر.
+          - button "إنشاء حملة" [ref=f150e100]
+        - generic [ref=f150e103]:
+          - searchbox "ابحث عن حملة بالاسم…" [ref=f150e105]
+          - combobox "الحالة" [ref=f150e107]:
+            - option "الحالة" [selected]
+            - option "مسودة"
+            - option "نشطة"
+            - option "متوقفة مؤقتًا"
+            - option "منتهية"

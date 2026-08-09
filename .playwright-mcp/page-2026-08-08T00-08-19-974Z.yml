@@ -1,0 +1,28 @@
+- generic [ref=f57e34]:
+  - generic [ref=f57e35]:
+    - banner [ref=f57e36]:
+      - button "Search properties, leads, customers…" [ref=f57e37]
+      - generic [ref=f57e41]:
+        - button "Notifications" [ref=f57e43]
+        - button "System" [ref=f57e46]
+        - button "Arabic" [ref=f57e49]
+        - button "Account menu" [ref=f57e53]:
+          - generic [ref=f57e54]: SA
+    - main [ref=f57e55]:
+      - generic [ref=f57e56]:
+        - generic [ref=f57e57]:
+          - generic [ref=f57e58]: TODAY-01
+          - generic [ref=f57e59]: Today
+          - generic [ref=f57e60]: today.view
+          - generic [ref=f57e61]: placeholder
+        - heading "Today" [level=1] [ref=f57e62]
+        - paragraph [ref=f57e63]: Prioritized, cross-module, continuously-refreshed worklist — the Decision Support System surface.
+        - paragraph [ref=f57e64]: This is a foundation-phase scaffold. Screen content, data, and interactions are business-feature work for a later implementation phase — see tbos-frontend/ARCHITECTURE.md.
+  - navigation "Primary" [ref=f57e65]:
+    - link "Home" [ref=f57e66] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f57e69] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f57e72]
+    - button "Quick actions" [ref=f57e76]
+    - button "Alerts" [ref=f57e79]

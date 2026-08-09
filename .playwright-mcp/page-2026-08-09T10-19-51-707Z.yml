@@ -1,0 +1,72 @@
+- generic [ref=f112e42]:
+  - generic [ref=f112e43]:
+    - banner [ref=f112e44]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f112e45]
+      - generic [ref=f112e49]:
+        - generic [ref=f112e50]:
+          - button "الإشعارات — 1 إشعارات غير مقروءة" [ref=f112e87]
+          - generic [ref=f112e88]: "1"
+        - button "النظام" [ref=f112e54]
+        - button "الإنجليزية" [ref=f112e57]
+        - button "قائمة الحساب" [ref=f112e61]:
+          - generic [ref=f112e62]: KA
+    - main [ref=f112e63]:
+      - generic [ref=f112e147]:
+        - generic [ref=f112e148]:
+          - generic [ref=f112e149]:
+            - generic [ref=f112e150]:
+              - heading [level=1] [ref=f112e151]:
+                - button "Bandar Al-Otaibi" [ref=f112e152]
+              - generic [ref=f112e153]: نشط
+            - list [ref=f112e157]:
+              - listitem [ref=f112e158]: بيع
+              - listitem [ref=f112e161]:
+                - button "Villa 42, Al Nakheel" [ref=f112e164]
+              - listitem [ref=f112e165]:
+                - button "Abdullah Al-Ghamdi" [ref=f112e168]
+              - listitem [ref=f112e169]:
+                - button "العميل المحتمل الأصلي" [ref=f112e172]
+          - button "إلغاء العقد" [ref=f112e175]
+        - status [ref=f112e178]:
+          - generic [ref=f112e181]: نشط منذ ٩ أغسطس ٢٠٢٦. التجديد مستحق في ٩ أغسطس ٢٠٢٧.
+        - 'generic "القيمة: ٢٬٣٠٠٬٠٠٠ ريال" [ref=f112e183]':
+          - generic [ref=f112e184]:
+            - generic [ref=f112e185]: القيمة
+            - 'button "Why: القيمة" [ref=f112e187]'
+          - generic [ref=f112e190]: ٢٬٣٠٠٬٠٠٠ ريال
+        - generic [ref=f112e192]:
+          - heading "الامتثال" [level=2] [ref=f112e193]
+          - list [ref=f112e194]:
+            - listitem [ref=f112e195]:
+              - paragraph [ref=f112e199]: تم التحقق من امتثال العقار المرتبط
+              - generic [ref=f112e200]: complete
+            - listitem [ref=f112e201]:
+              - paragraph [ref=f112e205]: Identity verification (Nafath) for all parties
+              - generic [ref=f112e206]: complete
+            - listitem [ref=f112e207]:
+              - paragraph [ref=f112e211]: Compliance documents reviewed
+              - generic [ref=f112e212]: complete
+        - generic [ref=f112e213]:
+          - heading "المستندات" [level=2] [ref=f112e214]
+          - generic [ref=f112e217]:
+            - generic [ref=f112e220]: Sale Agreement — draft.pdf
+            - generic [ref=f112e221]: Verified
+        - generic [ref=f112e224]:
+          - heading "النشاط" [level=2] [ref=f112e225]
+          - list [ref=f112e226]:
+            - listitem [ref=f112e234]:
+              - generic [ref=f112e238]:
+                - paragraph [ref=f112e239]: Khalid Al-Zahrani Contract active — renewal reminder set for 2027-08-09.
+                - paragraph [ref=f112e240]: ٩‏/٨‏/٢٠٢٦، ١:١٩:٥١ م
+            - listitem [ref=f112e227]:
+              - generic [ref=f112e231]:
+                - paragraph [ref=f112e232]: System Contract created from Lead l-12 (Won).
+                - paragraph [ref=f112e233]: ٨‏/٨‏/٢٠٢٦، ١٢:٠٠:٠٠ م
+  - navigation "Primary" [ref=f112e70]:
+    - link "Home" [ref=f112e71] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f112e74] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f112e77]
+    - button "إجراءات سريعة" [ref=f112e81]
+    - button "Alerts" [ref=f112e84]

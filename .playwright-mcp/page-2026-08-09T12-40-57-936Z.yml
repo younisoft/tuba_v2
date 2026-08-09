@@ -1,0 +1,101 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - generic [ref=f157e94]:
+          - button "Notifications — 2 unread notifications" [ref=f157e116]
+          - generic [ref=f157e117]: "2"
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e108]:
+        - generic [ref=f157e118]:
+          - generic [ref=f157e119]:
+            - generic [ref=f157e120]:
+              - heading "Jeddah Autumn Push" [level=1] [ref=f157e121]
+              - generic [ref=f157e122]: Draft
+            - list [ref=f157e124]:
+              - listitem [ref=f157e125]: 0 listings
+              - listitem [ref=f157e128]: 1 quota unit
+          - generic [ref=f157e132]:
+            - button "Launch" [disabled]
+        - generic [ref=f157e133]:
+          - 'generic "Spend: 0 SAR" [ref=f157e134]':
+            - generic [ref=f157e135]:
+              - generic [ref=f157e136]: Spend
+              - 'button "Why: Spend" [ref=f157e138]'
+            - generic [ref=f157e141]: 0 SAR
+          - generic [ref=f157e143]:
+            - generic [ref=f157e144]:
+              - generic [ref=f157e145]: Wallet quota
+              - generic [ref=f157e146]: 9 of 10
+            - 'progressbar "Wallet quota: 9 of 10 used" [ref=f157e147]'
+        - generic [ref=f157e149]:
+          - heading "Inventory" [level=2] [ref=f157e150]
+          - generic [ref=f157e152] [cursor=pointer]:
+            - checkbox "Townhouse 5, Al Rawdah — 980,000 SAR" [ref=f157e154]
+            - generic [ref=f157e155]: Townhouse 5, Al Rawdah — 980,000 SAR
+          - generic [ref=f157e157]:
+            - generic [ref=f157e158]:
+              - generic [ref=f157e159]: AI suggested
+              - generic [ref=f157e160]: Medium confidence
+            - generic [ref=f157e163]: Discover exceptional homes with standout value — priced to move and ready for viewing this week.
+            - generic [ref=f157e165]:
+              - button "Use this copy" [ref=f157e166]
+              - button "Regenerate" [ref=f157e167]
+              - button "Discard" [ref=f157e168]
+        - generic [ref=f157e169]:
+          - heading "Activity" [level=2] [ref=f157e170]
+          - list [ref=f157e171]:
+            - listitem [ref=f157e172]:
+              - generic [ref=f157e176]:
+                - paragraph [ref=f157e177]: Omar Al-Rashid Campaign created.
+                - paragraph [ref=f157e178]: 8/9/2026, 3:40:57 PM

@@ -1,0 +1,68 @@
+- generic [ref=f152e3]:
+  - generic [ref=f152e4]:
+    - banner [ref=f152e5]:
+      - button "Search properties, leads, customers…" [ref=f152e110]
+      - generic [ref=f152e10]:
+        - generic [ref=f152e11]:
+          - button "Notifications — 1 unread notifications" [ref=f152e111]
+          - generic [ref=f152e44]: "1"
+        - button "Dark" [active] [ref=f152e125]
+        - button "Arabic" [ref=f152e113]
+        - button "Account menu" [ref=f152e114]:
+          - generic [ref=f152e23]: NA
+    - main [ref=f152e24]:
+      - generic [ref=f152e25]:
+        - generic [ref=f152e45]:
+          - generic [ref=f152e46]:
+            - generic [ref=f152e47]:
+              - heading "Al Malqa Apartments Refresh" [level=1] [ref=f152e48]
+              - generic [ref=f152e49]: Draft
+            - list [ref=f152e51]:
+              - listitem [ref=f152e52]: 0 listings
+              - listitem [ref=f152e55]: 1 quota unit
+          - generic [ref=f152e59]:
+            - button "Launch" [disabled]
+        - generic [ref=f152e60]:
+          - 'generic "Spend: 0 SAR" [ref=f152e115]':
+            - generic [ref=f152e62]:
+              - generic [ref=f152e63]: Spend
+              - 'button "Why: Spend" [ref=f152e116]'
+            - generic [ref=f152e68]: 0 SAR
+          - generic [ref=f152e70]:
+            - generic [ref=f152e71]:
+              - generic [ref=f152e72]: Wallet quota
+              - generic [ref=f152e73]: 37 of 50
+            - 'progressbar "Wallet quota: 37 of 50 used" [ref=f152e117]'
+        - generic [ref=f152e76]:
+          - heading "Inventory" [level=2] [ref=f152e118]
+          - generic [ref=f152e78]:
+            - generic [ref=f152e79] [cursor=pointer]:
+              - checkbox "Villa 42, Al Nakheel — 2,300,000 SAR" [ref=f152e119]
+              - generic [ref=f152e82]: Villa 42, Al Nakheel — 2,300,000 SAR
+            - generic [ref=f152e83] [cursor=pointer]:
+              - checkbox "Apartment 7B, Al Malqa — 1,650,000 SAR" [ref=f152e120]
+              - generic [ref=f152e86]: Apartment 7B, Al Malqa — 1,650,000 SAR
+          - generic [ref=f152e88]:
+            - generic [ref=f152e89]:
+              - generic [ref=f152e90]: AI suggested
+              - generic [ref=f152e91]: Medium confidence
+            - generic [ref=f152e94]: Discover exceptional homes with standout value — priced to move and ready for viewing this week.
+            - generic [ref=f152e96]:
+              - button "Use this copy" [ref=f152e121]
+              - button "Regenerate" [ref=f152e98]
+              - button "Discard" [ref=f152e99]
+        - generic [ref=f152e100]:
+          - heading "Activity" [level=2] [ref=f152e122]
+          - list [ref=f152e102]:
+            - listitem [ref=f152e103]:
+              - generic [ref=f152e107]:
+                - paragraph [ref=f152e108]: Noura Al-Qahtani Campaign created — inventory not yet selected.
+                - paragraph [ref=f152e109]: 8/7/2026, 1:00:00 PM
+  - navigation "Primary" [ref=f152e26]:
+    - link "Home" [ref=f152e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f152e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f152e33]
+    - button "Quick actions" [ref=f152e123]
+    - button "Alerts" [ref=f152e40]

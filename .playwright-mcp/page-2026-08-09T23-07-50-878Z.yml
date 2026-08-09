@@ -1,0 +1,152 @@
+- generic [active] [ref=f182e1]:
+  - text:   
+  - generic [ref=f182e2]:
+    - generic [ref=f182e3]:
+      - banner [ref=f182e4]:
+        - navigation [ref=f182e6]:
+          - link [ref=f182e7] [cursor=pointer]:
+            - /url: "#"
+            - img "header-logo.png" [ref=f182e8]
+          - list [ref=f182e9]:
+            - listitem [ref=f182e10]:
+              - button "Post a listing" [ref=f182e11] [cursor=pointer]
+            - listitem
+            - listitem [ref=f182e12]:
+              - link [ref=f182e13] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=f182e14]: 
+                - generic [ref=f182e16]:
+                  - img "Nafath Logo" [ref=f182e17]
+                  - text: Verified Agent
+            - listitem [ref=f182e18]:
+              - link [ref=f182e19] [cursor=pointer]:
+                - /url: "#!"
+                - img "Nafath Logo" [ref=f182e20]
+                - text: Fal License
+            - listitem [ref=f182e21]:
+              - link [ref=f182e22] [cursor=pointer]:
+                - /url: https://tuba.com.sa
+                - generic [ref=f182e23]:
+                  - img [ref=f182e24]: 
+                  - text: Website
+            - listitem [ref=f182e26]:
+              - link "عربی" [ref=f182e27] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f182e28]:
+              - generic [ref=f182e29] [cursor=pointer]:
+                - img [ref=f182e30]: 
+                - generic [ref=f182e32]: "0"
+            - listitem [ref=f182e33]:
+              - link "profile FAHAD" [ref=f182e35] [cursor=pointer]:
+                - /url: "#"
+                - img "profile" [ref=f182e36]
+                - generic [ref=f182e37]: FAHAD
+      - generic: 
+      - generic:          
+      - list [ref=f182e38]:
+        - listitem [ref=f182e39]:
+          - img "header-logo2.png" [ref=f182e40]
+        - listitem [ref=f182e41]: Main
+        - listitem [ref=f182e42]:
+          - link "Dashboard" [ref=f182e43] [cursor=pointer]:
+            - /url: https://tuba.com.sa/dashboard
+        - listitem [ref=f182e46]: Manage Listings
+        - listitem [ref=f182e47]:
+          - link "My Properties" [ref=f182e48] [cursor=pointer]:
+            - /url: https://tuba.com.sa/properties
+        - listitem [ref=f182e51]:
+          - link "Inbox" [ref=f182e52] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-inbox
+        - listitem [ref=f182e55]:
+          - link " Property Requests" [ref=f182e56] [cursor=pointer]:
+            - /url: https://tuba.com.sa/property-requests
+            - generic [ref=f182e57]: 
+            - text: Property Requests
+        - listitem [ref=f182e58]: Admin Settings
+        - listitem [ref=f182e59]: Manage Account
+        - listitem [ref=f182e60]:
+          - link "My Package" [ref=f182e61] [cursor=pointer]:
+            - /url: https://tuba.com.sa/package-detials
+        - listitem [ref=f182e64]:
+          - link "Team Management" [ref=f182e65] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-users
+            - img [ref=f182e66]: 
+            - text: Team Management
+        - listitem [ref=f182e68]:
+          - link "My Profile" [ref=f182e69] [cursor=pointer]:
+            - /url: https://tuba.com.sa/my-profile
+            - img [ref=f182e70]: 
+            - text: My Profile
+        - listitem [ref=f182e72]:
+          - link "Account Setting" [ref=f182e73] [cursor=pointer]:
+            - /url: https://tuba.com.sa/account-setting
+            - img [ref=f182e74]: 
+            - text: Account Setting
+        - listitem [ref=f182e76]:
+          - link " The packages" [ref=f182e77] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+            - generic [ref=f182e78]: 
+            - text: The packages
+            - img [ref=f182e79]: 
+          - text:   
+        - listitem [ref=f182e81]:
+          - link "The Packages" [ref=f182e82] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-packages
+        - listitem [ref=f182e85]:
+          - link "Developer Packages" [ref=f182e86] [cursor=pointer]:
+            - /url: https://tuba.com.sa/developer-packages
+        - listitem [ref=f182e89]:
+          - link "License Packages" [ref=f182e90] [cursor=pointer]:
+            - /url: https://tuba.com.sa/agent-license-packages
+        - listitem [ref=f182e93]:
+          - link "Logout" [ref=f182e94] [cursor=pointer]:
+            - /url: https://tuba.com.sa/logout
+      - generic [ref=f182e102]:
+        - generic [ref=f182e104]:
+          - heading "My Properties" [level=2] [ref=f182e105]
+          - paragraph [ref=f182e106]: We are glad to see you again!
+        - list [ref=f182e109]:
+          - listitem [ref=f182e110]:
+            - button "Post a listing" [ref=f182e111] [cursor=pointer]
+            - button "Get License by Tuba" [ref=f182e112] [cursor=pointer]
+        - generic [ref=f182e114]:
+          - textbox "Enter Tuba Listing ID" [ref=f182e115]
+          - textbox "Enter REGA Ad License Number" [ref=f182e116]
+          - textbox "Search by Title..." [ref=f182e117]
+          - combobox [ref=f182e118]:
+            - option "Newly Listed" [selected]
+            - option "Featured"
+            - option "Price lowest to highest"
+            - option "Price highest to lowest"
+          - generic [ref=f182e119]:
+            - button "Reset Filters" [ref=f182e120] [cursor=pointer]
+            - button "Search" [ref=f182e123] [cursor=pointer]
+          - button "Filters" [ref=f182e127] [cursor=pointer]:
+            - img [ref=f182e128]: 
+            - text: Filters
+            - img [ref=f182e130]: 
+        - generic [ref=f182e132]:
+          - tablist [ref=f182e133]:
+            - listitem [ref=f182e134]:
+              - tab "Active Listing (2)" [selected] [ref=f182e135] [cursor=pointer]
+            - listitem [ref=f182e136]:
+              - tab "Draft Listing (1)" [ref=f182e137] [cursor=pointer]
+            - listitem [ref=f182e138]:
+              - tab "Pending Listing (0)" [ref=f182e139] [cursor=pointer]
+            - listitem [ref=f182e140]:
+              - tab "Canceled Listing (25)" [ref=f182e141] [cursor=pointer]
+            - listitem [ref=f182e142]:
+              - tab "Sold Listing (1)" [ref=f182e143] [cursor=pointer]
+            - listitem [ref=f182e144]:
+              - tab "Expired Listing (20)" [ref=f182e145] [cursor=pointer]
+            - listitem [ref=f182e146]:
+              - tab "Rejected Listing (5)" [ref=f182e147] [cursor=pointer]
+          - generic:
+            - tabpanel "Active Listing (2)"
+    - text: "* * * * * *           "
+    - generic:
+      - button "Scroll to bottom"
+  - link [ref=f182e148] [cursor=pointer]:
+    - /url: https://wa.me/+966535020288?text=Hello, I am  FAHAD HAMEED A ALDAHRI  I need help with Tuba platform
+    - img "WhatsApp" [ref=f182e149]
+  - text: 

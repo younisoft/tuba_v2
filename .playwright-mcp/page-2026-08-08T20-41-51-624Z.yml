@@ -1,0 +1,68 @@
+- generic [ref=f72e3]:
+  - generic [ref=f72e4]:
+    - banner [ref=f72e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f72e6]
+      - generic [ref=f72e10]:
+        - button "الإشعارات" [ref=f72e12]
+        - button "النظام" [ref=f72e15]
+        - button "الإنجليزية" [ref=f72e18]
+        - button "قائمة الحساب" [ref=f72e22]:
+          - generic [ref=f72e23]: SA
+    - main [ref=f72e24]:
+      - generic [ref=f72e166]:
+        - generic [ref=f72e167]:
+          - generic [ref=f72e168]:
+            - generic [ref=f72e169]:
+              - heading [level=1] [ref=f72e170]:
+                - button "Ahmed Al-Rashid" [ref=f72e171]
+              - generic [ref=f72e172]: قيد التفاوض
+            - list [ref=f72e176]:
+              - listitem [ref=f72e177]: "مُسنَد إلى: Reem Al-Dosari"
+              - listitem [ref=f72e180]:
+                - button "Villa 42, Al Nakheel" [ref=f72e183]
+              - listitem [ref=f72e184]: استفسار مشترٍ
+          - generic [ref=f72e187]:
+            - generic [ref=f72e188]:
+              - button "تغيير المرحلة" [ref=f72e190]
+              - button "إعادة الإسناد" [ref=f72e192]
+              - button "وضع علامة خاسر" [ref=f72e193]
+            - button "صياغة رد" [ref=f72e194]
+        - 'generic "تقييم العميل المحتمل: 82/100" [ref=f72e196]':
+          - generic [ref=f72e197]:
+            - generic [ref=f72e198]: تقييم العميل المحتمل
+            - 'button "Why: تقييم العميل المحتمل" [ref=f72e200]'
+          - generic [ref=f72e203]: 82/100
+        - generic [ref=f72e205]:
+          - button "إضافة ملاحظة" [ref=f72e206]
+          - button "جدولة متابعة" [ref=f72e207]
+        - generic [ref=f72e208]:
+          - heading "النشاط" [level=2] [ref=f72e209]
+          - list [ref=f72e210]:
+            - listitem [ref=f72e211]:
+              - generic [ref=f72e215]:
+                - paragraph [ref=f72e216]: TBOS AI Suggested a follow-up call within 24 hours to keep momentum before the offer goes cold.
+                - paragraph [ref=f72e217]: ٧‏/٨‏/٢٠٢٦، ١٠:٣٠:٠٠ ص
+            - listitem [ref=f72e218]:
+              - generic [ref=f72e222]:
+                - paragraph [ref=f72e223]: Reem Al-Dosari Moved to Negotiating — offer submitted at 2,150,000 SAR.
+                - paragraph [ref=f72e224]: ٥‏/٨‏/٢٠٢٦، ١:٤٥:٠٠ م
+            - listitem [ref=f72e225]:
+              - generic [ref=f72e229]:
+                - paragraph [ref=f72e230]: Reem Al-Dosari Called Ahmed Al-Rashid — confirmed interest, scheduled a viewing for the villa.
+                - paragraph [ref=f72e231]: ٣‏/٨‏/٢٠٢٦، ٤:٢٠:٠٠ م
+            - listitem [ref=f72e232]:
+              - generic [ref=f72e236]:
+                - paragraph [ref=f72e237]: System Auto-assigned to Reem Al-Dosari — most availability, specializes in Al Nakheel.
+                - paragraph [ref=f72e238]: ٣‏/٨‏/٢٠٢٦، ١٢:٠١:٠٠ م
+            - listitem [ref=f72e239]:
+              - generic [ref=f72e243]:
+                - paragraph [ref=f72e244]: System Lead created from a buyer-inbound inquiry on Villa 42, Al Nakheel.
+                - paragraph [ref=f72e245]: ٣‏/٨‏/٢٠٢٦، ١٢:٠٠:٠٠ م
+  - navigation "Primary" [ref=f72e39]:
+    - link "Home" [ref=f72e40] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f72e43] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f72e46]
+    - button "إجراءات سريعة" [ref=f72e50]
+    - button "Alerts" [ref=f72e53]

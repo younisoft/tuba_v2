@@ -1,0 +1,65 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - button "Notifications" [ref=f157e95]
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e108]:
+        - heading "New campaign" [level=1] [ref=f157e109]
+        - paragraph [ref=f157e110]: Name your campaign to get started — you’ll select inventory next.
+        - generic [ref=f157e111]:
+          - generic [ref=f157e112]:
+            - generic [ref=f157e113]: Campaign name
+            - textbox "Campaign name" [ref=f157e114]:
+              - /placeholder: e.g. Al Nakheel Villas Spring Push
+          - button "Create campaign" [ref=f157e115]

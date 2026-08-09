@@ -1,0 +1,431 @@
+- generic [active] [ref=f180e1]:
+  - text:   
+  - generic [ref=f180e3]:
+    - banner [ref=f180e4]:
+      - navigation [ref=f180e6]:
+        - link [ref=f180e7] [cursor=pointer]:
+          - /url: "#"
+          - img "header-logo.png" [ref=f180e8]
+        - list [ref=f180e9]:
+          - listitem [ref=f180e10]:
+            - button "إضافة عقار جديد" [ref=f180e11] [cursor=pointer]
+          - listitem
+          - listitem [ref=f180e12]:
+            - link [ref=f180e13] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f180e14]: 
+              - generic [ref=f180e16]:
+                - img "Nafath Logo" [ref=f180e17]
+                - text: وكيل موثق
+          - listitem [ref=f180e18]:
+            - link [ref=f180e19] [cursor=pointer]:
+              - /url: "#!"
+              - img "Nafath Logo" [ref=f180e20]
+              - text: Fal License
+          - listitem [ref=f180e21]:
+            - link [ref=f180e22] [cursor=pointer]:
+              - /url: https://tuba.com.sa
+              - generic [ref=f180e23]:
+                - img [ref=f180e24]: 
+                - text: موقع إليكتروني
+          - listitem [ref=f180e26]:
+            - link "English" [ref=f180e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f180e28]:
+            - generic [ref=f180e29] [cursor=pointer]:
+              - img [ref=f180e30]: 
+              - generic [ref=f180e32]: "0"
+          - listitem [ref=f180e33]:
+            - link "profile فهد" [ref=f180e35] [cursor=pointer]:
+              - /url: "#"
+              - img "profile" [ref=f180e36]
+              - generic [ref=f180e37]: فهد
+    - generic: 
+    - generic:          
+    - list [ref=f180e38]:
+      - listitem [ref=f180e39]:
+        - img "header-logo2.png" [ref=f180e40]
+      - listitem [ref=f180e41]: رئيسي
+      - listitem [ref=f180e42]:
+        - link "لوحة التحكم" [ref=f180e43] [cursor=pointer]:
+          - /url: https://tuba.com.sa/dashboard
+      - listitem [ref=f180e46]: إدارة القوائم
+      - listitem [ref=f180e47]:
+        - link "عقاراتي" [ref=f180e48] [cursor=pointer]:
+          - /url: https://tuba.com.sa/properties
+      - listitem [ref=f180e51]:
+        - link "البريد الوارد" [ref=f180e52] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-inbox
+      - listitem [ref=f180e55]:
+        - link " الطلبات العقارية" [ref=f180e56] [cursor=pointer]:
+          - /url: https://tuba.com.sa/property-requests
+          - generic [ref=f180e57]: 
+          - text: الطلبات العقارية
+      - listitem [ref=f180e58]: اعدادات المشرف
+      - listitem [ref=f180e59]: إدارة الحساب
+      - listitem [ref=f180e60]:
+        - link "اشتراكاتي" [ref=f180e61] [cursor=pointer]:
+          - /url: https://tuba.com.sa/package-detials
+      - listitem [ref=f180e64]:
+        - link "إدارة الفريق" [ref=f180e65] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-users
+          - img [ref=f180e66]: 
+          - text: إدارة الفريق
+      - listitem [ref=f180e68]:
+        - link "ملفي الشخصي" [ref=f180e69] [cursor=pointer]:
+          - /url: https://tuba.com.sa/my-profile
+          - img [ref=f180e70]: 
+          - text: ملفي الشخصي
+      - listitem [ref=f180e72]:
+        - link "اعدادات الحساب" [ref=f180e73] [cursor=pointer]:
+          - /url: https://tuba.com.sa/account-setting
+          - img [ref=f180e74]: 
+          - text: اعدادات الحساب
+      - listitem [ref=f180e76]:
+        - link " الباقات" [ref=f180e77] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+          - generic [ref=f180e78]: 
+          - text: الباقات
+          - img [ref=f180e79]: 
+        - text:   
+      - listitem [ref=f180e81]:
+        - link "الباقات" [ref=f180e82] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-packages
+      - listitem [ref=f180e85]:
+        - link "حزم المطورين" [ref=f180e86] [cursor=pointer]:
+          - /url: https://tuba.com.sa/developer-packages
+      - listitem [ref=f180e89]:
+        - link "باقات تراخيص الإعلانات" [ref=f180e90] [cursor=pointer]:
+          - /url: https://tuba.com.sa/agent-license-packages
+      - listitem [ref=f180e93]:
+        - link "تسجيل الخروج" [ref=f180e94] [cursor=pointer]:
+          - /url: https://tuba.com.sa/logout
+    - generic [ref=f180e102]:
+      - generic [ref=f180e104]:
+        - heading "أضف عقار جديد" [level=2] [ref=f180e105]
+        - paragraph [ref=f180e106]: نحن سعداء برؤيتك مرة أخرى!
+      - generic [ref=f180e107]:
+        - generic [ref=f180e110]:
+          - heading "تفاصيل رخصة الإعلان" [level=4] [ref=f180e112]
+          - generic [ref=f180e114]:
+            - img "QR Code for Ad License URL" [ref=f180e115]
+            - link "عرض التفاصيل من الهيئة العامة للعقار" [ref=f180e117] [cursor=pointer]:
+              - /url: https://eservicesredp.rega.gov.sa/public/OfficesBroker/ElanDetails/08de4b71-26a5-49c6-85f8-f31a6de17089
+              - img [ref=f180e118]: 
+              - text: عرض التفاصيل من الهيئة العامة للعقار
+            - generic [ref=f180e120]: Active
+            - generic [ref=f180e123]:
+              - img [ref=f180e124]: 
+              - text: "تنتهي بتاريخ: 19/08/2026"
+          - generic [ref=f180e127]:
+            - strong [ref=f180e130]:
+              - img [ref=f180e131]: 
+              - text: مجمع للإيجار في صامطه
+            - generic [ref=f180e134]:
+              - img [ref=f180e135]: 
+              - text: 0 غرف
+              - img [ref=f180e137]: 
+              - text: 0 حمامات 7983 م²
+            - generic [ref=f180e141]: التحلية, 86387, صامطه
+            - generic [ref=f180e146]:
+              - generic [ref=f180e149]: 
+              - text: 80k
+          - generic [ref=f180e151]:
+            - generic [ref=f180e153]:
+              - img [ref=f180e154]: 
+              - strong [ref=f180e156]: "رقم ترخيص الاعلان:"
+              - text: "7200822986"
+            - generic [ref=f180e158]:
+              - img [ref=f180e159]: 
+              - strong [ref=f180e161]: "اسم المعلن:"
+              - text: شركة أسبار الموحدة التجارية
+            - generic [ref=f180e163]:
+              - strong [ref=f180e166]: "نوع وثيقة الملكية:"
+              - text: وثيقة ملكية المنفعة
+            - generic [ref=f180e168]:
+              - img [ref=f180e169]: 
+              - strong [ref=f180e171]: "رقم وثيقة الملكية:"
+              - text: CN-56321
+            - generic [ref=f180e173]:
+              - strong [ref=f180e176]: "الموظف المسؤول عن الإعلان:"
+              - text: فهد حميد عبدالكريم الظاهري
+            - generic [ref=f180e178]:
+              - img [ref=f180e179]: 
+              - strong [ref=f180e181]: "رقم جوال مسؤول الإعلان:"
+              - text: "0542277022"
+          - generic:               
+          - link "عرض المزيد" [ref=f180e184] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - generic [ref=f180e188]:
+          - heading "التفاصيل الإضافية المطلوبة" [level=4] [ref=f180e190]
+          - generic [ref=f180e192]:
+            - generic [ref=f180e193]: عنوان العقار *
+            - 'textbox "مثلا: شقة للإيجار في جدة" [ref=f180e194]':
+              - /placeholder: "مثلا: شقة للإيجار في جدة"
+              - text: Compound For Rent in Samith
+          - generic [ref=f180e196]:
+            - generic [ref=f180e197]: عنوان العقار باللغة العربية *
+            - 'textbox "مثلا: شقة للإيجار في جدة" [ref=f180e198]':
+              - /placeholder: "مثلا: شقة للإيجار في جدة"
+              - text: مجمع للإيجار في صامطه
+          - generic [ref=f180e200]:
+            - generic [ref=f180e201]: الوصف *
+            - button "إنشاء وصف" [ref=f180e202] [cursor=pointer]
+            - textbox "اضف مزيد من المعلومات حول العقار" [ref=f180e203]
+          - generic [ref=f180e204]: خريطة جوجل عرض الشوارع
+          - generic [ref=f180e208]:
+            - generic [ref=f180e209]: مواقف السيارات
+            - spinbutton "مواقف السيارات" [ref=f180e210]
+          - generic [ref=f180e212]:
+            - generic [ref=f180e213]: رابط الفيديو
+            - textbox "https://www.yourvideo.com" [ref=f180e214]
+          - generic [ref=f180e216]:
+            - generic [ref=f180e217]: جولة إفتراضية بزاوية 360 درجة
+            - textbox [ref=f180e218]
+          - generic [ref=f180e219]: الحمامات
+          - generic [ref=f180e222]: نوع الإيجار
+          - heading "وسائط العقار *" [level=4] [ref=f180e226]
+          - generic:
+            - list
+          - generic [ref=f180e228] [cursor=pointer]:
+            - generic [ref=f180e229]: 
+            - button "Choose File" [ref=f180e231]
+            - paragraph [ref=f180e232]: قم بسحب وإسقاط الصور هنا
+          - heading "مخططات العقار" [level=4] [ref=f180e234]
+          - generic [ref=f180e236] [cursor=pointer]:
+            - generic [ref=f180e237]: 
+            - paragraph [ref=f180e239]: قم بسحب وإسقاط الصور هنا
+          - heading "المرافق" [level=4] [ref=f180e241]
+          - generic [ref=f180e243]:
+            - checkbox "حدد الكل / إلغاء تحديد كل المرافق" [ref=f180e244]
+            - generic [ref=f180e245]: حدد الكل / إلغاء تحديد كل المرافق
+          - list [ref=f180e247]:
+            - listitem [ref=f180e248]:
+              - generic [ref=f180e249]:
+                - checkbox "التكييف" [ref=f180e250]
+                - generic [ref=f180e251]: التكييف
+            - listitem [ref=f180e252]:
+              - generic [ref=f180e253]:
+                - checkbox "حديقة" [ref=f180e254]
+                - generic [ref=f180e255]: حديقة
+            - listitem [ref=f180e256]:
+              - generic [ref=f180e257]:
+                - checkbox "حمام سباحة" [ref=f180e258]
+                - generic [ref=f180e259]: حمام سباحة
+            - listitem [ref=f180e260]:
+              - generic [ref=f180e261]:
+                - checkbox "شواية" [ref=f180e262]
+                - generic [ref=f180e263]: شواية
+            - listitem [ref=f180e264]:
+              - generic [ref=f180e265]:
+                - checkbox "فناء" [ref=f180e266]
+                - generic [ref=f180e267]: فناء
+            - listitem [ref=f180e268]:
+              - generic [ref=f180e269]:
+                - checkbox "سطح" [ref=f180e270]
+                - generic [ref=f180e271]: سطح
+            - listitem [ref=f180e272]:
+              - generic [ref=f180e273]:
+                - checkbox "مصعد" [ref=f180e274]
+                - generic [ref=f180e275]: مصعد
+            - listitem [ref=f180e276]:
+              - generic [ref=f180e277]:
+                - checkbox "مطبخ خارجي" [ref=f180e278]
+                - generic [ref=f180e279]: مطبخ خارجي
+            - listitem [ref=f180e280]:
+              - generic [ref=f180e281]:
+                - checkbox "مفروش" [ref=f180e282]
+                - generic [ref=f180e283]: مفروش
+          - list [ref=f180e285]:
+            - listitem [ref=f180e286]:
+              - generic [ref=f180e287]:
+                - checkbox "ميكروويف" [ref=f180e288]
+                - generic [ref=f180e289]: ميكروويف
+            - listitem [ref=f180e290]:
+              - generic [ref=f180e291]:
+                - checkbox "وصلة تليفزيون" [ref=f180e292]
+                - generic [ref=f180e293]: وصلة تليفزيون
+            - listitem [ref=f180e294]:
+              - generic [ref=f180e295]:
+                - checkbox "مجفف" [ref=f180e296]
+                - generic [ref=f180e297]: مجفف
+            - listitem [ref=f180e298]:
+              - generic [ref=f180e299]:
+                - checkbox "دش خارجي" [ref=f180e300]
+                - generic [ref=f180e301]: دش خارجي
+            - listitem [ref=f180e302]:
+              - generic [ref=f180e303]:
+                - checkbox "غرفة غسيل" [ref=f180e304]
+                - generic [ref=f180e305]: غرفة غسيل
+            - listitem [ref=f180e306]:
+              - generic [ref=f180e307]:
+                - checkbox "غرفة خادمة" [ref=f180e308]
+                - generic [ref=f180e309]: غرفة خادمة
+            - listitem [ref=f180e310]:
+              - generic [ref=f180e311]:
+                - checkbox "نافورة خارجية" [ref=f180e312]
+                - generic [ref=f180e313]: نافورة خارجية
+            - listitem [ref=f180e314]:
+              - generic [ref=f180e315]:
+                - checkbox "غرفة تخزين" [ref=f180e316]
+                - generic [ref=f180e317]: غرفة تخزين
+            - listitem [ref=f180e318]:
+              - generic [ref=f180e319]:
+                - checkbox "خدمات قريبة" [ref=f180e320]
+                - generic [ref=f180e321]: خدمات قريبة
+          - list [ref=f180e323]:
+            - listitem [ref=f180e324]:
+              - generic [ref=f180e325]:
+                - checkbox "غسالة" [ref=f180e326]
+                - generic [ref=f180e327]: غسالة
+            - listitem [ref=f180e328]:
+              - generic [ref=f180e329]:
+                - checkbox "نادي رياضي" [ref=f180e330]
+                - generic [ref=f180e331]: نادي رياضي
+            - listitem [ref=f180e332]:
+              - generic [ref=f180e333]:
+                - checkbox "ثلاجة" [ref=f180e334]
+                - generic [ref=f180e335]: ثلاجة
+            - listitem [ref=f180e336]:
+              - generic [ref=f180e337]:
+                - checkbox "واي فاي" [ref=f180e338]
+                - generic [ref=f180e339]: واي فاي
+            - listitem [ref=f180e340]:
+              - generic [ref=f180e341]:
+                - checkbox "غرفة سائق" [ref=f180e342]
+                - generic [ref=f180e343]: غرفة سائق
+            - listitem [ref=f180e344]:
+              - generic [ref=f180e345]:
+                - checkbox "مدخل السيارات" [ref=f180e346]
+                - generic [ref=f180e347]: مدخل السيارات
+            - listitem [ref=f180e348]:
+              - generic [ref=f180e349]:
+                - checkbox "حديقة" [ref=f180e350]
+                - generic [ref=f180e351]: حديقة
+            - listitem [ref=f180e352]:
+              - generic [ref=f180e353]:
+                - checkbox "نوافذ زجاجية" [ref=f180e354]
+                - generic [ref=f180e355]: نوافذ زجاجية
+            - listitem [ref=f180e356]:
+              - generic [ref=f180e357]:
+                - checkbox "موقف سيارات" [ref=f180e358]
+                - generic [ref=f180e359]: موقف سيارات
+          - list [ref=f180e361]:
+            - listitem [ref=f180e362]:
+              - generic [ref=f180e363]:
+                - checkbox "مغسلة" [ref=f180e364]
+                - generic [ref=f180e365]: مغسلة
+            - listitem [ref=f180e366]:
+              - generic [ref=f180e367]:
+                - checkbox "ساونا" [ref=f180e368]
+                - generic [ref=f180e369]: ساونا
+            - listitem [ref=f180e370]:
+              - generic [ref=f180e371]:
+                - checkbox "أغطية نوافذ" [ref=f180e372]
+                - generic [ref=f180e373]: أغطية نوافذ
+            - listitem [ref=f180e374]:
+              - generic [ref=f180e375]:
+                - checkbox "ملحق خارجي" [ref=f180e376]
+                - generic [ref=f180e377]: ملحق خارجي
+            - listitem [ref=f180e378]:
+              - generic [ref=f180e379]:
+                - checkbox "خزنة" [ref=f180e380]
+                - generic [ref=f180e381]: خزنة
+            - listitem [ref=f180e382]:
+              - generic [ref=f180e383]:
+                - checkbox "مصعد المبنى" [ref=f180e384]
+                - generic [ref=f180e385]: مصعد المبنى
+            - listitem [ref=f180e386]:
+              - generic [ref=f180e387]:
+                - checkbox "شرفة أمامية" [ref=f180e388]
+                - generic [ref=f180e389]: شرفة أمامية
+            - listitem [ref=f180e390]:
+              - generic [ref=f180e391]:
+                - checkbox "شرفة" [ref=f180e392]
+                - generic [ref=f180e393]: شرفة
+          - heading "الأماكن القريبة" [level=4] [ref=f180e395]
+          - generic [ref=f180e397]:
+            - checkbox "حدد الكل / إلغاء تحديد الكل" [ref=f180e398]
+            - generic [ref=f180e399]: حدد الكل / إلغاء تحديد الكل
+          - list [ref=f180e401]:
+            - heading " التعليم" [level=5] [ref=f180e403]:
+              - generic [ref=f180e404]: 
+              - text: التعليم
+            - listitem [ref=f180e405]:
+              - generic [ref=f180e406]:
+                - checkbox "مدرسة" [ref=f180e407]
+                - generic [ref=f180e408]: مدرسة
+            - listitem [ref=f180e409]:
+              - generic [ref=f180e410]:
+                - checkbox "كلية" [ref=f180e411]
+                - generic [ref=f180e412]: كلية
+            - listitem [ref=f180e413]:
+              - generic [ref=f180e414]:
+                - checkbox "جامعة" [ref=f180e415]
+                - generic [ref=f180e416]: جامعة
+            - listitem [ref=f180e417]:
+              - generic [ref=f180e418]:
+                - checkbox [ref=f180e419]
+                - generic [ref=f180e420]: مسجد
+          - list [ref=f180e422]:
+            - heading " الصحة والطب" [level=5] [ref=f180e424]:
+              - generic [ref=f180e425]: 
+              - text: الصحة والطب
+            - listitem [ref=f180e426]:
+              - generic [ref=f180e427]:
+                - checkbox "مستشفى" [ref=f180e428]
+                - generic [ref=f180e429]: مستشفى
+            - listitem [ref=f180e430]:
+              - generic [ref=f180e431]:
+                - checkbox "صيدلية" [ref=f180e432]
+                - generic [ref=f180e433]: صيدلية
+            - listitem
+          - list [ref=f180e435]:
+            - heading " الإنتقالات" [level=5] [ref=f180e437]:
+              - generic [ref=f180e438]: 
+              - text: الإنتقالات
+            - listitem [ref=f180e439]:
+              - generic [ref=f180e440]:
+                - checkbox "تاكسي" [ref=f180e441]
+                - generic [ref=f180e442]: تاكسي
+            - listitem [ref=f180e443]:
+              - generic [ref=f180e444]:
+                - checkbox "محطة قطار" [ref=f180e445]
+                - generic [ref=f180e446]: محطة قطار
+            - listitem [ref=f180e447]:
+              - generic [ref=f180e448]:
+                - checkbox "محطة حافلات" [ref=f180e449]
+                - generic [ref=f180e450]: محطة حافلات
+            - listitem
+          - heading "معلومات الباقة" [level=4] [ref=f180e452]
+          - generic [ref=f180e454]:
+            - generic [ref=f180e455]:
+              - img [ref=f180e457]: 
+              - generic [ref=f180e459]: حياك
+            - generic [ref=f180e460]:
+              - text: "تنتهي في:"
+              - strong [ref=f180e461]: 18-08-2026
+          - generic [ref=f180e463] [cursor=pointer]:
+            - heading "اعلان برو" [level=5] [ref=f180e467]
+            - paragraph [ref=f180e468]:
+              - text: "الرصيد المتاح:"
+              - strong [ref=f180e469]: "4"
+          - generic [ref=f180e471] [cursor=pointer]:
+            - img [ref=f180e473]: 
+            - heading "إعلان متميز" [level=5] [ref=f180e475]
+            - paragraph [ref=f180e476]:
+              - text: "الرصيد المتاح:"
+              - strong [ref=f180e477]: "6"
+          - generic [ref=f180e479] [cursor=pointer]:
+            - heading "إعلان أساسي" [level=5] [ref=f180e483]
+            - paragraph [ref=f180e484]:
+              - text: "الرصيد المتاح:"
+              - strong [ref=f180e485]: "36"
+          - generic [ref=f180e487]:
+            - button "النشر لاحقا" [ref=f180e488]
+            - button "نشر الان" [ref=f180e489]
+    - link [ref=f180e490] [cursor=pointer]:
+      - /url: https://wa.me/+966535020288?text=مرحباً، أنا  فهد حميد عبدالكريم الظاهري   وأحتاج مساعدة في منصة طوبة.
+      - img "WhatsApp" [ref=f180e491]
+    - text: 
+    - button "Scroll to bottom" [ref=f180e493] [cursor=pointer]

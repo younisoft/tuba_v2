@@ -1,0 +1,19 @@
+- generic [ref=f53e3]:
+  - generic [ref=f53e4]:
+    - banner [ref=f53e5]:
+      - button "Search properties, leads, customers…" [ref=f53e6]
+      - generic [ref=f53e10]:
+        - button "Notifications" [ref=f53e12]
+        - button "System" [ref=f53e15]
+        - button "Arabic" [ref=f53e18]
+        - button "Account menu" [ref=f53e22]:
+          - generic [ref=f53e23]: SA
+    - main [ref=f53e24]
+  - navigation "Primary" [ref=f53e26]:
+    - link "Home" [ref=f53e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f53e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f53e33]
+    - button "Quick actions" [ref=f53e37]
+    - button "Alerts" [ref=f53e40]

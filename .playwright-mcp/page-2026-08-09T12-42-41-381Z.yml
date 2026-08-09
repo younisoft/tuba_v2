@@ -1,0 +1,96 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [active] [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - generic [ref=f157e94]:
+          - button "Notifications — 2 unread notifications" [ref=f157e116]
+          - generic [ref=f157e117]: "2"
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e311]:
+        - generic [ref=f157e312]:
+          - generic [ref=f157e313]:
+            - heading "Campaigns" [level=1] [ref=f157e314]
+            - paragraph [ref=f157e315]: Outbound campaign and promotion management.
+          - button "Create campaign" [ref=f157e316]
+        - generic [ref=f157e319]:
+          - searchbox "Search campaigns by name…" [ref=f157e321]
+          - combobox "Status" [ref=f157e323]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Running"
+            - option "Paused"
+            - option "Ended"
+        - table [ref=f157e326]:
+          - rowgroup [ref=f157e327]:
+            - row [ref=f157e328]:
+              - columnheader "Campaign" [ref=f157e329]
+              - columnheader "Status" [ref=f157e330]
+              - columnheader "Spend" [ref=f157e331]
+              - columnheader "Key date" [ref=f157e332]
+          - rowgroup [ref=f157e333]:
+            - row [ref=f157e334] [cursor=pointer]:
+              - cell [ref=f157e335]:
+                - generic [ref=f157e340]:
+                  - paragraph [ref=f157e341]: Al Rawdah Townhouse Launch
+                  - paragraph [ref=f157e342]: Townhouse 5, Al Rawdah
+              - cell "Running" [ref=f157e343]
+              - cell "1,200 SAR" [ref=f157e345]
+              - cell "Launched Jul 15, 2026" [ref=f157e346]
+            - row [ref=f157e347] [cursor=pointer]:
+              - cell [ref=f157e348]:
+                - generic [ref=f157e353]:
+                  - paragraph [ref=f157e354]: Jeddah Autumn Push
+                  - paragraph [ref=f157e355]: No inventory selected
+              - cell "Draft" [ref=f157e356]
+              - cell "0 SAR" [ref=f157e358]
+              - cell "—" [ref=f157e359]

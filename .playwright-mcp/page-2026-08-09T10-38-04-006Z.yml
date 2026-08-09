@@ -1,0 +1,59 @@
+- generic [ref=f124e40]:
+  - navigation "Primary" [ref=f124e42]:
+    - generic [ref=f124e43]:
+      - img "Tuba Broker OS" [ref=f124e44]
+      - button "Collapse navigation" [ref=f124e51]
+    - generic [ref=f124e54]:
+      - generic [ref=f124e55]:
+        - button "Orientation" [expanded] [ref=f124e56]
+        - list [ref=f124e59]:
+          - listitem [ref=f124e60]:
+            - link "Home" [ref=f124e61] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f124e65]:
+            - link "Today" [ref=f124e66] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f124e70]:
+            - link "Tasks" [ref=f124e71] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f124e75]:
+        - button "Operating" [expanded] [ref=f124e76]
+        - list [ref=f124e79]:
+          - listitem [ref=f124e80]:
+            - link "Properties" [ref=f124e81] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f124e85]:
+            - link "Projects" [ref=f124e86] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f124e90]:
+            - link "Leads" [ref=f124e91] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f124e95]:
+            - link "Customers" [ref=f124e96] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f124e100]:
+            - link "Owners" [ref=f124e101] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f124e105]:
+            - link "Contracts" [ref=f124e106] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f124e110]:
+            - link "Marketing" [ref=f124e111] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f124e116]
+  - generic [ref=f124e119]:
+    - banner [ref=f124e120]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f124e121]:
+        - generic [ref=f124e124]: Search properties, leads, customers…
+        - generic [ref=f124e125]: ⌘K
+      - generic [ref=f124e126]:
+        - button "Quick actions" [ref=f124e128]
+        - button "Notifications" [ref=f124e132]
+        - button "Dark" [ref=f124e135]
+        - button "Arabic" [ref=f124e138]
+        - button "Account menu" [ref=f124e142]:
+          - generic [ref=f124e143]: OA
+    - main [ref=f124e144]:
+      - generic [ref=f124e147]:
+        - heading "Today" [level=1] [ref=f124e148]
+        - paragraph [ref=f124e149]: What deserves your attention right now.

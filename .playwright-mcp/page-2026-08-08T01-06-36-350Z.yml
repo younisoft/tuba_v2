@@ -1,0 +1,58 @@
+- generic [ref=f2e3]:
+  - navigation "Primary" [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - generic [ref=f2e7]: Tuba Broker OS
+      - button "Collapse navigation" [ref=f2e8]
+    - generic [ref=f2e11]:
+      - generic [ref=f2e12]:
+        - button "Orientation" [expanded] [ref=f2e13]
+        - list [ref=f2e16]:
+          - listitem [ref=f2e17]:
+            - link "Home" [ref=f2e18] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f2e22]:
+            - link "Today" [ref=f2e23] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f2e27]:
+            - link "Tasks" [ref=f2e28] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f2e32]:
+        - button "Operating" [expanded] [ref=f2e33]
+        - list [ref=f2e36]:
+          - listitem [ref=f2e37]:
+            - link "Properties" [ref=f2e38] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f2e42]:
+            - link "Projects" [ref=f2e43] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f2e47]:
+            - link "Leads" [ref=f2e48] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f2e52]:
+            - link "Customers" [ref=f2e53] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f2e57]:
+            - link "Owners" [ref=f2e58] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f2e62]:
+            - link "Contracts" [ref=f2e63] [cursor=pointer]:
+              - /url: /contracts
+      - button "Intelligence & Control" [ref=f2e68]
+  - generic [ref=f2e71]:
+    - banner [ref=f2e72]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f2e73]:
+        - generic [ref=f2e76]: Search properties, leads, customers…
+        - generic [ref=f2e77]: ⌘K
+      - generic [ref=f2e78]:
+        - button "Quick actions" [ref=f2e80]
+        - button "Notifications" [ref=f2e84]
+        - button "System" [ref=f2e87]
+        - button "Arabic" [ref=f2e90]
+        - button "Account menu" [ref=f2e94]:
+          - generic [ref=f2e95]: RA
+    - main [ref=f2e96]:
+      - generic [ref=f2e97]:
+        - generic [ref=f2e99]:
+          - heading "Notifications" [level=1] [ref=f2e100]
+          - paragraph [ref=f2e101]: Every notification you've received in-app.
+        - button "Unread only" [ref=f2e103]

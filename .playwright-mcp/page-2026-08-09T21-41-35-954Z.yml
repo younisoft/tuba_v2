@@ -1,0 +1,116 @@
+- generic [ref=f166e3]:
+  - navigation "Primary" [ref=f166e5]:
+    - generic [ref=f166e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f166e7]
+      - button "طي القائمة" [ref=f166e16]
+    - generic [ref=f166e19]:
+      - generic [ref=f166e20]:
+        - button "الاتجاه" [expanded] [ref=f166e21]
+        - list [ref=f166e24]:
+          - listitem [ref=f166e25]:
+            - link "Home" [ref=f166e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f166e30]:
+            - link "Today" [ref=f166e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f166e35]:
+            - link "Tasks" [ref=f166e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f166e40]:
+        - button "التشغيل" [expanded] [ref=f166e41]
+        - list [ref=f166e44]:
+          - listitem [ref=f166e45]:
+            - link "Properties" [ref=f166e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f166e50]:
+            - link "Projects" [ref=f166e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f166e55]:
+            - link "Leads" [ref=f166e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f166e60]:
+            - link "Customers" [ref=f166e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f166e65]:
+            - link "Owners" [ref=f166e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f166e70]:
+            - link "Contracts" [ref=f166e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f166e75]:
+            - link "Marketing" [ref=f166e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f166e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f166e81]
+        - list [ref=f166e84]:
+          - listitem [ref=f166e85]:
+            - link "Finance" [ref=f166e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f166e90]:
+            - link "Wallet" [ref=f166e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f166e95]:
+            - link "Analytics" [ref=f166e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f166e100]:
+            - link "Reports" [ref=f166e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f166e105]:
+            - link "Automation" [ref=f166e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f166e110]:
+            - link "AI Copilot" [ref=f166e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f166e115]:
+            - link "Notifications" [ref=f166e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f166e120]:
+            - link "Knowledge" [ref=f166e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f166e125]:
+            - link "Settings" [ref=f166e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f166e130]: تبديل الدور →
+  - generic [ref=f166e131]:
+    - banner [ref=f166e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f166e133]:
+        - generic [ref=f166e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f166e137]: ⌘K
+      - generic [ref=f166e138]:
+        - button "إجراءات سريعة" [ref=f166e140]
+        - button "الإشعارات" [ref=f166e144]
+        - button "النظام" [ref=f166e147]
+        - button "الإنجليزية" [ref=f166e150]
+        - button "قائمة الحساب" [ref=f166e154]:
+          - generic [ref=f166e155]: SA
+    - main [ref=f166e156]:
+      - generic [ref=f166e157]:
+        - heading "إعلان جديد" [level=1] [ref=f166e158]
+        - paragraph [ref=f166e159]: مسار إرشادي خطوة بخطوة — لن يُنشر شيء حتى تراجع وتؤكد.
+        - generic [ref=f166e161]:
+          - list "Step 1 of 5" [ref=f166e162]:
+            - listitem [ref=f166e163]:
+              - generic [ref=f166e164]: "1"
+              - generic [ref=f166e165]: المتطلبات
+            - listitem [ref=f166e167]:
+              - generic [ref=f166e168]: "2"
+              - generic [ref=f166e169]: التفاصيل
+            - listitem [ref=f166e171]:
+              - generic [ref=f166e172]: "3"
+              - generic [ref=f166e173]: الامتثال
+            - listitem [ref=f166e175]:
+              - generic [ref=f166e176]: "4"
+              - generic [ref=f166e177]: الوسائط
+            - listitem [ref=f166e179]:
+              - generic [ref=f166e180]: "5"
+              - generic [ref=f166e181]: المراجعة
+          - generic [ref=f166e183]:
+            - paragraph [ref=f166e184]: "قبل البدء، إليك ما ستحتاجه:"
+            - list [ref=f166e185]:
+              - listitem [ref=f166e186]: أرقام مرجعية لتراخيص فال وريجا لهذا الإعلان.
+              - listitem [ref=f166e187]: صورة واحدة على الأقل — المزيد يحسّن جودة المحتوى.
+              - listitem [ref=f166e188]: سعر مطلوب بالريال السعودي.
+              - listitem [ref=f166e189]: حوالي 5 دقائق لإكماله.
+          - generic [ref=f166e190]:
+            - button "Back" [disabled]
+            - button "Next" [ref=f166e191]

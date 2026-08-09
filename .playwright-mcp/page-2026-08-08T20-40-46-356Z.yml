@@ -1,0 +1,30 @@
+- generic [ref=f72e3]:
+  - generic [ref=f72e4]:
+    - banner [ref=f72e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f72e6]
+      - generic [ref=f72e10]:
+        - button "الإشعارات" [ref=f72e12]
+        - button "النظام" [ref=f72e15]
+        - button "الإنجليزية" [ref=f72e18]
+        - button "قائمة الحساب" [ref=f72e22]:
+          - generic [ref=f72e23]: SA
+    - main [ref=f72e24]:
+      - generic [ref=f72e25]:
+        - generic [ref=f72e27]:
+          - heading "العملاء" [level=1] [ref=f72e28]
+          - paragraph [ref=f72e29]: سجلات علاقة دائمة، مستقلة عن أي إعلان بعينه.
+        - generic [ref=f72e32]:
+          - searchbox "ابحث عن عملاء بالاسم…" [ref=f72e34]
+          - combobox "مرحلة العلاقة" [ref=f72e36]:
+            - option "مرحلة العلاقة" [selected]
+            - option "محتمل"
+            - option "نشط"
+            - option "سابق"
+  - navigation "Primary" [ref=f72e39]:
+    - link "Home" [ref=f72e40] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f72e43] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f72e46]
+    - button "إجراءات سريعة" [ref=f72e50]
+    - button "Alerts" [ref=f72e53]

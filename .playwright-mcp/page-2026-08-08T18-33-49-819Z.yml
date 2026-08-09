@@ -1,0 +1,145 @@
+- generic [ref=f46e42]:
+  - navigation "Primary" [ref=f46e44]:
+    - generic [ref=f46e45]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f46e46]
+      - button "طي القائمة" [ref=f46e55]
+    - generic [ref=f46e58]:
+      - generic [ref=f46e59]:
+        - button "الاتجاه" [expanded] [ref=f46e60]
+        - list [ref=f46e63]:
+          - listitem [ref=f46e64]:
+            - link "Home" [ref=f46e65] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f46e69]:
+            - link "Today" [ref=f46e70] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f46e74]:
+            - link "Tasks" [ref=f46e75] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f46e79]:
+        - button "التشغيل" [expanded] [ref=f46e80]
+        - list [ref=f46e83]:
+          - listitem [ref=f46e84]:
+            - link "Properties" [ref=f46e85] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f46e89]:
+            - link "Projects" [ref=f46e90] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f46e94]:
+            - link "Leads" [ref=f46e95] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f46e99]:
+            - link "Customers" [ref=f46e100] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f46e104]:
+            - link "Owners" [ref=f46e105] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f46e109]:
+            - link "Contracts" [ref=f46e110] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f46e114]:
+            - link "Marketing" [ref=f46e115] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f46e119]:
+        - button "الذكاء والتحكم" [expanded] [ref=f46e120]
+        - list [ref=f46e123]:
+          - listitem [ref=f46e124]:
+            - link "Finance" [ref=f46e125] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f46e129]:
+            - link "Wallet" [ref=f46e130] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f46e134]:
+            - link "Analytics" [ref=f46e135] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f46e139]:
+            - link "Reports" [ref=f46e140] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f46e144]:
+            - link "Automation" [ref=f46e145] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f46e149]:
+            - link "AI Copilot" [ref=f46e150] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f46e154]:
+            - link "Notifications" [ref=f46e155] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f46e159]:
+            - link "Knowledge" [ref=f46e160] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f46e164]:
+            - link "Settings" [ref=f46e165] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f46e169]: تبديل الدور →
+  - generic [ref=f46e170]:
+    - banner [ref=f46e171]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f46e172]:
+        - generic [ref=f46e175]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f46e176]: ⌘K
+      - generic [ref=f46e177]:
+        - button "إجراءات سريعة" [ref=f46e179]
+        - button "الإشعارات" [ref=f46e183]
+        - button "النظام" [ref=f46e186]
+        - button "الإنجليزية" [ref=f46e189]
+        - button "قائمة الحساب" [ref=f46e193]:
+          - generic [ref=f46e194]: SA
+    - main [ref=f46e195]:
+      - generic [ref=f46e196]:
+        - generic [ref=f46e198]:
+          - heading "اليوم" [level=1] [ref=f46e199]
+          - paragraph [ref=f46e200]: ما يستحق انتباهك الآن.
+        - generic [ref=f46e201]:
+          - generic [ref=f46e202]:
+            - generic [ref=f46e203]:
+              - generic [ref=f46e204]:
+                - generic [ref=f46e205]: حرج
+                - generic [ref=f46e208]: متابعة عميل محتمل
+              - button "تجاهل" [ref=f46e209]
+            - heading "Contact Bandar Al-Otaibi" [level=3] [ref=f46e212]
+            - paragraph [ref=f46e213]: This lead is within 10 minutes of an SLA breach.
+            - paragraph [ref=f46e214]: 10 min remaining
+            - generic [ref=f46e215]:
+              - button "Open lead" [ref=f46e216]
+              - button "لماذا هذا؟" [ref=f46e218]
+          - generic [ref=f46e221]:
+            - generic [ref=f46e222]:
+              - generic [ref=f46e223]:
+                - generic [ref=f46e224]: مرتفع
+                - generic [ref=f46e227]: متابعة عميل محتمل
+              - button "تجاهل" [ref=f46e228]
+            - heading "Contact Fatimah Al-Otaibi about Apartment 7B, Al Malqa" [level=3] [ref=f46e231]
+            - paragraph [ref=f46e232]: This lead is 45 minutes from its SLA window closing.
+            - paragraph [ref=f46e233]: 45 min remaining
+            - generic [ref=f46e234]:
+              - button "Open lead" [ref=f46e235]
+              - button "لماذا هذا؟" [ref=f46e237]
+          - generic [ref=f46e240]:
+            - generic [ref=f46e241]:
+              - generic [ref=f46e242]:
+                - generic [ref=f46e243]: مرتفع
+                - generic [ref=f46e246]: الامتثال
+              - button "تجاهل" [ref=f46e247]
+            - heading "Fix and resubmit Retail Unit 4, Al Olaya Market" [level=3] [ref=f46e250]
+            - paragraph [ref=f46e251]: REGA ad-license reference number does not match the submitted commercial registration.
+            - button "Open property" [ref=f46e253]
+          - generic [ref=f46e254]:
+            - generic [ref=f46e255]:
+              - generic [ref=f46e256]:
+                - generic [ref=f46e257]: متوسط
+                - generic [ref=f46e260]: فرصة
+              - button "تجاهل" [ref=f46e261]
+            - heading "Push Ahmed Al-Rashid's negotiation toward close" [level=3] [ref=f46e264]
+            - paragraph [ref=f46e265]: Scored 82/100 and already in Negotiating on Villa 42, Al Nakheel — one of the strongest open opportunities in the pipeline.
+            - generic [ref=f46e266]:
+              - button "Open lead" [ref=f46e267]
+              - button "لماذا هذا؟" [ref=f46e269]
+          - generic [ref=f46e272]:
+            - generic [ref=f46e273]:
+              - generic [ref=f46e274]:
+                - generic [ref=f46e275]: متوسط
+                - generic [ref=f46e278]: الامتثال
+              - button "تجاهل" [ref=f46e279]
+            - heading "Renew Apartment 7B, Al Malqa before it expires" [level=3] [ref=f46e282]
+            - paragraph [ref=f46e283]: Expires in 9 days — renew now to avoid a listing gap.
+            - paragraph [ref=f46e284]: 9 days left
+            - button "Open property" [ref=f46e286]

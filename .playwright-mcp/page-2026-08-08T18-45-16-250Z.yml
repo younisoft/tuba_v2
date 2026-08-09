@@ -1,0 +1,110 @@
+- generic [ref=f50e3]:
+  - navigation "Primary" [ref=f50e5]:
+    - generic [ref=f50e6]:
+      - img "Tuba Broker OS" [ref=f50e7]
+      - button "Collapse navigation" [ref=f50e14]
+    - generic [ref=f50e17]:
+      - generic [ref=f50e18]:
+        - button "Orientation" [expanded] [ref=f50e19]
+        - list [ref=f50e22]:
+          - listitem [ref=f50e23]:
+            - link "Home" [ref=f50e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f50e28]:
+            - link "Today" [ref=f50e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f50e33]:
+            - link "Tasks" [ref=f50e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f50e38]:
+        - button "Operating" [expanded] [ref=f50e39]
+        - list [ref=f50e42]:
+          - listitem [ref=f50e43]:
+            - link "Properties" [ref=f50e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f50e48]:
+            - link "Projects" [ref=f50e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f50e53]:
+            - link "Leads" [ref=f50e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f50e58]:
+            - link "Customers" [ref=f50e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f50e63]:
+            - link "Owners" [ref=f50e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f50e68]:
+            - link "Contracts" [ref=f50e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f50e73]:
+            - link "Marketing" [ref=f50e74] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f50e78]:
+        - button "Intelligence & Control" [expanded] [ref=f50e79]
+        - list [ref=f50e82]:
+          - listitem [ref=f50e83]:
+            - link "Finance" [ref=f50e84] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f50e88]:
+            - link "Wallet" [ref=f50e89] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f50e93]:
+            - link "Analytics" [ref=f50e94] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f50e98]:
+            - link "Reports" [ref=f50e99] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f50e103]:
+            - link "Automation" [ref=f50e104] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f50e108]:
+            - link "AI Copilot" [ref=f50e109] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f50e113]:
+            - link "Notifications" [ref=f50e114] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f50e118]:
+            - link "Knowledge" [ref=f50e119] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f50e123]:
+            - link "Settings" [ref=f50e124] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f50e128]: Switch role →
+  - generic [ref=f50e129]:
+    - banner [ref=f50e130]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f50e131]:
+        - generic [ref=f50e134]: Search properties, leads, customers…
+        - generic [ref=f50e135]: ⌘K
+      - generic [ref=f50e136]:
+        - button "Quick actions" [ref=f50e138]
+        - button "Notifications" [ref=f50e142]
+        - button "System" [ref=f50e145]
+        - button "Arabic" [ref=f50e148]
+        - button "Account menu" [ref=f50e152]:
+          - generic [ref=f50e153]: SA
+    - main [ref=f50e154]:
+      - generic [ref=f50e155]:
+        - generic [ref=f50e157]:
+          - heading "Properties" [level=1] [ref=f50e158]
+          - paragraph [ref=f50e159]: Browse and manage your agency's property inventory.
+        - generic [ref=f50e162]:
+          - searchbox "Search properties by title or district…" [ref=f50e164]
+          - combobox "Status" [ref=f50e166]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Pending Compliance"
+            - option "Active"
+            - option "Expiring"
+            - option "Expired"
+            - option "Rejected"
+            - option "Sold / Rented"
+            - option "Archived"
+          - combobox "Type" [ref=f50e168]:
+            - option "Type" [selected]
+            - option "Apartment"
+            - option "Villa"
+            - option "Townhouse"
+            - option "Land"
+            - option "Office"
+            - option "Retail"

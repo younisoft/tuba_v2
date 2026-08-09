@@ -1,0 +1,52 @@
+[     736ms] [LOG] JQMIGRATE: Migrate is installed, version 3.0.1 @ https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:1
+[     881ms] [ERROR] Google Maps API is not loaded. Retrying... @ https://tuba.com.sa/property/compound-for-rent-in-samith-8:3098
+[     881ms] [ERROR] Google Maps API is not loaded for School Map. Retrying... @ https://tuba.com.sa/property/compound-for-rent-in-samith-8:3242
+[     882ms] [ERROR] Google Maps API is not loaded for Shop & Eat Map. Retrying... @ https://tuba.com.sa/property/compound-for-rent-in-samith-8:3300
+[     886ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://tuba.com.sa/property/compound-for-rent-in-samith-8:3646:45
+[     916ms] TypeError: Cannot read properties of null (reading 'classList')
+    at checkScroll (https://tuba.com.sa/property/compound-for-rent-in-samith-8:1178:25)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/property/compound-for-rent-in-samith-8:1182:9)
+[     947ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tuba.com.sa/property/images/mobile-nav/dark-nav-icon.svg:0
+[     957ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'nodeName') TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677 undefined @ https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:1
+[    1048ms] TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677
+[    1431ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:330
+[    1576ms] [WARNING] Element with name "gmp-internal-loading-text" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1577ms] [WARNING] Element with name "gmp-internal-request-error-text" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1579ms] [WARNING] Element with name "gmp-internal-back-button" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1580ms] [WARNING] Element with name "gmp-internal-dialog" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1580ms] [WARNING] Element with name "gmp-internal-disclosure" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1580ms] [WARNING] Element with name "gmp-internal-disclosure-section" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    1581ms] [WARNING] Element with name "gmp-internal-attribution" already defined. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/main.js:215
+[    2250ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'iP')
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:507:64)
+[    2900ms] [WARNING] As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide. @ https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:432
+[    3140ms] TypeError: Cannot read properties of undefined (reading 'PlacesService')
+    at fetchschoolPlaces (https://tuba.com.sa/property/compound-for-rent-in-samith-8:3494:50)
+    at showSchoolMap (https://tuba.com.sa/property/compound-for-rent-in-samith-8:3240:17)
+[    3140ms] TypeError: Cannot read properties of undefined (reading 'PlacesService')
+    at showShopAndEatMap (https://tuba.com.sa/property/compound-for-rent-in-samith-8:3282:54)
+[    3148ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'ZP')
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:282:467)
+[    3149ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'AL')
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:439:174)
+[    3149ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'AL')
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyCRw7fSXhodQbbqh7ylvNG5fitTd0XiBrI&callback=initStreetView:439:174)

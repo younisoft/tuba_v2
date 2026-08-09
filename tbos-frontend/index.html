@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>TBOS — Tuba Broker OS</title>
+    <script>
+      // Applies persisted theme/locale before first paint — prevents a flash of the
+      // wrong theme or direction. Kept intentionally tiny and dependency-free since
+      // it must run before the app bundle (and thus the real ThemeProvider) loads.
+      (function () {
+        try {
+          var theme = localStorage.getItem('tbos.theme');
+          if (theme === 'light' || theme === 'dark') {
+            document.documentElement.setAttribute('data-theme', theme);
+          }
+          var locale = localStorage.getItem('tbos.locale');
+          if (locale === 'ar') {
+            document.documentElement.setAttribute('lang', 'ar');
+            document.documentElement.setAttribute('dir', 'rtl');
+          }
+        } catch (e) {
+          // localStorage unavailable (private mode / disabled) — fall back to system/default
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

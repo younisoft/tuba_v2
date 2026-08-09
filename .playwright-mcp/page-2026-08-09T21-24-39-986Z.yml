@@ -1,0 +1,149 @@
+- generic [ref=f165e3]:
+  - navigation "Primary" [ref=f165e5]:
+    - generic [ref=f165e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f165e7]
+      - button "طي القائمة" [ref=f165e16]
+    - generic [ref=f165e19]:
+      - generic [ref=f165e20]:
+        - button "الاتجاه" [expanded] [ref=f165e21]
+        - list [ref=f165e24]:
+          - listitem [ref=f165e25]:
+            - link "Home" [ref=f165e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f165e30]:
+            - link "Today" [ref=f165e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f165e35]:
+            - link "Tasks" [ref=f165e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f165e40]:
+        - button "التشغيل" [expanded] [ref=f165e41]
+        - list [ref=f165e44]:
+          - listitem [ref=f165e45]:
+            - link "Properties" [ref=f165e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f165e50]:
+            - link "Projects" [ref=f165e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f165e55]:
+            - link "Leads" [ref=f165e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f165e60]:
+            - link "Customers" [ref=f165e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f165e65]:
+            - link "Owners" [ref=f165e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f165e70]:
+            - link "Contracts" [ref=f165e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f165e75]:
+            - link "Marketing" [ref=f165e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f165e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f165e81]
+        - list [ref=f165e84]:
+          - listitem [ref=f165e85]:
+            - link "Finance" [ref=f165e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f165e90]:
+            - link "Wallet" [ref=f165e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f165e95]:
+            - link "Analytics" [ref=f165e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f165e100]:
+            - link "Reports" [ref=f165e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f165e105]:
+            - link "Automation" [ref=f165e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f165e110]:
+            - link "AI Copilot" [ref=f165e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f165e115]:
+            - link "Notifications" [ref=f165e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f165e120]:
+            - link "Knowledge" [ref=f165e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f165e125]:
+            - link "Settings" [ref=f165e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f165e130]: تبديل الدور →
+  - generic [ref=f165e131]:
+    - banner [ref=f165e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f165e133]:
+        - generic [ref=f165e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f165e137]: ⌘K
+      - generic [ref=f165e138]:
+        - button "إجراءات سريعة" [ref=f165e140]
+        - button "الإشعارات" [ref=f165e144]
+        - button "النظام" [ref=f165e147]
+        - button "الإنجليزية" [ref=f165e150]
+        - button "قائمة الحساب" [ref=f165e154]:
+          - generic [ref=f165e155]: SA
+    - main [ref=f165e156]:
+      - generic [ref=f165e231]:
+        - heading "إعلان جديد" [level=1] [ref=f165e232]
+        - paragraph [ref=f165e233]: مسار إرشادي خطوة بخطوة — لن يُنشر شيء حتى تراجع وتؤكد.
+        - generic [ref=f165e235]:
+          - list "Step 2 of 5" [ref=f165e271]:
+            - listitem [ref=f165e237]:
+              - generic [ref=f165e241]: المتطلبات
+            - listitem [ref=f165e243]:
+              - generic [ref=f165e244]: "2"
+              - generic [ref=f165e247]: التفاصيل
+            - listitem [ref=f165e249]:
+              - generic [ref=f165e250]: "3"
+              - generic [ref=f165e251]: الامتثال
+            - listitem [ref=f165e253]:
+              - generic [ref=f165e254]: "4"
+              - generic [ref=f165e255]: الوسائط
+            - listitem [ref=f165e257]:
+              - generic [ref=f165e258]: "5"
+              - generic [ref=f165e259]: المراجعة
+          - generic [ref=f165e261]:
+            - generic [ref=f165e272]:
+              - generic [ref=f165e273]: عنوان الإعلان
+              - textbox "عنوان الإعلان" [ref=f165e274]: Villa 88, Al Yasmin
+            - generic [ref=f165e263]:
+              - generic [ref=f165e264]: نوع العقار
+              - combobox "نوع العقار" [ref=f165e276]:
+                - option "شقة" [selected]
+                - option "فيلا"
+                - option "تاون هاوس"
+                - option "أرض"
+                - option "مكتب"
+                - option "محل تجاري"
+            - generic [ref=f165e277]:
+              - generic [ref=f165e278]:
+                - generic [ref=f165e279]: الحي
+                - textbox "الحي" [ref=f165e280]: Al Yasmin
+              - generic [ref=f165e281]:
+                - generic [ref=f165e282]: المدينة
+                - textbox "المدينة" [ref=f165e283]: Riyadh
+            - generic [ref=f165e284]:
+              - generic [ref=f165e285]: المالك
+              - combobox "المالك" [ref=f165e287]:
+                - option "اختر مالكًا" [disabled]
+                - option "Abdullah Al-Ghamdi" [selected]
+                - option "Mona Al-Subaie"
+                - option "Yousef Al-Harthi"
+            - generic [ref=f165e288]:
+              - generic [ref=f165e289]: السعر (ريال)
+              - spinbutton "السعر (ريال)" [ref=f165e290]: "1900000"
+            - generic [ref=f165e291]:
+              - generic [ref=f165e292]: الوصف
+              - textbox "الوصف" [ref=f165e293]
+            - generic [ref=f165e294]:
+              - generic [ref=f165e295]:
+                - generic [ref=f165e296]: AI suggested
+                - generic [ref=f165e297]: Medium confidence
+              - generic [ref=f165e300]: "بناءً على إعلانات مشابهة في هذا الحي، فكّر بإضافة وسوم: موقف مغطى، حديقة خاصة، وغرفة خادمة."
+              - generic [ref=f165e302]:
+                - button "استخدام هذه الوسوم" [ref=f165e303]
+                - button "Discard" [ref=f165e304]
+          - generic [ref=f165e269]:
+            - button "Back" [active] [ref=f165e270]
+            - button "Next" [ref=f165e305]

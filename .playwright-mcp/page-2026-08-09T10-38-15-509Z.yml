@@ -1,0 +1,19 @@
+- generic [ref=f125e3]:
+  - generic [ref=f125e4]:
+    - banner [ref=f125e5]:
+      - button "Search properties, leads, customers…" [ref=f125e6]
+      - generic [ref=f125e10]:
+        - button "Notifications" [ref=f125e12]
+        - button "Dark" [ref=f125e15]
+        - button "Arabic" [ref=f125e18]
+        - button "Account menu" [ref=f125e22]:
+          - generic [ref=f125e23]: OA
+    - main [ref=f125e24]
+  - navigation "Primary" [ref=f125e26]:
+    - link "Home" [ref=f125e27] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f125e30] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f125e33]
+    - button "Quick actions" [ref=f125e37]
+    - button "Alerts" [ref=f125e40]

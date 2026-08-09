@@ -1,0 +1,51 @@
+[     959ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://tuba.com.sa/login_asset/fonts/fontawesome-webfont.woff2?v=4.7.0 @ https://tuba.com.sa/properties:3201
+[     959ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://tuba.com.sa/login_asset/fonts/Flaticon.woff2 @ https://tuba.com.sa/properties:3201
+[    1651ms] [LOG] JQMIGRATE: Migrate is installed, version 3.0.1 @ https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:1
+[    1820ms] [LOG] Customer Properties Page js2 @ https://tuba.com.sa/properties:23605
+[    1878ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/properties:23885:22)
+[    2053ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'nodeName') TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677 undefined @ https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:1
+[    2562ms] TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677
+[    2500ms] [LOG] #active_property_div @ https://tuba.com.sa/js/properties/index.js:39
+[    2540ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://cdn.jsdelivr.net/npm/@emran-alhaddad/saudi-riyal-font/fonts/regular/saudi_riyal.woff2 @ https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:1
+[  532586ms] [LOG] JQMIGRATE: Migrate is installed, version 3.0.1 @ https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:1
+[  532703ms] [LOG] Selected package ID: add-property-package-3 @ https://tuba.com.sa/properties/create?id=8257:3022
+[  532722ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'nodeName') TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677 undefined @ https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:1
+[  532759ms] TypeError: Cannot read properties of null (reading 'nodeName')
+    at Object.create (https://tuba.com.sa/login_asset/js/pricing-slider.js:3:19389)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/pricing-slider.js:16:16)
+    at HTMLDocument.dispatch (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:41772)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:39791)
+    at Object.trigger (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:69551)
+    at w.triggerHandler (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:70230)
+    at HTMLDocument.<anonymous> (https://tuba.com.sa/login_asset/js/jquery-migrate-3.0.0.min.js:2:6335)
+    at l (https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29375)
+    at https://tuba.com.sa/login_asset/js/jquery-3.3.1.js:2:29677
+[  533107ms] [WARNING] As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide. @ https://maps.googleapis.com/maps-api-v3/api/js/65/12f/intl/ar_ALL/main.js:414

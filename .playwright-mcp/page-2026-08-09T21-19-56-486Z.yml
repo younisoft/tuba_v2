@@ -1,0 +1,89 @@
+- generic [ref=f163e42]:
+  - navigation "Primary" [ref=f163e44]:
+    - generic [ref=f163e45]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f163e46]
+      - button "طي القائمة" [ref=f163e55]
+    - generic [ref=f163e58]:
+      - generic [ref=f163e59]:
+        - button "الاتجاه" [expanded] [ref=f163e60]
+        - list [ref=f163e63]:
+          - listitem [ref=f163e64]:
+            - link "Home" [ref=f163e65] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f163e69]:
+            - link "Today" [ref=f163e70] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f163e74]:
+            - link "Tasks" [ref=f163e75] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f163e79]:
+        - button "التشغيل" [expanded] [ref=f163e80]
+        - list [ref=f163e83]:
+          - listitem [ref=f163e84]:
+            - link "Properties" [ref=f163e85] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f163e89]:
+            - link "Projects" [ref=f163e90] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f163e94]:
+            - link "Leads" [ref=f163e95] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f163e99]:
+            - link "Customers" [ref=f163e100] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f163e104]:
+            - link "Owners" [ref=f163e105] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f163e109]:
+            - link "Contracts" [ref=f163e110] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f163e114]:
+            - link "Marketing" [ref=f163e115] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f163e119]:
+        - button "الذكاء والتحكم" [expanded] [ref=f163e120]
+        - list [ref=f163e123]:
+          - listitem [ref=f163e124]:
+            - link "Finance" [ref=f163e125] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f163e129]:
+            - link "Wallet" [ref=f163e130] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f163e134]:
+            - link "Analytics" [ref=f163e135] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f163e139]:
+            - link "Reports" [ref=f163e140] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f163e144]:
+            - link "Automation" [ref=f163e145] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f163e149]:
+            - link "AI Copilot" [ref=f163e150] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f163e154]:
+            - link "Notifications" [ref=f163e155] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f163e159]:
+            - link "Knowledge" [ref=f163e160] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f163e164]:
+            - link "Settings" [ref=f163e165] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f163e169]: تبديل الدور →
+  - generic [ref=f163e170]:
+    - banner [ref=f163e171]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f163e172]:
+        - generic [ref=f163e175]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f163e176]: ⌘K
+      - generic [ref=f163e177]:
+        - button "إجراءات سريعة" [ref=f163e179]
+        - button "الإشعارات" [ref=f163e183]
+        - button "النظام" [ref=f163e186]
+        - button "الإنجليزية" [ref=f163e189]
+        - button "قائمة الحساب" [ref=f163e193]:
+          - generic [ref=f163e194]: SA
+    - main [ref=f163e195]:
+      - generic [ref=f163e198]:
+        - heading "اليوم" [level=1] [ref=f163e199]
+        - paragraph [ref=f163e200]: ما يستحق انتباهك الآن.

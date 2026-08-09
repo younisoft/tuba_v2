@@ -1,0 +1,127 @@
+- generic [ref=f157e3]:
+  - navigation "Primary" [ref=f157e5]:
+    - generic [ref=f157e6]:
+      - img "Tuba Broker OS" [ref=f157e7]
+      - button "Collapse navigation" [ref=f157e14]
+    - generic [ref=f157e17]:
+      - generic [ref=f157e18]:
+        - button "Orientation" [expanded] [ref=f157e19]
+        - list [ref=f157e22]:
+          - listitem [ref=f157e23]:
+            - link "Home" [ref=f157e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f157e28]:
+            - link "Today" [ref=f157e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f157e33]:
+            - link "Tasks" [ref=f157e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f157e38]:
+        - button "Operating" [expanded] [ref=f157e39]
+        - list [ref=f157e42]:
+          - listitem [ref=f157e43]:
+            - link "Properties" [active] [ref=f157e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f157e48]:
+            - link "Projects" [ref=f157e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f157e53]:
+            - link "Leads" [ref=f157e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f157e58]:
+            - link "Customers" [ref=f157e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f157e63]:
+            - link "Owners" [ref=f157e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f157e68]:
+            - link "Contracts" [ref=f157e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f157e73]:
+            - link "Marketing" [ref=f157e74] [cursor=pointer]:
+              - /url: /marketing
+      - button "Intelligence & Control" [ref=f157e79]
+  - generic [ref=f157e82]:
+    - banner [ref=f157e83]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f157e84]:
+        - generic [ref=f157e87]: Search properties, leads, customers…
+        - generic [ref=f157e88]: ⌘K
+      - generic [ref=f157e89]:
+        - button "Quick actions" [ref=f157e91]
+        - generic [ref=f157e94]:
+          - button "Notifications — 2 unread notifications" [ref=f157e116]
+          - generic [ref=f157e117]: "2"
+        - button "Dark" [ref=f157e98]
+        - button "Arabic" [ref=f157e101]
+        - button "Account menu" [ref=f157e105]:
+          - generic [ref=f157e106]: OA
+    - main [ref=f157e107]:
+      - generic [ref=f157e179]:
+        - generic [ref=f157e181]:
+          - heading "Properties" [level=1] [ref=f157e182]
+          - paragraph [ref=f157e183]: Browse and manage your agency's property inventory.
+        - generic [ref=f157e186]:
+          - searchbox "Search properties by title or district…" [ref=f157e188]
+          - combobox "Status" [ref=f157e190]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Pending Compliance"
+            - option "Active"
+            - option "Expiring"
+            - option "Expired"
+            - option "Rejected"
+            - option "Sold / Rented"
+            - option "Archived"
+          - combobox "Type" [ref=f157e192]:
+            - option "Type" [selected]
+            - option "Apartment"
+            - option "Villa"
+            - option "Townhouse"
+            - option "Land"
+            - option "Office"
+            - option "Retail"
+        - table [ref=f157e195]:
+          - rowgroup [ref=f157e196]:
+            - row [ref=f157e197]:
+              - columnheader "Select all rows" [ref=f157e198]:
+                - generic [ref=f157e199] [cursor=pointer]:
+                  - checkbox "Select all rows" [ref=f157e201]
+                  - generic [ref=f157e202]: Select all rows
+              - columnheader "Property" [ref=f157e203]
+              - columnheader "Status" [ref=f157e204]
+              - columnheader "Type" [ref=f157e205]
+              - columnheader "District" [ref=f157e206]
+              - columnheader "Price (SAR)" [ref=f157e207]
+              - columnheader "Broker" [ref=f157e208]
+              - columnheader "Leads" [ref=f157e209]
+          - rowgroup [ref=f157e210]:
+            - row [ref=f157e211] [cursor=pointer]:
+              - cell "Select Open property for Townhouse 5, Al Rawdah" [ref=f157e212]:
+                - generic [ref=f157e213]:
+                  - checkbox "Select Open property for Townhouse 5, Al Rawdah" [ref=f157e215]
+                  - generic [ref=f157e216]: Select Open property for Townhouse 5, Al Rawdah
+              - cell [ref=f157e217]:
+                - generic [ref=f157e222]:
+                  - paragraph [ref=f157e223]: Townhouse 5, Al Rawdah
+                  - paragraph [ref=f157e224]: Huda Al-Zahrani
+              - cell "Active" [ref=f157e225]
+              - cell "Townhouse" [ref=f157e229]
+              - cell "Al Rawdah" [ref=f157e230]
+              - cell "980,000 SAR" [ref=f157e231]
+              - cell "Omar Al-Rashid" [ref=f157e232]
+              - cell "1" [ref=f157e233]
+            - row [ref=f157e234] [cursor=pointer]:
+              - cell "Select Open property for Apartment 3A, Al Sulimaniyah" [ref=f157e235]:
+                - generic [ref=f157e236]:
+                  - checkbox "Select Open property for Apartment 3A, Al Sulimaniyah" [ref=f157e238]
+                  - generic [ref=f157e239]: Select Open property for Apartment 3A, Al Sulimaniyah
+              - cell [ref=f157e240]:
+                - generic [ref=f157e245]:
+                  - paragraph [ref=f157e246]: Apartment 3A, Al Sulimaniyah
+                  - paragraph [ref=f157e247]: Huda Al-Zahrani
+              - cell "Expired" [ref=f157e248]
+              - cell "Apartment" [ref=f157e252]
+              - cell "Al Sulimaniyah" [ref=f157e253]
+              - cell "720,000 SAR" [ref=f157e254]
+              - cell "Omar Al-Rashid" [ref=f157e255]
+              - cell "0" [ref=f157e256]

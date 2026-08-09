@@ -1,0 +1,51 @@
+- generic [ref=f72e3]:
+  - generic [ref=f72e4]:
+    - banner [ref=f72e5]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f72e6]
+      - generic [ref=f72e10]:
+        - button "الإشعارات" [ref=f72e12]
+        - button "النظام" [ref=f72e15]
+        - button "الإنجليزية" [ref=f72e18]
+        - button "قائمة الحساب" [ref=f72e22]:
+          - generic [ref=f72e23]: SA
+    - main [ref=f72e24]:
+      - generic [ref=f72e246]:
+        - generic [ref=f72e247]:
+          - generic [ref=f72e248]:
+            - generic [ref=f72e249]:
+              - heading "Ahmed Al-Rashid" [level=1] [ref=f72e250]
+              - generic [ref=f72e251]: نشط
+            - list [ref=f72e253]:
+              - listitem [ref=f72e254]: "+966502220001"
+              - listitem [ref=f72e257]: 2 عملاء محتملون مرتبطون
+          - button "تسجيل تفاعل" [ref=f72e261]
+        - generic [ref=f72e262]:
+          - heading "العلاقات النشطة" [level=2] [ref=f72e263]
+          - generic [ref=f72e264]:
+            - button "Villa 42, Al Nakheel قيد التفاوض" [ref=f72e265]:
+              - generic [ref=f72e270]:
+                - generic [ref=f72e271]: Villa 42, Al Nakheel
+                - generic [ref=f72e272]: قيد التفاوض
+            - button "Office Suite 12, Olaya خاسر" [ref=f72e275]:
+              - generic [ref=f72e280]:
+                - generic [ref=f72e281]: Office Suite 12, Olaya
+                - generic [ref=f72e282]: خاسر
+        - generic [ref=f72e285]:
+          - heading "النشاط" [level=2] [ref=f72e286]
+          - list [ref=f72e287]:
+            - listitem [ref=f72e288]:
+              - generic [ref=f72e292]:
+                - paragraph [ref=f72e293]: Reem Al-Dosari Called to discuss financing options for the Al Nakheel villa.
+                - paragraph [ref=f72e294]: ٤‏/٨‏/٢٠٢٦، ٤:٢٠:٠٠ م
+            - listitem [ref=f72e295]:
+              - generic [ref=f72e299]:
+                - paragraph [ref=f72e300]: System Customer record created from Lead intake.
+                - paragraph [ref=f72e301]: ١‏/٧‏/٢٠٢٦، ١٢:٠٠:٠٠ م
+  - navigation "Primary" [ref=f72e39]:
+    - link "Home" [ref=f72e40] [cursor=pointer]:
+      - /url: /home
+    - link "Today" [ref=f72e43] [cursor=pointer]:
+      - /url: /today
+    - button "Search" [ref=f72e46]
+    - button "إجراءات سريعة" [ref=f72e50]
+    - button "Alerts" [ref=f72e53]

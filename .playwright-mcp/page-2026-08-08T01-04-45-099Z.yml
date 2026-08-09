@@ -1,0 +1,82 @@
+- generic [ref=e34]:
+  - navigation "Primary" [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e38]: Tuba Broker OS
+      - button "Collapse navigation" [ref=e39]
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - button "Orientation" [expanded] [ref=e44]
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "Home" [ref=e49] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=e53]:
+            - link "Today" [ref=e54] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=e58]:
+            - link "Tasks" [ref=e59] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=e63]:
+        - button "Operating" [expanded] [ref=e64]
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "Properties" [ref=e69] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=e73]:
+            - link "Projects" [ref=e74] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e78]:
+            - link "Leads" [ref=e79] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=e83]:
+            - link "Customers" [ref=e84] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=e88]:
+            - link "Owners" [ref=e89] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=e93]:
+            - link "Contracts" [ref=e94] [cursor=pointer]:
+              - /url: /contracts
+      - button "Intelligence & Control" [ref=e99]
+  - generic [ref=e102]:
+    - banner [ref=e103]:
+      - button "Search properties, leads, customers… ⌘K" [ref=e104]:
+        - generic [ref=e107]: Search properties, leads, customers…
+        - generic [ref=e108]: ⌘K
+      - generic [ref=e109]:
+        - button "Quick actions" [ref=e111]
+        - generic [ref=e114]:
+          - button "Notifications — 1 unread notifications" [ref=e115]
+          - generic [ref=e118]: "1"
+        - button "System" [ref=e119]
+        - button "Arabic" [ref=e122]
+        - button "Account menu" [ref=e126]:
+          - generic [ref=e127]: RA
+    - main [ref=e128]:
+      - generic [ref=e129]:
+        - heading "Today" [level=1] [ref=e130]
+        - paragraph [ref=e131]: What deserves your attention right now.
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: High
+                - generic [ref=e139]: Lead follow-up
+              - button "Dismiss" [ref=e140]
+            - heading "Contact Fatimah Al-Otaibi about Apartment 7B, Al Malqa" [level=3] [ref=e143]
+            - paragraph [ref=e144]: This lead is 45 minutes from its SLA window closing.
+            - paragraph [ref=e145]: 45 min remaining
+            - generic [ref=e146]:
+              - button "Open lead" [ref=e147]
+              - button "Why this?" [ref=e149]
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]: Medium
+                - generic [ref=e158]: Opportunity
+              - button "Dismiss" [ref=e159]
+            - heading "Push Ahmed Al-Rashid's negotiation toward close" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Scored 82/100 and already in Negotiating on Villa 42, Al Nakheel — one of the strongest open opportunities in the pipeline.
+            - generic [ref=e164]:
+              - button "Open lead" [ref=e165]
+              - button "Why this?" [ref=e167]

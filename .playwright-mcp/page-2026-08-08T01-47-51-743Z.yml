@@ -1,0 +1,54 @@
+- generic [ref=f12e34]:
+  - navigation "Primary" [ref=f12e36]:
+    - generic [ref=f12e37]:
+      - img "Tuba Broker OS" [ref=f12e38]
+      - button "Collapse navigation" [ref=f12e39]
+    - generic [ref=f12e42]:
+      - generic [ref=f12e43]:
+        - button "Orientation" [expanded] [ref=f12e44]
+        - list [ref=f12e47]:
+          - listitem [ref=f12e48]:
+            - link "Home" [ref=f12e49] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f12e53]:
+            - link "Today" [ref=f12e54] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f12e58]:
+            - link "Tasks" [ref=f12e59] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f12e63]:
+        - button "Operating" [expanded] [ref=f12e64]
+        - list [ref=f12e67]:
+          - listitem [ref=f12e68]:
+            - link "Properties" [ref=f12e69] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f12e73]:
+            - link "Projects" [ref=f12e74] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f12e78]:
+            - link "Leads" [ref=f12e79] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f12e83]:
+            - link "Customers" [ref=f12e84] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f12e88]:
+            - link "Owners" [ref=f12e89] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f12e93]:
+            - link "Contracts" [ref=f12e94] [cursor=pointer]:
+              - /url: /contracts
+      - button "Intelligence & Control" [ref=f12e99]
+  - generic [ref=f12e102]:
+    - banner [ref=f12e103]:
+      - button "Search properties, leads, customers…" [ref=f12e104]
+      - generic [ref=f12e108]:
+        - button "Quick actions" [ref=f12e110]
+        - button "Notifications" [ref=f12e114]
+        - button "System" [ref=f12e117]
+        - button "Arabic" [ref=f12e120]
+        - button "Account menu" [ref=f12e124]:
+          - generic [ref=f12e125]: RA
+    - main [ref=f12e126]:
+      - generic [ref=f12e127]:
+        - heading "Today" [level=1] [ref=f12e128]
+        - paragraph [ref=f12e129]: What deserves your attention right now.

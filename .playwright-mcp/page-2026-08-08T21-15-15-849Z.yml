@@ -1,0 +1,95 @@
+- generic [ref=f88e3]:
+  - navigation "Primary" [ref=f88e5]:
+    - generic [ref=f88e6]:
+      - img "Tuba Broker OS" [ref=f88e7]
+      - button "Collapse navigation" [ref=f88e14]
+    - generic [ref=f88e17]:
+      - generic [ref=f88e18]:
+        - button "Orientation" [expanded] [ref=f88e19]
+        - list [ref=f88e22]:
+          - listitem [ref=f88e23]:
+            - link "Home" [ref=f88e24] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f88e28]:
+            - link "Today" [ref=f88e29] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f88e33]:
+            - link "Tasks" [ref=f88e34] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f88e38]:
+        - button "Operating" [expanded] [ref=f88e39]
+        - list [ref=f88e42]:
+          - listitem [ref=f88e43]:
+            - link "Properties" [ref=f88e44] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f88e48]:
+            - link "Projects" [ref=f88e49] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f88e53]:
+            - link "Leads" [ref=f88e54] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f88e58]:
+            - link "Customers" [ref=f88e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f88e63]:
+            - link "Owners" [ref=f88e64] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f88e68]:
+            - link "Contracts" [ref=f88e69] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f88e73]:
+            - link "Marketing" [ref=f88e74] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f88e78]:
+        - button "Intelligence & Control" [expanded] [ref=f88e79]
+        - list [ref=f88e82]:
+          - listitem [ref=f88e83]:
+            - link "Finance" [ref=f88e84] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f88e88]:
+            - link "Wallet" [ref=f88e89] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f88e93]:
+            - link "Analytics" [ref=f88e94] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f88e98]:
+            - link "Reports" [ref=f88e99] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f88e103]:
+            - link "Automation" [ref=f88e104] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f88e108]:
+            - link "AI Copilot" [ref=f88e109] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f88e113]:
+            - link "Notifications" [ref=f88e114] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f88e118]:
+            - link "Knowledge" [ref=f88e119] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f88e123]:
+            - link "Settings" [ref=f88e124] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f88e128]: Switch role →
+  - generic [ref=f88e129]:
+    - banner [ref=f88e130]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f88e131]:
+        - generic [ref=f88e134]: Search properties, leads, customers…
+        - generic [ref=f88e135]: ⌘K
+      - generic [ref=f88e136]:
+        - button "Quick actions" [ref=f88e138]
+        - button "Notifications" [ref=f88e142]
+        - button "System" [ref=f88e145]
+        - button "Arabic" [ref=f88e148]
+        - button "Account menu" [ref=f88e152]:
+          - generic [ref=f88e153]: SA
+    - main [ref=f88e154]:
+      - generic [ref=f88e155]:
+        - generic [ref=f88e157]:
+          - heading "Owners" [level=1] [ref=f88e158]
+          - paragraph [ref=f88e159]: Supply-side counterpart to Customers — property owners and their relationship to the agency.
+        - generic [ref=f88e162]:
+          - searchbox "Search owners by name…" [ref=f88e164]
+          - generic [ref=f88e165] [cursor=pointer]:
+            - checkbox "Has open marketing requests" [ref=f88e167]
+            - generic [ref=f88e168]: Has open marketing requests

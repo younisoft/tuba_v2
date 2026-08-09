@@ -1,0 +1,92 @@
+- generic [ref=f5e3]:
+  - navigation "Primary" [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]: نظام تشغيل الوسيط توبا
+      - button "طي القائمة" [ref=f5e8]
+    - generic [ref=f5e11]:
+      - generic [ref=f5e12]:
+        - button "الاتجاه" [expanded] [ref=f5e13]
+        - list [ref=f5e16]:
+          - listitem [ref=f5e17]:
+            - link "Home" [ref=f5e18] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f5e22]:
+            - link "Today" [ref=f5e23] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f5e27]:
+            - link "Tasks" [ref=f5e28] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f5e32]:
+        - button "التشغيل" [expanded] [ref=f5e33]
+        - list [ref=f5e36]:
+          - listitem [ref=f5e37]:
+            - link "Properties" [ref=f5e38] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f5e42]:
+            - link "Projects" [ref=f5e43] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f5e47]:
+            - link "Leads" [ref=f5e48] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f5e52]:
+            - link "Customers" [ref=f5e53] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f5e57]:
+            - link "Owners" [ref=f5e58] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f5e62]:
+            - link "Contracts" [ref=f5e63] [cursor=pointer]:
+              - /url: /contracts
+      - button "الذكاء والتحكم" [ref=f5e68]
+  - generic [ref=f5e71]:
+    - banner [ref=f5e72]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f5e73]:
+        - generic [ref=f5e76]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f5e77]: ⌘K
+      - generic [ref=f5e78]:
+        - button "إجراءات سريعة" [ref=f5e80]
+        - generic [ref=f5e83]:
+          - button "الإشعارات — 1 إشعارات غير مقروءة" [ref=f5e99]
+          - generic [ref=f5e100]: "1"
+        - button "النظام" [ref=f5e87]
+        - button "الإنجليزية" [ref=f5e90]
+        - button "قائمة الحساب" [ref=f5e94]:
+          - generic [ref=f5e95]: RA
+    - main [ref=f5e96]:
+      - generic [ref=f5e101]:
+        - generic [ref=f5e102]:
+          - generic [ref=f5e103]:
+            - generic [ref=f5e104]:
+              - heading "Fatimah Al-Otaibi" [level=1] [ref=f5e105]
+              - generic [ref=f5e106]: مُسنَد
+            - list [ref=f5e110]:
+              - listitem [ref=f5e111]: "مُسنَد إلى: Reem Al-Dosari"
+              - listitem [ref=f5e114]: Apartment 7B, Al Malqa
+              - listitem [ref=f5e117]: استفسار مشترٍ
+              - listitem [ref=f5e120]: 45 دقيقة متبقية
+          - generic [ref=f5e123]:
+            - generic [ref=f5e124]:
+              - button "تغيير المرحلة" [ref=f5e126]
+              - generic [ref=f5e127]:
+                - button "إعادة الإسناد" [disabled]
+              - button "وضع علامة خاسر" [ref=f5e128]
+            - button "صياغة رد" [ref=f5e129]
+        - 'generic "تقييم العميل المحتمل: 65/100" [ref=f5e131]':
+          - generic [ref=f5e132]:
+            - generic [ref=f5e133]: تقييم العميل المحتمل
+            - 'button "Why: تقييم العميل المحتمل" [ref=f5e135]'
+          - generic [ref=f5e138]: 65/100
+        - generic [ref=f5e140]:
+          - button "إضافة ملاحظة" [ref=f5e141]
+          - button "جدولة متابعة" [ref=f5e142]
+        - generic [ref=f5e143]:
+          - heading "النشاط" [level=2] [ref=f5e144]
+          - list [ref=f5e145]:
+            - listitem [ref=f5e146]:
+              - generic [ref=f5e150]:
+                - paragraph [ref=f5e151]: System Auto-assigned to Reem Al-Dosari.
+                - paragraph [ref=f5e152]: ٧‏/٨‏/٢٠٢٦، ١٠:٢٦:٠٠ ص
+            - listitem [ref=f5e153]:
+              - generic [ref=f5e157]:
+                - paragraph [ref=f5e158]: System Lead created from a buyer-inbound inquiry on Apartment 7B, Al Malqa.
+                - paragraph [ref=f5e159]: ٧‏/٨‏/٢٠٢٦، ١٠:٢٥:٠٠ ص
