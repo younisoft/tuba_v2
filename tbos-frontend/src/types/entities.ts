@@ -65,6 +65,13 @@ export interface Property {
    * necessary addition as description. Optional — most existing properties
    * predate this field. */
   amenityTags?: string[];
+  /** Not itemized anywhere as a Property field — added for PROP-01's Promotion
+   * indicator (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md §6, Decision 04). A real
+   * property attribute (which tier this listing is currently promoted at),
+   * not a fabricated engagement metric — same class of honest addition as
+   * amenityTags/description. Absent/undefined means Basic (no promotion),
+   * matching the audit-verified legacy default tier. */
+  promotionTier?: 'featured' | 'pro';
 }
 
 /** tbos-blueprint/04_SCREEN_INVENTORY.md PROP-02 required data: "Compliance
@@ -121,6 +128,28 @@ export interface PropertyPerformance {
   propertyId: string;
   leadsGenerated: number;
   daysOnMarket: number | null;
+}
+
+/**
+ * PROP-01's per-row summary (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md §2, §8.6:
+ * "quick performance summary," "Advertisement Status distinct from Property
+ * Status"). advertisementStatus/advertisementExpiryDate are derived from the
+ * property's existing 'REGA Ad License' PropertyComplianceRequirement — real
+ * data already modeled for PROP-02, not a new fabricated field. leadsGenerated
+ * reuses the same real, Lead-linkage-computed count as PropertyPerformance
+ * (never fabricated, matching the established `propertyPerformanceForProperty`
+ * discipline). Reach/Views are deliberately NOT included here — no real
+ * tracking pipeline exists anywhere in this codebase for either, so rendering
+ * them would be exactly the fabrication TBOS_MY_PROPERTIES_STATE_MATRIX.md
+ * §8.4 and the C1 brief's Decision 02 explicitly forbid; the list instead
+ * renders an honest "not tracked yet" state for them (see
+ * PropertyPerformanceSummary).
+ */
+export interface PropertyListSummary {
+  property: Property;
+  advertisementStatus: ComplianceRequirementStatus | 'none';
+  advertisementExpiryDate?: string;
+  leadsGenerated: number;
 }
 
 /**

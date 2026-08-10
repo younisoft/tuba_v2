@@ -1,0 +1,305 @@
+- generic [ref=f185e3]:
+  - navigation "Primary" [ref=f185e5]:
+    - generic [ref=f185e6]:
+      - img "Tuba Broker OS" [ref=f185e575]
+      - button "Collapse navigation" [ref=f185e579]
+    - generic [ref=f185e19]:
+      - generic [ref=f185e20]:
+        - button "Orientation" [expanded] [ref=f185e580]
+        - list [ref=f185e24]:
+          - listitem [ref=f185e25]:
+            - link "Home" [ref=f185e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f185e30]:
+            - link "Today" [ref=f185e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f185e35]:
+            - link "Tasks" [ref=f185e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f185e40]:
+        - button "Operating" [expanded] [ref=f185e581]
+        - list [ref=f185e44]:
+          - listitem [ref=f185e45]:
+            - link "Properties" [ref=f185e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f185e50]:
+            - link "Projects" [ref=f185e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f185e55]:
+            - link "Leads" [ref=f185e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f185e60]:
+            - link "Customers" [ref=f185e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f185e65]:
+            - link "Owners" [ref=f185e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f185e70]:
+            - link "Contracts" [ref=f185e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f185e75]:
+            - link "Marketing" [ref=f185e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f185e80]:
+        - button "Intelligence & Control" [expanded] [ref=f185e582]
+        - list [ref=f185e84]:
+          - listitem [ref=f185e85]:
+            - link "Finance" [ref=f185e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f185e90]:
+            - link "Wallet" [ref=f185e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f185e95]:
+            - link "Analytics" [ref=f185e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f185e100]:
+            - link "Reports" [ref=f185e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f185e105]:
+            - link "Automation" [ref=f185e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f185e110]:
+            - link "AI Copilot" [ref=f185e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f185e115]:
+            - link "Notifications" [ref=f185e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f185e120]:
+            - link "Knowledge" [ref=f185e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f185e125]:
+            - link "Settings" [ref=f185e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f185e130]: Switch role →
+  - generic [ref=f185e131]:
+    - banner [ref=f185e132]:
+      - button "Search properties, leads, customers… ⌘K" [ref=f185e583]:
+        - generic [ref=f185e136]: Search properties, leads, customers…
+        - generic [ref=f185e176]: ⌘K
+      - generic [ref=f185e137]:
+        - button "Quick actions" [ref=f185e584]
+        - button "Notifications" [ref=f185e585]
+        - button "Light" [active] [ref=f185e816]
+        - button "Arabic" [ref=f185e587]
+        - button "Account menu" [ref=f185e588]:
+          - generic [ref=f185e154]: SA
+    - main [ref=f185e155]:
+      - generic [ref=f185e156]:
+        - generic [ref=f185e157]:
+          - generic [ref=f185e158]:
+            - heading "My Properties" [level=1] [ref=f185e589]
+            - paragraph [ref=f185e160]: Manage and monitor your agency's property inventory.
+          - button "Add Property" [ref=f185e590]
+        - paragraph [ref=f185e177]: 7 properties
+        - generic [ref=f185e166]:
+          - searchbox "Search properties by title or district…" [ref=f185e591]
+          - combobox "Status" [ref=f185e592]:
+            - option "Status" [selected]
+            - option "Draft"
+            - option "Pending Compliance"
+            - option "Active"
+            - option "Expiring"
+            - option "Expired"
+            - option "Rejected"
+            - option "Sold / Rented"
+            - option "Archived"
+          - combobox "Type" [ref=f185e593]:
+            - option "Type" [selected]
+            - option "Apartment"
+            - option "Villa"
+            - option "Townhouse"
+            - option "Land"
+            - option "Office"
+            - option "Retail"
+        - table [ref=f185e179]:
+          - rowgroup [ref=f185e180]:
+            - row [ref=f185e594]:
+              - columnheader "Select all rows" [ref=f185e182]:
+                - generic [ref=f185e183] [cursor=pointer]:
+                  - checkbox "Select all rows" [ref=f185e185]
+                  - generic [ref=f185e186]: Select all rows
+              - columnheader "Property" [ref=f185e595]
+              - columnheader "Status" [ref=f185e596]
+              - columnheader "Advertisement" [ref=f185e597]
+              - columnheader "Performance" [ref=f185e598]
+              - columnheader "Price (SAR)" [ref=f185e599]
+              - columnheader "Actions" [ref=f185e600]
+          - rowgroup [ref=f185e193]:
+            - row [ref=f185e601] [cursor=pointer]:
+              - cell "Select Open property for Villa 42, Al Nakheel" [ref=f185e602]:
+                - generic [ref=f185e196]:
+                  - checkbox "Select Open property for Villa 42, Al Nakheel" [ref=f185e603]
+                  - generic [ref=f185e199]: Select Open property for Villa 42, Al Nakheel
+              - cell [ref=f185e604]:
+                - generic [ref=f185e205]:
+                  - paragraph [ref=f185e206]: Villa 42, Al Nakheel
+                  - list [ref=f185e207]:
+                    - listitem [ref=f185e208]: Al Nakheel, Riyadh
+                    - listitem [ref=f185e211]: Villa
+                    - listitem [ref=f185e214]: Reem Al-Dosari
+              - cell "Active" [ref=f185e605]
+              - cell [ref=f185e606]:
+                - generic [ref=f185e222]:
+                  - generic [ref=f185e223]: Licensed
+                  - generic [ref=f185e226]: Pro
+              - 'cell "Leads: 2 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e607]':
+                - list [ref=f185e230]:
+                  - listitem [ref=f185e608]:
+                    - 'generic "Leads: 2" [ref=f185e611]': "2"
+                  - listitem [ref=f185e612]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e616]': —
+                  - listitem [ref=f185e617]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e621]': —
+              - cell "2,300,000 SAR" [ref=f185e622]
+              - cell [ref=f185e623]:
+                - button "More actions for Villa 42, Al Nakheel" [ref=f185e626]
+            - row [ref=f185e628] [cursor=pointer]:
+              - cell "Select Open property for Apartment 7B, Al Malqa" [ref=f185e629]:
+                - generic [ref=f185e253]:
+                  - checkbox "Select Open property for Apartment 7B, Al Malqa" [ref=f185e630]
+                  - generic [ref=f185e256]: Select Open property for Apartment 7B, Al Malqa
+              - cell [ref=f185e631]:
+                - generic [ref=f185e262]:
+                  - paragraph [ref=f185e263]: Apartment 7B, Al Malqa
+                  - list [ref=f185e264]:
+                    - listitem [ref=f185e265]: Al Malqa, Riyadh
+                    - listitem [ref=f185e268]: Apartment
+                    - listitem [ref=f185e271]: Sara Al-Otaibi
+              - cell "Expiring" [ref=f185e632]
+              - cell "Licensed" [ref=f185e633]
+              - 'cell "Leads: 2 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e634]':
+                - list [ref=f185e284]:
+                  - listitem [ref=f185e635]:
+                    - 'generic "Leads: 2" [ref=f185e638]': "2"
+                  - listitem [ref=f185e639]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e643]': —
+                  - listitem [ref=f185e644]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e648]': —
+              - cell "1,650,000 SAR" [ref=f185e649]
+              - cell [ref=f185e650]:
+                - button "More actions for Apartment 7B, Al Malqa" [ref=f185e653]
+            - row [ref=f185e655] [cursor=pointer]:
+              - cell "Select Open property for Office Suite 12, Olaya" [ref=f185e656]:
+                - generic [ref=f185e307]:
+                  - checkbox "Select Open property for Office Suite 12, Olaya" [ref=f185e657]
+                  - generic [ref=f185e310]: Select Open property for Office Suite 12, Olaya
+              - cell [ref=f185e658]:
+                - generic [ref=f185e316]:
+                  - paragraph [ref=f185e317]: Office Suite 12, Olaya
+                  - list [ref=f185e318]:
+                    - listitem [ref=f185e319]: Olaya, Riyadh
+                    - listitem [ref=f185e322]: Office
+                    - listitem [ref=f185e325]: Reem Al-Dosari
+              - cell "Pending Compliance" [ref=f185e659]
+              - cell "Not licensed" [ref=f185e660]
+              - 'cell "Leads: 1 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e661]':
+                - list [ref=f185e338]:
+                  - listitem [ref=f185e662]:
+                    - 'generic "Leads: 1" [ref=f185e665]': "1"
+                  - listitem [ref=f185e666]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e670]': —
+                  - listitem [ref=f185e671]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e675]': —
+              - cell "3,100,000 SAR" [ref=f185e676]
+              - cell [ref=f185e677]:
+                - button "More actions for Office Suite 12, Olaya" [ref=f185e680]
+            - row [ref=f185e682] [cursor=pointer]:
+              - cell "Select Open property for Villa 9, Al Yasmin" [ref=f185e683]:
+                - generic [ref=f185e361]:
+                  - checkbox "Select Open property for Villa 9, Al Yasmin" [ref=f185e684]
+                  - generic [ref=f185e364]: Select Open property for Villa 9, Al Yasmin
+              - cell [ref=f185e685]:
+                - generic [ref=f185e370]:
+                  - paragraph [ref=f185e371]: Villa 9, Al Yasmin
+                  - list [ref=f185e372]:
+                    - listitem [ref=f185e373]: Al Yasmin, Riyadh
+                    - listitem [ref=f185e376]: Villa
+                    - listitem [ref=f185e379]: Sara Al-Otaibi
+              - cell "Draft" [ref=f185e686]
+              - cell "Not licensed" [ref=f185e687]
+              - 'cell "Leads: 1 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e688]':
+                - list [ref=f185e392]:
+                  - listitem [ref=f185e689]:
+                    - 'generic "Leads: 1" [ref=f185e692]': "1"
+                  - listitem [ref=f185e693]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e697]': —
+                  - listitem [ref=f185e698]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e702]': —
+              - cell "2,750,000 SAR" [ref=f185e703]
+              - cell [ref=f185e704]:
+                - button "More actions for Villa 9, Al Yasmin" [ref=f185e707]
+            - row [ref=f185e709] [cursor=pointer]:
+              - cell "Select Open property for Land Plot 3, Al Narjis" [ref=f185e710]:
+                - generic [ref=f185e415]:
+                  - checkbox "Select Open property for Land Plot 3, Al Narjis" [ref=f185e711]
+                  - generic [ref=f185e418]: Select Open property for Land Plot 3, Al Narjis
+              - cell [ref=f185e712]:
+                - generic [ref=f185e424]:
+                  - paragraph [ref=f185e425]: Land Plot 3, Al Narjis
+                  - list [ref=f185e426]:
+                    - listitem [ref=f185e427]: Al Narjis, Riyadh
+                    - listitem [ref=f185e430]: Land
+                    - listitem [ref=f185e433]: Reem Al-Dosari
+              - cell "Sold / Rented" [ref=f185e713]
+              - cell "Licensed" [ref=f185e714]
+              - 'cell "Leads: 1 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e715]':
+                - list [ref=f185e446]:
+                  - listitem [ref=f185e716]:
+                    - 'generic "Leads: 1" [ref=f185e719]': "1"
+                  - listitem [ref=f185e720]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e724]': —
+                  - listitem [ref=f185e725]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e729]': —
+              - cell "1,850,000 SAR" [ref=f185e730]
+              - cell [ref=f185e731]:
+                - button "More actions for Land Plot 3, Al Narjis" [ref=f185e734]
+            - row [ref=f185e736] [cursor=pointer]:
+              - cell "Select Open property for Retail Unit 4, Al Olaya Market" [ref=f185e737]:
+                - generic [ref=f185e469]:
+                  - checkbox "Select Open property for Retail Unit 4, Al Olaya Market" [ref=f185e738]
+                  - generic [ref=f185e472]: Select Open property for Retail Unit 4, Al Olaya Market
+              - cell [ref=f185e739]:
+                - generic [ref=f185e478]:
+                  - paragraph [ref=f185e479]: Retail Unit 4, Al Olaya Market
+                  - list [ref=f185e480]:
+                    - listitem [ref=f185e481]: Olaya, Riyadh
+                    - listitem [ref=f185e484]: Retail
+                    - listitem [ref=f185e487]: Sara Al-Otaibi
+              - cell "Rejected" [ref=f185e740]
+              - cell "Not licensed" [ref=f185e741]
+              - 'cell "Leads: 1 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e742]':
+                - list [ref=f185e500]:
+                  - listitem [ref=f185e743]:
+                    - 'generic "Leads: 1" [ref=f185e746]': "1"
+                  - listitem [ref=f185e747]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e751]': —
+                  - listitem [ref=f185e752]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e756]': —
+              - cell "1,400,000 SAR" [ref=f185e757]
+              - cell [ref=f185e758]:
+                - button "More actions for Retail Unit 4, Al Olaya Market" [ref=f185e761]
+            - row [ref=f185e763] [cursor=pointer]:
+              - cell "Select Open property for Apartment 2C, Al Nakheel" [ref=f185e764]:
+                - generic [ref=f185e523]:
+                  - checkbox "Select Open property for Apartment 2C, Al Nakheel" [ref=f185e765]
+                  - generic [ref=f185e526]: Select Open property for Apartment 2C, Al Nakheel
+              - cell [ref=f185e766]:
+                - generic [ref=f185e532]:
+                  - paragraph [ref=f185e533]: Apartment 2C, Al Nakheel
+                  - list [ref=f185e534]:
+                    - listitem [ref=f185e535]: Al Nakheel, Riyadh
+                    - listitem [ref=f185e538]: Apartment
+                    - listitem [ref=f185e541]: Reem Al-Dosari
+              - cell "Archived" [ref=f185e767]
+              - cell "Licensed" [ref=f185e768]
+              - 'cell "Leads: 0 Reach: Not tracked yet Views: Not tracked yet" [ref=f185e769]':
+                - list [ref=f185e554]:
+                  - listitem [ref=f185e770]:
+                    - 'generic "Leads: 0" [ref=f185e773]': "0"
+                  - listitem [ref=f185e774]:
+                    - 'generic "Reach: Not tracked yet" [ref=f185e778]': —
+                  - listitem [ref=f185e779]:
+                    - 'generic "Views: Not tracked yet" [ref=f185e783]': —
+              - cell "1,100,000 SAR" [ref=f185e784]
+              - cell [ref=f185e785]:
+                - button "More actions for Apartment 2C, Al Nakheel" [ref=f185e788]

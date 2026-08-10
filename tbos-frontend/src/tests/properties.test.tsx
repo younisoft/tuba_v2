@@ -30,12 +30,15 @@ describe('Properties Vertical Slice — PROP-01 → PROP-02 → Compliance/Media
       const user = userEvent.setup();
       await loginAs('tm-reem'); // PC — owns p-101, p-103, p-105, p-107
       await renderAt('/properties');
-      expect(await screen.findByRole('heading', { level: 1, name: 'Properties' })).toBeInTheDocument();
+      expect(await screen.findByRole('heading', { level: 1, name: 'My Properties' })).toBeInTheDocument();
       expect(await screen.findByText('Villa 42, Al Nakheel')).toBeInTheDocument(); // p-101, reem's
       expect(screen.queryByText('Apartment 7B, Al Malqa')).not.toBeInTheDocument(); // p-102, Sara's
 
       await user.type(screen.getByRole('searchbox', { name: /search properties/i }), 'zzzznoresults');
-      expect(await screen.findByText('No properties yet')).toBeInTheDocument();
+      // A filtered-to-zero result is a distinct empty state from "no properties
+      // exist at all" (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md Part 17) — never
+      // the same generic message.
+      expect(await screen.findByText('No properties match your filters')).toBeInTheDocument();
     });
 
     it('gives an Agency Owner visibility across the whole agency’s inventory', async () => {
@@ -118,7 +121,7 @@ describe('Properties Vertical Slice — PROP-01 → PROP-02 → Compliance/Media
       expect(within(dialog).getByText(/removes the listing from active inventory/i)).toBeInTheDocument();
       await user.click(within(dialog).getByRole('button', { name: 'Archive' }));
 
-      expect(await screen.findByRole('heading', { level: 1, name: 'Properties' })).toBeInTheDocument();
+      expect(await screen.findByRole('heading', { level: 1, name: 'My Properties' })).toBeInTheDocument();
     });
   });
 });

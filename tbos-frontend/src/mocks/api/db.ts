@@ -44,6 +44,8 @@ import type {
   PropertyActivity,
   PropertyActivityKind,
   PropertyPerformance,
+  PropertyListSummary,
+  ComplianceRequirementStatus,
   PropertyMediaItem,
   Project,
   Unit,
@@ -465,6 +467,23 @@ export function propertyPerformanceForProperty(propertyId: string): PropertyPerf
   const leadsGenerated = db.leads.filter((l) => l.propertyId === propertyId).length;
   const daysOnMarket = property?.listedDate ? Math.max(0, Math.floor((Date.now() - new Date(property.listedDate).getTime()) / 86_400_000)) : null;
   return { propertyId, leadsGenerated, daysOnMarket };
+}
+
+/**
+ * PROP-01's list-row summary (TBOS_MY_PROPERTIES_SCREEN_INVENTORY.md PROP-01
+ * data dependencies) — one bulk read instead of N per-row detail calls, the
+ * shape a real list endpoint would return. advertisementStatus is derived
+ * from the existing 'REGA Ad License' compliance requirement (real data,
+ * already seeded for PROP-02) rather than a new field; leadsGenerated reuses
+ * the same real Lead-linkage count `propertyPerformanceForProperty` computes.
+ */
+export function propertiesWithSummaryForUser(user: { id: string; agencyId: string; activeRole: RoleCode }): PropertyListSummary[] {
+  return propertiesForUser(user).map((property) => {
+    const adLicense = db.propertyCompliance.find((c) => c.propertyId === property.id && c.name === 'REGA Ad License');
+    const advertisementStatus: ComplianceRequirementStatus | 'none' = adLicense?.status ?? 'none';
+    const leadsGenerated = db.leads.filter((l) => l.propertyId === property.id).length;
+    return { property, advertisementStatus, advertisementExpiryDate: adLicense?.expiryDate, leadsGenerated };
+  });
 }
 
 export function addPropertyActivity(activity: Omit<PropertyActivity, 'id' | 'timestamp'>) {

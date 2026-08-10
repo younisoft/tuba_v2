@@ -22,6 +22,18 @@ export const PERMISSION_REGISTRY: PermissionDefinition[] = [
   { key: 'properties.edit', module: 'properties', action: 'edit', description: 'Edit a property listing.' },
   { key: 'properties.delete', module: 'properties', action: 'delete', description: 'Delete/archive a property listing.' },
   { key: 'properties.compliance.edit', module: 'properties', action: 'edit', description: "Edit a property's compliance tab." },
+  {
+    key: 'properties.promote',
+    module: 'properties',
+    action: 'manage',
+    description: 'Request a Featured/Pro promotion upgrade for a property listing (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md §9 — proposed, not yet backend-enforced).',
+  },
+  {
+    key: 'properties.services.request',
+    module: 'properties',
+    action: 'manage',
+    description: 'Request a property service (Photography/Video/Drone) (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md §9 — proposed, not yet backend-enforced).',
+  },
 
   { key: 'projects.view', module: 'projects', action: 'view', description: 'View development projects and units.' },
   { key: 'projects.create', module: 'projects', action: 'create', description: 'Create a project or unit.' },

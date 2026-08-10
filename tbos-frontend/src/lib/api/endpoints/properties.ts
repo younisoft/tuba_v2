@@ -1,6 +1,7 @@
 import { apiClient, type RequestOptions } from '@/lib/api/client';
 import {
   propertiesForUser,
+  propertiesWithSummaryForUser,
   propertyById,
   propertyComplianceForProperty,
   propertyMediaForProperty,
@@ -18,7 +19,7 @@ import {
   createProperty,
   addPropertyMedia,
 } from '@/mocks/api/db';
-import type { Property, PropertyComplianceRequirement, PropertyMediaItem, PropertyActivity, PropertyPerformance } from '@/types/entities';
+import type { Property, PropertyComplianceRequirement, PropertyMediaItem, PropertyActivity, PropertyPerformance, PropertyListSummary } from '@/types/entities';
 import type { RoleCode } from '@/types/rbac';
 
 export interface PropertiesUser {
@@ -31,6 +32,9 @@ export interface PropertiesUser {
  * import mocks/ directly (MOCK_API.md). */
 export const propertiesApi = {
   list: (user: PropertiesUser, options?: RequestOptions) => apiClient.request<Property[]>(() => propertiesForUser(user), options),
+
+  /** PROP-01's list-row summary — advertisement status + real leads count in one bulk read (TBOS_MY_PROPERTIES_SCREEN_INVENTORY.md). */
+  listWithSummary: (user: PropertiesUser, options?: RequestOptions) => apiClient.request<PropertyListSummary[]>(() => propertiesWithSummaryForUser(user), options),
 
   get: (propertyId: string, options?: RequestOptions) => apiClient.request<Property>(() => propertyById(propertyId), options),
 

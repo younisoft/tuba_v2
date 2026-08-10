@@ -1,0 +1,305 @@
+- generic [ref=f184e3]:
+  - navigation "Primary" [ref=f184e5]:
+    - generic [ref=f184e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f184e7]
+      - button "طي القائمة" [ref=f184e16]
+    - generic [ref=f184e19]:
+      - generic [ref=f184e20]:
+        - button "الاتجاه" [expanded] [ref=f184e21]
+        - list [ref=f184e24]:
+          - listitem [ref=f184e25]:
+            - link "Home" [ref=f184e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f184e30]:
+            - link "Today" [ref=f184e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f184e35]:
+            - link "Tasks" [ref=f184e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f184e40]:
+        - button "التشغيل" [expanded] [ref=f184e41]
+        - list [ref=f184e44]:
+          - listitem [ref=f184e45]:
+            - link "Properties" [ref=f184e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f184e50]:
+            - link "Projects" [ref=f184e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f184e55]:
+            - link "Leads" [ref=f184e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f184e60]:
+            - link "Customers" [ref=f184e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f184e65]:
+            - link "Owners" [ref=f184e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f184e70]:
+            - link "Contracts" [ref=f184e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f184e75]:
+            - link "Marketing" [ref=f184e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f184e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f184e81]
+        - list [ref=f184e84]:
+          - listitem [ref=f184e85]:
+            - link "Finance" [ref=f184e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f184e90]:
+            - link "Wallet" [ref=f184e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f184e95]:
+            - link "Analytics" [ref=f184e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f184e100]:
+            - link "Reports" [ref=f184e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f184e105]:
+            - link "Automation" [ref=f184e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f184e110]:
+            - link "AI Copilot" [ref=f184e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f184e115]:
+            - link "Notifications" [ref=f184e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f184e120]:
+            - link "Knowledge" [ref=f184e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f184e125]:
+            - link "Settings" [ref=f184e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f184e130]: تبديل الدور →
+  - generic [ref=f184e131]:
+    - banner [ref=f184e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء… ⌘K" [ref=f184e133]:
+        - generic [ref=f184e136]: ابحث عن عقارات، عملاء محتملين، عملاء…
+        - generic [ref=f184e137]: ⌘K
+      - generic [ref=f184e138]:
+        - button "إجراءات سريعة" [ref=f184e140]
+        - button "الإشعارات" [ref=f184e144]
+        - button "النظام" [ref=f184e147]
+        - button "الإنجليزية" [ref=f184e150]
+        - button "قائمة الحساب" [ref=f184e154]:
+          - generic [ref=f184e155]: SA
+    - main [ref=f184e156]:
+      - generic [ref=f184e157]:
+        - generic [ref=f184e158]:
+          - generic [ref=f184e159]:
+            - heading "عقاراتي" [level=1] [ref=f184e160]
+            - paragraph [ref=f184e161]: إدارة ومتابعة مخزون العقارات الخاص بوكالتك.
+          - button "إضافة عقار" [ref=f184e162]
+        - paragraph [ref=f184e165]: 7 عقارات
+        - generic [ref=f184e168]:
+          - searchbox "ابحث عن العقارات بالعنوان أو الحي…" [ref=f184e170]
+          - combobox "الحالة" [ref=f184e172]:
+            - option "الحالة" [selected]
+            - option "مسودة"
+            - option "بانتظار الامتثال"
+            - option "نشط"
+            - option "قارب على الانتهاء"
+            - option "منتهي"
+            - option "مرفوض"
+            - option "مباع / مؤجر"
+            - option "مؤرشف"
+          - combobox "النوع" [ref=f184e174]:
+            - option "النوع" [selected]
+            - option "شقة"
+            - option "فيلا"
+            - option "تاون هاوس"
+            - option "أرض"
+            - option "مكتب"
+            - option "محل تجاري"
+        - table [ref=f184e177]:
+          - rowgroup [ref=f184e178]:
+            - row [ref=f184e179]:
+              - columnheader "Select all rows" [ref=f184e180]:
+                - generic [ref=f184e181] [cursor=pointer]:
+                  - checkbox "Select all rows" [ref=f184e183]
+                  - generic [ref=f184e184]: Select all rows
+              - columnheader "العقار" [ref=f184e185]
+              - columnheader "الحالة" [ref=f184e186]
+              - columnheader "الإعلان" [ref=f184e187]
+              - columnheader "الأداء" [ref=f184e188]
+              - columnheader "السعر (ريال)" [ref=f184e189]
+              - columnheader "الإجراءات" [ref=f184e190]
+          - rowgroup [ref=f184e191]:
+            - row [ref=f184e192] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Villa 42, Al Nakheel" [ref=f184e193]:
+                - generic [ref=f184e194]:
+                  - checkbox "Select فتح العقار الخاص بـ Villa 42, Al Nakheel" [ref=f184e196]
+                  - generic [ref=f184e197]: Select فتح العقار الخاص بـ Villa 42, Al Nakheel
+              - cell [ref=f184e198]:
+                - generic [ref=f184e203]:
+                  - paragraph [ref=f184e204]: Villa 42, Al Nakheel
+                  - list [ref=f184e205]:
+                    - listitem [ref=f184e206]: Al Nakheel, Riyadh
+                    - listitem [ref=f184e209]: فيلا
+                    - listitem [ref=f184e212]: Reem Al-Dosari
+              - cell "نشط" [ref=f184e215]
+              - cell [ref=f184e219]:
+                - generic [ref=f184e220]:
+                  - generic [ref=f184e221]: مرخّص
+                  - generic [ref=f184e224]: برو
+              - 'cell "العملاء المحتملون: 2 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e227]':
+                - list [ref=f184e228]:
+                  - listitem [ref=f184e229]:
+                    - 'generic "العملاء المحتملون: 2" [ref=f184e232]': "2"
+                  - listitem [ref=f184e233]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e237]': —
+                  - listitem [ref=f184e238]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e242]': —
+              - cell "٢٬٣٠٠٬٠٠٠ ريال" [ref=f184e243]
+              - cell [ref=f184e244]:
+                - button "إجراءات إضافية لـ Villa 42, Al Nakheel" [ref=f184e247]
+            - row [ref=f184e249] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Apartment 7B, Al Malqa" [ref=f184e250]:
+                - generic [ref=f184e251]:
+                  - checkbox "Select فتح العقار الخاص بـ Apartment 7B, Al Malqa" [ref=f184e253]
+                  - generic [ref=f184e254]: Select فتح العقار الخاص بـ Apartment 7B, Al Malqa
+              - cell [ref=f184e255]:
+                - generic [ref=f184e260]:
+                  - paragraph [ref=f184e261]: Apartment 7B, Al Malqa
+                  - list [ref=f184e262]:
+                    - listitem [ref=f184e263]: Al Malqa, Riyadh
+                    - listitem [ref=f184e266]: شقة
+                    - listitem [ref=f184e269]: Sara Al-Otaibi
+              - cell "قارب على الانتهاء" [ref=f184e272]
+              - cell "مرخّص" [ref=f184e276]
+              - 'cell "العملاء المحتملون: 2 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e281]':
+                - list [ref=f184e282]:
+                  - listitem [ref=f184e283]:
+                    - 'generic "العملاء المحتملون: 2" [ref=f184e286]': "2"
+                  - listitem [ref=f184e287]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e291]': —
+                  - listitem [ref=f184e292]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e296]': —
+              - cell "١٬٦٥٠٬٠٠٠ ريال" [ref=f184e297]
+              - cell [ref=f184e298]:
+                - button "إجراءات إضافية لـ Apartment 7B, Al Malqa" [ref=f184e301]
+            - row [ref=f184e303] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Office Suite 12, Olaya" [ref=f184e304]:
+                - generic [ref=f184e305]:
+                  - checkbox "Select فتح العقار الخاص بـ Office Suite 12, Olaya" [ref=f184e307]
+                  - generic [ref=f184e308]: Select فتح العقار الخاص بـ Office Suite 12, Olaya
+              - cell [ref=f184e309]:
+                - generic [ref=f184e314]:
+                  - paragraph [ref=f184e315]: Office Suite 12, Olaya
+                  - list [ref=f184e316]:
+                    - listitem [ref=f184e317]: Olaya, Riyadh
+                    - listitem [ref=f184e320]: مكتب
+                    - listitem [ref=f184e323]: Reem Al-Dosari
+              - cell "بانتظار الامتثال" [ref=f184e326]
+              - cell "غير مرخّص" [ref=f184e330]
+              - 'cell "العملاء المحتملون: 1 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e335]':
+                - list [ref=f184e336]:
+                  - listitem [ref=f184e337]:
+                    - 'generic "العملاء المحتملون: 1" [ref=f184e340]': "1"
+                  - listitem [ref=f184e341]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e345]': —
+                  - listitem [ref=f184e346]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e350]': —
+              - cell "٣٬١٠٠٬٠٠٠ ريال" [ref=f184e351]
+              - cell [ref=f184e352]:
+                - button "إجراءات إضافية لـ Office Suite 12, Olaya" [ref=f184e355]
+            - row [ref=f184e357] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Villa 9, Al Yasmin" [ref=f184e358]:
+                - generic [ref=f184e359]:
+                  - checkbox "Select فتح العقار الخاص بـ Villa 9, Al Yasmin" [ref=f184e361]
+                  - generic [ref=f184e362]: Select فتح العقار الخاص بـ Villa 9, Al Yasmin
+              - cell [ref=f184e363]:
+                - generic [ref=f184e368]:
+                  - paragraph [ref=f184e369]: Villa 9, Al Yasmin
+                  - list [ref=f184e370]:
+                    - listitem [ref=f184e371]: Al Yasmin, Riyadh
+                    - listitem [ref=f184e374]: فيلا
+                    - listitem [ref=f184e377]: Sara Al-Otaibi
+              - cell "مسودة" [ref=f184e380]
+              - cell "غير مرخّص" [ref=f184e384]
+              - 'cell "العملاء المحتملون: 1 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e389]':
+                - list [ref=f184e390]:
+                  - listitem [ref=f184e391]:
+                    - 'generic "العملاء المحتملون: 1" [ref=f184e394]': "1"
+                  - listitem [ref=f184e395]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e399]': —
+                  - listitem [ref=f184e400]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e404]': —
+              - cell "٢٬٧٥٠٬٠٠٠ ريال" [ref=f184e405]
+              - cell [ref=f184e406]:
+                - button "إجراءات إضافية لـ Villa 9, Al Yasmin" [ref=f184e409]
+            - row [ref=f184e411] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Land Plot 3, Al Narjis" [ref=f184e412]:
+                - generic [ref=f184e413]:
+                  - checkbox "Select فتح العقار الخاص بـ Land Plot 3, Al Narjis" [ref=f184e415]
+                  - generic [ref=f184e416]: Select فتح العقار الخاص بـ Land Plot 3, Al Narjis
+              - cell [ref=f184e417]:
+                - generic [ref=f184e422]:
+                  - paragraph [ref=f184e423]: Land Plot 3, Al Narjis
+                  - list [ref=f184e424]:
+                    - listitem [ref=f184e425]: Al Narjis, Riyadh
+                    - listitem [ref=f184e428]: أرض
+                    - listitem [ref=f184e431]: Reem Al-Dosari
+              - cell "مباع / مؤجر" [ref=f184e434]
+              - cell "مرخّص" [ref=f184e438]
+              - 'cell "العملاء المحتملون: 1 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e443]':
+                - list [ref=f184e444]:
+                  - listitem [ref=f184e445]:
+                    - 'generic "العملاء المحتملون: 1" [ref=f184e448]': "1"
+                  - listitem [ref=f184e449]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e453]': —
+                  - listitem [ref=f184e454]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e458]': —
+              - cell "١٬٨٥٠٬٠٠٠ ريال" [ref=f184e459]
+              - cell [ref=f184e460]:
+                - button "إجراءات إضافية لـ Land Plot 3, Al Narjis" [ref=f184e463]
+            - row [ref=f184e465] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Retail Unit 4, Al Olaya Market" [ref=f184e466]:
+                - generic [ref=f184e467]:
+                  - checkbox "Select فتح العقار الخاص بـ Retail Unit 4, Al Olaya Market" [ref=f184e469]
+                  - generic [ref=f184e470]: Select فتح العقار الخاص بـ Retail Unit 4, Al Olaya Market
+              - cell [ref=f184e471]:
+                - generic [ref=f184e476]:
+                  - paragraph [ref=f184e477]: Retail Unit 4, Al Olaya Market
+                  - list [ref=f184e478]:
+                    - listitem [ref=f184e479]: Olaya, Riyadh
+                    - listitem [ref=f184e482]: محل تجاري
+                    - listitem [ref=f184e485]: Sara Al-Otaibi
+              - cell "مرفوض" [ref=f184e488]
+              - cell "غير مرخّص" [ref=f184e492]
+              - 'cell "العملاء المحتملون: 1 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e497]':
+                - list [ref=f184e498]:
+                  - listitem [ref=f184e499]:
+                    - 'generic "العملاء المحتملون: 1" [ref=f184e502]': "1"
+                  - listitem [ref=f184e503]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e507]': —
+                  - listitem [ref=f184e508]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e512]': —
+              - cell "١٬٤٠٠٬٠٠٠ ريال" [ref=f184e513]
+              - cell [ref=f184e514]:
+                - button "إجراءات إضافية لـ Retail Unit 4, Al Olaya Market" [ref=f184e517]
+            - row [ref=f184e519] [cursor=pointer]:
+              - cell "Select فتح العقار الخاص بـ Apartment 2C, Al Nakheel" [ref=f184e520]:
+                - generic [ref=f184e521]:
+                  - checkbox "Select فتح العقار الخاص بـ Apartment 2C, Al Nakheel" [ref=f184e523]
+                  - generic [ref=f184e524]: Select فتح العقار الخاص بـ Apartment 2C, Al Nakheel
+              - cell [ref=f184e525]:
+                - generic [ref=f184e530]:
+                  - paragraph [ref=f184e531]: Apartment 2C, Al Nakheel
+                  - list [ref=f184e532]:
+                    - listitem [ref=f184e533]: Al Nakheel, Riyadh
+                    - listitem [ref=f184e536]: شقة
+                    - listitem [ref=f184e539]: Reem Al-Dosari
+              - cell "مؤرشف" [ref=f184e542]
+              - cell "مرخّص" [ref=f184e546]
+              - 'cell "العملاء المحتملون: 0 الوصول: لم يُرصد بعد المشاهدات: لم يُرصد بعد" [ref=f184e551]':
+                - list [ref=f184e552]:
+                  - listitem [ref=f184e553]:
+                    - 'generic "العملاء المحتملون: 0" [ref=f184e556]': "0"
+                  - listitem [ref=f184e557]:
+                    - 'generic "الوصول: لم يُرصد بعد" [ref=f184e561]': —
+                  - listitem [ref=f184e562]:
+                    - 'generic "المشاهدات: لم يُرصد بعد" [ref=f184e566]': —
+              - cell "١٬١٠٠٬٠٠٠ ريال" [ref=f184e567]
+              - cell [ref=f184e568]:
+                - button "إجراءات إضافية لـ Apartment 2C, Al Nakheel" [ref=f184e571]

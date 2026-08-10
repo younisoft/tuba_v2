@@ -46,15 +46,31 @@
 | 38 | Whether Leads stays as a displayed metric at all until it's real | AUDIT §14 | **BUSINESS DECISION REQUIRED** |
 | 39 | Rejected-listing reason display — format/content | AUDIT §22 (`OPEN QUESTION` — never observed live) | **BUSINESS DECISION REQUIRED**, pending a follow-up live pass |
 | 40 | Pending-tab detail semantics | AUDIT §22 (`OPEN QUESTION`) | **BUSINESS DECISION REQUIRED**, pending a follow-up live pass |
+| 41 | Advertiser Type defaults from the authenticated account's `agent_type`, remains user-changeable | Explicit product decision (Phase B.1, Decision 01) + AUDIT §5.2/§10 (legacy's opposite behavior cited as the defect being corrected) | Direct — resolves what was previously an unstated design gap |
+| 42 | Changing Advertiser Type cascades to identity fields/labels/validation/POA visibility/Review Summary | Explicit product decision (Decision 01) + AUTHORITY REQ (Create AD License guide §7, §11 — the matrices these cascades implement) | Direct, dual-sourced |
+| 43 | Prefix checks are a non-authoritative UX hint only; the Authority's response is the sole source of truth | Explicit product decision (Decision 01) | Direct — a guardrail against the frontend re-implementing authority business logic |
+| 44 | Performance elevated to a first-class, 11-metric-inventory experience (Reach/Views/Clicks/Leads/Contacts/Calls/WhatsApp/Visit Requests/Favorites/Shares/future) | Explicit product decision (Decision 02), superseding this document's own earlier 3-metric-only treatment | Direct — an explicit revision, not a new independent finding |
+| 45 | Every performance metric classified `CURRENTLY VERIFIED` or `FUTURE/BACKEND-DEPENDENT`, never fabricated | AUDIT §14 (only Reach/Views/Leads have any legacy basis at all; Leads itself is a verified-but-broken hybrid) | Direct |
+| 46 | Derived metrics (CTR, conversion rates) architected as a slot, never rendered until both underlying data and a formal definition exist | Explicit product decision (Decision 02/§8.3) | Direct — scope discipline, not a finding |
+| 47 | List shows a quick Reach/Views-only performance summary; Detail carries the full KPI/breakdown/trend apparatus | Explicit product decision (Decision 02's "appropriate balance" requirement) | INFERENCE — a specific balance point chosen to satisfy the stated constraint, not itself dictated by the brief |
+| 48 | Activity Log formally distinguished from Performance (internal history vs. audience behavior) and explicitly retained as a real, sequenced-later feature | Explicit product decision (Decision 03) | Direct |
+| 49 | Unified Promotion pattern (one drawer, parameterized by tier) replacing three separate legacy action buttons | Explicit product decision (Decision 04) + AUDIT §12 (the three-button pattern being replaced) | Direct |
+| 50 | Unified Service Request pattern (one drawer, parameterized by service type) replacing three separate legacy triggers | Explicit product decision (Decision 05) + AUDIT §13/§20 (the unlabeled, bespoke legacy triggers being replaced) | Direct |
+| 51 | Authority validation state set expanded to 9 explicit categories (invalid format/license/identifier, not found, belongs to another advertiser, type mismatch, unavailable, timeout, success), with no exact error copy invented | Explicit product decision (Decision 06) + AUTHORITY REQ (the 29-code error table's existence, justifying the category set) | Direct, dual-sourced |
+| 52 | All Add Property fields reclassified into 5 categories (User-entered/Account-derived/Authority-derived/System-derived/Read-only) | Explicit product decision (Decision 07), refining the audit's original 3-way Data Source Analysis (AUDIT §11) | Direct extension of a prior finding |
+| 53 | Existing vs. proposed permission keys made explicit everywhere (`properties.promote`/`properties.services.request` marked PROPOSED — BACKEND-DEPENDENT, not claimed to already exist) | Explicit product decision (Decision 08) + AUDIT §16 (the original gap finding) | Direct |
+| 54 | Future extensibility formalized as an architectural constraint (open, data-driven lists for metrics/promotion tiers/service types/activity kinds) rather than a fixed set | Explicit product decision (Decision 09) | Direct — a constraint on *how* Phase C builds these, not new scope |
 
 ## Decisions requiring business approval (roll-up)
 
 1. Authority integration re-platforming vs. continued legacy-proxy dependency (#34).
 2. Schema investment for currently-unstructured REGA data (#35).
 3. Unified vs. divergent status vocabulary between Properties/Projects (#36).
-4. Role/scope assignment for the two new permission keys (#37).
-5. Whether/how to keep showing the Leads metric (#38).
+4. Role/scope assignment for the two proposed permission keys, and formally registering them in the permission system before Phase C (#37, #53).
+5. Exact wording/visual treatment for the Leads metric's "not yet reliably tracked" state — **narrowed, not closed, by Decision 02**: it is now settled that Leads stays visible (classified `CURRENTLY VERIFIED (displayed)`), but the precise copy/visual treatment for its broken pipeline is still open (#38, refined by #44/#45).
 6. Rejected/Pending state semantics, pending a follow-up live audit pass to actually observe them (#39, #40).
+7. Formal calculation definitions for any future derived metric (CTR, conversion rates) before they can ever render (#46).
+8. Confirm the List-vs-Detail performance summary balance point (Reach/Views only at list density) against actual broker feedback once buildable (#47 — an inference-based UX choice, not directly dictated by any source).
 
 ## Traceability gaps carried forward as Open Questions (not resolved by this phase)
 

@@ -15,3 +15,10 @@ export function formatSelectedLabel(count: number, locale: Locale): string {
   if (locale === 'ar') return `${count} ${count === 1 ? 'محدد' : 'محددة'}`;
   return `${count} selected`;
 }
+
+/** PROP-01's header property-count summary (TBOS_MY_PROPERTIES_UX_ARCHITECTURE.md
+ * Part 02: "property count/summary where supported"). */
+export function formatPropertyCountLabel(count: number, locale: Locale): string {
+  if (locale === 'ar') return `${count} ${count === 1 ? 'عقار' : 'عقارات'}`;
+  return `${count} ${count === 1 ? 'property' : 'properties'}`;
+}

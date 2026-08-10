@@ -89,6 +89,7 @@ export const PROPERTIES: Property[] = [
     listedDate: '2026-06-10',
     description:
       'A beautifully maintained 5-bedroom villa in the heart of Al Nakheel, featuring a private garden, a modern open-plan kitchen, and easy access to King Fahd Road. Recently renovated with high-end finishes throughout.',
+    promotionTier: 'pro',
   },
   {
     id: 'p-102',
@@ -191,6 +192,7 @@ export const PROPERTIES: Property[] = [
     status: 'active',
     linkedLeadCount: 1,
     listedDate: '2026-05-20',
+    promotionTier: 'featured',
   },
   {
     id: 'p-202',

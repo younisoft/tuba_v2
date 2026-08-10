@@ -1,0 +1,110 @@
+- generic [ref=f185e3]:
+  - navigation "Primary" [ref=f185e5]:
+    - generic [ref=f185e6]:
+      - img "نظام تشغيل الوسيط توبا" [ref=f185e7]
+      - button "طي القائمة" [ref=f185e16]
+    - generic [ref=f185e19]:
+      - generic [ref=f185e20]:
+        - button "الاتجاه" [expanded] [ref=f185e21]
+        - list [ref=f185e24]:
+          - listitem [ref=f185e25]:
+            - link "Home" [ref=f185e26] [cursor=pointer]:
+              - /url: /home
+          - listitem [ref=f185e30]:
+            - link "Today" [ref=f185e31] [cursor=pointer]:
+              - /url: /today
+          - listitem [ref=f185e35]:
+            - link "Tasks" [ref=f185e36] [cursor=pointer]:
+              - /url: /tasks
+      - generic [ref=f185e40]:
+        - button "التشغيل" [expanded] [ref=f185e41]
+        - list [ref=f185e44]:
+          - listitem [ref=f185e45]:
+            - link "Properties" [ref=f185e46] [cursor=pointer]:
+              - /url: /properties
+          - listitem [ref=f185e50]:
+            - link "Projects" [ref=f185e51] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f185e55]:
+            - link "Leads" [ref=f185e56] [cursor=pointer]:
+              - /url: /leads
+          - listitem [ref=f185e60]:
+            - link "Customers" [ref=f185e61] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f185e65]:
+            - link "Owners" [ref=f185e66] [cursor=pointer]:
+              - /url: /owners
+          - listitem [ref=f185e70]:
+            - link "Contracts" [ref=f185e71] [cursor=pointer]:
+              - /url: /contracts
+          - listitem [ref=f185e75]:
+            - link "Marketing" [ref=f185e76] [cursor=pointer]:
+              - /url: /marketing
+      - generic [ref=f185e80]:
+        - button "الذكاء والتحكم" [expanded] [ref=f185e81]
+        - list [ref=f185e84]:
+          - listitem [ref=f185e85]:
+            - link "Finance" [ref=f185e86] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=f185e90]:
+            - link "Wallet" [ref=f185e91] [cursor=pointer]:
+              - /url: /wallet
+          - listitem [ref=f185e95]:
+            - link "Analytics" [ref=f185e96] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f185e100]:
+            - link "Reports" [ref=f185e101] [cursor=pointer]:
+              - /url: /reports
+          - listitem [ref=f185e105]:
+            - link "Automation" [ref=f185e106] [cursor=pointer]:
+              - /url: /automation
+          - listitem [ref=f185e110]:
+            - link "AI Copilot" [ref=f185e111] [cursor=pointer]:
+              - /url: /ai-copilot
+          - listitem [ref=f185e115]:
+            - link "Notifications" [ref=f185e116] [cursor=pointer]:
+              - /url: /notifications
+          - listitem [ref=f185e120]:
+            - link "Knowledge" [ref=f185e121] [cursor=pointer]:
+              - /url: /knowledge
+          - listitem [ref=f185e125]:
+            - link "Settings" [ref=f185e126] [cursor=pointer]:
+              - /url: /settings/profile
+    - generic [ref=f185e130]: تبديل الدور →
+  - generic [ref=f185e131]:
+    - banner [ref=f185e132]:
+      - button "ابحث عن عقارات، عملاء محتملين، عملاء…" [ref=f185e133]
+      - generic [ref=f185e137]:
+        - button "إجراءات سريعة" [ref=f185e139]
+        - button "الإشعارات" [ref=f185e143]
+        - button "النظام" [ref=f185e146]
+        - button "الإنجليزية" [ref=f185e149]
+        - button "قائمة الحساب" [ref=f185e153]:
+          - generic [ref=f185e154]: SA
+    - main [ref=f185e155]:
+      - generic [ref=f185e156]:
+        - generic [ref=f185e157]:
+          - generic [ref=f185e158]:
+            - heading "عقاراتي" [level=1] [ref=f185e159]
+            - paragraph [ref=f185e160]: إدارة ومتابعة مخزون العقارات الخاص بوكالتك.
+          - button "إضافة عقار" [ref=f185e161]
+        - generic [ref=f185e166]:
+          - searchbox "ابحث عن العقارات بالعنوان أو الحي…" [ref=f185e168]
+          - combobox "الحالة" [ref=f185e170]:
+            - option "الحالة" [selected]
+            - option "مسودة"
+            - option "بانتظار الامتثال"
+            - option "نشط"
+            - option "قارب على الانتهاء"
+            - option "منتهي"
+            - option "مرفوض"
+            - option "مباع / مؤجر"
+            - option "مؤرشف"
+          - combobox "النوع" [ref=f185e172]:
+            - option "النوع" [selected]
+            - option "شقة"
+            - option "فيلا"
+            - option "تاون هاوس"
+            - option "أرض"
+            - option "مكتب"
+            - option "محل تجاري"

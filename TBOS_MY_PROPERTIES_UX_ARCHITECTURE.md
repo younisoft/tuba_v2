@@ -57,7 +57,7 @@ Why each section exists, traced to evidence:
 - REGA license number + expiry proximity (a plain "78 days left" style read is more scannable than the raw date the legacy table shows — `INFERENCE`, not a legacy behavior)
 
 **Secondary (visible but visually quieter — a "meta" row under the primary line, not a separate column fight):**
-- Reach/Views/Leads (§14) — kept, but de-emphasized relative to legacy, where Performance gets equal visual weight to Status; leads specifically should carry a quiet "not yet tracked" affordance rather than a bare `0` until §14's `OPEN BUSINESS DECISION` is resolved, so brokers don't misread a structurally-dead metric as "my listing has zero interest"
+- A quick performance summary — Reach and Views only, per §8.6's list-vs-detail balance; Leads and every future engagement metric (Clicks, Contacts, Calls, WhatsApp, Visit Requests, Favorites, Shares — §8.1) are deliberately reserved for Property Detail, where their "not yet tracked"/"not available yet" nuance can be explained rather than glanced past
 - Posted/created-by metadata
 
 **Primary actions (always one tap/click away):** Edit, View detail (→ **internal** PROP-02, replacing the legacy leak to the public page — §15), Promote.
@@ -82,10 +82,10 @@ This is a deliberate rebalancing, not a like-for-like table port: the legacy row
 |---|---|---|
 | Overview | Tab (default/landing) | Title, description, media, amenities, nearby places — the editable content set, matches the legacy `add.blade.php`/`edit.blade.php`'s "Additional Required Details" (§5.2 step 4) |
 | Advertisement | Tab | The REGA-sourced read-only card (§5.2 step 3) plus license status/expiry — deliberately separated per §1's reasoning; large enough (12+ fields, per §6.1) to need its own scroll context |
-| Performance | Tab | Read-only, system-generated, different refresh/loading semantics than editable content (§14) |
-| Promotion | Tab (entry point) → **Drawer** for the actual request (`TBOS-CMP-OVERLAY-004`) | The tab shows current tier + history; the *action* of upgrading is a focused, interruption-worthy task (real payment/credit decision — §12 of the audit) that belongs in a drawer, not inline in a tab, matching PROJ-02's precedent of using a Drawer for a focused sub-task (add/edit Unit) rather than another tab |
-| Services | Tab (entry point) → **Drawer** per service type | Same reasoning as Promotion — booking a service (date/time, payment method, §13) is a focused task, not passive reading |
-| Activity | Tab | `ActivityTimeline` (`TBOS-CMP-ACTIVITY-002`) — genuinely new capability (§1), reusing the exact component PROP-02/PROJ-02 already use for price/status history, so this is additive, not a new pattern |
+| Performance — **CORE** | Tab | Read-only, system-generated, different refresh/loading semantics than editable content (§14). Describes **what the audience did with the advertisement** — Reach, Views, Leads, and the future engagement set in §8. First-class per Decision 02: this is not a secondary tab, it is one of the two or three tabs a broker is expected to check routinely |
+| Promotion | Tab (entry point) → **Drawer** for the actual request (`TBOS-CMP-OVERLAY-004`) | The tab shows current tier + history; the *action* of upgrading is a focused, interruption-worthy task (real payment/credit decision — §12 of the audit) that belongs in a drawer, not inline in a tab, matching PROJ-02's precedent of using a Drawer for a focused sub-task (add/edit Unit) rather than another tab. A single unified "Promote" entry point replaces the legacy pattern of three permanently-rendered, duplicated action buttons per row (Decision 04) |
+| Services | Tab (entry point) → **Drawer** per service type | Same reasoning as Promotion — booking a service (date/time, payment method, §13) is a focused task, not passive reading. One unified Service Request pattern (shared drawer shape across Photography/Video/Drone) replaces three separately-styled legacy triggers (Decision 05) |
+| Activity — **IMPORTANT / FUTURE IMPLEMENTATION** | Tab | `ActivityTimeline` (`TBOS-CMP-ACTIVITY-002`) — genuinely new capability (§1), reusing the exact component PROP-02/PROJ-02 already use for price/status history. Describes **what happened to the property/ad inside Tuba** — created, edited, price changed, images updated, advertisement updated, promotion requested/activated, service requested/completed, status changed. Deliberately distinct from Performance (Decision 03: audience behavior vs. internal history) and never merged with it, even though both are "history-shaped" — this remains a real, planned capability, not deprioritized out of the architecture, but its backend (an activity-log API, §17) does not yet exist, so it is sequenced after Performance, not built against fabricated entries |
 
 Promotion and Services are **not** contextual panels (i.e., not sidebar widgets always visible alongside Overview) because they are occasional, not constant, concerns — a broker checking a listing's description doesn't need the promotion-purchase UI competing for the same screen real estate every time, matching the Minimalism discipline already stated for PROP-02 in the blueprint.
 
@@ -103,7 +103,11 @@ The highest-priority section, per the task brief and per the audit's own P1 find
 Entry decision: "Yes, I have a license"
         ↓
 Step 1 — License Input
-  · Advertiser Type toggle (Individual / Establishment) — CURRENT CAPABILITY (§5.2)
+  · Advertiser Type toggle (Individual / Establishment) — CURRENT CAPABILITY (§5.2),
+    DEFAULTED from the authenticated account's own type (see §4.3) — FUTURE UX REQUIREMENT,
+    not currently observed live (legacy defaults the toggle to "منشأة"/Establishment
+    regardless of who's logged in, §5.2 of the audit) — but changeable, since the account's
+    stored type is a UX default, not a legal constraint (Decision 01)
   · Unified Number / National ID (conditional on toggle) — CURRENT CAPABILITY
   · Ad License Number — CURRENT CAPABILITY
         ↓
@@ -149,6 +153,8 @@ Step 1 — Advertiser Type (5 branches, verified exact set)
   Individual Broker · Individual Owner · Owner Representative ·
   Establishment Broker · Establishment Owner        — CURRENT CAPABILITY, exact match to
                                                         AUTHORITY REQUIREMENT §11 (§5.3 of audit)
+  · DEFAULTED from the account's own stored type (individual vs. establishment, §10 of the
+    audit's `agent_type` finding) — FUTURE UX REQUIREMENT, not observed live (Decision 01)
         ↓
 Step 2 — Identity
   · National ID / Residency ID — USER INPUT when not already known;
@@ -181,6 +187,22 @@ Step 8 — Authority License Creation (loading state, §5 of this doc)
 
 **No fields were invented beyond what §5.3/§11 of the audit verified.** The one structural addition (POA, Step 6) is not a new field invented by this document — it is a real, cited `AUTHORITY REQUIREMENT` that the legacy product currently defaults around rather than asks; surfacing it correctly is a compliance fix, not scope creep, and is explicitly flagged as such.
 
+### 4.3 Advertiser Type — Default, Change, and Cascade Behavior (Decision 01)
+
+The account type is a **default, not a constraint.** Both flows pre-select the Advertiser Type field from the authenticated user's own stored `agent_type` (individual vs. establishment, §10 of the audit) — an Establishment Broker account defaults to "Establishment Broker," an Individual Broker account defaults to "Individual Broker." This is `FUTURE UX REQUIREMENT`: legacy does the opposite of this live (§5.2 of the audit observed the toggle hardcoded to "منشأة"/Establishment regardless of who was logged in), so this is a deliberate correction, not a preservation of legacy behavior.
+
+**The user may always change it**, where the authority's own business rules permit (e.g., an Establishment Broker account holder acting as an Owner Representative for a personally-owned property — a real, verified branch of the 5-type set, §5.3/§11 of the audit). Changing the Advertiser Type is a **cascading** action, not an isolated field edit:
+
+| Changes when Advertiser Type changes | Why |
+|---|---|
+| Identity field label and requirement (Unified Number vs. National ID/Iqama) | `AUTHORITY REQUIREMENT` — establishment types require the company unified number; individual types require National ID/Iqama (Create AD License guide §11) |
+| Which fields are auto-filled vs. asked (§4.3.1 below) | An Establishment Broker's identity resolves differently than an Individual Owner's (§10 of the audit) |
+| POA step visibility (Flow B, §4.2 Step 6) | The authority's required/not-required matrix is keyed on Advertiser Type + ownership-approval status (Create AD License guide §7) |
+| Validation rules | Format/required-field differences per type |
+| Review Summary content | Must reflect the type actually submitted, not the account's default |
+
+**Prefix checks are a UX hint, never the source of truth.** A `700`-prefixed number visually suggesting "this looks like a company number" may prompt an inline hint ("this looks like a Unified Number — did you mean Establishment?"), but it must never silently override the user's explicit selection, and it is never what gets submitted as validated — only the Authority's own response (via AdvertisementValidator/CreateADLicense) is authoritative on whether an identifier is valid for the selected type. This directly prevents the frontend from re-implementing business logic that belongs to NHC/REGA.
+
 ## 5. Authority Experience
 
 `FUTURE UX REQUIREMENT` throughout — the legacy product has almost no error vocabulary here (§9: no mapping exists for any of the 29 documented error codes; §22: no rejected/invalid-license state was even observable live).
@@ -190,16 +212,25 @@ Every authority interaction needs four things the user must always be able to an
 | State | What Is Happening | Why | What Tuba Needs | What To Do Next |
 |---|---|---|---|---|
 | Verifying | "Checking your license with the Real Estate Authority…" | (not exposed — no jargon) | nothing yet | wait (non-blocking spinner, not a frozen screen) |
-| Success | "License found — here's what's on file" | — | confirm the details are right | continue |
-| Validation failure (bad input) | "That license number or ID doesn't look right" | format/required-field level | correct the field | fix inline, no full-form reset |
+| Successful verification | "License found — here's what's on file" | — | confirm the details are right | continue |
+| Invalid format | "That doesn't look like a valid license/ID number" | client-side format check, before ever calling the authority | correct the field | fix inline, no network call wasted |
+| Invalid license number | "We couldn't validate this license number" | the number itself failed authority validation | re-check the number, or switch to Flow B if none exists | fix inline; offer the "I don't have a license" branch as an explicit escape hatch, not a dead end |
+| Invalid advertiser identifier | "This ID/Unified Number doesn't match what the Authority has on file" | identifier failed authority validation | re-check the identifier | fix inline |
+| License not found | "We couldn't find a license with these details" | genuinely doesn't exist in the authority's records | double-check the number, or switch to Flow B | same escape hatch as above |
+| License belongs to another advertiser | "This license is registered to a different advertiser" | advertiserId/idType combination doesn't match the license | correct the identity fields, or confirm this is genuinely their license | fix inline; do not silently proceed with mismatched data |
+| Advertiser/license mismatch (type-level, e.g. individual ID against an establishment license) | Plain-language restatement that the Advertiser Type and the license's registered type don't agree | authority business rule | change Advertiser Type or correct the license number | link back to the Advertiser Type field (§4.3) |
 | Authority rejection (business rule, e.g. price below contract) | Plain-language restatement of the specific rule (never the raw Arabic string, per §9's error-code gap) | the authority's actual rule, translated once, centrally | the specific missing/wrong thing | a direct link back to the exact field, not "please try again" |
 | Missing information (e.g. no active package to deduct a license from, error #28) | "You don't have an available license credit right now" | quota exhausted | buy/renew | link to Packages, not a dead end |
+| Authority unavailable | "The Real Estate Authority service isn't responding right now" | upstream outage (Tuba's own proxy or NHC itself, §6 of the audit) | nothing they did wrong | offer retry; do not block Save Draft if the property record itself doesn't depend on this call succeeding |
+| Authority timeout | "This is taking longer than expected" | slow upstream response | wait or retry | a visible retry action after a reasonable wait, not an indefinite spinner |
 | Recoverable error (e.g. failed media upload) | Which specific file, why | — | retry that one item | retry affordance scoped to the failing item only, matching the *already-correct* pattern the existing `MediaUploader` pattern component implements (`TBOS-PAT-FORM-003`) |
 | Non-recoverable error (e.g. 500, §5.1 of the audit) | "Something went wrong on our side" | — | nothing they did wrong | a real retry/support path, never a bare white error page |
 
-The central, non-negotiable requirement this section adds beyond legacy: **every one of the 29 documented error codes needs a mapped, plain-language message before Phase C implementation** — this is the single largest concrete backend-dependency gap surfaced by Phase A (§9, §23) and the biggest risk to a good authority experience if skipped.
+**No exact authority error copy is invented above** — every row is a category/behavior description (per Decision 06), not a literal string; the actual wording NHC/the proxy returns for each of these categories is unverified (§22/§28 of the audit) and must be confirmed before Phase C locks in copy. The central, non-negotiable requirement this section adds beyond legacy: **every one of the 29 documented error codes needs to be mapped into one of the rows above, with a real plain-language message, before Phase C implementation** — this is the single largest concrete backend-dependency gap surfaced by Phase A (§9, §23) and the biggest risk to a good authority experience if skipped.
 
 ## 6. Promotion (Featured/Pro/متميز/برو)
+
+**Decision 04 — one unified promotion experience, not duplicated legacy action buttons.** Legacy renders three separately-styled, always-visible action tags (Pro/Featured/Renew) per row, each opening its own similarly-but-not-identically-structured modal (§12 of the audit). This architecture instead defines a single Promotion pattern — one "Promote" entry point, one drawer shape, parameterized by tier — so Pro and Featured (and any future tier, §19) share one interaction model instead of three parallel implementations.
 
 - **Where they appear:** current tier badge on every PROP-01 row and on PROP-02 → Advertisement/Promotion tab (§2, §3). Upgrade action lives behind a single "Promote" affordance, not three permanently-rendered buttons.
 - **When actionable:** whenever the property has an active, non-expired advertisement license — matches the legacy `checkAdLicenseDate` guard, which is real, live-tested working behavior (§12 of the audit) worth preserving exactly, including its specific "N days left, continue?" framing.
@@ -211,6 +242,8 @@ The central, non-negotiable requirement this section adds beyond legacy: **every
 
 ## 7. Property Services (Photography/Video/Drone)
 
+**Decision 05 — one unified service request experience.** Legacy renders three separate, individually-styled trigger icons with no shared visual or interaction language beyond superficial similarity (§13, §20 of the audit — and confirmed unlabeled for accessibility). This architecture defines one Service Request pattern, parameterized by service type, rather than three bespoke implementations — the same discipline as Promotion (§6).
+
 | | Current Verified Capability | Future Frontend State | Backend Dependency |
 |---|---|---|---|
 | Photography | Booking modal fully functional live (date/time, comments, Package/Credit-Card choice, real balance) — §13 | Preserve as a Service Request drawer per §3; add a visible request-status (Requested/Scheduled/Completed) once one exists | `PropertyServiceRequestController::store()` confirmed an empty stub in code (§9/§13) — frontend must not assume persistence works until this is built or the live discrepancy in §24 is resolved |
@@ -219,28 +252,82 @@ The central, non-negotiable requirement this section adds beyond legacy: **every
 
 The frontend architecture must render service **request** states (available / requested / unavailable) without asserting a **fulfillment** state (scheduled / completed / delivered) that no backend currently produces (§13, §23) — this is the load-bearing distinction the brief asks for, and it maps directly to §12 of the audit's discrepancy finding (the request UI works; what happens after is unverified).
 
-## 8. Performance
+## 8. Performance (Decision 02 — a core, first-class experience)
 
-Verified vocabulary only: **Reach, Views, Leads** (§14 — "Clicks" does not exist anywhere in the current system; not introduced here either).
+Performance is not a side-panel of three counters — it is one of the six primary sections of Property Detail (§1, §3) and a defining part of "how is my listing doing," the second half of the audit's own stated UX principle. This section supersedes the narrower, three-metric-only treatment in the original draft of this document.
 
-- **Property-level:** the three counters, shown on PROP-01 (de-emphasized, §2) and as the full Performance tab on PROP-02.
-- **Summary performance:** an agency/portfolio-wide rollup is a plausible future extension but is **not verified** anywhere in Phase A (no such view exists in legacy, per §14) — `OPEN BUSINESS DECISION` whether TBOS wants this; not designed further here to avoid inventing scope.
-- **Trend visualization:** legacy has none (the one chart that exists is decorative/hardcoded, §14) — a real trend view is a `FUTURE UX REQUIREMENT` only if the backend starts actually recording time-series data; the frontend architecture should leave room for it (a chart slot in the Performance tab) without building it against fake data.
-- **Empty/unavailable states:** Reach/Views should read "—" or "Not yet tracked" rather than a bare `0` (§17 P2) whenever the underlying counter has structurally never been able to increment — directly addresses the "Leads: 0 looks like a real result but isn't" finding.
-- **Future extensibility:** the Performance tab is structured as a list of metric cards, not a fixed 3-column table, specifically so a fourth verified metric can be added later without a layout redesign.
+### 8.1 Metric inventory — classified, not fabricated
+
+Every metric the redesign must architect for, classified per the brief's explicit instruction. **No metric below is displayed as real data unless it is `CURRENTLY VERIFIED`.**
+
+| Metric | Classification | Basis |
+|---|---|---|
+| Reach | `CURRENTLY VERIFIED` | `OBSERVED BEHAVIOR` + `CODE FACT`, §14 of the audit — live numbers (778/12,757 observed), and the only counter actually incremented in reachable legacy code |
+| Views | `CURRENTLY VERIFIED` | `OBSERVED BEHAVIOR`, §14 — live numbers (170/439 observed), backed by a real per-visit tracking table |
+| Leads | `CURRENTLY VERIFIED (displayed) / BACKEND-DEPENDENT (data pipeline)` — a deliberate hybrid, not a clean "verified" | `CODE FACT`, §14 — the field is real, displayed live, and structurally always `0` (the one increment call site is commented out). Treat the *column* as verified-to-exist and the *value* as not yet trustworthy — see §8.4 |
+| Clicks | `FUTURE / BACKEND-DEPENDENT` — entirely new | §14 of the audit confirms no `clicks` field exists anywhere in the legacy codebase; this is a genuinely new metric, not a rename of something verified |
+| Contacts | `FUTURE / BACKEND-DEPENDENT` — entirely new | Not observed or found in code anywhere in Phase A |
+| Calls | `FUTURE / BACKEND-DEPENDENT` — entirely new | Same |
+| WhatsApp | `FUTURE / BACKEND-DEPENDENT` — entirely new | Same |
+| Visit Requests | `FUTURE / BACKEND-DEPENDENT` — entirely new | Same |
+| Favorites | `FUTURE / BACKEND-DEPENDENT` — entirely new | Same |
+| Shares | `FUTURE / BACKEND-DEPENDENT` — entirely new | Same |
+| Other future verified engagement events | `FUTURE / BACKEND-DEPENDENT` — placeholder category | The architecture must not hardcode "10 metrics, forever" (§8.5) |
+
+This is not a reason to hide the future metrics from the architecture — per the task brief, they belong in the design now, rendered honestly as not-yet-available rather than omitted or faked.
+
+### 8.2 KPI structure
+
+- **KPI overview:** a metric-card row at the top of the Performance tab — Reach/Views/Leads shown with real values today; Clicks/Contacts/Calls/WhatsApp/Visit Requests/Favorites/Shares shown in the same visual system but in an explicit "not yet available" treatment (§8.4), never silently omitted, so the broker can see the full shape of what performance tracking *will* cover.
+- **Engagement breakdown:** a secondary grouping distinguishing *exposure* metrics (Reach, Views) from *action* metrics (Clicks, Contacts, Calls, WhatsApp, Visit Requests, Leads) from *audience-interest* metrics (Favorites, Shares) — this grouping is `INFERENCE`, a reasonable information-architecture choice, not sourced from legacy (which has no such grouping, since it only ever had three flat counters).
+- **Trends:** a time-series chart slot exists in the architecture but renders no data and no fake chart until a backend actually records time-series values — directly avoids repeating the legacy defect of a decorative, hardcoded-sample-data chart (§14 of the audit).
+- **Time period selection:** a date-range control (e.g., 7/30/90 days, custom) is architected as part of the Performance tab's toolbar — `FUTURE UX REQUIREMENT`, since legacy only ever shows point-in-time totals (§14) with no period control at all.
+- **Comparison:** period-over-period or property-to-property comparison is architected as a future capability slot, not built now — it requires trend data that doesn't exist yet (§8.1), so comparison must not be exposed as a working feature until trends are real.
+
+### 8.3 Derived metrics — future-ready, never presented as real
+
+Click-through rate, lead-conversion rate, contact-conversion rate, visit-conversion rate, and general engagement rate are all plausible future derived metrics. Per the brief: **these are architected as a defined slot, not implemented or estimated.** A derived metric may only render once (a) every metric it depends on is itself `CURRENTLY VERIFIED`, and (b) its formal calculation definition is agreed — neither condition is met today for any derived metric, since even the underlying Clicks/Contacts numerator data doesn't exist yet. Until then, the Performance tab must not display a computed percentage next to a metric that has no real backing data.
+
+### 8.4 Empty, unavailable, and future states
+
+| State | Treatment |
+|---|---|
+| Currently-verified metric, real value | Numeric display, as today (Reach/Views) |
+| Leads specifically | Shown with its real (currently-always-zero) value, but with a "not yet reliably tracked" affordance distinguishing it from a genuine zero-engagement result (§8.1's hybrid classification) — `BUSINESS DECISION REQUIRED` on the exact wording/visual treatment |
+| Future/backend-dependent metric, no data source yet | Shown as part of the KPI layout in a clearly "not available yet" state — visible so the broker understands the full future shape of performance tracking, never fabricated as a `0` or omitted entirely |
+| New property, zero traffic yet | "No performance data yet" — distinct from the "not yet tracked" treatment above; this is a real absence-of-activity state, not a broken pipeline |
+| Derived metric, dependencies incomplete | Not rendered as a number at all — shown only once §8.3's two conditions are met |
+
+### 8.5 Extensibility (Decision 09)
+
+The Performance tab is architected as an **open, ordered list of metric cards grouped by category** (exposure / action / interest, §8.2), not a fixed grid or a hardcoded 3-or-10-column table. Adding an 11th verified metric, or promoting a `FUTURE` metric to `CURRENTLY VERIFIED` once its backend exists, must be a data-classification change, not a layout redesign. This is the direct architectural answer to the brief's "capable of evolving as Tuba adds new engagement events" requirement.
+
+### 8.6 Accessibility from List vs. Detail
+
+Per the brief: the broker should not need to open Property Detail just to sense whether an ad is performing, but the List must not become overloaded.
+
+- **PROP-01 (List/Card):** a **quick performance summary** only — Reach and Views as compact inline numbers (already the least controversial, most reliable metrics per §8.1), with a single "View performance" affordance rather than the full KPI/breakdown/trend apparatus. Leads and every future metric are deliberately **not** shown at list density — they belong in the Detail view where the "not yet tracked"/"not available yet" nuance (§8.4) can be explained, not just glanced at.
+- **PROP-02 → Performance tab:** the full KPI overview, breakdown, trend slot, time-period control, and (once viable) comparison and derived metrics.
+
+This is the explicit balance point required by the brief: List = "is this worth a closer look," Detail = "what's actually happening."
 
 ## 9. RBAC
 
 Per the brief: **do not duplicate role checks throughout the UI.** TBOS's existing four-layer model (route / UI / API / record) already has the pattern this needs — `PermissionGate` (`TBOS-CMP-PERMISSION-001`) at the UI layer, `RouteGuard`-equivalent at the route layer (per the existing PROP-01/02/03 build), server-side enforcement at the API layer, and agency/ownership scoping at the record layer.
 
-**Gap this audit surfaces that legacy doesn't have at all (§16, §23):** two new permission keys are needed —
+**Gap this audit surfaces that legacy doesn't have at all (§16, §23):** two new permission keys are needed. Per Decision 08, the distinction between what already exists and what is only proposed must stay explicit — nothing below claims a proposed key is already registered in the permission system:
 
-| New key (proposed) | Governs | Why not reuse `properties.edit` |
-|---|---|---|
-| `properties.promote` | Requesting a Featured/Pro upgrade | It's a payment/quota action, not a content edit — legacy currently gates it with *nothing* (§16), which is itself the defect to fix, not a pattern to copy |
-| `properties.services.request` | Requesting Photography/Video/Drone | Same reasoning — a real, wallet-consuming action with zero current permission coverage |
+| Key | Status | Governs | Notes |
+|---|---|---|---|
+| `properties.view` | **EXISTING** | List/detail read access | Already registered (`permissionRegistry.ts`), unchanged by this architecture |
+| `properties.create` | **EXISTING** | Add Property (both flows) | Unchanged |
+| `properties.edit` | **EXISTING** | Edit property content | Unchanged |
+| `properties.delete` | **EXISTING** | Delete/archive | Unchanged |
+| `properties.compliance.edit` | **EXISTING** | Compliance-tab edit | Unchanged; not the same action as Promotion or Services, see below |
+| `properties.promote` | **PROPOSED — BACKEND-DEPENDENT** | Requesting a Featured/Pro upgrade | Does not exist today, in legacy or in the current TBOS permission registry. It's a payment/quota action, not a content edit — legacy currently gates it with *nothing* (§16), which is itself the defect to fix, not a pattern to copy |
+| `properties.services.request` | **PROPOSED — BACKEND-DEPENDENT** | Requesting Photography/Video/Drone | Does not exist today. Same reasoning — a real, wallet-consuming action with zero current permission coverage |
 
-Both should support the same scope dimensions already established for `properties.*` (own/agency/platform), so a Marketing Manager with content-write but no compliance-write (existing pattern, §16 of the audit re: legacy MM role) can be denied promotion/service actions independently of edit access — this is a real gap the legacy system has that TBOS should not inherit. `BUSINESS DECISION REQUIRED`: which roles actually get these two new keys, and at what scope — this audit only establishes that the keys must exist, not who holds them.
+Both proposed keys should support the same scope dimensions already established for `properties.*` (own/agency/platform), so a Marketing Manager with content-write but no compliance-write (existing pattern, §16 of the audit re: legacy MM role) can be denied promotion/service actions independently of edit access — this is a real gap the legacy system has that TBOS should not inherit. `BUSINESS DECISION REQUIRED`: which roles actually get these two proposed keys, and at what scope — this document only establishes that the keys must exist and must be added to the permission registry before Phase C, not who holds them.
 
 Visibility, action-availability, and scope all resolve the same way already-built PROP-01/02/03 resolve them: **`PermissionGate` wraps the affected UI (Promote button, Service Request menu item), never a scattered `if (role === ...)` check inline in a component.**
 
@@ -324,3 +411,40 @@ Documentation only — nothing implemented. Full per-screen detail in the Screen
 | Promote | Package/quota balance | Deduct credit or charge card | Package balance | Promotion request | No | New: `properties.promote` |
 | Request service | Service pricing/quota | Create service request, deduct/charge | Service pricing | Service request | No | New: `properties.services.request` |
 | View performance | Metric values | none | Metrics (consolidated source — §14's dual-tracking gap must be resolved before this is a single clean read) | — | No | `properties.view` |
+
+## 18. Account-Derived Data Classification (Decision 07)
+
+Per the brief, every field across both Add Property flows (§4) is reclassified into five categories — a refinement of §11's original three-way split, applied consistently so the frontend never asks a broker to re-type something Tuba, the account, or the authority already knows.
+
+| Field | Classification | Notes |
+|---|---|---|
+| Advertiser Type (initial value) | **Account-derived** | Defaulted from `agent_type`, §4.3 — user may override |
+| Advertiser Type (after user changes it) | **User-entered** | Once changed, it's an explicit choice for this transaction |
+| National ID / Unified Number | **Account-derived** when already on file (`users.id_number`/latest Nafath row, §10 of the audit); **User-entered** only when not yet known to Tuba | Never re-ask if already known — the single most important rule carried from §10/§11 of the audit |
+| Advertiser Name | **Authority-derived** (Scenario A, from the validated license) or **Account-derived** (Scenario B individual, from Nafath) | Never user-typed once identity resolves, §10/§11 of the audit |
+| Advertiser Mobile Number | **Account-derived** | Pulled from the agent's stored profile, §10 |
+| Ad License Number | **User-entered** (Flow A, they supply it to validate) or **System-derived** (Flow B, issued by the authority as a result of the transaction) | |
+| Brokerage Contract Number | **User-entered** | §5.3/§11 of the audit — no source for this exists anywhere in Tuba's own records per Phase A |
+| Deed / Ownership Document Number | **User-entered** (Flow B) or **Authority-derived** (Flow A, returned by AdvertisementValidator) | |
+| Price | **User-entered**, validated against contract price (**System-derived** validation check) | §11 of the audit |
+| Advertisement Purpose (Sell/Rent) | **User-entered** | |
+| Disclaimer consent | **User-entered** | Must genuinely reach the backend this time (§9 of the audit, §5 of this doc) |
+| POA / Attorney Code | **User-entered**, only when the authority's matrix requires it (§4.2 Step 6) | Never a hardcoded default, unlike legacy |
+| Region/City/District/Lat-Long | **Authority-derived**, normalized server-side | §6.1 of the audit |
+| Deed borders, plan/land number, obligations, Saudi Building Code compliance | **Authority-derived**, currently **Read-only** and unstructured (JSON blob only) | §6.1 — a `BUSINESS DECISION REQUIRED` on whether to normalize this into editable/queryable fields |
+| Property Title/Description/Media/Amenities/Nearby Places | **User-entered**, 100% | Never returned by the authority, §11 of the audit |
+| Promotion tier balances | **System-derived** | Read from the live package/quota ledger at request time |
+| Performance metric values (§8) | **System-derived**, where a real pipeline exists; otherwise **not available** | Never fabricated, per §8.1 |
+
+**Read-only** is treated as an orthogonal property, not a sixth category — any of the above (most commonly Authority-derived fields) can additionally be read-only within a given flow (e.g., the REGA card in Flow A's Review step, §4.1 Step 3), meaning the UI must render it but never offer an edit affordance for it.
+
+## 19. Future Extensibility (Decision 09)
+
+The brief requires the frontend architecture — not the backend — to be ready for growth in four areas without any backend work happening in this phase:
+
+- **Performance metrics:** §8.5 — an open, categorized metric-card list, not a fixed layout. Promoting a metric from `FUTURE/BACKEND-DEPENDENT` to `CURRENTLY VERIFIED` is a data-classification change only.
+- **Promotion products:** today's three tiers (Basic/Featured/Pro) are rendered as a list the Promotion drawer iterates over, not three hardcoded cases — a fourth tier (if the business ever introduces one) is additive, not a structural rework. No pricing/eligibility rule for a hypothetical fourth tier is invented here (per Decision 04's explicit instruction).
+- **Property services:** the Services tab/drawer pattern is one shared component parameterized by service type (§7), so a fourth service type is additive the same way a fourth promotion tier is — again, no new service type is invented or implied.
+- **Activity history:** the `ActivityTimeline` component (§3, reused directly from the existing PROP-02/PROJ-02 pattern) already accepts an open-ended `kind` enumeration in its existing usage elsewhere in TBOS — the same extensibility applies here without modification once a backend activity-log API exists.
+
+None of this is implemented in this phase. It is a constraint on *how* Phase C should build these surfaces (as open, data-driven lists) rather than a description of anything built now.
